@@ -12,18 +12,17 @@ const router = createRouter({
     {
       path: "/about",
       name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import("../views/AboutView.vue"),
     },
     {
-      path: "/separable-rules",
+      path: "/reference/separable-rules",
       name: "separable-rules",
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import("../views/SeparableRules.vue"),
+      component: () => import("../views/reference/SeparableRules.vue"),
+    },
+    {
+      path: "/reference/german-verbs",
+      name: "german-verbs",
+      component: () => import("../views/reference/GermanSeparableVerbs.vue"),
     },
   ],
 });

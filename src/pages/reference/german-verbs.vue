@@ -29,6 +29,10 @@ li.listings {
 
 .listings p {
   margin-left: 1rem;
+
+  & li {
+    margin: 0;
+  }
 }
 
 strong {

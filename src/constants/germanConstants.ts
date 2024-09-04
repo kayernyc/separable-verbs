@@ -89,11 +89,11 @@ export const GermanParticleRules = {
     question: "along or with",
   },
   da: {
-    def: 'The prefixes ‚da’ and "dabei" mean "there" — "dabei" has the sense of staying with something that is going on',
+    def: 'The prefixes ‚da’ and "dabei" mean "there" — "dabei" has the sense of staying with something that is going on.',
     question: "there",
   },
   dabei: {
-    def: 'The prefixes ‚da’ and "dabei" mean "there" — "dabei" has the sense of staying with something that is going on',
+    def: 'The prefixes ‚da’ and "dabei" mean "there" — "dabei" has the sense of staying with something that is going on.',
     question: "staying with something that is ongoing",
   },
   dar: {
@@ -121,7 +121,7 @@ export const GermanParticleRules = {
     question: "along",
   },
   entzwei: {
-    def: '‚entzwei" means "asunder", "in half", "into two pieces"',
+    def: '‚entzwei" means "asunder", "in half", "into two pieces".',
     question: "asunder or in half",
   },
   fehl: {
@@ -141,15 +141,15 @@ export const GermanParticleRules = {
     question: "away or onward in the sense of continuing",
   },
   frei: {
-    def: '‚frei-’ means "free from" or "clear"',
-    question: "free from or clear",
+    def: '‚frei-’ means "free from" or "clear of".',
+    question: "free from or clear of",
   },
   gegenüber: {
     def: '‚gegenüber’ means "across from," "opposite".',
     question: "across from or opposite",
   },
   gleich: {
-    def: '‚gleich’ means "equal"',
+    def: '‚gleich’ means "equal".',
     question: "equal or same",
   },
   her: {
@@ -157,7 +157,7 @@ export const GermanParticleRules = {
     question: "towards the speaker",
   },
   herab: {
-    def: '‚herab’ means "down from" or "off from". Again, the direction is toward the point of view of the speaker',
+    def: '‚herab’ means "down from" or "off from". Again, the direction is toward the point of view of the speaker.',
     question: "away from the speaker",
   },
   heran: {
@@ -210,7 +210,7 @@ export const GermanParticleRules = {
     question: "beyond or past a location",
   },
   heim: {
-    def: '‚heim’ means "(to) home"',
+    def: '‚heim’ means "(to) home".',
     question: "to home",
   },
   hoch: {
@@ -222,7 +222,7 @@ export const GermanParticleRules = {
     question: "with",
   },
   statt: {
-    def: "‚statt’ does not have a specific meaning as a prefix and appears in just two verbs: stattfinden and stattgeben",
+    def: "‚statt’ does not have a specific meaning as a prefix and appears in just two verbs: stattfinden and stattgeben.",
     question: "",
   },
   über: {
@@ -242,15 +242,15 @@ export const GermanParticleRules = {
     question: "in anticipation",
   },
   voraus: {
-    def: '‚voraus’ means "in advance"',
+    def: '‚voraus’ means "in advance".',
     question: "in advance",
   },
   vorbei: {
-    def: '‚vorbei’ means "past"',
+    def: '‚vorbei’ means "past".',
     question: "past, in the past",
   },
   vorüber: {
-    def: '‚vorüber’ means "past" or "by"',
+    def: '‚vorüber’ means "past" or "by".',
     question: "past or by",
   },
   voran: {
@@ -266,15 +266,15 @@ export const GermanParticleRules = {
     question: "to make progress",
   },
   weiter: {
-    def: '‚weiter’ means "further", see also "fort"',
+    def: '‚weiter’ means "further", see also "fort".',
     question: "further",
   },
   wieder: {
-    def: '‚wieder’ means "again"',
+    def: '‚wieder’ means "again".',
     question: "again",
   },
   wider: {
-    def: '‚wider’ means "against"',
+    def: '‚wider’ means "against".',
     question: "against",
   },
   zu: {
@@ -282,15 +282,15 @@ export const GermanParticleRules = {
     question: "closed, to, towards, upon",
   },
   zurecht: {
-    def: '‚zurect’ conveys the idea of "correct," "proper."',
+    def: '‚zurect’ conveys the idea of "correct," "proper".',
     question: "correct, proper",
   },
   zurück: {
-    def: '‚zurück’ means "back," or "re-do"',
+    def: '‚zurück’ means "back," or "re-do".',
     question: "back or to repeat",
   },
   zusammen: {
-    def: '‚zusammen’ means "together"',
+    def: '‚zusammen’ means "together".',
     question: "together",
   },
 };

@@ -13,7 +13,7 @@ const ruleSet = Object.entries(GermanParticleRules).map(([key, value]) => ({
 
     <li v-for="item in ruleSet">
       <strong>{{ item.key }}</strong>
-      <p>{{ item.value }}</p>
+      <p>{{ item.value.def }}</p>
     </li>
   </main>
 </template>

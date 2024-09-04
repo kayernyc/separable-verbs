@@ -4,8 +4,11 @@
     "target": "ES2018",
     "paths": {
       "@constants/*": ["./src/constants/*"]
-    }
+    },
+    "moduleResolution": "Bundler",
+    "types": ["unplugin-vue-router/client"]
   },
+  "include": ["typed-router.d.ts"],
   "references": [
     {
       "path": "./tsconfig.node.json"

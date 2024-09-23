@@ -1,18 +1,10 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+import { RouterView } from "vue-router";
+import TopNav from "./components/TopNav.vue";
 </script>
 
 <template>
-  <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/about">About</RouterLink>
-    <RouterLink to="/reference/separable-rules"
-      >German separable particles</RouterLink
-    >
-    <RouterLink to="/reference/german-verbs">German verbs</RouterLink>
-  </nav>
-
+  <TopNav />
   <RouterView />
 </template>
 

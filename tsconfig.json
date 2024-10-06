@@ -5,7 +5,7 @@
     "paths": {
       "@constants/*": ["./src/constants/*"]
     },
-    "moduleResolution": "Bundler",
+    "moduleResolution": "node",
     "types": ["unplugin-vue-router/client"]
   },
   "include": ["typed-router.d.ts"],

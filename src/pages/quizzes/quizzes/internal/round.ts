@@ -2,31 +2,30 @@ import germanSeparableVerbs from "@constants/germanSeparable.json";
 
 export interface SeparableVerb {
   language: string;
+  particle: string;
+  wordBase: string;
   translations: {
-    en: string | string[];
+    en: string[];
   };
 }
 
 export interface ResponseObject {
-  testWord: string;
-  particle: string;
-  wordBase: string;
-  testDefinition: string | string[];
-  currentOptions: string[];
+  testWord: SeparableVerb;
+  currentOptions: SeparableVerb[];
 }
 
 const data: Record<string, SeparableVerb> = germanSeparableVerbs;
 const keys = Object.keys(data);
 
 export function RoundGenerator(): ResponseObject {
-  const testWord = keys[Math.floor(Math.random() * keys.length)];
-  const particle = testWord.slice(0, testWord.indexOf("|"));
-  const wordBase = testWord.slice(testWord.indexOf("|") + 1);
-  const currentTest: SeparableVerb = data[testWord];
-  const currentOptions = [testWord];
+  const wordIndex = keys[Math.floor(Math.random() * keys.length)];
+  const currentTest: SeparableVerb = data[wordIndex];
+  const currentOptions = [currentTest];
 
   while (currentOptions.length < 4) {
-    const option = keys[Math.floor(Math.random() * keys.length)];
+    const wordIndex = keys[Math.floor(Math.random() * keys.length)];
+    const option = data[wordIndex];
+
     if (!currentOptions.includes(option)) {
       if (Math.random() > 0.5) {
         currentOptions.push(option);
@@ -37,10 +36,7 @@ export function RoundGenerator(): ResponseObject {
   }
 
   return {
-    testWord,
-    particle,
-    wordBase,
-    testDefinition: currentTest.translations.en,
+    testWord: currentTest,
     currentOptions,
   };
 }

@@ -6,6 +6,8 @@ const quizzesConfiguration = routes.find((route) => route.path === "/quizzes");
 
 quizzesConfiguration.component = QuizLayout;
 
+console.log({ routes });
+
 const router = createRouter({
   history: createWebHistory(),
   routes,

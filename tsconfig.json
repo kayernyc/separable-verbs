@@ -1,11 +1,15 @@
 {
   "files": [],
   "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "target": "ES2018",
     "paths": {
       "@constants/*": ["./src/constants/*"]
     },
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "types": ["unplugin-vue-router/client"]
   },
   "include": ["typed-router.d.ts"],

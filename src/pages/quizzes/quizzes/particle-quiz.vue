@@ -9,40 +9,43 @@ import {
 } from "./internal/round";
 
 const data: Record<string, SeparableVerb> = germanSeparableVerbs;
-const keys = Object.keys(data);
 
 const answered = ref(false);
-let responseWord = "";
+let responseWord: SeparableVerb;
 
 let roundObject = ref<ResponseObject | undefined>(undefined);
 
 const TestResponse = computed(() => {
   if (!answered || roundObject === undefined || !roundObject.value) return "";
+  const translation = responseWord.translations.en.join(",");
+  const testWord: SeparableVerb = roundObject.value.testWord;
 
   if (responseWord === roundObject.value?.testWord) {
     return (
       <>
         <h3>Correct!</h3>
         <p>
-          <span class="particle">{roundObject.value.particle}</span>
-          {roundObject.value.wordBase} means {roundObject.value.testDefinition}
+          <span class="particle">{testWord.particle}</span>
+          {testWord.wordBase} means {testWord.translations.en}
         </p>
       </>
     );
   } else {
-    const definition = data[responseWord].translations.en;
+    const guessedWord = `${responseWord.particle}${responseWord.wordBase}`;
+    const correctWord = `${testWord.particle}${testWord.wordBase}`;
     return (
       <>
         <h3>Incorrect</h3>
         <p>
-          {roundObject.value.testWord} means {roundObject.value.testDefinition}
+          {guessedWord} means {translation}
         </p>
+        <p>{correctWord} was the correct verb.</p>
       </>
     );
   }
 });
 
-function handleClick(buttonValue: string) {
+function handleClick(buttonValue: SeparableVerb) {
   answered.value = true;
   responseWord = buttonValue;
 }
@@ -59,13 +62,13 @@ nextRound();
 <template>
   <div v-if="roundObject">
     <TestResponse v-if="answered" />
-    <p>meaning: {{ roundObject.testDefinition }}</p>
+    <p>meaning: {{ roundObject.testWord.translations.en.join(",") }}</p>
     <button
       v-for="option in roundObject.currentOptions"
       @click.stop="handleClick(option)"
       :disabled="answered"
     >
-      {{ option }}
+      {{ option.particle }}|{{ option.wordBase }}
     </button>
     <button v-if="answered" @click.stop="nextRound">Next</button>
   </div>

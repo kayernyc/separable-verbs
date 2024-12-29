@@ -103,6 +103,10 @@ export const GermanParticleRules: Record<
     def: 'The prefixes ‚da’ and "dabei" mean "there" — "dabei" has the sense of staying with something that is going on.',
     question: "there",
   },
+  dahinter: {
+    def: 'The prefixes ‚da’ and "dabei" mean "there" — "dahinter" means "behind [it].',
+    question: "behind it",
+  },
   dabei: {
     def: 'The prefixes ‚da’ and "dabei" mean "there" — "dabei" has the sense of staying with something that is going on.',
     question: "staying with something that is ongoing",
@@ -172,11 +176,7 @@ export const GermanParticleRules: Record<
     question: "towards the speaker",
   },
   herab: {
-    def: '‚herab’ means "down from" or "off from". Again, the direction is toward the point of view of the speaker.',
-    question: "down toward the speaker",
-  },
-  hinab: {
-    def: '‚hinab’ means "down from" or "off from". The direction is toward the point of view of the speaker.',
+    def: '‚herab’ means "down from" or "off from". The direction is toward the point of view of the speaker.',
     question: "down toward the speaker",
   },
   heran: {
@@ -220,6 +220,10 @@ export const GermanParticleRules: Record<
     def: '‚hin’ indicates motion away from the speaker, "thither"; also "down."',
     question: "thither or down, away from the speaker",
   },
+  hinab: {
+    def: '‚hinab’ means "down from" or "off from". The direction is away from the point of view of the speaker.',
+    question: "down away the speaker",
+  },
   hinauf: {
     def: "‚hinauf’ indicates an upward direction away from the speaker and can be affixed to any appropriate verb of motion.",
     question: "upward and away",
@@ -239,6 +243,14 @@ export const GermanParticleRules: Record<
   hinweg: {
     def: '‚hinweg’ has the sense of "beyond" or "past".',
     question: "beyond or past a location",
+  },
+  hinunter: {
+    def: "‚hinunter’ down, away from the speaker.",
+    question: "down, away",
+  },
+  hinzu: {
+    def: "‚hinzu’ means adding something.",
+    question: "adding something",
   },
   heim: {
     def: '‚heim’ means "(to) home".',

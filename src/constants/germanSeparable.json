@@ -1621,13 +1621,13 @@
     "particle": "entgegen",
     "wordBase": "setzen"
   },
-  "sich entegen|stellen": {
+  "sich entgegen|stellen": {
     "language": "de",
     "translations": {
       "en": ["oppose"]
     },
-    "prefix": "sich entegen",
-    "particle": "entegen",
+    "prefix": "sich entgegen",
+    "particle": "entgegen",
     "wordBase": "stellen"
   },
   "entgegen|treten": {
@@ -1739,7 +1739,8 @@
     "translations": {
       "en": ["that would be the last thing I would do"]
     },
-    "particle": "das würde mir fern",
+    "particle": "fern",
+    "prefix": "das würde mir fern",
     "wordBase": "liegen"
   },
   "fern|sehen": {
@@ -2793,7 +2794,7 @@
       "en": ["live passively, without purpose"]
     },
     "prefix": "vor sich hin",
-    "particle": "vor hin",
+    "particle": "hin",
     "wordBase": "leben"
   },
   "hin|legen": {
@@ -3012,7 +3013,8 @@
     "translations": {
       "en": ["grow beyond/outgrow something"]
     },
-    "particle": "über etwas hinaus",
+    "prefix": "über etwas hinaus",
+    "particle": "hinaus",
     "wordBase": "wachsen"
   },
   "hinaus|werfen": {
@@ -3134,7 +3136,8 @@
     "translations": {
       "en": ["get over something"]
     },
-    "particle": "über etwas hinweg",
+    "prefix": "über etwas hinweg",
+    "particle": "hinweg",
     "wordBase": "kommen"
   },
   "sich über etwas hinweg|setzen": {
@@ -4323,7 +4326,8 @@
     "translations": {
       "en": ["jump in ahead of someone"]
     },
-    "particle": "jemandem vor",
+    "prefix": "jemandem vor",
+    "particle": "vor",
     "wordBase": "greifen"
   },
   "vor|haben": {

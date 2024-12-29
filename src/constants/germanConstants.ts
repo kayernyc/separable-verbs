@@ -34,12 +34,19 @@ export const separableArray = [
   "herüber",
   "herum",
   "herunter",
+  "hervor",
+  "hinterher",
+  "hin",
+  "hinab",
   "hinauf",
   "hinaus",
   "hinein",
   "hinweg",
   "heim",
   "hoch",
+  "los",
+  "nach",
+  "nebenher",
   "mit",
   "statt",
   "über",
@@ -52,6 +59,7 @@ export const separableArray = [
   "voran",
   "vorangehen",
   "vorankommen",
+  "weg",
   "weiter",
   "wieder",
   "zu",
@@ -63,13 +71,16 @@ export type SeperableGermanParticles = (typeof separableArray)[number];
 export const vowels = ["a", "e", "i", "o", "u", "ä", "ë", "ü"];
 
 // taken from http://www.dartmouth.edu/~deutsch/Grammatik/Wortbildung/Separables.html
-export const GermanParticleRules = {
+export const GermanParticleRules: Record<
+  (typeof separableArray)[number],
+  { def: string; question: string }
+> = {
   ab: {
-    def: 'The prefix ‚ab’ usually - but not always - carries the notion of "away from". ‚ab’ means starting from a time in the future, and as a temporal preposition, it is dative.',
+    def: '‚ab’ usually - but not always - carries the notion of "away from". ‚ab’ means starting from a time in the future, and as a temporal preposition, it is dative.',
     question: "away from, starting from a time in the future",
   },
   an: {
-    def: 'The prefix ‚an’ usually carries the meanings "at," "begin," "on," "onward," "to," or "toward". ‚an’ can mean to or on, onward, and can be accusative or dative.',
+    def: '‚an’ usually carries the meanings "at," "begin," "on," "onward," "to," or "toward". ‚an’ can mean to or on, onward, and can be accusative or dative.',
     question: "at, begin, on, onward, to, or toward",
   },
   auf: {
@@ -99,6 +110,10 @@ export const GermanParticleRules = {
   dar: {
     def: "‚dar’ is used when the main verb is done for others. It is not a particle that can be used on its own.",
     question: "for the benefit of others",
+  },
+  dazwischen: {
+    def: "‚dazwischen’ going in between [it]",
+    question: "going in between",
   },
   durch: {
     def: "‚durch’ has the meaning of entering a process with purpose and coming out the other end.",
@@ -158,7 +173,11 @@ export const GermanParticleRules = {
   },
   herab: {
     def: '‚herab’ means "down from" or "off from". Again, the direction is toward the point of view of the speaker.',
-    question: "away from the speaker",
+    question: "down toward the speaker",
+  },
+  hinab: {
+    def: '‚hinab’ means "down from" or "off from". The direction is toward the point of view of the speaker.',
+    question: "down toward the speaker",
   },
   heran: {
     def: '‚heran’ has the meaning of "approaching toward [the point of view of the speaker]".',
@@ -190,8 +209,16 @@ export const GermanParticleRules = {
       "around, either in the sense of going around or in an undefined direction",
   },
   herunter: {
-    def: '‚herunter" means "down" or "downwards", "towards the speaker:".',
+    def: '‚herunter’ means "down" or "downwards", "towards the speaker:".',
     question: "down or downwards towards the speaker",
+  },
+  hervor: {
+    def: "‚hervor’ means come out from, and towards the speaker",
+    question: "come out from",
+  },
+  hin: {
+    def: '‚hin’ indicates motion away from the speaker, "thither"; also "down."',
+    question: "thither or down, away from the speaker",
   },
   hinauf: {
     def: "‚hinauf’ indicates an upward direction away from the speaker and can be affixed to any appropriate verb of motion.",
@@ -205,6 +232,10 @@ export const GermanParticleRules = {
     def: '‚hinein’ means "into" — away from the speaker.',
     question: "into, and away from the speaker",
   },
+  hinterher: {
+    def: "‚hinterher’ implies following behind.",
+    question: "following behind",
+  },
   hinweg: {
     def: '‚hinweg’ has the sense of "beyond" or "past".',
     question: "beyond or past a location",
@@ -216,6 +247,22 @@ export const GermanParticleRules = {
   hoch: {
     def: "‚hoch’ when affixed to a verb, indicates an upward motion or position.",
     question: "upward",
+  },
+  los: {
+    def: '‚los’ can indicate the beginning of an action or carry the sense of "away / off" or "un-"',
+    question: "begin, or away, off, or un-",
+  },
+  nach: {
+    def: '‚nach’ with a verb of motion, means "follow after", or alternatively imitation, reduction or lessening.',
+    question: "follow after",
+  },
+  nebenher: {
+    def: "‚nebenher’ with a verb of motion, means alongside of",
+    question: "alongside",
+  },
+  nieder: {
+    def: "‚nieder’ means down or lower",
+    question: "down or lower",
   },
   mit: {
     def: "‚mit’ means with, and is dative.",
@@ -264,6 +311,10 @@ export const GermanParticleRules = {
   vorankommen: {
     def: '‚vorankommen’ means "to make progress".',
     question: "to make progress",
+  },
+  weg: {
+    def: "‚weg’ means away.",
+    question: "away",
   },
   weiter: {
     def: '‚weiter’ means "further", see also "fort".',

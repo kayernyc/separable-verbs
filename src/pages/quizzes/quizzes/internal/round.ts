@@ -2,6 +2,7 @@ import germanSeparableVerbs from "@constants/germanSeparable.json";
 
 export interface SeparableVerb {
   language: string;
+  prefix?: string;
   particle: string;
   wordBase: string;
   translations: {

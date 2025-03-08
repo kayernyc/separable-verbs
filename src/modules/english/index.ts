@@ -1,4 +1,4 @@
-import { Person, Tense, type EnglishVerb } from "./types";
+import { PersonShorthand, Tense, type EnglishVerb } from "./types";
 import { EnglishVerbDictionary } from "./englishVerbDictionary";
 
 export const conjugate = (infinitive: string): EnglishVerb | undefined => {
@@ -7,20 +7,20 @@ export const conjugate = (infinitive: string): EnglishVerb | undefined => {
   if (verbEntry) {
     return {
       [Tense.Present]: {
-        [Person.First_Singular]: verbEntry.infinitive,
-        [Person.Second_Singular]: verbEntry.infinitive,
-        [Person.Third_Singular]: verbEntry.third_person,
-        [Person.First_Plural]: verbEntry.infinitive,
-        [Person.Second_Plural]: verbEntry.infinitive,
-        [Person.Third_Plural]: verbEntry.infinitive,
+        [PersonShorthand.First_Singular]: verbEntry.infinitive,
+        [PersonShorthand.Second_Singular]: verbEntry.infinitive,
+        [PersonShorthand.Third_Singular]: verbEntry.third_person,
+        [PersonShorthand.First_Plural]: verbEntry.infinitive,
+        [PersonShorthand.Second_Plural]: verbEntry.infinitive,
+        [PersonShorthand.Third_Plural]: verbEntry.infinitive,
       },
       [Tense.Past]: {
-        [Person.First_Singular]: verbEntry.perfect,
-        [Person.Second_Singular]: verbEntry.perfect,
-        [Person.Third_Singular]: verbEntry.perfect,
-        [Person.First_Plural]: verbEntry.perfect,
-        [Person.Second_Plural]: verbEntry.perfect,
-        [Person.Third_Plural]: verbEntry.perfect,
+        [PersonShorthand.First_Singular]: verbEntry.perfect,
+        [PersonShorthand.Second_Singular]: verbEntry.perfect,
+        [PersonShorthand.Third_Singular]: verbEntry.perfect,
+        [PersonShorthand.First_Plural]: verbEntry.perfect,
+        [PersonShorthand.Second_Plural]: verbEntry.perfect,
+        [PersonShorthand.Third_Plural]: verbEntry.perfect,
       },
       infinitive: infinitive,
       past_participle: verbEntry.past_participle,
@@ -42,20 +42,20 @@ const beVerb = {
 
 const BeConjugation = {
   [Tense.Present]: {
-    [Person.First_Singular]: "am",
-    [Person.Second_Singular]: "are",
-    [Person.Third_Singular]: "is",
-    [Person.First_Plural]: "are",
-    [Person.Second_Plural]: "are",
-    [Person.Third_Plural]: "are",
+    [PersonShorthand.First_Singular]: "am",
+    [PersonShorthand.Second_Singular]: "are",
+    [PersonShorthand.Third_Singular]: "is",
+    [PersonShorthand.First_Plural]: "are",
+    [PersonShorthand.Second_Plural]: "are",
+    [PersonShorthand.Third_Plural]: "are",
   },
   [Tense.Past]: {
-    [Person.First_Singular]: "was",
-    [Person.Second_Singular]: "were",
-    [Person.Third_Singular]: "were",
-    [Person.First_Plural]: "were",
-    [Person.Second_Plural]: "were",
-    [Person.Third_Plural]: "were",
+    [PersonShorthand.First_Singular]: "was",
+    [PersonShorthand.Second_Singular]: "were",
+    [PersonShorthand.Third_Singular]: "were",
+    [PersonShorthand.First_Plural]: "were",
+    [PersonShorthand.Second_Plural]: "were",
+    [PersonShorthand.Third_Plural]: "were",
   },
   infinitive: "be",
   past_participle: "been",

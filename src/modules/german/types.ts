@@ -1,3 +1,18 @@
+import {
+  Formality,
+  Gender,
+  Person,
+  Plurality,
+  type Pronoun,
+} from "../common/types";
+
+export type GermanWord = {
+  terminalVerb: string;
+  infinitive: string;
+  tense: Tense;
+  person: Person;
+};
+
 export enum Tense {
   PRASENS = "PRASENS",
   PRATERITUM = "PRATERITUM",
@@ -13,7 +28,7 @@ export enum Tense {
   KONJUNKTIV2_FUTUR2 = "KONJUNKTIV2_FUTUR2",
 }
 
-export enum Person {
+export enum PersonShorthand {
   First_Singular,
   Second_Singular,
   Third_Singular,
@@ -25,12 +40,34 @@ export enum Person {
 
 export type GermanVerb = {
   [Tense.PRASENS]: {
-    [key in Person]: string;
+    [key in PersonShorthand]: string;
   };
   [Tense.PRATERITUM]: {
-    [key in Person]: string;
+    [key in PersonShorthand]: string;
   };
   infinitive: string;
   hilfsverb: string;
   partizipII: string;
+};
+
+export const findPersonSubject = (pronounFeatures: Pronoun) => {
+  if (pronounFeatures.person === Person.First) {
+    return pronounFeatures.plurality === Plurality.Singular ? "ich" : "wir";
+  }
+
+  if (pronounFeatures.person === Person.Second) {
+    if (pronounFeatures.formality === Formality.Formal) return "Sie";
+
+    return pronounFeatures.plurality === Plurality.Plural ? "ihr" : "du";
+  }
+
+  if (
+    pronounFeatures.plurality === Plurality.Plural ||
+    (pronounFeatures.plurality === Plurality.Singular &&
+      pronounFeatures.gender === Gender.Feminine)
+  ) {
+    return "sie";
+  }
+
+  return pronounFeatures.gender === Gender.Masculine ? "er" : "es";
 };

@@ -1,3 +1,13 @@
+import { Gender, Person, Plurality, type Pronoun } from "../common/types";
+
+export type EnglishWord = {
+  terminalVerb: string;
+  infinitive: string;
+  tense: Tense;
+  aspect: Aspect;
+  person: PersonShorthand;
+};
+
 export enum Aspect {
   Simple = "simple",
   Progressive = "progressive",
@@ -12,7 +22,25 @@ export enum Tense {
   // Conditional = "conditional",
 }
 
-export enum Person {
+export const findPersonSubject = (pronounFeatures: Pronoun) => {
+  if (pronounFeatures.person === Person.Second) return "you";
+  if (pronounFeatures.person === Person.First) {
+    return pronounFeatures.plurality === Plurality.Singular ? "I" : "we";
+  }
+
+  if (pronounFeatures.plurality === Plurality.Plural) return "they";
+
+  switch (pronounFeatures.gender) {
+    case Gender.Neuter:
+      return "it";
+    case Gender.Feminine:
+      return "she";
+    case Gender.Masculine:
+      return "he";
+  }
+};
+
+export enum PersonShorthand {
   First_Singular,
   Second_Singular,
   Third_Singular,
@@ -31,7 +59,7 @@ export type VerbData = {
 
 export type EnglishVerb = {
   [key in Tense]: {
-    [key in Person]: string;
+    [key in PersonShorthand]: string;
   };
 } & {
   infinitive: string;

@@ -2,7 +2,7 @@ import { conjugate } from "./index";
 import { describe, it, expect } from "vitest";
 
 describe("English verb module", () => {
-  it("should return be correctly", () => {
+  it("should return `be` correctly", () => {
     const beResult = conjugate("be");
     const expectedResult = {
       infinitive: "be",

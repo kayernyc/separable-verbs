@@ -29,7 +29,7 @@ export const conjugate = (infinitive: string): EnglishVerb | undefined => {
   }
 };
 
-const be_verb = {
+const beVerb = {
   infinitive: "be",
   past_participle: "been",
   present_participle: "being",

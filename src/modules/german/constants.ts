@@ -34,3 +34,5 @@ export interface VerbsInfo {
 
 export type PronominalCase = "ACCUSATIVE" | "DATIVE";
 export type GermanAux = "SEIN" | "HABEN";
+
+*/

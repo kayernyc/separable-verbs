@@ -7276,5 +7276,3 @@ const englishVerbData: VerbData[] = [
     third_person: "zooms",
   },
 ];
-
-export { datasource };

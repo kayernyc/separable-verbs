@@ -1,14 +1,5 @@
+import type { SeparableVerb } from "@/modules/german/types";
 import germanSeparableVerbs from "@constants/germanSeparable.json";
-
-export interface SeparableVerb {
-  language: string;
-  prefix?: string;
-  particle: string;
-  wordBase: string;
-  translations: {
-    en: string[];
-  };
-}
 
 export interface ResponseObject {
   testWord: SeparableVerb;

@@ -5,7 +5,14 @@ export type EnglishWord = {
   infinitive: string;
   tense: Tense;
   aspect: Aspect;
-  person: PersonShorthand;
+  pronoun: Pronoun;
+  particle?: string;
+};
+
+export type ParsedTranslation = {
+  baseVerb: string;
+  particle?: string;
+  compliment?: string;
 };
 
 export enum Aspect {
@@ -22,15 +29,48 @@ export enum Tense {
   // Conditional = "conditional",
 }
 
-export const findPersonSubject = (pronounFeatures: Pronoun) => {
-  if (pronounFeatures.person === Person.Second) return "you";
-  if (pronounFeatures.person === Person.First) {
-    return pronounFeatures.plurality === Plurality.Singular ? "I" : "we";
+export const findPronoun = (pronoun: Pronoun): Pronoun => {
+  if (pronoun.person === Person.Second) return { person: Person.Second };
+  if (pronoun.person === Person.First) {
+    return pronoun.plurality === Plurality.Singular
+      ? { person: Person.First, plurality: Plurality.Singular }
+      : { person: Person.First, plurality: Plurality.Plural };
   }
 
-  if (pronounFeatures.plurality === Plurality.Plural) return "they";
+  if (pronoun.plurality === Plurality.Plural)
+    return { person: Person.Third, plurality: Plurality.Plural };
 
-  switch (pronounFeatures.gender) {
+  switch (pronoun.gender) {
+    case Gender.Neuter:
+      return {
+        person: Person.Third,
+        plurality: Plurality.Singular,
+        gender: Gender.Neuter,
+      };
+    case Gender.Feminine:
+      return {
+        person: Person.Third,
+        plurality: Plurality.Singular,
+        gender: Gender.Feminine,
+      };
+    default:
+      return {
+        person: Person.Third,
+        plurality: Plurality.Singular,
+        gender: Gender.Masculine,
+      };
+  }
+};
+
+export const findPersonSubject = (pronoun: Pronoun) => {
+  if (pronoun.person === Person.Second) return "you";
+  if (pronoun.person === Person.First) {
+    return pronoun.plurality === Plurality.Singular ? "I" : "we";
+  }
+
+  if (pronoun.plurality === Plurality.Plural) return "they";
+
+  switch (pronoun.gender) {
     case Gender.Neuter:
       return "it";
     case Gender.Feminine:

@@ -21,8 +21,8 @@ export enum Formality {
 }
 
 export type Pronoun = {
-  person: Person;
-  plurality: Plurality;
-  formality: Formality;
-  gender: Gender;
+  person?: Person;
+  plurality?: Plurality;
+  formality?: Formality;
+  gender?: Gender;
 };

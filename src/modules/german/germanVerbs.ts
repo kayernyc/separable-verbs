@@ -9,6 +9,7 @@ type GermanEntry = {
   imperativS: string;
   imperativP: string;
   hilfsverb: string;
+  particle?: string;
 };
 
 type GermanDictionary = { [key: string]: GermanEntry };

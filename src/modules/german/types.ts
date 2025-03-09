@@ -10,8 +10,18 @@ export type GermanWord = {
   terminalVerb: string;
   infinitive: string;
   tense: Tense;
-  person: Person;
+  pronoun: Pronoun;
 };
+
+export interface SeparableVerb {
+  language: string;
+  prefix?: string;
+  particle: string;
+  wordBase: string;
+  translations: {
+    en: string[];
+  };
+}
 
 export enum Tense {
   PRASENS = "PRASENS",

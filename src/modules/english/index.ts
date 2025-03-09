@@ -1,5 +1,13 @@
 import { PersonShorthand, Tense, type EnglishVerb } from "./types";
 import { EnglishVerbDictionary } from "./englishVerbDictionary";
+import { parseEnglishTranslation } from "./parseEnglishTranslation";
+
+export const findVerbs = (targetEnglish: string) => {
+  const { baseVerb } = parseEnglishTranslation(targetEnglish);
+
+  const englishVerbConjugationMap = EnglishVerbDictionary[baseVerb];
+  return englishVerbConjugationMap;
+};
 
 export const conjugate = (infinitive: string): EnglishVerb | undefined => {
   if (infinitive === "be") return BeConjugation;

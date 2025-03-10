@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import germanSeparableVerbs from "@constants/germanSeparable.json";
+import germanSeparableVerbs from "@/modules/german/germanKeyDictionary.json";
 
 const ruleSet = Object.entries(germanSeparableVerbs).map(([key, value]) => ({
   key,

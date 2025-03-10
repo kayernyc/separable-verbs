@@ -2,8 +2,8 @@ import { PersonShorthand, Tense, type EnglishVerb } from "./types";
 import { EnglishVerbDictionary } from "./englishVerbDictionary";
 import { parseEnglishTranslation } from "./parseEnglishTranslation";
 
-export const findVerbs = (targetEnglish: string) => {
-  const { baseVerb } = parseEnglishTranslation(targetEnglish);
+export const findVerbs = (sourceString: string) => {
+  const { baseVerb } = parseEnglishTranslation(sourceString);
 
   const englishVerbConjugationMap = EnglishVerbDictionary[baseVerb];
   return englishVerbConjugationMap;

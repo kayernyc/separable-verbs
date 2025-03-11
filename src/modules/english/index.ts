@@ -1,17 +1,20 @@
-import { PersonShorthand, Tense, type EnglishVerb } from "./types";
-import { EnglishVerbDictionary } from "./englishVerbDictionary";
+import { PersonShorthand, Tense, type EnglishConjugatedVerb } from "./types";
+import { englishVerbDictionary as englishVerbDictionary } from "./englishVerbDictionary";
 import { parseEnglishTranslation } from "./parseEnglishTranslation";
 
-export const findVerbs = (sourceString: string) => {
-  const { baseVerb } = parseEnglishTranslation(sourceString);
+export const findVerb = (sourceString: string) => {
+  const { baseVerb, particle, compliment } =
+    parseEnglishTranslation(sourceString);
 
-  const englishVerbConjugationMap = EnglishVerbDictionary[baseVerb];
-  return englishVerbConjugationMap;
+  const englishVerbConjugationMap = englishVerbDictionary[baseVerb];
+  return { verb: englishVerbConjugationMap, particle, compliment };
 };
 
-export const conjugate = (infinitive: string): EnglishVerb | undefined => {
+export const conjugate = (
+  infinitive: string
+): EnglishConjugatedVerb | undefined => {
   if (infinitive === "be") return BeConjugation;
-  const verbEntry = EnglishVerbDictionary[infinitive];
+  const verbEntry = englishVerbDictionary[infinitive];
   if (verbEntry) {
     return {
       [Tense.Present]: {

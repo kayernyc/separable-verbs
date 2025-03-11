@@ -1,4 +1,4 @@
-import { PersonShorthand, Tense, type GermanVerb } from "./types";
+import { PersonShorthand, Tense, type GermanConjugatedVerb } from "./types";
 
 const validTenses: string[] = [
   "PRASENS",
@@ -15,7 +15,7 @@ const validTenses: string[] = [
   "KONJUNKTIV2_FUTUR2",
 ];
 
-const seinConjugation: GermanVerb = {
+const seinConjugation: GermanConjugatedVerb = {
   [Tense.PRASENS]: {
     [PersonShorthand.First_Singular]: "bin",
     [PersonShorthand.Second_Singular]: "bist",
@@ -39,7 +39,7 @@ const seinConjugation: GermanVerb = {
   partizipII: "gewesen",
 };
 
-const habenConjugation: GermanVerb = {
+const habenConjugation: GermanConjugatedVerb = {
   [Tense.PRASENS]: {
     [PersonShorthand.First_Singular]: "habe",
     [PersonShorthand.Second_Singular]: "hast",
@@ -63,7 +63,7 @@ const habenConjugation: GermanVerb = {
   partizipII: "gehabt",
 };
 
-const werdenConjugation: GermanVerb = {
+const werdenConjugation: GermanConjugatedVerb = {
   [Tense.PRASENS]: {
     [PersonShorthand.First_Singular]: "werde",
     [PersonShorthand.Second_Singular]: "wirst",

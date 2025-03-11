@@ -1,14 +1,39 @@
-type EnglishEntry = {
+export type EnglishEntry = {
   infinitive: string;
   past_participle: string;
   present_participle: string;
   perfect: string;
+  first_person?: string;
+  second_person?: string;
   third_person: string;
 };
 
 type EnglishDictionary = { [key: string]: EnglishEntry };
 
-export const EnglishVerbDictionary: EnglishDictionary = {
+export const englishVerbDictionary: EnglishDictionary = {
+  be: {
+    infinitive: "be",
+    past_participle: "been",
+    present_participle: "being",
+    perfect: "was",
+    first_person: "am",
+    second_person: "are",
+    third_person: "is",
+  },
+  do: {
+    infinitive: "do",
+    past_participle: "did",
+    present_participle: "doing",
+    perfect: "done",
+    third_person: "does",
+  },
+  have: {
+    infinitive: "have",
+    past_participle: "had",
+    present_participle: "having",
+    perfect: "had",
+    third_person: "has",
+  },
   abide: {
     infinitive: "abide",
     past_participle: "abode",
@@ -848,13 +873,6 @@ export const EnglishVerbDictionary: EnglishDictionary = {
     present_participle: "camping",
     perfect: "camped",
     third_person: "camps",
-  },
-  can: {
-    infinitive: "can",
-    past_participle: "Iwasable",
-    present_participle: "Ican",
-    perfect: "couldhave",
-    third_person: "can",
   },
   care: {
     infinitive: "care",
@@ -1787,13 +1805,7 @@ export const EnglishVerbDictionary: EnglishDictionary = {
     perfect: "divided",
     third_person: "divides",
   },
-  do: {
-    infinitive: "do",
-    past_participle: "did",
-    present_participle: "doing",
-    perfect: "done",
-    third_person: "does",
-  },
+
   double: {
     infinitive: "double",
     past_participle: "doubled",
@@ -2774,13 +2786,6 @@ export const EnglishVerbDictionary: EnglishDictionary = {
     perfect: "haunted",
     third_person: "haunts",
   },
-  have: {
-    infinitive: "have",
-    past_participle: "had",
-    present_participle: "having",
-    perfect: "had",
-    third_person: "has",
-  },
   head: {
     infinitive: "head",
     past_participle: "headed",
@@ -3655,13 +3660,6 @@ export const EnglishVerbDictionary: EnglishDictionary = {
     present_participle: "mattering",
     perfect: "mattered",
     third_person: "matters",
-  },
-  may: {
-    infinitive: "may",
-    past_participle: null,
-    present_participle: null,
-    perfect: "might",
-    third_person: "may",
   },
   mean: {
     infinitive: "mean",

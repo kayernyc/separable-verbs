@@ -1,6 +1,6 @@
 import { Gender, Person, Plurality, type Pronoun } from "../common/types";
 
-export type EnglishWord = {
+export type EnglishKeyedWord = {
   terminalVerb: string;
   infinitive: string;
   tense: Tense;
@@ -97,7 +97,7 @@ export type VerbData = {
   third_person: string;
 };
 
-export type EnglishVerb = {
+export type EnglishConjugatedVerb = {
   [key in Tense]: {
     [key in PersonShorthand]: string;
   };

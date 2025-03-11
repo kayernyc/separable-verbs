@@ -1,12 +1,14 @@
-import { Person, Tense, type GermanVerb } from "./types";
+import { Person, Tense, type GermanConjugatedVerb } from "./types";
 
-export const conjugate = (infinitive: string): GermanVerb | undefined => {
+export const conjugate = (
+  infinitive: string
+): GermanConjugatedVerb | undefined => {
   if (infinitive === "sein") return seinConjugation;
 
   return;
 };
 
-const seinConjugation: GermanVerb = {
+const seinConjugation: GermanConjugatedVerb = {
   [Tense.PRASENS]: {
     [Person.First_Singular]: "bin",
     [Person.Second_Singular]: "bist",

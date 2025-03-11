@@ -13,7 +13,7 @@ export type GermanWord = {
   pronoun: Pronoun;
 };
 
-export interface SeparableVerb {
+export interface GermanKeyedVerb {
   language: string;
   prefix?: string;
   particle: string;
@@ -48,7 +48,7 @@ export enum PersonShorthand {
   Third_Plural,
 }
 
-export type GermanVerb = {
+export type GermanConjugatedVerb = {
   [Tense.PRASENS]: {
     [key in PersonShorthand]: string;
   };

@@ -1,26 +1,40 @@
-import { Person, type Pronoun } from "../common/types";
+import { type Pronoun } from "../common/types";
+import type { EnglishEntry } from "../english/englishVerbDictionary";
 import {
   PersonShorthand as EnglishPerson,
   findPronoun as findEnglishPronoun,
-  type EnglishWord,
+  type EnglishKeyedWord,
 } from "../english/types";
 import {
   PersonShorthand as GermanPerson,
   type GermanWord,
-  type SeparableVerb,
+  type GermanKeyedVerb,
 } from "../german/types";
 
+import { findVerb } from "@/modules/english";
+
+type EnglishResult = {
+  verb: EnglishEntry;
+  particle?: string;
+  compliment?: string;
+};
+
 export const germanToEnglishWord = ({
-  germanSeparable,
-  germanVerb,
+  germanKeyedVerb,
+  germanWord,
 }: {
-  germanSeparable: SeparableVerb;
-  germanVerb: GermanWord;
-}): EnglishWord | undefined => {
+  germanKeyedVerb: GermanKeyedVerb;
+  germanWord: GermanWord;
+}): [Pronoun[], Set<EnglishResult>] | undefined => {
   // Find all pronoun cases
-  const englishPronouns = [findEnglishPronoun(germanVerb.pronoun)];
+  const englishPronouns = [findEnglishPronoun(germanWord.pronoun)];
 
-  // Find all possible verb cases
+  // Find all translations
+  const verbConjugations = new Set<EnglishResult>();
+  for (const translation of germanKeyedVerb.translations.en) {
+    const foundVerb = findVerb(translation);
+    verbConjugations.add(foundVerb);
+  }
 
-  return;
+  return [englishPronouns, verbConjugations];
 };

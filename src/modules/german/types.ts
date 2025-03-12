@@ -10,8 +10,18 @@ export type GermanWord = {
   terminalVerb: string;
   infinitive: string;
   tense: Tense;
-  person: Person;
+  pronoun: Pronoun;
 };
+
+export interface GermanKeyedVerb {
+  language: string;
+  prefix?: string;
+  particle: string;
+  wordBase: string;
+  translations: {
+    en: string[];
+  };
+}
 
 export enum Tense {
   PRASENS = "PRASENS",
@@ -38,7 +48,7 @@ export enum PersonShorthand {
   Third_Plural,
 }
 
-export type GermanVerb = {
+export type GermanConjugatedVerb = {
   [Tense.PRASENS]: {
     [key in PersonShorthand]: string;
   };

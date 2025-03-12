@@ -1,17 +1,40 @@
+import { type Pronoun } from "../common/types";
+import type { EnglishEntry } from "../english/englishVerbDictionary";
 import {
   PersonShorthand as EnglishPerson,
-  type EnglishWord,
+  findPronoun as findEnglishPronoun,
+  type EnglishKeyedWord,
 } from "../english/types";
-import { Person as GermanPerson, type GermanWord } from "../german/types";
+import {
+  PersonShorthand as GermanPerson,
+  type GermanWord,
+  type GermanKeyedVerb,
+} from "../german/types";
 
-export const germanToEnglishWord = (
-  germanWord: GermanWord
-): EnglishWord | undefined => {
-  return;
+import { findVerb } from "@/modules/english";
+
+type EnglishResult = {
+  verb: EnglishEntry;
+  particle?: string;
+  compliment?: string;
 };
 
-const germanToEnglishPronouns = {
-  [GermanPerson.First_Singular]: [EnglishPerson.First_Singular],
-  [GermanPerson.Second_Singular]: [EnglishPerson.Second_Singular],
-  [GermanPerson.Third_Singular]: [EnglishPerson.Third_Singular],
+export const germanToEnglishWord = ({
+  germanKeyedVerb,
+  germanWord,
+}: {
+  germanKeyedVerb: GermanKeyedVerb;
+  germanWord: GermanWord;
+}): [Pronoun[], Set<EnglishResult>] | undefined => {
+  // Find all pronoun cases
+  const englishPronouns = [findEnglishPronoun(germanWord.pronoun)];
+
+  // Find all translations
+  const verbConjugations = new Set<EnglishResult>();
+  for (const translation of germanKeyedVerb.translations.en) {
+    const foundVerb = findVerb(translation);
+    verbConjugations.add(foundVerb);
+  }
+
+  return [englishPronouns, verbConjugations];
 };

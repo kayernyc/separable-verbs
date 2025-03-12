@@ -1,38 +1,22 @@
-import { PersonShorthand, Tense, type EnglishVerb } from "./types";
-import { EnglishVerbDictionary } from "./englishVerbDictionary";
+import { PersonShorthand, Tense, type EnglishConjugatedVerb } from "./types";
+import { englishVerbDictionary as englishVerbDictionary } from "./englishVerbDictionary";
+import { parseEnglishTranslation } from "./parseEnglishTranslation";
+import { modalMap, type auxiliaryVerb } from "./constants";
 
-export const conjugate = (infinitive: string): EnglishVerb | undefined => {
-  if (infinitive === "be") return BeConjugation;
-  const verbEntry = EnglishVerbDictionary[infinitive];
-  if (verbEntry) {
-    return {
-      [Tense.Present]: {
-        [PersonShorthand.First_Singular]: verbEntry.infinitive,
-        [PersonShorthand.Second_Singular]: verbEntry.infinitive,
-        [PersonShorthand.Third_Singular]: verbEntry.third_person,
-        [PersonShorthand.First_Plural]: verbEntry.infinitive,
-        [PersonShorthand.Second_Plural]: verbEntry.infinitive,
-        [PersonShorthand.Third_Plural]: verbEntry.infinitive,
-      },
-      [Tense.Past]: {
-        [PersonShorthand.First_Singular]: verbEntry.perfect,
-        [PersonShorthand.Second_Singular]: verbEntry.perfect,
-        [PersonShorthand.Third_Singular]: verbEntry.perfect,
-        [PersonShorthand.First_Plural]: verbEntry.perfect,
-        [PersonShorthand.Second_Plural]: verbEntry.perfect,
-        [PersonShorthand.Third_Plural]: verbEntry.perfect,
-      },
-      infinitive: infinitive,
-      past_participle: verbEntry.past_participle,
-      present_participle: verbEntry.present_participle,
-    };
-  }
+export const findVerb = (sourceString: string) => {
+  const { baseVerb, particle, compliment } =
+    parseEnglishTranslation(sourceString);
+
+  const englishVerbConjugationMap = englishVerbDictionary[baseVerb];
+  return { verb: englishVerbConjugationMap, particle, compliment };
 };
+
+export const conjugate = (infinitive: string) => {};
 
 const beVerb = {
   infinitive: "be",
-  past_participle: "been",
-  present_participle: "being",
+  pastParticiple: "been",
+  presentParticiple: "being",
   perfect: "am",
   third_person: "are",
   singular_third: "is",
@@ -58,6 +42,6 @@ const BeConjugation = {
     [PersonShorthand.Third_Plural]: "were",
   },
   infinitive: "be",
-  past_participle: "been",
-  present_participle: "being",
+  pastParticiple: "been",
+  presentParticiple: "being",
 };

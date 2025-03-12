@@ -1,4 +1,5 @@
-import germanSeparableVerbs from "@constants/germanSeparable.json";
+import type { GermanKeyedVerb } from "@/modules/german/types";
+import germanSeparableVerbs from "@/modules/german/germanKeyDictionary.json";
 
 export interface SeparableVerb {
   language: string;
@@ -11,16 +12,16 @@ export interface SeparableVerb {
 }
 
 export interface ResponseObject {
-  testWord: SeparableVerb;
-  currentOptions: SeparableVerb[];
+  testWord: GermanKeyedVerb;
+  currentOptions: GermanKeyedVerb[];
 }
 
-const data: Record<string, SeparableVerb> = germanSeparableVerbs;
+const data: Record<string, GermanKeyedVerb> = germanSeparableVerbs;
 const keys = Object.keys(data);
 
 export function RoundGenerator(): ResponseObject {
   const wordIndex = keys[Math.floor(Math.random() * keys.length)];
-  const currentTest: SeparableVerb = data[wordIndex];
+  const currentTest: GermanKeyedVerb = data[wordIndex];
   const currentOptions = [currentTest];
 
   while (currentOptions.length < 4) {

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { GermanParticleRules } from "@constants/germanConstants";
+import { GermanParticleRules } from "@/modules/german/germanConstants";
 
 import { type ResponseObject, type SeparableVerb } from "./round";
 

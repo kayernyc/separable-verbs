@@ -14,7 +14,7 @@ describe("English verb module", () => {
         4: "were",
         5: "were",
       },
-      past_participle: "been",
+      pastParticiple: "been",
       present: {
         0: "am",
         1: "are",
@@ -23,7 +23,7 @@ describe("English verb module", () => {
         4: "are",
         5: "are",
       },
-      present_participle: "being",
+      presentParticiple: "being",
     };
 
     expect(beResult).toEqual(expectedResult);

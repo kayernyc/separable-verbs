@@ -1,8 +1,18 @@
+export type auxiliaryVerb = {
+  citation: string;
+  infinitive: string;
+  perfect: string;
+  third_person: string;
+  pastParticiple?: string;
+  presentParticiple?: string;
+};
+
 export const Will = {
   citation: "will",
   infinitive: "going to",
   perfect: "would",
   third_person: "will",
+  pastParticiple: "will have",
 };
 
 export const May = {
@@ -10,13 +20,14 @@ export const May = {
   infinitive: "may",
   perfect: "might",
   third_person: "may",
+  pastParticiple: "may have",
 };
 
 export const Can = {
   citation: "can",
   infinitive: "be able",
-  past_participle: "was able",
-  present_participle: "can",
+  pastParticiple: "was able",
+  presentParticiple: "able",
   perfect: "could have",
   third_person: "can",
 };
@@ -25,7 +36,8 @@ export const Shall = {
   citation: "shall",
   infinitive: "shall",
   perfect: "should",
-  third_person: "is",
+  third_person: "should",
+  pastParticiple: "should have",
 };
 
 export const Must = {
@@ -33,6 +45,7 @@ export const Must = {
   infinitive: "have to",
   perfect: "had to",
   third_person: "must",
+  pastParticiple: "must have",
 };
 
 export const Ought = {
@@ -40,13 +53,7 @@ export const Ought = {
   infinitive: "have to",
   perfect: "had to",
   third_person: "ought",
-};
-
-export const Dare = {
-  citation: "dare",
-  infinitive: "dare",
-  perfect: "dared",
-  third_person: "dares",
+  pastParticiple: "ought to have",
 };
 
 export const Do = {
@@ -54,6 +61,18 @@ export const Do = {
   infinitive: "do",
   perfect: "did",
   third_person: "does",
+};
+
+export const modalMap: {
+  [key: string]: auxiliaryVerb;
+} = {
+  will: Will,
+  may: May,
+  can: Can,
+  shall: Shall,
+  must: Must,
+  ought: Ought,
+  do: Do,
 };
 
 export const particles = [

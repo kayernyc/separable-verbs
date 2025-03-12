@@ -1,6 +1,16 @@
 import type { GermanKeyedVerb } from "@/modules/german/types";
 import germanSeparableVerbs from "@/modules/german/germanKeyDictionary.json";
 
+export interface SeparableVerb {
+  language: string;
+  prefix?: string;
+  particle: string;
+  wordBase: string;
+  translations: {
+    en: string[];
+  };
+}
+
 export interface ResponseObject {
   testWord: GermanKeyedVerb;
   currentOptions: GermanKeyedVerb[];

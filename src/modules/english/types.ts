@@ -91,8 +91,8 @@ export enum PersonShorthand {
 
 export type VerbData = {
   infinitive: string;
-  past_participle: string | null;
-  present_participle: string | null;
+  pastParticiple: string | null;
+  presentParticiple: string | null;
   perfect: string;
   third_person: string;
 };
@@ -103,6 +103,6 @@ export type EnglishConjugatedVerb = {
   };
 } & {
   infinitive: string;
-  past_participle: string | null;
-  present_participle: string | null;
+  pastParticiple: string | null;
+  presentParticiple: string | null;
 };

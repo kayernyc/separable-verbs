@@ -1,0 +1,2756 @@
+{
+  "have": {
+    "language": "en",
+    "translations": {
+      "de": ["haben", "müssen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "have"
+  },
+  "be": {
+    "language": "en",
+    "translations": {
+      "de": ["sein"]
+    },
+    "complements": {
+      "expected": {
+        "de": ["sollen"]
+      },
+      "authorized": {
+        "de": ["dürfen"]
+      },
+      "called": {
+        "de": ["heißen"]
+      }
+    },
+    "particles": {},
+    "wordBase": "be"
+  },
+  "become": {
+    "language": "en",
+    "translations": {
+      "de": ["werden"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "become"
+  },
+  "grow": {
+    "language": "en",
+    "translations": {
+      "de": ["werden", "wachsen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "grow"
+  },
+  "can": {
+    "language": "en",
+    "translations": {
+      "de": ["können"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "can"
+  },
+  "may": {
+    "language": "en",
+    "translations": {
+      "de": ["können"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "may"
+  },
+  "are": {
+    "language": "en",
+    "translations": {
+      "de": []
+    },
+    "complements": {
+      "able to": {
+        "de": ["können"]
+      }
+    },
+    "particles": {},
+    "wordBase": "are"
+  },
+  "to": {
+    "language": "en",
+    "translations": {
+      "de": []
+    },
+    "complements": {
+      "know how": {
+        "de": ["können"]
+      },
+      "occur to": {
+        "de": ["ein|fallen"]
+      }
+    },
+    "particles": {},
+    "wordBase": "to"
+  },
+  "want": {
+    "language": "en",
+    "translations": {
+      "de": ["wollen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "want"
+  },
+  "must": {
+    "language": "en",
+    "translations": {
+      "de": ["dürfen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "must"
+  },
+  "like": {
+    "language": "en",
+    "translations": {
+      "de": ["mögen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "like"
+  },
+  "know": {
+    "language": "en",
+    "translations": {
+      "de": ["wissen", "kennen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "know"
+  },
+  "let": {
+    "language": "en",
+    "translations": {
+      "de": ["lassen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "let"
+  },
+  "go": {
+    "language": "en",
+    "translations": {
+      "de": ["gehen"]
+    },
+    "complements": {
+      "flying": {
+        "de": ["runter|fallen"]
+      }
+    },
+    "particles": {},
+    "wordBase": "go"
+  },
+  "run": {
+    "language": "en",
+    "translations": {
+      "de": ["laufen", "rennen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "run"
+  },
+  "write": {
+    "language": "en",
+    "translations": {
+      "de": ["schreiben"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "write"
+  },
+  "follow": {
+    "language": "en",
+    "translations": {
+      "de": ["folgen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "follow"
+  },
+  "grasp": {
+    "language": "en",
+    "translations": {
+      "de": ["greifen", "ergreifen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "grasp"
+  },
+  "grab": {
+    "language": "en",
+    "translations": {
+      "de": ["greifen", "schnappen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "grab"
+  },
+  "whistle": {
+    "language": "en",
+    "translations": {
+      "de": ["pfeifen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "whistle"
+  },
+  "scream": {
+    "language": "en",
+    "translations": {
+      "de": ["schreien"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "scream"
+  },
+  "succeed": {
+    "language": "en",
+    "translations": {
+      "de": ["gelingen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "succeed"
+  },
+  "give": {
+    "language": "en",
+    "translations": {
+      "de": ["geben"]
+    },
+    "complements": {
+      "birth": {
+        "de": ["gebären"]
+      }
+    },
+    "particles": {},
+    "wordBase": "give"
+  },
+  "advise": {
+    "language": "en",
+    "translations": {
+      "de": ["beraten", "raten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "advise"
+  },
+  "discuss": {
+    "language": "en",
+    "translations": {
+      "de": ["beraten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "discuss"
+  },
+  "hang": {
+    "language": "en",
+    "translations": {
+      "de": ["hängen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "hang"
+  },
+  "suffer": {
+    "language": "en",
+    "translations": {
+      "de": ["leiden"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "suffer"
+  },
+  "hold": {
+    "language": "en",
+    "translations": {
+      "de": ["halten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "hold"
+  },
+  "keep": {
+    "language": "en",
+    "translations": {
+      "de": ["halten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "keep"
+  },
+  "sleep": {
+    "language": "en",
+    "translations": {
+      "de": ["schlafen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "sleep"
+  },
+  "say": {
+    "language": "en",
+    "translations": {
+      "de": ["sagen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "say"
+  },
+  "play": {
+    "language": "en",
+    "translations": {
+      "de": ["spielen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "play"
+  },
+  "make": {
+    "language": "en",
+    "translations": {
+      "de": ["machen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "make"
+  },
+  "ask": {
+    "language": "en",
+    "translations": {
+      "de": ["fragen", "erkundigen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "ask"
+  },
+  "believe": {
+    "language": "en",
+    "translations": {
+      "de": ["glauben"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "believe"
+  },
+  "reckon": {
+    "language": "en",
+    "translations": {
+      "de": ["glauben"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "reckon"
+  },
+  "live": {
+    "language": "en",
+    "translations": {
+      "de": ["leben"]
+    },
+    "complements": {
+      "(somewhere)": {
+        "de": ["wohnen"]
+      }
+    },
+    "particles": {},
+    "wordBase": "live"
+  },
+  "learn": {
+    "language": "en",
+    "translations": {
+      "de": ["lernen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "learn"
+  },
+  "speak": {
+    "language": "en",
+    "translations": {
+      "de": ["reden", "sprechen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "speak"
+  },
+  "mean": {
+    "language": "en",
+    "translations": {
+      "de": ["bedeuten", "meinen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "mean"
+  },
+  "belong": {
+    "language": "en",
+    "translations": {
+      "de": ["gehören"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "belong"
+  },
+  "buy": {
+    "language": "en",
+    "translations": {
+      "de": ["kaufen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "buy"
+  },
+  "taste": {
+    "language": "en",
+    "translations": {
+      "de": ["schmecken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "taste"
+  },
+  "wait": {
+    "language": "en",
+    "translations": {
+      "de": ["warten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "wait"
+  },
+  "inhabit": {
+    "language": "en",
+    "translations": {
+      "de": ["wohnen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "inhabit"
+  },
+  "work": {
+    "language": "en",
+    "translations": {
+      "de": ["arbeiten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "work"
+  },
+  "need": {
+    "language": "en",
+    "translations": {
+      "de": ["brauchen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "need"
+  },
+  "put": {
+    "language": "en",
+    "translations": {
+      "de": ["setzen", "legen", "stellen", "stecken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "put"
+  },
+  "set": {
+    "language": "en",
+    "translations": {
+      "de": ["setzen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "set"
+  },
+  "search": {
+    "language": "en",
+    "translations": {
+      "de": ["suchen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "search"
+  },
+  "attempt": {
+    "language": "en",
+    "translations": {
+      "de": ["versuchen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "attempt"
+  },
+  "try": {
+    "language": "en",
+    "translations": {
+      "de": ["versuchen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "try"
+  },
+  "build": {
+    "language": "en",
+    "translations": {
+      "de": ["bauen", "bilden"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "build"
+  },
+  "meet": {
+    "language": "en",
+    "translations": {
+      "de": ["tagen", "treffen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "meet"
+  },
+  "construe": {
+    "language": "en",
+    "translations": {
+      "de": ["deuten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "construe"
+  },
+  "interpret": {
+    "language": "en",
+    "translations": {
+      "de": ["deuten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "interpret"
+  },
+  "hear": {
+    "language": "en",
+    "translations": {
+      "de": ["hören"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "hear"
+  },
+  "listen": {
+    "language": "en",
+    "translations": {
+      "de": ["hören", "zu|hören"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "listen"
+  },
+  "fall": {
+    "language": "en",
+    "translations": {
+      "de": ["fallen"]
+    },
+    "complements": {
+      "asleep": {
+        "de": ["ein|schlafen"]
+      }
+    },
+    "particles": {},
+    "wordBase": "fall"
+  },
+  "fall|to": {
+    "language": "en",
+    "translations": {
+      "de": []
+    },
+    "complements": {
+      "to pieces": {
+        "de": ["zerfallen"]
+      }
+    },
+    "particles": {
+      "to": {
+        "de": ["zerfallen"]
+      }
+    },
+    "wordBase": "fall"
+  },
+  "catch": {
+    "language": "en",
+    "translations": {
+      "de": ["fangen", "erwischen", "fassen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "catch"
+  },
+  "fry": {
+    "language": "en",
+    "translations": {
+      "de": ["braten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "fry"
+  },
+  "guess": {
+    "language": "en",
+    "translations": {
+      "de": ["raten", "denken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "guess"
+  },
+  "drive": {
+    "language": "en",
+    "translations": {
+      "de": ["fahren"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "drive"
+  },
+  "ride": {
+    "language": "en",
+    "translations": {
+      "de": ["fahren", "reiten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "ride"
+  },
+  "dig": {
+    "language": "en",
+    "translations": {
+      "de": ["graben"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "dig"
+  },
+  "strike": {
+    "language": "en",
+    "translations": {
+      "de": ["schlagen", "treffen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "strike"
+  },
+  "bash": {
+    "language": "en",
+    "translations": {
+      "de": ["schlagen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "bash"
+  },
+  "hit": {
+    "language": "en",
+    "translations": {
+      "de": ["schlagen", "treffen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "hit"
+  },
+  "beat": {
+    "language": "en",
+    "translations": {
+      "de": ["schlagen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "beat"
+  },
+  "wash": {
+    "language": "en",
+    "translations": {
+      "de": ["waschen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "wash"
+  },
+  "carry": {
+    "language": "en",
+    "translations": {
+      "de": ["tragen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "carry"
+  },
+  "wear": {
+    "language": "en",
+    "translations": {
+      "de": ["tragen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "wear"
+  },
+  "load": {
+    "language": "en",
+    "translations": {
+      "de": ["laden"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "load"
+  },
+  "lie": {
+    "language": "en",
+    "translations": {
+      "de": ["liegen", "lügen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "lie"
+  },
+  "sit": {
+    "language": "en",
+    "translations": {
+      "de": ["sitzen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "sit"
+  },
+  "read": {
+    "language": "en",
+    "translations": {
+      "de": ["lesen", "vor|lesen"]
+    },
+    "complements": {
+      "aloud": {
+        "de": ["vor|lesen"]
+      }
+    },
+    "particles": {},
+    "wordBase": "read"
+  },
+  "kick": {
+    "language": "en",
+    "translations": {
+      "de": ["treten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "kick"
+  },
+  "eat": {
+    "language": "en",
+    "translations": {
+      "de": ["essen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "eat"
+  },
+  "see": {
+    "language": "en",
+    "translations": {
+      "de": ["sehen", "schauen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "see"
+  },
+  "happen": {
+    "language": "en",
+    "translations": {
+      "de": ["geschehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "happen"
+  },
+  "fly": {
+    "language": "en",
+    "translations": {
+      "de": ["fliegen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "fly"
+  },
+  "flee": {
+    "language": "en",
+    "translations": {
+      "de": ["fliehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "flee"
+  },
+  "flow": {
+    "language": "en",
+    "translations": {
+      "de": ["fließen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "flow"
+  },
+  "freeze": {
+    "language": "en",
+    "translations": {
+      "de": ["frieren"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "freeze"
+  },
+  "bend": {
+    "language": "en",
+    "translations": {
+      "de": ["biegen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "bend"
+  },
+  "offer": {
+    "language": "en",
+    "translations": {
+      "de": ["bieten", "an|bieten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "offer"
+  },
+  "pull": {
+    "language": "en",
+    "translations": {
+      "de": ["ziehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "pull"
+  },
+  "weigh": {
+    "language": "en",
+    "translations": {
+      "de": ["wiegen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "weigh"
+  },
+  "pour": {
+    "language": "en",
+    "translations": {
+      "de": ["gießen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "pour"
+  },
+  "smell": {
+    "language": "en",
+    "translations": {
+      "de": ["riechen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "smell"
+  },
+  "push": {
+    "language": "en",
+    "translations": {
+      "de": ["schieben"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "push"
+  },
+  "shoot": {
+    "language": "en",
+    "translations": {
+      "de": ["schießen"]
+    },
+    "complements": {
+      "(film)": {
+        "de": ["drehen"]
+      }
+    },
+    "particles": {},
+    "wordBase": "shoot"
+  },
+  "close": {
+    "language": "en",
+    "translations": {
+      "de": ["schließen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "close"
+  },
+  "lift": {
+    "language": "en",
+    "translations": {
+      "de": ["heben"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "lift"
+  },
+  "guzzle": {
+    "language": "en",
+    "translations": {
+      "de": ["saufen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "guzzle"
+  },
+  "melt": {
+    "language": "en",
+    "translations": {
+      "de": ["schmelzen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "melt"
+  },
+  "enjoy": {
+    "language": "en",
+    "translations": {
+      "de": ["genießen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "enjoy"
+  },
+  "lose": {
+    "language": "en",
+    "translations": {
+      "de": ["verlieren"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "lose"
+  },
+  "remain": {
+    "language": "en",
+    "translations": {
+      "de": ["bleiben"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "remain"
+  },
+  "stay": {
+    "language": "en",
+    "translations": {
+      "de": ["bleiben"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "stay"
+  },
+  "rub": {
+    "language": "en",
+    "translations": {
+      "de": ["reiben"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "rub"
+  },
+  "glide": {
+    "language": "en",
+    "translations": {
+      "de": ["gleiten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "glide"
+  },
+  "tear": {
+    "language": "en",
+    "translations": {
+      "de": ["reißen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "tear"
+  },
+  "bite": {
+    "language": "en",
+    "translations": {
+      "de": ["beißen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "bite"
+  },
+  "shit": {
+    "language": "en",
+    "translations": {
+      "de": ["scheißen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "shit"
+  },
+  "lend": {
+    "language": "en",
+    "translations": {
+      "de": ["leihen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "lend"
+  },
+  "borrow": {
+    "language": "en",
+    "translations": {
+      "de": ["leihen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "borrow"
+  },
+  "shine": {
+    "language": "en",
+    "translations": {
+      "de": ["scheinen", "brennen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "shine"
+  },
+  "seem": {
+    "language": "en",
+    "translations": {
+      "de": ["scheinen", "erscheinen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "seem"
+  },
+  "avoid": {
+    "language": "en",
+    "translations": {
+      "de": ["meiden"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "avoid"
+  },
+  "rise": {
+    "language": "en",
+    "translations": {
+      "de": ["steigen", "auf|gehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "rise"
+  },
+  "forgive": {
+    "language": "en",
+    "translations": {
+      "de": ["verzeihen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "forgive"
+  },
+  "begin": {
+    "language": "en",
+    "translations": {
+      "de": ["beginnen", "an|fangen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "begin"
+  },
+  "come": {
+    "language": "en",
+    "translations": {
+      "de": ["kommen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "come"
+  },
+  "take": {
+    "language": "en",
+    "translations": {
+      "de": ["nehmen", "bringen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "take"
+  },
+  "die": {
+    "language": "en",
+    "translations": {
+      "de": ["sterben"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "die"
+  },
+  "break": {
+    "language": "en",
+    "translations": {
+      "de": ["brechen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "break"
+  },
+  "help": {
+    "language": "en",
+    "translations": {
+      "de": ["helfen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "help"
+  },
+  "stab": {
+    "language": "en",
+    "translations": {
+      "de": ["stechen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "stab"
+  },
+  "sting": {
+    "language": "en",
+    "translations": {
+      "de": ["stechen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "sting"
+  },
+  "jab": {
+    "language": "en",
+    "translations": {
+      "de": ["stechen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "jab"
+  },
+  "steal": {
+    "language": "en",
+    "translations": {
+      "de": ["stehlen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "steal"
+  },
+  "throw": {
+    "language": "en",
+    "translations": {
+      "de": ["werfen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "throw"
+  },
+  "swim": {
+    "language": "en",
+    "translations": {
+      "de": ["schwimmen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "swim"
+  },
+  "recommend": {
+    "language": "en",
+    "translations": {
+      "de": ["empfehlen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "recommend"
+  },
+  "win": {
+    "language": "en",
+    "translations": {
+      "de": ["gewinnen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "win"
+  },
+  "bind": {
+    "language": "en",
+    "translations": {
+      "de": ["binden"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "bind"
+  },
+  "find": {
+    "language": "en",
+    "translations": {
+      "de": ["finden"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "find"
+  },
+  "drink": {
+    "language": "en",
+    "translations": {
+      "de": ["trinken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "drink"
+  },
+  "stink": {
+    "language": "en",
+    "translations": {
+      "de": ["stinken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "stink"
+  },
+  "sink": {
+    "language": "en",
+    "translations": {
+      "de": ["sinken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "sink"
+  },
+  "jump": {
+    "language": "en",
+    "translations": {
+      "de": ["springen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "jump"
+  },
+  "sing": {
+    "language": "en",
+    "translations": {
+      "de": ["singen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "sing"
+  },
+  "force": {
+    "language": "en",
+    "translations": {
+      "de": ["zwingen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "force"
+  },
+  "burn": {
+    "language": "en",
+    "translations": {
+      "de": ["brennen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "burn"
+  },
+  "distil": {
+    "language": "en",
+    "translations": {
+      "de": ["brennen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "distil"
+  },
+  "think": {
+    "language": "en",
+    "translations": {
+      "de": ["denken", "über|legen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "think"
+  },
+  "bring": {
+    "language": "en",
+    "translations": {
+      "de": ["bringen", "mit|bringen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "bring"
+  },
+  "stand": {
+    "language": "en",
+    "translations": {
+      "de": ["stehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "stand"
+  },
+  "do": {
+    "language": "en",
+    "translations": {
+      "de": ["tun"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "do"
+  },
+  "race": {
+    "language": "en",
+    "translations": {
+      "de": ["rennen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "race"
+  },
+  "name": {
+    "language": "en",
+    "translations": {
+      "de": ["nennen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "name"
+  },
+  "wake": {
+    "language": "en",
+    "translations": {
+      "de": ["wachen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "wake"
+  },
+  "picket": {
+    "language": "en",
+    "translations": {
+      "de": ["wachen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "picket"
+  },
+  "lack": {
+    "language": "en",
+    "translations": {
+      "de": ["fehlen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "lack"
+  },
+  "miss": {
+    "language": "en",
+    "translations": {
+      "de": ["fehlen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "miss"
+  },
+  "slip": {
+    "language": "en",
+    "translations": {
+      "de": ["rutschen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "slip"
+  },
+  "slide": {
+    "language": "en",
+    "translations": {
+      "de": ["rutschen", "vergehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "slide"
+  },
+  "provide": {
+    "language": "en",
+    "translations": {
+      "de": ["an|bieten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "provide"
+  },
+  "inspect": {
+    "language": "en",
+    "translations": {
+      "de": ["an|sehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "inspect"
+  },
+  "view": {
+    "language": "en",
+    "translations": {
+      "de": ["an|sehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "view"
+  },
+  "regard": {
+    "language": "en",
+    "translations": {
+      "de": ["an|sehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "regard"
+  },
+  "appear": {
+    "language": "en",
+    "translations": {
+      "de": ["aus|sehen", "erscheinen", "auf|tauchen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "appear"
+  },
+  "get": {
+    "language": "en",
+    "translations": {
+      "de": ["bekommen"]
+    },
+    "complements": {
+      "hold of": {
+        "de": ["erwischen"]
+      }
+    },
+    "particles": {},
+    "wordBase": "get"
+  },
+  "crack": {
+    "language": "en",
+    "translations": {
+      "de": ["ein|brechen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "crack"
+  },
+  "burgle": {
+    "language": "en",
+    "translations": {
+      "de": ["ein|brechen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "burgle"
+  },
+  "collapse": {
+    "language": "en",
+    "translations": {
+      "de": ["ein|brechen", "ein|fallen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "collapse"
+  },
+  "freeze|to": {
+    "language": "en",
+    "translations": {
+      "de": []
+    },
+    "complements": {
+      "to death": {
+        "de": ["er|frieren"]
+      }
+    },
+    "particles": {
+      "to": {
+        "de": ["er|frieren"]
+      }
+    },
+    "wordBase": "freeze"
+  },
+  "soar": {
+    "language": "en",
+    "translations": {
+      "de": ["auf|steigen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "soar"
+  },
+  "ascend": {
+    "language": "en",
+    "translations": {
+      "de": ["auf|steigen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "ascend"
+  },
+  "descend": {
+    "language": "en",
+    "translations": {
+      "de": ["ab|steigen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "descend"
+  },
+  "dismount": {
+    "language": "en",
+    "translations": {
+      "de": ["ab|steigen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "dismount"
+  },
+  "persist": {
+    "language": "en",
+    "translations": {
+      "de": ["bestehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "persist"
+  },
+  "insist": {
+    "language": "en",
+    "translations": {
+      "de": ["bestehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "insist"
+  },
+  "concern": {
+    "language": "en",
+    "translations": {
+      "de": ["betreffen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "concern"
+  },
+  "affect": {
+    "language": "en",
+    "translations": {
+      "de": ["betreffen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "affect"
+  },
+  "constitute": {
+    "language": "en",
+    "translations": {
+      "de": ["dar|stellen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "constitute"
+  },
+  "depict": {
+    "language": "en",
+    "translations": {
+      "de": ["dar|stellen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "depict"
+  },
+  "match": {
+    "language": "en",
+    "translations": {
+      "de": ["entsprechen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "match"
+  },
+  "conform": {
+    "language": "en",
+    "translations": {
+      "de": ["entsprechen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "conform"
+  },
+  "emerge": {
+    "language": "en",
+    "translations": {
+      "de": ["entstehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "emerge"
+  },
+  "arise": {
+    "language": "en",
+    "translations": {
+      "de": ["entstehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "arise"
+  },
+  "yield": {
+    "language": "en",
+    "translations": {
+      "de": ["ergeben"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "yield"
+  },
+  "obtain": {
+    "language": "en",
+    "translations": {
+      "de": ["erhalten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "obtain"
+  },
+  "realize": {
+    "language": "en",
+    "translations": {
+      "de": ["erkennen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "realize"
+  },
+  "explain": {
+    "language": "en",
+    "translations": {
+      "de": ["erklären"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "explain"
+  },
+  "declare": {
+    "language": "en",
+    "translations": {
+      "de": ["erklären"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "declare"
+  },
+  "achieve": {
+    "language": "en",
+    "translations": {
+      "de": ["erreichen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "achieve"
+  },
+  "expect": {
+    "language": "en",
+    "translations": {
+      "de": ["erwarten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "expect"
+  },
+  "await": {
+    "language": "en",
+    "translations": {
+      "de": ["erwarten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "await"
+  },
+  "tell": {
+    "language": "en",
+    "translations": {
+      "de": ["erzählen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "tell"
+  },
+  "narrate": {
+    "language": "en",
+    "translations": {
+      "de": ["erzählen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "narrate"
+  },
+  "feel": {
+    "language": "en",
+    "translations": {
+      "de": ["erzählen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "feel"
+  },
+  "sense": {
+    "language": "en",
+    "translations": {
+      "de": ["erzählen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "sense"
+  },
+  "lead": {
+    "language": "en",
+    "translations": {
+      "de": ["führen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "lead"
+  },
+  "guide": {
+    "language": "en",
+    "translations": {
+      "de": ["führen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "guide"
+  },
+  "interest": {
+    "language": "en",
+    "translations": {
+      "de": ["interessieren"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "interest"
+  },
+  "study": {
+    "language": "en",
+    "translations": {
+      "de": ["studieren"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "study"
+  },
+  "lay": {
+    "language": "en",
+    "translations": {
+      "de": ["legen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "lay"
+  },
+  "deem": {
+    "language": "en",
+    "translations": {
+      "de": ["meinen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "deem"
+  },
+  "create": {
+    "language": "en",
+    "translations": {
+      "de": ["schaffen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "create"
+  },
+  "accomplish": {
+    "language": "en",
+    "translations": {
+      "de": ["schaffen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "accomplish"
+  },
+  "slice": {
+    "language": "en",
+    "translations": {
+      "de": ["scheiben"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "slice"
+  },
+  "place": {
+    "language": "en",
+    "translations": {
+      "de": ["stellen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "place"
+  },
+  "introduce": {
+    "language": "en",
+    "translations": {
+      "de": ["vor|stellen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "introduce"
+  },
+  "vanish": {
+    "language": "en",
+    "translations": {
+      "de": ["vergehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "vanish"
+  },
+  "equal": {
+    "language": "en",
+    "translations": {
+      "de": ["gleichen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "equal"
+  },
+  "compare": {
+    "language": "en",
+    "translations": {
+      "de": ["vergleichen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "compare"
+  },
+  "contrast": {
+    "language": "en",
+    "translations": {
+      "de": ["vergleichen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "contrast"
+  },
+  "exhibit": {
+    "language": "en",
+    "translations": {
+      "de": ["zeigen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "exhibit"
+  },
+  "feature": {
+    "language": "en",
+    "translations": {
+      "de": ["zeigen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "feature"
+  },
+  "understand": {
+    "language": "en",
+    "translations": {
+      "de": ["verstehen", "fassen", "begreifen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "understand"
+  },
+  "misunderstand": {
+    "language": "en",
+    "translations": {
+      "de": ["mißverstehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "misunderstand"
+  },
+  "connect": {
+    "language": "en",
+    "translations": {
+      "de": ["verbinden"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "connect"
+  },
+  "link": {
+    "language": "en",
+    "translations": {
+      "de": ["verbinden"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "link"
+  },
+  "apply": {
+    "language": "en",
+    "translations": {
+      "de": ["gelten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "apply"
+  },
+  "pertain": {
+    "language": "en",
+    "translations": {
+      "de": ["gelten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "pertain"
+  },
+  "develop": {
+    "language": "en",
+    "translations": {
+      "de": ["entwickeln"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "develop"
+  },
+  "evolve": {
+    "language": "en",
+    "translations": {
+      "de": ["entwickeln"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "evolve"
+  },
+  "deal": {
+    "language": "en",
+    "translations": {
+      "de": ["handeln"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "deal"
+  },
+  "negotiate": {
+    "language": "en",
+    "translations": {
+      "de": ["handeln"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "negotiate"
+  },
+  "remember": {
+    "language": "en",
+    "translations": {
+      "de": ["erinnern"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "remember"
+  },
+  "teach": {
+    "language": "en",
+    "translations": {
+      "de": ["lehren"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "teach"
+  },
+  "cost": {
+    "language": "en",
+    "translations": {
+      "de": ["kosten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "cost"
+  },
+  "pack": {
+    "language": "en",
+    "translations": {
+      "de": ["packen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "pack"
+  },
+  "promise": {
+    "language": "en",
+    "translations": {
+      "de": ["versprechen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "promise"
+  },
+  "inform": {
+    "language": "en",
+    "translations": {
+      "de": ["mit|teilen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "inform"
+  },
+  "communicate": {
+    "language": "en",
+    "translations": {
+      "de": ["mit|teilen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "communicate"
+  },
+  "share": {
+    "language": "en",
+    "translations": {
+      "de": ["teilen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "share"
+  },
+  "divide": {
+    "language": "en",
+    "translations": {
+      "de": ["teilen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "divide"
+  },
+  "enquire": {
+    "language": "en",
+    "translations": {
+      "de": ["erkundigen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "enquire"
+  },
+  "hope": {
+    "language": "en",
+    "translations": {
+      "de": ["hoffen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "hope"
+  },
+  "plan": {
+    "language": "en",
+    "translations": {
+      "de": ["planen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "plan"
+  },
+  "inhale": {
+    "language": "en",
+    "translations": {
+      "de": ["ein|atmen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "inhale"
+  },
+  "breathe": {
+    "language": "en",
+    "translations": {
+      "de": ["atmen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "breathe"
+  },
+  "conceal": {
+    "language": "en",
+    "translations": {
+      "de": ["verheimlichen", "verstecken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "conceal"
+  },
+  "spin": {
+    "language": "en",
+    "translations": {
+      "de": ["drehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "spin"
+  },
+  "turn": {
+    "language": "en",
+    "translations": {
+      "de": ["drehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "turn"
+  },
+  "manufacture": {
+    "language": "en",
+    "translations": {
+      "de": ["her|stellen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "manufacture"
+  },
+  "produce": {
+    "language": "en",
+    "translations": {
+      "de": ["her|stellen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "produce"
+  },
+  "invent": {
+    "language": "en",
+    "translations": {
+      "de": ["aus|denken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "invent"
+  },
+  "dive": {
+    "language": "en",
+    "translations": {
+      "de": ["tauchen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "dive"
+  },
+  "plunge": {
+    "language": "en",
+    "translations": {
+      "de": ["tauchen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "plunge"
+  },
+  "come|to": {
+    "language": "en",
+    "translations": {
+      "de": []
+    },
+    "complements": {
+      "to light": {
+        "de": ["auf|tauchen"]
+      }
+    },
+    "particles": {
+      "to": {
+        "de": ["auf|tauchen"]
+      }
+    },
+    "wordBase": "come"
+  },
+  "establish": {
+    "language": "en",
+    "translations": {
+      "de": ["ein|richten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "establish"
+  },
+  "furnish": {
+    "language": "en",
+    "translations": {
+      "de": ["ein|richten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "furnish"
+  },
+  "organize": {
+    "language": "en",
+    "translations": {
+      "de": ["ein|richten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "organize"
+  },
+  "state": {
+    "language": "en",
+    "translations": {
+      "de": ["aus|sagen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "state"
+  },
+  "testify": {
+    "language": "en",
+    "translations": {
+      "de": ["aus|sagen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "testify"
+  },
+  "gather": {
+    "language": "en",
+    "translations": {
+      "de": ["sammeln"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "gather"
+  },
+  "collect": {
+    "language": "en",
+    "translations": {
+      "de": ["sammeln"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "collect"
+  },
+  "wipe": {
+    "language": "en",
+    "translations": {
+      "de": ["wischen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "wipe"
+  },
+  "mop": {
+    "language": "en",
+    "translations": {
+      "de": ["wischen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "mop"
+  },
+  "seize": {
+    "language": "en",
+    "translations": {
+      "de": ["erwischen", "ergreifen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "seize"
+  },
+  "order": {
+    "language": "en",
+    "translations": {
+      "de": ["bestellen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "order"
+  },
+  "request": {
+    "language": "en",
+    "translations": {
+      "de": ["bestellen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "request"
+  },
+  "comission": {
+    "language": "en",
+    "translations": {
+      "de": ["bestellen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "comission"
+  },
+  "book": {
+    "language": "en",
+    "translations": {
+      "de": ["bestellen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "book"
+  },
+  "relocate": {
+    "language": "en",
+    "translations": {
+      "de": ["versetzen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "relocate"
+  },
+  "transfer": {
+    "language": "en",
+    "translations": {
+      "de": ["versetzen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "transfer"
+  },
+  "deploy": {
+    "language": "en",
+    "translations": {
+      "de": ["versetzen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "deploy"
+  },
+  "retort": {
+    "language": "en",
+    "translations": {
+      "de": ["versetzen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "retort"
+  },
+  "realise": {
+    "language": "en",
+    "translations": {
+      "de": ["auf|gehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "realise"
+  },
+  "open": {
+    "language": "en",
+    "translations": {
+      "de": ["auf|gehen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "open"
+  },
+  "snatch": {
+    "language": "en",
+    "translations": {
+      "de": ["schnappen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "snatch"
+  },
+  "climb": {
+    "language": "en",
+    "translations": {
+      "de": ["klettern"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "climb"
+  },
+  "wave": {
+    "language": "en",
+    "translations": {
+      "de": ["winken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "wave"
+  },
+  "answer": {
+    "language": "en",
+    "translations": {
+      "de": ["antworten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "answer"
+  },
+  "reply": {
+    "language": "en",
+    "translations": {
+      "de": ["antworten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "reply"
+  },
+  "grip": {
+    "language": "en",
+    "translations": {
+      "de": ["fassen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "grip"
+  },
+  "comprehend": {
+    "language": "en",
+    "translations": {
+      "de": ["fassen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "comprehend"
+  },
+  "wobble": {
+    "language": "en",
+    "translations": {
+      "de": ["wackeln"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "wobble"
+  },
+  "shake": {
+    "language": "en",
+    "translations": {
+      "de": ["wackeln"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "shake"
+  },
+  "wiggle": {
+    "language": "en",
+    "translations": {
+      "de": ["wackeln"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "wiggle"
+  },
+  "look": {
+    "language": "en",
+    "translations": {
+      "de": ["schauen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "look"
+  },
+  "fathom": {
+    "language": "en",
+    "translations": {
+      "de": ["begreifen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "fathom"
+  },
+  "call": {
+    "language": "en",
+    "translations": {
+      "de": ["rufen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "call"
+  },
+  "exclaim": {
+    "language": "en",
+    "translations": {
+      "de": ["rufen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "exclaim"
+  },
+  "tip|over": {
+    "language": "en",
+    "translations": {
+      "de": []
+    },
+    "complements": {
+      "over the edge": {
+        "de": ["runter|fallen"]
+      }
+    },
+    "particles": {
+      "over": {
+        "de": ["runter|fallen"]
+      }
+    },
+    "wordBase": "tip"
+  },
+  "cry": {
+    "language": "en",
+    "translations": {
+      "de": ["weinen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "cry"
+  },
+  "shrink": {
+    "language": "en",
+    "translations": {
+      "de": ["ein|fallen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "shrink"
+  },
+  "dip": {
+    "language": "en",
+    "translations": {
+      "de": ["ein|fallen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "dip"
+  },
+  "vacate": {
+    "language": "en",
+    "translations": {
+      "de": ["räumen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "vacate"
+  },
+  "clear": {
+    "language": "en",
+    "translations": {
+      "de": ["räumen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "clear"
+  },
+  "tidy": {
+    "language": "en",
+    "translations": {
+      "de": ["auf|räumen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "tidy"
+  },
+  "hide": {
+    "language": "en",
+    "translations": {
+      "de": ["verstecken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "hide"
+  },
+  "stash": {
+    "language": "en",
+    "translations": {
+      "de": ["verstecken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "stash"
+  },
+  "stammer": {
+    "language": "en",
+    "translations": {
+      "de": ["stottern"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "stammer"
+  },
+  "stutter": {
+    "language": "en",
+    "translations": {
+      "de": ["stottern"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "stutter"
+  },
+  "consider": {
+    "language": "en",
+    "translations": {
+      "de": ["über|legen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "consider"
+  },
+  "deliberate": {
+    "language": "en",
+    "translations": {
+      "de": ["über|legen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "deliberate"
+  },
+  "include": {
+    "language": "en",
+    "translations": {
+      "de": ["enthalten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "include"
+  },
+  "convey": {
+    "language": "en",
+    "translations": {
+      "de": ["enthalten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "convey"
+  },
+  "comprise": {
+    "language": "en",
+    "translations": {
+      "de": ["enthalten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "comprise"
+  },
+  "leave": {
+    "language": "en",
+    "translations": {
+      "de": ["verlassen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "leave"
+  },
+  "depart": {
+    "language": "en",
+    "translations": {
+      "de": ["verlassen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "depart"
+  },
+  "forsake": {
+    "language": "en",
+    "translations": {
+      "de": ["verlassen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "forsake"
+  },
+  "stick": {
+    "language": "en",
+    "translations": {
+      "de": ["stecken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "stick"
+  },
+  "plug": {
+    "language": "en",
+    "translations": {
+      "de": ["stecken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "plug"
+  },
+  "thrust": {
+    "language": "en",
+    "translations": {
+      "de": ["stecken"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "thrust"
+  },
+  "stop": {
+    "language": "en",
+    "translations": {
+      "de": ["auf|hören"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "stop"
+  },
+  "end": {
+    "language": "en",
+    "translations": {
+      "de": ["auf|hören"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "end"
+  },
+  "test": {
+    "language": "en",
+    "translations": {
+      "de": ["testen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "test"
+  },
+  "move": {
+    "language": "en",
+    "translations": {
+      "de": ["bewegen"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "move"
+  },
+  "use": {
+    "language": "en",
+    "translations": {
+      "de": ["verwenden"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "use"
+  },
+  "bleed": {
+    "language": "en",
+    "translations": {
+      "de": ["bluten"]
+    },
+    "complements": {},
+    "particles": {},
+    "wordBase": "bleed"
+  }
+}

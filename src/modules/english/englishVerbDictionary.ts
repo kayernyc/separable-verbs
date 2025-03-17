@@ -2746,7 +2746,7 @@ export const englishVerbDictionary: EnglishDictionary = {
   },
   hang: {
     infinitive: "hang",
-    pastParticiple: "usage]])''",
+    pastParticiple: "hanged",
     presentParticiple: "hanging",
     perfect: "hung",
     third_person: "hangs",

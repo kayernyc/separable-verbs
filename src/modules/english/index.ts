@@ -1,7 +1,11 @@
 import { PersonShorthand, Tense, type EnglishConjugatedVerb } from "./types";
-import { englishVerbDictionary as englishVerbDictionary } from "./englishVerbDictionary";
+import { englishVerbDictionary } from "./englishVerbDictionary";
 import { parseEnglishTranslation } from "./parseEnglishTranslation";
-import { modalMap, type auxiliaryVerb } from "./constants";
+import englishKeyDictionary from "./englishVerbKeyMap.json";
+import type { KeyDictionary } from "../common/types";
+
+const keyDictionary: KeyDictionary =
+  englishKeyDictionary as unknown as KeyDictionary;
 
 export const findVerb = (sourceString: string) => {
   const { baseVerb, particle, compliment } =
@@ -11,7 +15,53 @@ export const findVerb = (sourceString: string) => {
   return { verb: englishVerbConjugationMap, particle, compliment };
 };
 
-export const conjugate = (infinitive: string) => {};
+const allEnglishKeys = Object.keys(englishKeyDictionary);
+
+const PersonShorthandArray = [
+  PersonShorthand.First_Plural,
+  PersonShorthand.Second_Singular,
+  PersonShorthand.Third_Singular,
+  PersonShorthand.First_Singular,
+  PersonShorthand.Second_Plural,
+  PersonShorthand.Third_Plural,
+];
+
+/*
+
+For generating the prompt
+This will eventually take a config 
+for verb subsets, persons, and tense
+
+returns person, tense, translation strings 
+*/
+export const generateTestObject = () => {
+  // get the verb from english key dictionary
+  const verbKey =
+    allEnglishKeys[Math.round(allEnglishKeys.length * Math.random())];
+  const verbSourceObject = keyDictionary[verbKey];
+
+  if (!verbSourceObject) throw Error(`No entry found for ${verbKey}`);
+  const { wordBase } = verbSourceObject;
+
+  if (!wordBase || typeof wordBase !== "string") {
+    throw Error(`No base verb found for ${verbKey}`);
+  }
+
+  // get word base conjugation
+  const englishVerbConjugationMap = englishVerbDictionary[wordBase];
+  if (!englishVerbConjugationMap) throw Error(`No entry found for ${wordBase}`);
+
+  // get the person
+  const person =
+    PersonShorthandArray[
+      Math.round(PersonShorthandArray.length * Math.random())
+    ];
+
+  console.log({ englishVerbConjugationMap, person });
+  // get the tense
+
+  // generate a prompt string
+};
 
 const beVerb = {
   infinitive: "be",

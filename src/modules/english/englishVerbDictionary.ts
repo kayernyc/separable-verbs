@@ -3,7274 +3,7831 @@ export type EnglishEntry = {
   pastParticiple: string;
   presentParticiple: string;
   perfect: string;
-  first_person?: string;
-  second_person?: string;
-  third_person: string;
+  firstPerson?: string;
+  secondPerson?: string;
+  thirdPerson: string;
 };
 
 type EnglishDictionary = { [key: string]: EnglishEntry };
 
 export const englishVerbDictionary: EnglishDictionary = {
-  be: {
-    infinitive: "be",
-    pastParticiple: "been",
-    presentParticiple: "being",
-    perfect: "was",
-    first_person: "am",
-    second_person: "are",
-    third_person: "is",
-  },
-  do: {
-    infinitive: "do",
-    pastParticiple: "did",
-    presentParticiple: "doing",
-    perfect: "done",
-    third_person: "does",
-  },
-  have: {
-    infinitive: "have",
-    pastParticiple: "had",
-    presentParticiple: "having",
-    perfect: "had",
-    third_person: "has",
-  },
-  abide: {
-    infinitive: "abide",
-    pastParticiple: "abode",
-    presentParticiple: "abiding",
-    perfect: "abode",
-    third_person: "abides",
-  },
-  accelerate: {
-    infinitive: "accelerate",
-    pastParticiple: "accelerated",
-    presentParticiple: "accelerating",
-    perfect: "accelerated",
-    third_person: "accelerates",
-  },
-  accept: {
-    infinitive: "accept",
-    pastParticiple: "accepted",
-    presentParticiple: "accepting",
-    perfect: "accepted",
-    third_person: "accepts",
-  },
-  accomplish: {
-    infinitive: "accomplish",
-    pastParticiple: "accomplished",
-    presentParticiple: "accomplishing",
-    perfect: "accomplished",
-    third_person: "accomplishes",
-  },
-  achieve: {
-    infinitive: "achieve",
-    pastParticiple: "achieved",
-    presentParticiple: "achieving",
-    perfect: "achieved",
-    third_person: "achieves",
-  },
-  acquire: {
-    infinitive: "acquire",
-    pastParticiple: "acquired",
-    presentParticiple: "acquiring",
-    perfect: "acquired",
-    third_person: "acquires",
-  },
-  activate: {
-    infinitive: "activate",
-    pastParticiple: "activated",
-    presentParticiple: "activating",
-    perfect: "activated",
-    third_person: "activates",
-  },
-  adapt: {
-    infinitive: "adapt",
-    pastParticiple: "adapted",
-    presentParticiple: "adapting",
-    perfect: "adapted",
-    third_person: "adapts",
-  },
-  add: {
-    infinitive: "add",
-    pastParticiple: "added",
-    presentParticiple: "adding",
-    perfect: "added",
-    third_person: "adds",
-  },
-  administer: {
-    infinitive: "administer",
-    pastParticiple: "administered",
-    presentParticiple: "administering",
-    perfect: "administered",
-    third_person: "administers",
-  },
-  admire: {
-    infinitive: "admire",
-    pastParticiple: "admired",
-    presentParticiple: "admiring",
-    perfect: "admired",
-    third_person: "admires",
-  },
-  admit: {
-    infinitive: "admit",
-    pastParticiple: "admitted",
-    presentParticiple: "admitting",
-    perfect: "admitted",
-    third_person: "admits",
-  },
-  adopt: {
-    infinitive: "adopt",
-    pastParticiple: "adopted",
-    presentParticiple: "adopting",
-    perfect: "adopted",
-    third_person: "adopts",
-  },
-  advise: {
-    infinitive: "advise",
-    pastParticiple: "advised",
-    presentParticiple: "advising",
-    perfect: "advised",
-    third_person: "advises",
-  },
-  afford: {
-    infinitive: "afford",
-    pastParticiple: "afforded",
-    presentParticiple: "affording",
-    perfect: "afforded",
-    third_person: "affords",
-  },
-  agree: {
-    infinitive: "agree",
-    pastParticiple: "agreed",
-    presentParticiple: "agreeing",
-    perfect: "agreed",
-    third_person: "agrees",
-  },
-  alert: {
-    infinitive: "alert",
-    pastParticiple: "alerted",
-    presentParticiple: "alerting",
-    perfect: "alerted",
-    third_person: "alerts",
-  },
-  alight: {
-    infinitive: "alight",
-    pastParticiple: "alighted",
-    presentParticiple: "alighting",
-    perfect: "alighted",
-    third_person: "alights",
-  },
-  allow: {
-    infinitive: "allow",
-    pastParticiple: "allowed",
-    presentParticiple: "allowing",
-    perfect: "allowed",
-    third_person: "allows",
-  },
-  amuse: {
-    infinitive: "amuse",
-    pastParticiple: "amused",
-    presentParticiple: "amusing",
-    perfect: "amused",
-    third_person: "amuses",
-  },
-  analyze: {
-    infinitive: "analyze",
-    pastParticiple: "analyzed",
-    presentParticiple: "analyzing",
-    perfect: "analyzed",
-    third_person: "analyzes",
-  },
-  announce: {
-    infinitive: "announce",
-    pastParticiple: "announced",
-    presentParticiple: "announcing",
-    perfect: "announced",
-    third_person: "announces",
-  },
-  annoy: {
-    infinitive: "annoy",
-    pastParticiple: "annoyed",
-    presentParticiple: "annoying",
-    perfect: "annoyed",
-    third_person: "annoys",
-  },
-  answer: {
-    infinitive: "answer",
-    pastParticiple: "answered",
-    presentParticiple: "answering",
-    perfect: "answered",
-    third_person: "answers",
-  },
-  anticipate: {
-    infinitive: "anticipate",
-    pastParticiple: "anticipated",
-    presentParticiple: "anticipating",
-    perfect: "anticipated",
-    third_person: "anticipates",
-  },
-  apologize: {
-    infinitive: "apologize",
-    pastParticiple: "apologized",
-    presentParticiple: "apologizing",
-    perfect: "apologized",
-    third_person: "apologizes",
-  },
-  appear: {
-    infinitive: "appear",
-    pastParticiple: "appeared",
-    presentParticiple: "appearing",
-    perfect: "appeared",
-    third_person: "appears",
-  },
-  applaud: {
-    infinitive: "applaud",
-    pastParticiple: "applauded",
-    presentParticiple: "applauding",
-    perfect: "applauded",
-    third_person: "applauds",
-  },
-  appoint: {
-    infinitive: "appoint",
-    pastParticiple: "appointed",
-    presentParticiple: "appointing",
-    perfect: "appointed",
-    third_person: "appoints",
-  },
-  appraise: {
-    infinitive: "appraise",
-    pastParticiple: "appraised",
-    presentParticiple: "appraising",
-    perfect: "appraised",
-    third_person: "appraises",
-  },
-  appreciate: {
-    infinitive: "appreciate",
-    pastParticiple: "appreciated",
-    presentParticiple: "appreciating",
-    perfect: "appreciated",
-    third_person: "appreciates",
-  },
-  approve: {
-    infinitive: "approve",
-    pastParticiple: "approved",
-    presentParticiple: "approving",
-    perfect: "approved",
-    third_person: "approves",
-  },
-  arbitrate: {
-    infinitive: "arbitrate",
-    pastParticiple: "arbitrated",
-    presentParticiple: "arbitrating",
-    perfect: "arbitrated",
-    third_person: "arbitrates",
-  },
-  argue: {
-    infinitive: "argue",
-    pastParticiple: "argued",
-    presentParticiple: "arguing",
-    perfect: "argued",
-    third_person: "argues",
-  },
-  arise: {
-    infinitive: "arise",
-    pastParticiple: "arose",
-    presentParticiple: "arising",
-    perfect: "arisen",
-    third_person: "arises",
-  },
-  arrange: {
-    infinitive: "arrange",
-    pastParticiple: "arranged",
-    presentParticiple: "arranging",
-    perfect: "arranged",
-    third_person: "arranges",
-  },
-  arrest: {
-    infinitive: "arrest",
-    pastParticiple: "arrested",
-    presentParticiple: "arresting",
-    perfect: "arrested",
-    third_person: "arrests",
-  },
-  arrive: {
-    infinitive: "arrive",
-    pastParticiple: "arrived",
-    presentParticiple: "arriving",
-    perfect: "arrived",
-    third_person: "arrives",
-  },
-  ascertain: {
-    infinitive: "ascertain",
-    pastParticiple: "ascertained",
-    presentParticiple: "ascertaining",
-    perfect: "ascertained",
-    third_person: "ascertains",
-  },
-  ask: {
-    infinitive: "ask",
-    pastParticiple: "asked",
-    presentParticiple: "asking",
-    perfect: "asked",
-    third_person: "asks",
-  },
-  assemble: {
-    infinitive: "assemble",
-    pastParticiple: "assembled",
-    presentParticiple: "assembling",
-    perfect: "assembled",
-    third_person: "assembles",
-  },
-  assess: {
-    infinitive: "assess",
-    pastParticiple: "assessed",
-    presentParticiple: "assessing",
-    perfect: "assessed",
-    third_person: "assesses",
-  },
-  assist: {
-    infinitive: "assist",
-    pastParticiple: "assisted",
-    presentParticiple: "assisting",
-    perfect: "assisted",
-    third_person: "assists",
-  },
-  assure: {
-    infinitive: "assure",
-    pastParticiple: "assured",
-    presentParticiple: "assuring",
-    perfect: "assured",
-    third_person: "assures",
-  },
-  attach: {
-    infinitive: "attach",
-    pastParticiple: "attached",
-    presentParticiple: "attaching",
-    perfect: "attached",
-    third_person: "attaches",
-  },
-  attack: {
-    infinitive: "attack",
-    pastParticiple: "attacked",
-    presentParticiple: "attacking",
-    perfect: "attacked",
-    third_person: "attacks",
-  },
-  attain: {
-    infinitive: "attain",
-    pastParticiple: "attained",
-    presentParticiple: "attaining",
-    perfect: "attained",
-    third_person: "attains",
-  },
-  attempt: {
-    infinitive: "attempt",
-    pastParticiple: "attempted",
-    presentParticiple: "attempting",
-    perfect: "attempted",
-    third_person: "attempts",
-  },
-  attend: {
-    infinitive: "attend",
-    pastParticiple: "attended",
-    presentParticiple: "attending",
-    perfect: "attended",
-    third_person: "attends",
-  },
-  attract: {
-    infinitive: "attract",
-    pastParticiple: "attracted",
-    presentParticiple: "attracting",
-    perfect: "attracted",
-    third_person: "attracts",
-  },
-  avoid: {
-    infinitive: "avoid",
-    pastParticiple: "avoided",
-    presentParticiple: "avoiding",
-    perfect: "avoided",
-    third_person: "avoids",
-  },
-  awake: {
-    infinitive: "awake",
-    pastParticiple: "awoke",
-    presentParticiple: "awaking",
-    perfect: "awoken",
-    third_person: "awakes",
-  },
-  back: {
-    infinitive: "back",
-    pastParticiple: "backed",
-    presentParticiple: "backing",
-    perfect: "backed",
-    third_person: "backs",
-  },
-  bake: {
-    infinitive: "bake",
-    pastParticiple: "baked",
-    presentParticiple: "baking",
-    perfect: "baked",
-    third_person: "bakes",
-  },
-  ban: {
-    infinitive: "ban",
-    pastParticiple: "banned",
-    presentParticiple: "banning",
-    perfect: "banned",
-    third_person: "bans",
-  },
-  bang: {
-    infinitive: "bang",
-    pastParticiple: "banged",
-    presentParticiple: "banging",
-    perfect: "banged",
-    third_person: "bangs",
-  },
-  bare: {
-    infinitive: "bare",
-    pastParticiple: "bared",
-    presentParticiple: "baring",
-    perfect: "bared",
-    third_person: "bares",
-  },
-  bat: {
-    infinitive: "bat",
-    pastParticiple: "batted",
-    presentParticiple: "batting",
-    perfect: "batted",
-    third_person: "bats",
-  },
-  bathe: {
-    infinitive: "bathe",
-    pastParticiple: "bathed",
-    presentParticiple: "bathing",
-    perfect: "bathed",
-    third_person: "bathes",
-  },
-  battle: {
-    infinitive: "battle",
-    pastParticiple: "battled",
-    presentParticiple: "battling",
-    perfect: "battled",
-    third_person: "battles",
-  },
-  beam: {
-    infinitive: "beam",
-    pastParticiple: "beamed",
-    presentParticiple: "beaming",
-    perfect: "beamed",
-    third_person: "beams",
-  },
-  bear: {
-    infinitive: "bear",
-    pastParticiple: "bore/bare",
-    presentParticiple: "bearing",
-    perfect: "borne/born",
-    third_person: "bears",
-  },
-  beat: {
-    infinitive: "beat",
-    pastParticiple: "beat",
-    presentParticiple: "beating",
-    perfect: "beaten",
-    third_person: "beats",
-  },
-  become: {
-    infinitive: "become",
-    pastParticiple: "became",
-    presentParticiple: "becoming",
-    perfect: "become",
-    third_person: "becomes",
-  },
-  beg: {
-    infinitive: "beg",
-    pastParticiple: "begged",
-    presentParticiple: "begging",
-    perfect: "begged",
-    third_person: "begs",
-  },
-  beget: {
-    infinitive: "beget",
-    pastParticiple: "begot",
-    presentParticiple: "begetting",
-    perfect: "begotten",
-    third_person: "begets",
-  },
-  begin: {
-    infinitive: "begin",
-    pastParticiple: "began",
-    presentParticiple: "beginning",
-    perfect: "begun",
-    third_person: "begins",
-  },
-  behave: {
-    infinitive: "behave",
-    pastParticiple: "behaved",
-    presentParticiple: "behaving",
-    perfect: "behaved",
-    third_person: "behaves",
-  },
-  behold: {
-    infinitive: "behold",
-    pastParticiple: "beheld",
-    presentParticiple: "beholding",
-    perfect: "beheld",
-    third_person: "beholds",
-  },
-  belong: {
-    infinitive: "belong",
-    pastParticiple: "belonged",
-    presentParticiple: "belonging",
-    perfect: "belonged",
-    third_person: "belongs",
-  },
-  bend: {
-    infinitive: "bend",
-    pastParticiple: "bent",
-    presentParticiple: "bending",
-    perfect: "bent",
-    third_person: "bends",
-  },
-  bereave: {
-    infinitive: "bereave",
-    pastParticiple: "bereaved",
-    presentParticiple: "bereaving",
-    perfect: "bereaved",
-    third_person: "bereaves",
-  },
-  beseech: {
-    infinitive: "beseech",
-    pastParticiple: "beseeched",
-    presentParticiple: "beseeching",
-    perfect: "beseeched",
-    third_person: "beseeches",
-  },
-  beset: {
-    infinitive: "beset",
-    pastParticiple: "beset",
-    presentParticiple: "besetting",
-    perfect: "beset",
-    third_person: "besets",
-  },
-  bet: {
-    infinitive: "bet",
-    pastParticiple: "betted",
-    presentParticiple: "betting",
-    perfect: "betted",
-    third_person: "bets",
-  },
-  bid: {
-    infinitive: "bid",
-    pastParticiple: "bade",
-    presentParticiple: "bidding",
-    perfect: "bidden",
-    third_person: "bids",
-  },
-  bide: {
-    infinitive: "bide",
-    pastParticiple: "bided",
-    presentParticiple: "biding",
-    perfect: "bode",
-    third_person: "bides",
-  },
-  bind: {
-    infinitive: "bind",
-    pastParticiple: "bound",
-    presentParticiple: "binding",
-    perfect: "bound",
-    third_person: "binds",
-  },
-  bite: {
-    infinitive: "bite",
-    pastParticiple: "bit",
-    presentParticiple: "biting",
-    perfect: "bitten",
-    third_person: "bites",
-  },
-  bleach: {
-    infinitive: "bleach",
-    pastParticiple: "bleached",
-    presentParticiple: "bleaching",
-    perfect: "bleached",
-    third_person: "bleaches",
-  },
-  bleed: {
-    infinitive: "bleed",
-    pastParticiple: "bled",
-    presentParticiple: "bleeding",
-    perfect: "bled",
-    third_person: "bleeds",
-  },
-  bless: {
-    infinitive: "bless",
-    pastParticiple: "blest",
-    presentParticiple: "blessing",
-    perfect: "blest",
-    third_person: "blesses",
-  },
-  blind: {
-    infinitive: "blind",
-    pastParticiple: "blinded",
-    presentParticiple: "blinding",
-    perfect: "blinded",
-    third_person: "blinds",
-  },
-  blink: {
-    infinitive: "blink",
-    pastParticiple: "blinked",
-    presentParticiple: "blinking",
-    perfect: "blinked",
-    third_person: "blinks",
-  },
-  blot: {
-    infinitive: "blot",
-    pastParticiple: "blotted",
-    presentParticiple: "blotting",
-    perfect: "blotted",
-    third_person: "blots",
-  },
-  blow: {
-    infinitive: "blow",
-    pastParticiple: "blew",
-    presentParticiple: "blowing",
-    perfect: "blown",
-    third_person: "blows",
-  },
-  blush: {
-    infinitive: "blush",
-    pastParticiple: "blushed",
-    presentParticiple: "blushing",
-    perfect: "blushed",
-    third_person: "blushes",
-  },
-  boast: {
-    infinitive: "boast",
-    pastParticiple: "boasted",
-    presentParticiple: "boasting",
-    perfect: "boasted",
-    third_person: "boasts",
-  },
-  boil: {
-    infinitive: "boil",
-    pastParticiple: "boiled",
-    presentParticiple: "boiling",
-    perfect: "boiled",
-    third_person: "boils",
-  },
-  bolt: {
-    infinitive: "bolt",
-    pastParticiple: "bolted",
-    presentParticiple: "bolting",
-    perfect: "bolted",
-    third_person: "bolts",
-  },
-  bomb: {
-    infinitive: "bomb",
-    pastParticiple: "bombed",
-    presentParticiple: "bombing",
-    perfect: "bombed",
-    third_person: "bombs",
-  },
-  book: {
-    infinitive: "book",
-    pastParticiple: "booked",
-    presentParticiple: "booking",
-    perfect: "booked",
-    third_person: "books",
-  },
-  bore: {
-    infinitive: "bore",
-    pastParticiple: "bored",
-    presentParticiple: "boring",
-    perfect: "bored",
-    third_person: "bores",
-  },
-  borrow: {
-    infinitive: "borrow",
-    pastParticiple: "borrowed",
-    presentParticiple: "borrowing",
-    perfect: "borrowed",
-    third_person: "borrows",
-  },
-  bounce: {
-    infinitive: "bounce",
-    pastParticiple: "bounced",
-    presentParticiple: "bouncing",
-    perfect: "bounced",
-    third_person: "bounces",
-  },
-  bow: {
-    infinitive: "bow",
-    pastParticiple: "bowed",
-    presentParticiple: "bowing",
-    perfect: "bowed",
-    third_person: "bows",
-  },
-  box: {
-    infinitive: "box",
-    pastParticiple: "boxed",
-    presentParticiple: "boxing",
-    perfect: "boxed",
-    third_person: "boxes",
-  },
-  brake: {
-    infinitive: "brake",
-    pastParticiple: "braked",
-    presentParticiple: "braking",
-    perfect: "braked",
-    third_person: "brakes",
-  },
-  branch: {
-    infinitive: "branch",
-    pastParticiple: "branched",
-    presentParticiple: "branching",
-    perfect: "branched",
-    third_person: "branches",
-  },
-  break: {
-    infinitive: "break",
-    pastParticiple: "broke",
-    presentParticiple: "breaking",
-    perfect: "broken",
-    third_person: "breaks",
-  },
-  breathe: {
-    infinitive: "breathe",
-    pastParticiple: "breathed",
-    presentParticiple: "breathing",
-    perfect: "breathed",
-    third_person: "breathes",
-  },
-  breed: {
-    infinitive: "breed",
-    pastParticiple: "bred",
-    presentParticiple: "breeding",
-    perfect: "bred",
-    third_person: "breeds",
-  },
-  brief: {
-    infinitive: "brief",
-    pastParticiple: "briefed",
-    presentParticiple: "briefing",
-    perfect: "briefed",
-    third_person: "briefs",
-  },
-  bring: {
-    infinitive: "bring",
-    pastParticiple: "brought",
-    presentParticiple: "bringing",
-    perfect: "brought",
-    third_person: "brings",
-  },
-  broadcast: {
-    infinitive: "broadcast",
-    pastParticiple: "broadcast",
-    presentParticiple: "broadcasting",
-    perfect: "broadcast",
-    third_person: "broadcasts",
-  },
-  bruise: {
-    infinitive: "bruise",
-    pastParticiple: "bruised",
-    presentParticiple: "bruising",
-    perfect: "bruised",
-    third_person: "bruises",
-  },
-  brush: {
-    infinitive: "brush",
-    pastParticiple: "brushed",
-    presentParticiple: "brushing",
-    perfect: "brushed",
-    third_person: "brushes",
-  },
-  bubble: {
-    infinitive: "bubble",
-    pastParticiple: "bubbled",
-    presentParticiple: "bubbling",
-    perfect: "bubbled",
-    third_person: "bubbles",
-  },
-  budget: {
-    infinitive: "budget",
-    pastParticiple: "budgeted",
-    presentParticiple: "budgeting",
-    perfect: "budgeted",
-    third_person: "budgets",
-  },
-  build: {
-    infinitive: "build",
-    pastParticiple: "built",
-    presentParticiple: "building",
-    perfect: "built",
-    third_person: "builds",
-  },
-  bump: {
-    infinitive: "bump",
-    pastParticiple: "bumped",
-    presentParticiple: "bumping",
-    perfect: "bumped",
-    third_person: "bumps",
-  },
-  burn: {
-    infinitive: "burn",
-    pastParticiple: "burned",
-    presentParticiple: "burning",
-    perfect: "burned",
-    third_person: "burns",
-  },
-  burst: {
-    infinitive: "burst",
-    pastParticiple: "burst",
-    presentParticiple: "bursting",
-    perfect: "burst",
-    third_person: "bursts",
-  },
-  bury: {
-    infinitive: "bury",
-    pastParticiple: "buried",
-    presentParticiple: "burying",
-    perfect: "buried",
-    third_person: "buries",
-  },
-  bust: {
-    infinitive: "bust",
-    pastParticiple: "busted",
-    presentParticiple: "busting",
-    perfect: "busted",
-    third_person: "busts",
-  },
-  buy: {
-    infinitive: "buy",
-    pastParticiple: "bought",
-    presentParticiple: "buying",
-    perfect: "bought",
-    third_person: "buys",
-  },
-  buzz: {
-    infinitive: "buzz",
-    pastParticiple: "buzzed",
-    presentParticiple: "buzzing",
-    perfect: "buzzed",
-    third_person: "buzzes",
-  },
-  calculate: {
-    infinitive: "calculate",
-    pastParticiple: "calculated",
-    presentParticiple: "calculating",
-    perfect: "calculated",
-    third_person: "calculates",
-  },
-  call: {
-    infinitive: "call",
-    pastParticiple: "called",
-    presentParticiple: "calling",
-    perfect: "called",
-    third_person: "calls",
-  },
-  camp: {
-    infinitive: "camp",
-    pastParticiple: "camped",
-    presentParticiple: "camping",
-    perfect: "camped",
-    third_person: "camps",
-  },
-  care: {
-    infinitive: "care",
-    pastParticiple: "cared",
-    presentParticiple: "caring",
-    perfect: "cared",
-    third_person: "cares",
-  },
-  carry: {
-    infinitive: "carry",
-    pastParticiple: "carried",
-    presentParticiple: "carrying",
-    perfect: "carried",
-    third_person: "carries",
-  },
-  carve: {
-    infinitive: "carve",
-    pastParticiple: "carved",
-    presentParticiple: "carving",
-    perfect: "carved",
-    third_person: "carves",
-  },
-  cast: {
-    infinitive: "cast",
-    pastParticiple: "cast",
-    presentParticiple: "casting",
-    perfect: "cast",
-    third_person: "casts",
-  },
-  catalog: {
-    infinitive: "catalog",
-    pastParticiple: "cataloged",
-    presentParticiple: "cataloging",
-    perfect: "cataloged",
-    third_person: "catalogs",
-  },
-  catch: {
-    infinitive: "catch",
-    pastParticiple: "caught",
-    presentParticiple: "catching",
-    perfect: "caught",
-    third_person: "catches",
-  },
-  cause: {
-    infinitive: "cause",
-    pastParticiple: "caused",
-    presentParticiple: "causing",
-    perfect: "caused",
-    third_person: "causes",
-  },
-  challenge: {
-    infinitive: "challenge",
-    pastParticiple: "challenged",
-    presentParticiple: "challenging",
-    perfect: "challenged",
-    third_person: "challenges",
-  },
-  change: {
-    infinitive: "change",
-    pastParticiple: "changed",
-    presentParticiple: "changing",
-    perfect: "changed",
-    third_person: "changes",
-  },
-  charge: {
-    infinitive: "charge",
-    pastParticiple: "charged",
-    presentParticiple: "charging",
-    perfect: "charged",
-    third_person: "charges",
-  },
-  chart: {
-    infinitive: "chart",
-    pastParticiple: "charted",
-    presentParticiple: "charting",
-    perfect: "charted",
-    third_person: "charts",
-  },
-  chase: {
-    infinitive: "chase",
-    pastParticiple: "chased",
-    presentParticiple: "chasing",
-    perfect: "chased",
-    third_person: "chases",
-  },
-  cheat: {
-    infinitive: "cheat",
-    pastParticiple: "cheated",
-    presentParticiple: "cheating",
-    perfect: "cheated",
-    third_person: "cheats",
-  },
-  check: {
-    infinitive: "check",
-    pastParticiple: "checked",
-    presentParticiple: "checking",
-    perfect: "checked",
-    third_person: "checks",
-  },
-  cheer: {
-    infinitive: "cheer",
-    pastParticiple: "cheered",
-    presentParticiple: "cheering",
-    perfect: "cheered",
-    third_person: "cheers",
-  },
-  chew: {
-    infinitive: "chew",
-    pastParticiple: "chewed",
-    presentParticiple: "chewing",
-    perfect: "chewed",
-    third_person: "chews",
-  },
-  choke: {
-    infinitive: "choke",
-    pastParticiple: "choked",
-    presentParticiple: "choking",
-    perfect: "choked",
-    third_person: "chokes",
-  },
-  choose: {
-    infinitive: "choose",
-    pastParticiple: "chose",
-    presentParticiple: "choosing",
-    perfect: "chosen",
-    third_person: "chooses",
-  },
-  chop: {
-    infinitive: "chop",
-    pastParticiple: "chopped",
-    presentParticiple: "chopping",
-    perfect: "chopped",
-    third_person: "chops",
-  },
-  claim: {
-    infinitive: "claim",
-    pastParticiple: "claimed",
-    presentParticiple: "claiming",
-    perfect: "claimed",
-    third_person: "claims",
-  },
-  clap: {
-    infinitive: "clap",
-    pastParticiple: "clapped",
-    presentParticiple: "clapping",
-    perfect: "clapped",
-    third_person: "claps",
-  },
-  clarify: {
-    infinitive: "clarify",
-    pastParticiple: "clarified",
-    presentParticiple: "clarifying",
-    perfect: "clarified",
-    third_person: "clarifies",
-  },
-  classify: {
-    infinitive: "classify",
-    pastParticiple: "classified",
-    presentParticiple: "classifying",
-    perfect: "classified",
-    third_person: "classifies",
-  },
-  clean: {
-    infinitive: "clean",
-    pastParticiple: "cleaned",
-    presentParticiple: "cleaning",
-    perfect: "cleaned",
-    third_person: "cleans",
-  },
-  clear: {
-    infinitive: "clear",
-    pastParticiple: "cleared",
-    presentParticiple: "clearing",
-    perfect: "cleared",
-    third_person: "clears",
-  },
-  cleave: {
-    infinitive: "cleave",
-    pastParticiple: "cleft",
-    presentParticiple: "cleaving",
-    perfect: "cleft",
-    third_person: "cleaves",
-  },
-  cling: {
-    infinitive: "cling",
-    pastParticiple: "clung",
-    presentParticiple: "clinging",
-    perfect: "clung",
-    third_person: "clings",
-  },
-  clip: {
-    infinitive: "clip",
-    pastParticiple: "clipped",
-    presentParticiple: "clipping",
-    perfect: "clipped",
-    third_person: "clips",
-  },
-  close: {
-    infinitive: "close",
-    pastParticiple: "closed",
-    presentParticiple: "closing",
-    perfect: "closed",
-    third_person: "closes",
-  },
-  clothe: {
-    infinitive: "clothe",
-    pastParticiple: "clad",
-    presentParticiple: "clothing",
-    perfect: "clad",
-    third_person: "clothes",
-  },
-  coach: {
-    infinitive: "coach",
-    pastParticiple: "coached",
-    presentParticiple: "coaching",
-    perfect: "coached",
-    third_person: "coaches",
-  },
-  coil: {
-    infinitive: "coil",
-    pastParticiple: "coiled",
-    presentParticiple: "coiling",
-    perfect: "coiled",
-    third_person: "coils",
-  },
-  collect: {
-    infinitive: "collect",
-    pastParticiple: "collected",
-    presentParticiple: "collecting",
-    perfect: "collected",
-    third_person: "collects",
-  },
-  color: {
-    infinitive: "color",
-    pastParticiple: "colored",
-    presentParticiple: "coloring",
-    perfect: "colored",
-    third_person: "colors",
-  },
-  comb: {
-    infinitive: "comb",
-    pastParticiple: "combed",
-    presentParticiple: "combing",
-    perfect: "combed",
-    third_person: "combs",
-  },
-  come: {
-    infinitive: "come",
-    pastParticiple: "came",
-    presentParticiple: "coming",
-    perfect: "come",
-    third_person: "comes",
-  },
-  command: {
-    infinitive: "command",
-    pastParticiple: "commanded",
-    presentParticiple: "commanding",
-    perfect: "commanded",
-    third_person: "commands",
-  },
-  communicate: {
-    infinitive: "communicate",
-    pastParticiple: "communicated",
-    presentParticiple: "communicating",
-    perfect: "communicated",
-    third_person: "communicates",
-  },
-  compare: {
-    infinitive: "compare",
-    pastParticiple: "compared",
-    presentParticiple: "comparing",
-    perfect: "compared",
-    third_person: "compares",
-  },
-  compete: {
-    infinitive: "compete",
-    pastParticiple: "competed",
-    presentParticiple: "competing",
-    perfect: "competed",
-    third_person: "competes",
-  },
-  compile: {
-    infinitive: "compile",
-    pastParticiple: "compiled",
-    presentParticiple: "compiling",
-    perfect: "compiled",
-    third_person: "compiles",
-  },
-  complain: {
-    infinitive: "complain",
-    pastParticiple: "complained",
-    presentParticiple: "complaining",
-    perfect: "complained",
-    third_person: "complains",
-  },
-  complete: {
-    infinitive: "complete",
-    pastParticiple: "completed",
-    presentParticiple: "completing",
-    perfect: "completed",
-    third_person: "completes",
-  },
-  compose: {
-    infinitive: "compose",
-    pastParticiple: "composed",
-    presentParticiple: "composing",
-    perfect: "composed",
-    third_person: "composes",
-  },
-  compute: {
-    infinitive: "compute",
-    pastParticiple: "computed",
-    presentParticiple: "computing",
-    perfect: "computed",
-    third_person: "computes",
-  },
-  conceive: {
-    infinitive: "conceive",
-    pastParticiple: "conceived",
-    presentParticiple: "conceiving",
-    perfect: "conceived",
-    third_person: "conceives",
-  },
-  concentrate: {
-    infinitive: "concentrate",
-    pastParticiple: "concentrated",
-    presentParticiple: "concentrating",
-    perfect: "concentrated",
-    third_person: "concentrates",
-  },
-  conceptualize: {
-    infinitive: "conceptualize",
-    pastParticiple: "conceptualized",
-    presentParticiple: "conceptualizing",
-    perfect: "conceptualized",
-    third_person: "conceptualizes",
-  },
-  concern: {
-    infinitive: "concern",
-    pastParticiple: "concerned",
-    presentParticiple: "concerning",
-    perfect: "concerned",
-    third_person: "concerns",
-  },
-  conclude: {
-    infinitive: "conclude",
-    pastParticiple: "concluded",
-    presentParticiple: "concluding",
-    perfect: "concluded",
-    third_person: "concludes",
-  },
-  conduct: {
-    infinitive: "conduct",
-    pastParticiple: "conducted",
-    presentParticiple: "conducting",
-    perfect: "conducted",
-    third_person: "conducts",
-  },
-  confess: {
-    infinitive: "confess",
-    pastParticiple: "confessed",
-    presentParticiple: "confessing",
-    perfect: "confessed",
-    third_person: "confesses",
-  },
-  confront: {
-    infinitive: "confront",
-    pastParticiple: "confronted",
-    presentParticiple: "confronting",
-    perfect: "confronted",
-    third_person: "confronts",
-  },
-  confuse: {
-    infinitive: "confuse",
-    pastParticiple: "confused",
-    presentParticiple: "confusing",
-    perfect: "confused",
-    third_person: "confuses",
-  },
-  connect: {
-    infinitive: "connect",
-    pastParticiple: "connected",
-    presentParticiple: "connecting",
-    perfect: "connected",
-    third_person: "connects",
-  },
-  conserve: {
-    infinitive: "conserve",
-    pastParticiple: "conserved",
-    presentParticiple: "conserving",
-    perfect: "conserved",
-    third_person: "conserves",
-  },
-  consider: {
-    infinitive: "consider",
-    pastParticiple: "considered",
-    presentParticiple: "considering",
-    perfect: "considered",
-    third_person: "considers",
-  },
-  consist: {
-    infinitive: "consist",
-    pastParticiple: "consisted",
-    presentParticiple: "consisting",
-    perfect: "consisted",
-    third_person: "consists",
-  },
-  consolidate: {
-    infinitive: "consolidate",
-    pastParticiple: "consolidated",
-    presentParticiple: "consolidating",
-    perfect: "consolidated",
-    third_person: "consolidates",
-  },
-  construct: {
-    infinitive: "construct",
-    pastParticiple: "constructed",
-    presentParticiple: "constructing",
-    perfect: "constructed",
-    third_person: "constructs",
-  },
-  consult: {
-    infinitive: "consult",
-    pastParticiple: "consulted",
-    presentParticiple: "consulting",
-    perfect: "consulted",
-    third_person: "consults",
-  },
-  contain: {
-    infinitive: "contain",
-    pastParticiple: "contained",
-    presentParticiple: "containing",
-    perfect: "contained",
-    third_person: "contains",
-  },
-  continue: {
-    infinitive: "continue",
-    pastParticiple: "continued",
-    presentParticiple: "continuing",
-    perfect: "continued",
-    third_person: "continues",
-  },
-  contract: {
-    infinitive: "contract",
-    pastParticiple: "contracted",
-    presentParticiple: "contracting",
-    perfect: "contracted",
-    third_person: "contracts",
-  },
-  control: {
-    infinitive: "control",
-    pastParticiple: "controlled",
-    presentParticiple: "controlling",
-    perfect: "controlled",
-    third_person: "controls",
-  },
-  convert: {
-    infinitive: "convert",
-    pastParticiple: "converted",
-    presentParticiple: "converting",
-    perfect: "converted",
-    third_person: "converts",
-  },
-  coordinate: {
-    infinitive: "coordinate",
-    pastParticiple: "coordinated",
-    presentParticiple: "coordinating",
-    perfect: "coordinated",
-    third_person: "coordinates",
-  },
-  copy: {
-    infinitive: "copy",
-    pastParticiple: "copied",
-    presentParticiple: "copying",
-    perfect: "copied",
-    third_person: "copies",
-  },
-  correct: {
-    infinitive: "correct",
-    pastParticiple: "corrected",
-    presentParticiple: "correcting",
-    perfect: "corrected",
-    third_person: "corrects",
-  },
-  correlate: {
-    infinitive: "correlate",
-    pastParticiple: "correlated",
-    presentParticiple: "correlating",
-    perfect: "correlated",
-    third_person: "correlates",
-  },
-  cost: {
-    infinitive: "cost",
-    pastParticiple: "cost",
-    presentParticiple: "costing",
-    perfect: "cost",
-    third_person: "costs",
-  },
-  cough: {
-    infinitive: "cough",
-    pastParticiple: "coughed",
-    presentParticiple: "coughing",
-    perfect: "coughed",
-    third_person: "coughs",
-  },
-  counsel: {
-    infinitive: "counsel",
-    pastParticiple: "counselled",
-    presentParticiple: "counselling",
-    perfect: "counselled",
-    third_person: "counsels",
-  },
-  count: {
-    infinitive: "count",
-    pastParticiple: "counted",
-    presentParticiple: "counting",
-    perfect: "counted",
-    third_person: "counts",
-  },
-  cover: {
-    infinitive: "cover",
-    pastParticiple: "covered",
-    presentParticiple: "covering",
-    perfect: "covered",
-    third_person: "covers",
-  },
-  crack: {
-    infinitive: "crack",
-    pastParticiple: "cracked",
-    presentParticiple: "cracking",
-    perfect: "cracked",
-    third_person: "cracks",
-  },
-  crash: {
-    infinitive: "crash",
-    pastParticiple: "crashed",
-    presentParticiple: "crashing",
-    perfect: "crashed",
-    third_person: "crashes",
-  },
-  crawl: {
-    infinitive: "crawl",
-    pastParticiple: "crawled",
-    presentParticiple: "crawling",
-    perfect: "crawled",
-    third_person: "crawls",
-  },
-  create: {
-    infinitive: "create",
-    pastParticiple: "created",
-    presentParticiple: "creating",
-    perfect: "created",
-    third_person: "creates",
-  },
-  creep: {
-    infinitive: "creep",
-    pastParticiple: "crept",
-    presentParticiple: "creeping",
-    perfect: "crept",
-    third_person: "creeps",
-  },
-  critique: {
-    infinitive: "critique",
-    pastParticiple: "critiqued",
-    presentParticiple: "critiquing",
-    perfect: "critiqued",
-    third_person: "critiques",
-  },
-  cross: {
-    infinitive: "cross",
-    pastParticiple: "crossed",
-    presentParticiple: "crossing",
-    perfect: "crossed",
-    third_person: "crosses",
-  },
-  crow: {
-    infinitive: "crow",
-    pastParticiple: "crowed",
-    presentParticiple: "crowing",
-    perfect: "crowed",
-    third_person: "crows",
-  },
-  crush: {
-    infinitive: "crush",
-    pastParticiple: "crushed",
-    presentParticiple: "crushing",
-    perfect: "crushed",
-    third_person: "crushes",
-  },
-  cry: {
-    infinitive: "cry",
-    pastParticiple: "cried",
-    presentParticiple: "crying",
-    perfect: "cried",
-    third_person: "cries",
-  },
-  cure: {
-    infinitive: "cure",
-    pastParticiple: "cured",
-    presentParticiple: "curing",
-    perfect: "cured",
-    third_person: "cures",
-  },
-  curl: {
-    infinitive: "curl",
-    pastParticiple: "curled",
-    presentParticiple: "curling",
-    perfect: "curled",
-    third_person: "curls",
-  },
-  curve: {
-    infinitive: "curve",
-    pastParticiple: "curved",
-    presentParticiple: "curving",
-    perfect: "curved",
-    third_person: "curves",
-  },
-  cut: {
-    infinitive: "cut",
-    pastParticiple: "cut",
-    presentParticiple: "cutting",
-    perfect: "cut",
-    third_person: "cuts",
-  },
-  cycle: {
-    infinitive: "cycle",
-    pastParticiple: "cycled",
-    presentParticiple: "cycling",
-    perfect: "cycled",
-    third_person: "cycles",
-  },
-  dam: {
-    infinitive: "dam",
-    pastParticiple: "dammed",
-    presentParticiple: "damming",
-    perfect: "dammed",
-    third_person: "dams",
-  },
-  damage: {
-    infinitive: "damage",
-    pastParticiple: "damaged",
-    presentParticiple: "damaging",
-    perfect: "damaged",
-    third_person: "damages",
-  },
-  dance: {
-    infinitive: "dance",
-    pastParticiple: "danced",
-    presentParticiple: "dancing",
-    perfect: "danced",
-    third_person: "dances",
-  },
-  dare: {
-    infinitive: "dare",
-    pastParticiple: "dared",
-    presentParticiple: "daring",
-    perfect: "dared",
-    third_person: "dares",
-  },
-  deal: {
-    infinitive: "deal",
-    pastParticiple: "dealt",
-    presentParticiple: "dealing",
-    perfect: "dealt",
-    third_person: "deals",
-  },
-  decay: {
-    infinitive: "decay",
-    pastParticiple: "decayed",
-    presentParticiple: "decaying",
-    perfect: "decayed",
-    third_person: "decays",
-  },
-  deceive: {
-    infinitive: "deceive",
-    pastParticiple: "deceived",
-    presentParticiple: "deceiving",
-    perfect: "deceived",
-    third_person: "deceives",
-  },
-  decide: {
-    infinitive: "decide",
-    pastParticiple: "decided",
-    presentParticiple: "deciding",
-    perfect: "decided",
-    third_person: "decides",
-  },
-  decorate: {
-    infinitive: "decorate",
-    pastParticiple: "decorated",
-    presentParticiple: "decorating",
-    perfect: "decorated",
-    third_person: "decorates",
-  },
-  define: {
-    infinitive: "define",
-    pastParticiple: "defined",
-    presentParticiple: "defining",
-    perfect: "defined",
-    third_person: "defines",
-  },
-  delay: {
-    infinitive: "delay",
-    pastParticiple: "delayed",
-    presentParticiple: "delaying",
-    perfect: "delayed",
-    third_person: "delays",
-  },
-  delegate: {
-    infinitive: "delegate",
-    pastParticiple: "delegated",
-    presentParticiple: "delegating",
-    perfect: "delegated",
-    third_person: "delegates",
-  },
-  delight: {
-    infinitive: "delight",
-    pastParticiple: "delighted",
-    presentParticiple: "delighting",
-    perfect: "delighted",
-    third_person: "delights",
-  },
-  deliver: {
-    infinitive: "deliver",
-    pastParticiple: "delivered",
-    presentParticiple: "delivering",
-    perfect: "delivered",
-    third_person: "delivers",
-  },
-  demonstrate: {
-    infinitive: "demonstrate",
-    pastParticiple: "demonstrated",
-    presentParticiple: "demonstrating",
-    perfect: "demonstrated",
-    third_person: "demonstrates",
-  },
-  depend: {
-    infinitive: "depend",
-    pastParticiple: "depended",
-    presentParticiple: "depending",
-    perfect: "depended",
-    third_person: "depends",
-  },
-  describe: {
-    infinitive: "describe",
-    pastParticiple: "described",
-    presentParticiple: "describing",
-    perfect: "described",
-    third_person: "describes",
-  },
-  desert: {
-    infinitive: "desert",
-    pastParticiple: "deserted",
-    presentParticiple: "deserting",
-    perfect: "deserted",
-    third_person: "deserts",
-  },
-  deserve: {
-    infinitive: "deserve",
-    pastParticiple: "deserved",
-    presentParticiple: "deserving",
-    perfect: "deserved",
-    third_person: "deserves",
-  },
-  design: {
-    infinitive: "design",
-    pastParticiple: "designed",
-    presentParticiple: "designing",
-    perfect: "designed",
-    third_person: "designs",
-  },
-  destroy: {
-    infinitive: "destroy",
-    pastParticiple: "destroyed",
-    presentParticiple: "destroying",
-    perfect: "destroyed",
-    third_person: "destroys",
-  },
-  detail: {
-    infinitive: "detail",
-    pastParticiple: "detailed",
-    presentParticiple: "detailing",
-    perfect: "detailed",
-    third_person: "details",
-  },
-  detect: {
-    infinitive: "detect",
-    pastParticiple: "detected",
-    presentParticiple: "detecting",
-    perfect: "detected",
-    third_person: "detects",
-  },
-  determine: {
-    infinitive: "determine",
-    pastParticiple: "determined",
-    presentParticiple: "determining",
-    perfect: "determined",
-    third_person: "determines",
-  },
-  develop: {
-    infinitive: "develop",
-    pastParticiple: "developed",
-    presentParticiple: "developing",
-    perfect: "developed",
-    third_person: "develops",
-  },
-  devise: {
-    infinitive: "devise",
-    pastParticiple: "devised",
-    presentParticiple: "devising",
-    perfect: "devised",
-    third_person: "devises",
-  },
-  diagnose: {
-    infinitive: "diagnose",
-    pastParticiple: "diagnosed",
-    presentParticiple: "diagnosing",
-    perfect: "diagnosed",
-    third_person: "diagnoses",
-  },
-  dig: {
-    infinitive: "dig",
-    pastParticiple: "dug",
-    presentParticiple: "digging",
-    perfect: "dug",
-    third_person: "digs",
-  },
-  direct: {
-    infinitive: "direct",
-    pastParticiple: "directed",
-    presentParticiple: "directing",
-    perfect: "directed",
-    third_person: "directs",
-  },
-  disagree: {
-    infinitive: "disagree",
-    pastParticiple: "disagreed",
-    presentParticiple: "disagreeing",
-    perfect: "disagreed",
-    third_person: "disagrees",
-  },
-  disappear: {
-    infinitive: "disappear",
-    pastParticiple: "disappeared",
-    presentParticiple: "disappearing",
-    perfect: "disappeared",
-    third_person: "disappears",
-  },
-  disapprove: {
-    infinitive: "disapprove",
-    pastParticiple: "disapproved",
-    presentParticiple: "disapproving",
-    perfect: "disapproved",
-    third_person: "disapproves",
-  },
-  disarm: {
-    infinitive: "disarm",
-    pastParticiple: "disarmed",
-    presentParticiple: "disarming",
-    perfect: "disarmed",
-    third_person: "disarms",
-  },
-  discover: {
-    infinitive: "discover",
-    pastParticiple: "discovered",
-    presentParticiple: "discovering",
-    perfect: "discovered",
-    third_person: "discovers",
-  },
-  dislike: {
-    infinitive: "dislike",
-    pastParticiple: "disliked",
-    presentParticiple: "disliking",
-    perfect: "disliked",
-    third_person: "dislikes",
-  },
-  dispense: {
-    infinitive: "dispense",
-    pastParticiple: "dispensed",
-    presentParticiple: "dispensing",
-    perfect: "dispensed",
-    third_person: "dispenses",
-  },
-  display: {
-    infinitive: "display",
-    pastParticiple: "displayed",
-    presentParticiple: "displaying",
-    perfect: "displayed",
-    third_person: "displays",
-  },
-  disprove: {
-    infinitive: "disprove",
-    pastParticiple: "disproved",
-    presentParticiple: "disproving",
-    perfect: "disproved",
-    third_person: "disproves",
-  },
-  dissect: {
-    infinitive: "dissect",
-    pastParticiple: "dissected",
-    presentParticiple: "dissecting",
-    perfect: "dissected",
-    third_person: "dissects",
-  },
-  distribute: {
-    infinitive: "distribute",
-    pastParticiple: "distributed",
-    presentParticiple: "distributing",
-    perfect: "distributed",
-    third_person: "distributes",
-  },
-  dive: {
-    infinitive: "dive",
-    pastParticiple: "dived",
-    presentParticiple: "diving",
-    perfect: "dived",
-    third_person: "dives",
-  },
-  divert: {
-    infinitive: "divert",
-    pastParticiple: "diverted",
-    presentParticiple: "diverting",
-    perfect: "diverted",
-    third_person: "diverts",
-  },
-  divide: {
-    infinitive: "divide",
-    pastParticiple: "divided",
-    presentParticiple: "dividing",
-    perfect: "divided",
-    third_person: "divides",
-  },
-
-  double: {
-    infinitive: "double",
-    pastParticiple: "doubled",
-    presentParticiple: "doubling",
-    perfect: "doubled",
-    third_person: "doubles",
-  },
-  doubt: {
-    infinitive: "doubt",
-    pastParticiple: "doubted",
-    presentParticiple: "doubting",
-    perfect: "doubted",
-    third_person: "doubts",
-  },
-  draft: {
-    infinitive: "draft",
-    pastParticiple: "drafted",
-    presentParticiple: "drafting",
-    perfect: "drafted",
-    third_person: "drafts",
-  },
-  drag: {
-    infinitive: "drag",
-    pastParticiple: "dragged",
-    presentParticiple: "dragging",
-    perfect: "dragged",
-    third_person: "drags",
-  },
-  drain: {
-    infinitive: "drain",
-    pastParticiple: "drained",
-    presentParticiple: "draining",
-    perfect: "drained",
-    third_person: "drains",
-  },
-  dramatize: {
-    infinitive: "dramatize",
-    pastParticiple: "dramatized",
-    presentParticiple: "dramatizing",
-    perfect: "dramatized",
-    third_person: "dramatizes",
-  },
-  draw: {
-    infinitive: "draw",
-    pastParticiple: "drew",
-    presentParticiple: "drawing",
-    perfect: "drawn",
-    third_person: "draws",
-  },
-  dream: {
-    infinitive: "dream",
-    pastParticiple: "dreamed",
-    presentParticiple: "dreaming",
-    perfect: "dreamed",
-    third_person: "dreams",
-  },
-  dress: {
-    infinitive: "dress",
-    pastParticiple: "dressed",
-    presentParticiple: "dressing",
-    perfect: "dressed",
-    third_person: "dresses",
-  },
-  drink: {
-    infinitive: "drink",
-    pastParticiple: "drank",
-    presentParticiple: "drinking",
-    perfect: "drunk",
-    third_person: "drinks",
-  },
-  drip: {
-    infinitive: "drip",
-    pastParticiple: "dripped",
-    presentParticiple: "dripping",
-    perfect: "dripped",
-    third_person: "drips",
-  },
-  drive: {
-    infinitive: "drive",
-    pastParticiple: "drove",
-    presentParticiple: "driving",
-    perfect: "driven",
-    third_person: "drives",
-  },
-  drop: {
-    infinitive: "drop",
-    pastParticiple: "dropped",
-    presentParticiple: "dropping",
-    perfect: "dropped",
-    third_person: "drops",
-  },
-  drown: {
-    infinitive: "drown",
-    pastParticiple: "drowned",
-    presentParticiple: "drowning",
-    perfect: "drowned",
-    third_person: "drowns",
-  },
-  drum: {
-    infinitive: "drum",
-    pastParticiple: "drummed",
-    presentParticiple: "drumming",
-    perfect: "drummed",
-    third_person: "drums",
-  },
-  dry: {
-    infinitive: "dry",
-    pastParticiple: "dried",
-    presentParticiple: "drying",
-    perfect: "dried",
-    third_person: "dries",
-  },
-  dust: {
-    infinitive: "dust",
-    pastParticiple: "dusted",
-    presentParticiple: "dusting",
-    perfect: "dusted",
-    third_person: "dusts",
-  },
-  dwell: {
-    infinitive: "dwell",
-    pastParticiple: "dwelt",
-    presentParticiple: "dwelling",
-    perfect: "dwelt",
-    third_person: "dwells",
-  },
-  earn: {
-    infinitive: "earn",
-    pastParticiple: "earned",
-    presentParticiple: "earning",
-    perfect: "earned",
-    third_person: "earns",
-  },
-  eat: {
-    infinitive: "eat",
-    pastParticiple: "ate",
-    presentParticiple: "eating",
-    perfect: "eaten",
-    third_person: "eats",
-  },
-  educate: {
-    infinitive: "educate",
-    pastParticiple: "educated",
-    presentParticiple: "educating",
-    perfect: "educated",
-    third_person: "educates",
-  },
-  eliminate: {
-    infinitive: "eliminate",
-    pastParticiple: "eliminated",
-    presentParticiple: "eliminating",
-    perfect: "eliminated",
-    third_person: "eliminates",
-  },
-  embarrass: {
-    infinitive: "embarrass",
-    pastParticiple: "embarrassed",
-    presentParticiple: "embarrassing",
-    perfect: "embarrassed",
-    third_person: "embarrasses",
-  },
-  employ: {
-    infinitive: "employ",
-    pastParticiple: "employed",
-    presentParticiple: "employing",
-    perfect: "employed",
-    third_person: "employs",
-  },
-  empty: {
-    infinitive: "empty",
-    pastParticiple: "emptied",
-    presentParticiple: "emptying",
-    perfect: "emptied",
-    third_person: "empties",
-  },
-  encourage: {
-    infinitive: "encourage",
-    pastParticiple: "encouraged",
-    presentParticiple: "encouraging",
-    perfect: "encouraged",
-    third_person: "encourages",
-  },
-  end: {
-    infinitive: "end",
-    pastParticiple: "ended",
-    presentParticiple: "ending",
-    perfect: "ended",
-    third_person: "ends",
-  },
-  endure: {
-    infinitive: "endure",
-    pastParticiple: "endured",
-    presentParticiple: "enduring",
-    perfect: "endured",
-    third_person: "endures",
-  },
-  enforce: {
-    infinitive: "enforce",
-    pastParticiple: "enforced",
-    presentParticiple: "enforcing",
-    perfect: "enforced",
-    third_person: "enforces",
-  },
-  engineer: {
-    infinitive: "engineer",
-    pastParticiple: "engineered",
-    presentParticiple: "engineering",
-    perfect: "engineered",
-    third_person: "engineers",
-  },
-  enhance: {
-    infinitive: "enhance",
-    pastParticiple: "enhanced",
-    presentParticiple: "enhancing",
-    perfect: "enhanced",
-    third_person: "enhances",
-  },
-  enjoy: {
-    infinitive: "enjoy",
-    pastParticiple: "enjoyed",
-    presentParticiple: "enjoying",
-    perfect: "enjoyed",
-    third_person: "enjoys",
-  },
-  enlist: {
-    infinitive: "enlist",
-    pastParticiple: "enlisted",
-    presentParticiple: "enlisting",
-    perfect: "enlisted",
-    third_person: "enlists",
-  },
-  ensure: {
-    infinitive: "ensure",
-    pastParticiple: "ensured",
-    presentParticiple: "ensuring",
-    perfect: "ensured",
-    third_person: "ensures",
-  },
-  enter: {
-    infinitive: "enter",
-    pastParticiple: "entered",
-    presentParticiple: "entering",
-    perfect: "entered",
-    third_person: "enters",
-  },
-  entertain: {
-    infinitive: "entertain",
-    pastParticiple: "entertained",
-    presentParticiple: "entertaining",
-    perfect: "entertained",
-    third_person: "entertains",
-  },
-  escape: {
-    infinitive: "escape",
-    pastParticiple: "escaped",
-    presentParticiple: "escaping",
-    perfect: "escaped",
-    third_person: "escapes",
-  },
-  establish: {
-    infinitive: "establish",
-    pastParticiple: "established",
-    presentParticiple: "establishing",
-    perfect: "established",
-    third_person: "establishes",
-  },
-  estimate: {
-    infinitive: "estimate",
-    pastParticiple: "estimated",
-    presentParticiple: "estimating",
-    perfect: "estimated",
-    third_person: "estimates",
-  },
-  evaluate: {
-    infinitive: "evaluate",
-    pastParticiple: "evaluated",
-    presentParticiple: "evaluating",
-    perfect: "evaluated",
-    third_person: "evaluates",
-  },
-  examine: {
-    infinitive: "examine",
-    pastParticiple: "examined",
-    presentParticiple: "examining",
-    perfect: "examined",
-    third_person: "examines",
-  },
-  exceed: {
-    infinitive: "exceed",
-    pastParticiple: "exceeded",
-    presentParticiple: "exceeding",
-    perfect: "exceeded",
-    third_person: "exceeds",
-  },
-  excite: {
-    infinitive: "excite",
-    pastParticiple: "excited",
-    presentParticiple: "exciting",
-    perfect: "excited",
-    third_person: "excites",
-  },
-  excuse: {
-    infinitive: "excuse",
-    pastParticiple: "excused",
-    presentParticiple: "excusing",
-    perfect: "excused",
-    third_person: "excuses",
-  },
-  execute: {
-    infinitive: "execute",
-    pastParticiple: "executed",
-    presentParticiple: "executing",
-    perfect: "executed",
-    third_person: "executes",
-  },
-  exercise: {
-    infinitive: "exercise",
-    pastParticiple: "exercised",
-    presentParticiple: "exercising",
-    perfect: "exercised",
-    third_person: "exercises",
-  },
-  exhibit: {
-    infinitive: "exhibit",
-    pastParticiple: "exhibited",
-    presentParticiple: "exhibiting",
-    perfect: "exhibited",
-    third_person: "exhibits",
-  },
-  exist: {
-    infinitive: "exist",
-    pastParticiple: "existed",
-    presentParticiple: "existing",
-    perfect: "existed",
-    third_person: "exists",
-  },
-  expand: {
-    infinitive: "expand",
-    pastParticiple: "expanded",
-    presentParticiple: "expanding",
-    perfect: "expanded",
-    third_person: "expands",
-  },
-  expect: {
-    infinitive: "expect",
-    pastParticiple: "expected",
-    presentParticiple: "expecting",
-    perfect: "expected",
-    third_person: "expects",
-  },
-  expedite: {
-    infinitive: "expedite",
-    pastParticiple: "expedited",
-    presentParticiple: "expediting",
-    perfect: "expedited",
-    third_person: "expedites",
-  },
-  experiment: {
-    infinitive: "experiment",
-    pastParticiple: "experimented",
-    presentParticiple: "experimenting",
-    perfect: "experimented",
-    third_person: "experiments",
-  },
-  explain: {
-    infinitive: "explain",
-    pastParticiple: "explained",
-    presentParticiple: "explaining",
-    perfect: "explained",
-    third_person: "explains",
-  },
-  explode: {
-    infinitive: "explode",
-    pastParticiple: "exploded",
-    presentParticiple: "exploding",
-    perfect: "exploded",
-    third_person: "explodes",
-  },
-  express: {
-    infinitive: "express",
-    pastParticiple: "expressed",
-    presentParticiple: "expressing",
-    perfect: "expressed",
-    third_person: "expresses",
-  },
-  extend: {
-    infinitive: "extend",
-    pastParticiple: "extended",
-    presentParticiple: "extending",
-    perfect: "extended",
-    third_person: "extends",
-  },
-  extract: {
-    infinitive: "extract",
-    pastParticiple: "extracted",
-    presentParticiple: "extracting",
-    perfect: "extracted",
-    third_person: "extracts",
-  },
-  face: {
-    infinitive: "face",
-    pastParticiple: "faced",
-    presentParticiple: "facing",
-    perfect: "faced",
-    third_person: "faces",
-  },
-  facilitate: {
-    infinitive: "facilitate",
-    pastParticiple: "facilitated",
-    presentParticiple: "facilitating",
-    perfect: "facilitated",
-    third_person: "facilitates",
-  },
-  fade: {
-    infinitive: "fade",
-    pastParticiple: "faded",
-    presentParticiple: "fading",
-    perfect: "faded",
-    third_person: "fades",
-  },
-  fail: {
-    infinitive: "fail",
-    pastParticiple: "failed",
-    presentParticiple: "failing",
-    perfect: "failed",
-    third_person: "fails",
-  },
-  fall: {
-    infinitive: "fall",
-    pastParticiple: "fell",
-    presentParticiple: "falling",
-    perfect: "fallen",
-    third_person: "falls",
-  },
-  fancy: {
-    infinitive: "fancy",
-    pastParticiple: "fancied",
-    presentParticiple: "fancying",
-    perfect: "fancied",
-    third_person: "fancies",
-  },
-  fasten: {
-    infinitive: "fasten",
-    pastParticiple: "fastened",
-    presentParticiple: "fastening",
-    perfect: "fastened",
-    third_person: "fastens",
-  },
-  fax: {
-    infinitive: "fax",
-    pastParticiple: "faxed",
-    presentParticiple: "faxing",
-    perfect: "faxed",
-    third_person: "faxes",
-  },
-  fear: {
-    infinitive: "fear",
-    pastParticiple: "feared",
-    presentParticiple: "fearing",
-    perfect: "feared",
-    third_person: "fears",
-  },
-  feed: {
-    infinitive: "feed",
-    pastParticiple: "fed",
-    presentParticiple: "feeding",
-    perfect: "fed",
-    third_person: "feeds",
-  },
-  feel: {
-    infinitive: "feel",
-    pastParticiple: "felt",
-    presentParticiple: "feeling",
-    perfect: "felt",
-    third_person: "feels",
-  },
-  fence: {
-    infinitive: "fence",
-    pastParticiple: "fenced",
-    presentParticiple: "fencing",
-    perfect: "fenced",
-    third_person: "fences",
-  },
-  fetch: {
-    infinitive: "fetch",
-    pastParticiple: "fetched",
-    presentParticiple: "fetching",
-    perfect: "fetched",
-    third_person: "fetches",
-  },
-  fight: {
-    infinitive: "fight",
-    pastParticiple: "fought",
-    presentParticiple: "fighting",
-    perfect: "fought",
-    third_person: "fights",
-  },
-  file: {
-    infinitive: "file",
-    pastParticiple: "filed",
-    presentParticiple: "filing",
-    perfect: "filed",
-    third_person: "files",
-  },
-  fill: {
-    infinitive: "fill",
-    pastParticiple: "filled",
-    presentParticiple: "filling",
-    perfect: "filled",
-    third_person: "fills",
-  },
-  film: {
-    infinitive: "film",
-    pastParticiple: "filmed",
-    presentParticiple: "filming",
-    perfect: "filmed",
-    third_person: "films",
-  },
-  finalize: {
-    infinitive: "finalize",
-    pastParticiple: "finalized",
-    presentParticiple: "finalizing",
-    perfect: "finalized",
-    third_person: "finalizes",
-  },
-  finance: {
-    infinitive: "finance",
-    pastParticiple: "financed",
-    presentParticiple: "financing",
-    perfect: "financed",
-    third_person: "finances",
-  },
-  fire: {
-    infinitive: "fire",
-    pastParticiple: "fired",
-    presentParticiple: "firing",
-    perfect: "fired",
-    third_person: "fires",
-  },
-  fit: {
-    infinitive: "fit",
-    pastParticiple: "fitted",
-    presentParticiple: "fitting",
-    perfect: "fitted",
-    third_person: "fits",
-  },
-  fix: {
-    infinitive: "fix",
-    pastParticiple: "fixt",
-    presentParticiple: "fixing",
-    perfect: "fixt",
-    third_person: "fixes",
-  },
-  flash: {
-    infinitive: "flash",
-    pastParticiple: "flashed",
-    presentParticiple: "flashing",
-    perfect: "flashed",
-    third_person: "flashes",
-  },
-  flee: {
-    infinitive: "flee",
-    pastParticiple: "fled",
-    presentParticiple: "fleeing",
-    perfect: "fled",
-    third_person: "flees",
-  },
-  fling: {
-    infinitive: "fling",
-    pastParticiple: "flung",
-    presentParticiple: "flinging",
-    perfect: "flung",
-    third_person: "flings",
-  },
-  float: {
-    infinitive: "float",
-    pastParticiple: "floated",
-    presentParticiple: "floating",
-    perfect: "floated",
-    third_person: "floats",
-  },
-  flood: {
-    infinitive: "flood",
-    pastParticiple: "flooded",
-    presentParticiple: "flooding",
-    perfect: "flooded",
-    third_person: "floods",
-  },
-  flow: {
-    infinitive: "flow",
-    pastParticiple: "flowed",
-    presentParticiple: "flowing",
-    perfect: "flowed",
-    third_person: "flows",
-  },
-  flower: {
-    infinitive: "flower",
-    pastParticiple: "flowered",
-    presentParticiple: "flowering",
-    perfect: "flowered",
-    third_person: "flowers",
-  },
-  fly: {
-    infinitive: "fly",
-    pastParticiple: "flew",
-    presentParticiple: "flying",
-    perfect: "flown",
-    third_person: "flies",
-  },
-  fold: {
-    infinitive: "fold",
-    pastParticiple: "obsolete",
-    presentParticiple: "folding",
-    perfect: "folded",
-    third_person: "folds",
-  },
-  follow: {
-    infinitive: "follow",
-    pastParticiple: "followed",
-    presentParticiple: "following",
-    perfect: "followed",
-    third_person: "follows",
-  },
-  fool: {
-    infinitive: "fool",
-    pastParticiple: "fooled",
-    presentParticiple: "fooling",
-    perfect: "fooled",
-    third_person: "fools",
-  },
-  forbid: {
-    infinitive: "forbid",
-    pastParticiple: "forbade",
-    presentParticiple: "forbidding",
-    perfect: "forbidden",
-    third_person: "forbids",
-  },
-  force: {
-    infinitive: "force",
-    pastParticiple: "forced",
-    presentParticiple: "forcing",
-    perfect: "forced",
-    third_person: "forces",
-  },
-  forecast: {
-    infinitive: "forecast",
-    pastParticiple: "forecasted",
-    presentParticiple: "forecasting",
-    perfect: "forecasted",
-    third_person: "forecasts",
-  },
-  forego: {
-    infinitive: "forego",
-    pastParticiple: "forewent",
-    presentParticiple: "foregoing",
-    perfect: "foregone",
-    third_person: "foregoes",
-  },
-  foresee: {
-    infinitive: "foresee",
-    pastParticiple: "foresaw",
-    presentParticiple: "foreseeing",
-    perfect: "foreseen",
-    third_person: "foresees",
-  },
-  foretell: {
-    infinitive: "foretell",
-    pastParticiple: "foretold",
-    presentParticiple: "foretelling",
-    perfect: "foretold",
-    third_person: "foretells",
-  },
-  forget: {
-    infinitive: "forget",
-    pastParticiple: "forgot",
-    presentParticiple: "forgetting",
-    perfect: "forgotten",
-    third_person: "forgets",
-  },
-  forgive: {
-    infinitive: "forgive",
-    pastParticiple: "forgave",
-    presentParticiple: "forgiving",
-    perfect: "forgiven",
-    third_person: "forgives",
-  },
-  form: {
-    infinitive: "form",
-    pastParticiple: "formed",
-    presentParticiple: "forming",
-    perfect: "formed",
-    third_person: "forms",
-  },
-  formulate: {
-    infinitive: "formulate",
-    pastParticiple: "formulated",
-    presentParticiple: "formulating",
-    perfect: "formulated",
-    third_person: "formulates",
-  },
-  forsake: {
-    infinitive: "forsake",
-    pastParticiple: "forsook",
-    presentParticiple: "forsaking",
-    perfect: "forsaken",
-    third_person: "forsakes",
-  },
-  frame: {
-    infinitive: "frame",
-    pastParticiple: "framed",
-    presentParticiple: "framing",
-    perfect: "framed",
-    third_person: "frames",
-  },
-  freeze: {
-    infinitive: "freeze",
-    pastParticiple: "froze",
-    presentParticiple: "freezing",
-    perfect: "frozen",
-    third_person: "freezes",
-  },
-  frighten: {
-    infinitive: "frighten",
-    pastParticiple: "frightened",
-    presentParticiple: "frightening",
-    perfect: "frightened",
-    third_person: "frightens",
-  },
-  gather: {
-    infinitive: "gather",
-    pastParticiple: "gathered",
-    presentParticiple: "gathering",
-    perfect: "gathered",
-    third_person: "gathers",
-  },
-  gaze: {
-    infinitive: "gaze",
-    pastParticiple: "gazed",
-    presentParticiple: "gazing",
-    perfect: "gazed",
-    third_person: "gazes",
-  },
-  geld: {
-    infinitive: "geld",
-    pastParticiple: "gelded",
-    presentParticiple: "gelding",
-    perfect: "gelded",
-    third_person: "gelds",
-  },
-  generate: {
-    infinitive: "generate",
-    pastParticiple: "generated",
-    presentParticiple: "generating",
-    perfect: "generated",
-    third_person: "generates",
-  },
-  get: {
-    infinitive: "get",
-    pastParticiple: "got",
-    presentParticiple: "getting",
-    perfect: "got",
-    third_person: "gets",
-  },
-  gild: {
-    infinitive: "gild",
-    pastParticiple: "gilded",
-    presentParticiple: "gilds",
-    perfect: "gilding",
-    third_person: "gild",
-  },
-  give: {
-    infinitive: "give",
-    pastParticiple: "gave",
-    presentParticiple: "giving",
-    perfect: "given",
-    third_person: "gives",
-  },
-  glow: {
-    infinitive: "glow",
-    pastParticiple: "glowed",
-    presentParticiple: "glowing",
-    perfect: "glowed",
-    third_person: "glows",
-  },
-  glue: {
-    infinitive: "glue",
-    pastParticiple: "glued",
-    presentParticiple: "gluing",
-    perfect: "glued",
-    third_person: "glues",
-  },
-  gnaw: {
-    infinitive: "gnaw",
-    pastParticiple: "gnawed",
-    presentParticiple: "gnawing",
-    perfect: "gnawed",
-    third_person: "gnaws",
-  },
-  go: {
-    infinitive: "go",
-    pastParticiple: "went",
-    presentParticiple: "going",
-    perfect: "gone",
-    third_person: "goes",
-  },
-  govern: {
-    infinitive: "govern",
-    pastParticiple: "governed",
-    presentParticiple: "governing",
-    perfect: "governed",
-    third_person: "governs",
-  },
-  grab: {
-    infinitive: "grab",
-    pastParticiple: "grabbed",
-    presentParticiple: "grabbing",
-    perfect: "grabbed",
-    third_person: "grabs",
-  },
-  graduate: {
-    infinitive: "graduate",
-    pastParticiple: "graduated",
-    presentParticiple: "graduating",
-    perfect: "graduated",
-    third_person: "graduates",
-  },
-  grate: {
-    infinitive: "grate",
-    pastParticiple: "grated",
-    presentParticiple: "grating",
-    perfect: "grated",
-    third_person: "grates",
-  },
-  grease: {
-    infinitive: "grease",
-    pastParticiple: "greased",
-    presentParticiple: "greasing",
-    perfect: "greased",
-    third_person: "greases",
-  },
-  greet: {
-    infinitive: "greet",
-    pastParticiple: "greeted",
-    presentParticiple: "greeting",
-    perfect: "greeted",
-    third_person: "greets",
-  },
-  grin: {
-    infinitive: "grin",
-    pastParticiple: "grinned",
-    presentParticiple: "grinning",
-    perfect: "grinned",
-    third_person: "grins",
-  },
-  grind: {
-    infinitive: "grind",
-    pastParticiple: "ground",
-    presentParticiple: "grinding",
-    perfect: "ground",
-    third_person: "grinds",
-  },
-  grip: {
-    infinitive: "grip",
-    pastParticiple: "gripped",
-    presentParticiple: "gripping",
-    perfect: "gripped",
-    third_person: "grips",
-  },
-  groan: {
-    infinitive: "groan",
-    pastParticiple: "groaned",
-    presentParticiple: "groaning",
-    perfect: "groaned",
-    third_person: "groans",
-  },
-  grow: {
-    infinitive: "grow",
-    pastParticiple: "grew",
-    presentParticiple: "growing",
-    perfect: "grown",
-    third_person: "grows",
-  },
-  guarantee: {
-    infinitive: "guarantee",
-    pastParticiple: "guaranteed",
-    presentParticiple: "guaranteeing",
-    perfect: "guaranteed",
-    third_person: "guarantees",
-  },
-  guard: {
-    infinitive: "guard",
-    pastParticiple: "guarded",
-    presentParticiple: "guarding",
-    perfect: "guarded",
-    third_person: "guards",
-  },
-  guess: {
-    infinitive: "guess",
-    pastParticiple: "guessed",
-    presentParticiple: "guessing",
-    perfect: "guessed",
-    third_person: "guesses",
-  },
-  guide: {
-    infinitive: "guide",
-    pastParticiple: "guided",
-    presentParticiple: "guiding",
-    perfect: "guided",
-    third_person: "guides",
-  },
-  hammer: {
-    infinitive: "hammer",
-    pastParticiple: "hammered",
-    presentParticiple: "hammering",
-    perfect: "hammered",
-    third_person: "hammers",
-  },
-  hand: {
-    infinitive: "hand",
-    pastParticiple: "handed",
-    presentParticiple: "handing",
-    perfect: "handed",
-    third_person: "hands",
-  },
-  handle: {
-    infinitive: "handle",
-    pastParticiple: "handled",
-    presentParticiple: "handling",
-    perfect: "handled",
-    third_person: "handles",
-  },
-  handwrite: {
-    infinitive: "handwrite",
-    pastParticiple: "handwrote",
-    presentParticiple: "handwriting",
-    perfect: "handwritten",
-    third_person: "handwrites",
-  },
-  hang: {
-    infinitive: "hang",
-    pastParticiple: "hanged",
-    presentParticiple: "hanging",
-    perfect: "hung",
-    third_person: "hangs",
-  },
-  happen: {
-    infinitive: "happen",
-    pastParticiple: "happened",
-    presentParticiple: "happening",
-    perfect: "happened",
-    third_person: "happens",
-  },
-  harass: {
-    infinitive: "harass",
-    pastParticiple: "harassed",
-    presentParticiple: "harassing",
-    perfect: "harassed",
-    third_person: "harasses",
-  },
-  harm: {
-    infinitive: "harm",
-    pastParticiple: "harmed",
-    presentParticiple: "harming",
-    perfect: "harmed",
-    third_person: "harms",
-  },
-  hate: {
-    infinitive: "hate",
-    pastParticiple: "hated",
-    presentParticiple: "hating",
-    perfect: "hated",
-    third_person: "hates",
-  },
-  haunt: {
-    infinitive: "haunt",
-    pastParticiple: "haunted",
-    presentParticiple: "haunting",
-    perfect: "haunted",
-    third_person: "haunts",
-  },
-  head: {
-    infinitive: "head",
-    pastParticiple: "headed",
-    presentParticiple: "heading",
-    perfect: "headed",
-    third_person: "heads",
-  },
-  heal: {
-    infinitive: "heal",
-    pastParticiple: "healed",
-    presentParticiple: "healing",
-    perfect: "healed",
-    third_person: "heals",
-  },
-  heap: {
-    infinitive: "heap",
-    pastParticiple: "heaped",
-    presentParticiple: "heaping",
-    perfect: "heaped",
-    third_person: "heaps",
-  },
-  hear: {
-    infinitive: "hear",
-    pastParticiple: "heard",
-    presentParticiple: "hearing",
-    perfect: "heard",
-    third_person: "hears",
-  },
-  heat: {
-    infinitive: "heat",
-    pastParticiple: "heated",
-    presentParticiple: "heating",
-    perfect: "heated",
-    third_person: "heats",
-  },
-  heave: {
-    infinitive: "heave",
-    pastParticiple: "heaved",
-    presentParticiple: "heaving",
-    perfect: "heaved",
-    third_person: "heaves",
-  },
-  help: {
-    infinitive: "help",
-    pastParticiple: "helped",
-    presentParticiple: "helping",
-    perfect: "helped",
-    third_person: "helps",
-  },
-  hew: {
-    infinitive: "hew",
-    pastParticiple: "hewed",
-    presentParticiple: "hewing",
-    perfect: "hewed",
-    third_person: "hews",
-  },
-  hide: {
-    infinitive: "hide",
-    pastParticiple: "hid",
-    presentParticiple: "hiding",
-    perfect: "hidden",
-    third_person: "hides",
-  },
-  hit: {
-    infinitive: "hit",
-    pastParticiple: "hit",
-    presentParticiple: "hitting",
-    perfect: "hit",
-    third_person: "hits",
-  },
-  hold: {
-    infinitive: "hold",
-    pastParticiple: "held",
-    presentParticiple: "holding",
-    perfect: "held",
-    third_person: "holds",
-  },
-  hook: {
-    infinitive: "hook",
-    pastParticiple: "hooked",
-    presentParticiple: "hooking",
-    perfect: "hooked",
-    third_person: "hooks",
-  },
-  hop: {
-    infinitive: "hop",
-    pastParticiple: "hopped",
-    presentParticiple: "hopping",
-    perfect: "hopped",
-    third_person: "hops",
-  },
-  hope: {
-    infinitive: "hope",
-    pastParticiple: "hoped",
-    presentParticiple: "hoping",
-    perfect: "hoped",
-    third_person: "hopes",
-  },
-  hug: {
-    infinitive: "hug",
-    pastParticiple: "hugged",
-    presentParticiple: "hugging",
-    perfect: "hugged",
-    third_person: "hugs",
-  },
-  hum: {
-    infinitive: "hum",
-    pastParticiple: "hummed",
-    presentParticiple: "humming",
-    perfect: "hummed",
-    third_person: "hums",
-  },
-  hunt: {
-    infinitive: "hunt",
-    pastParticiple: "hunted",
-    presentParticiple: "hunting",
-    perfect: "hunted",
-    third_person: "hunts",
-  },
-  hurry: {
-    infinitive: "hurry",
-    pastParticiple: "hurried",
-    presentParticiple: "hurrying",
-    perfect: "hurried",
-    third_person: "hurries",
-  },
-  hurt: {
-    infinitive: "hurt",
-    pastParticiple: "hurt",
-    presentParticiple: "hurting",
-    perfect: "hurt",
-    third_person: "hurts",
-  },
-  hypothesize: {
-    infinitive: "hypothesize",
-    pastParticiple: "hypothesized",
-    presentParticiple: "hypothesizing",
-    perfect: "hypothesized",
-    third_person: "hypothesizes",
-  },
-  identify: {
-    infinitive: "identify",
-    pastParticiple: "identified",
-    presentParticiple: "identifying",
-    perfect: "identified",
-    third_person: "identifies",
-  },
-  ignore: {
-    infinitive: "ignore",
-    pastParticiple: "ignored",
-    presentParticiple: "ignoring",
-    perfect: "ignored",
-    third_person: "ignores",
-  },
-  illustrate: {
-    infinitive: "illustrate",
-    pastParticiple: "illustrated",
-    presentParticiple: "illustrating",
-    perfect: "illustrated",
-    third_person: "illustrates",
-  },
-  imagine: {
-    infinitive: "imagine",
-    pastParticiple: "imagined",
-    presentParticiple: "imagining",
-    perfect: "imagined",
-    third_person: "imagines",
-  },
-  implement: {
-    infinitive: "implement",
-    pastParticiple: "implemented",
-    presentParticiple: "implementing",
-    perfect: "implemented",
-    third_person: "implements",
-  },
-  impress: {
-    infinitive: "impress",
-    pastParticiple: "impressed",
-    presentParticiple: "impressing",
-    perfect: "impressed",
-    third_person: "impresses",
-  },
-  improve: {
-    infinitive: "improve",
-    pastParticiple: "improved",
-    presentParticiple: "improving",
-    perfect: "improved",
-    third_person: "improves",
-  },
-  improvise: {
-    infinitive: "improvise",
-    pastParticiple: "improvised",
-    presentParticiple: "improvising",
-    perfect: "improvised",
-    third_person: "improvises",
-  },
-  include: {
-    infinitive: "include",
-    pastParticiple: "included",
-    presentParticiple: "including",
-    perfect: "included",
-    third_person: "includes",
-  },
-  increase: {
-    infinitive: "increase",
-    pastParticiple: "increased",
-    presentParticiple: "increasing",
-    perfect: "increased",
-    third_person: "increases",
-  },
-  induce: {
-    infinitive: "induce",
-    pastParticiple: "induced",
-    presentParticiple: "inducing",
-    perfect: "induced",
-    third_person: "induces",
-  },
-  influence: {
-    infinitive: "influence",
-    pastParticiple: "influenced",
-    presentParticiple: "influencing",
-    perfect: "influenced",
-    third_person: "influences",
-  },
-  inform: {
-    infinitive: "inform",
-    pastParticiple: "informed",
-    presentParticiple: "informing",
-    perfect: "informed",
-    third_person: "informs",
-  },
-  initiate: {
-    infinitive: "initiate",
-    pastParticiple: "initiated",
-    presentParticiple: "initiating",
-    perfect: "initiated",
-    third_person: "initiates",
-  },
-  inject: {
-    infinitive: "inject",
-    pastParticiple: "injected",
-    presentParticiple: "injecting",
-    perfect: "injected",
-    third_person: "injects",
-  },
-  injure: {
-    infinitive: "injure",
-    pastParticiple: "injured",
-    presentParticiple: "injuring",
-    perfect: "injured",
-    third_person: "injures",
-  },
-  inlay: {
-    infinitive: "inlay",
-    pastParticiple: "inlaid",
-    presentParticiple: "inlaying",
-    perfect: "inlaid",
-    third_person: "inlays",
-  },
-  innovate: {
-    infinitive: "innovate",
-    pastParticiple: "innovated",
-    presentParticiple: "innovating",
-    perfect: "innovated",
-    third_person: "innovates",
-  },
-  input: {
-    infinitive: "input",
-    pastParticiple: "inputted",
-    presentParticiple: "inputting",
-    perfect: "inputted",
-    third_person: "inputs",
-  },
-  inspect: {
-    infinitive: "inspect",
-    pastParticiple: "inspected",
-    presentParticiple: "inspecting",
-    perfect: "inspected",
-    third_person: "inspects",
-  },
-  inspire: {
-    infinitive: "inspire",
-    pastParticiple: "inspired",
-    presentParticiple: "inspiring",
-    perfect: "inspired",
-    third_person: "inspires",
-  },
-  install: {
-    infinitive: "install",
-    pastParticiple: "installed",
-    presentParticiple: "installing",
-    perfect: "installed",
-    third_person: "installs",
-  },
-  institute: {
-    infinitive: "institute",
-    pastParticiple: "instituted",
-    presentParticiple: "instituting",
-    perfect: "instituted",
-    third_person: "institutes",
-  },
-  instruct: {
-    infinitive: "instruct",
-    pastParticiple: "instructed",
-    presentParticiple: "instructing",
-    perfect: "instructed",
-    third_person: "instructs",
-  },
-  insure: {
-    infinitive: "insure",
-    pastParticiple: "insured",
-    presentParticiple: "insuring",
-    perfect: "insured",
-    third_person: "insures",
-  },
-  integrate: {
-    infinitive: "integrate",
-    pastParticiple: "integrated",
-    presentParticiple: "integrating",
-    perfect: "integrated",
-    third_person: "integrates",
-  },
-  intend: {
-    infinitive: "intend",
-    pastParticiple: "intended",
-    presentParticiple: "intending",
-    perfect: "intended",
-    third_person: "intends",
-  },
-  intensify: {
-    infinitive: "intensify",
-    pastParticiple: "intensified",
-    presentParticiple: "intensifying",
-    perfect: "intensified",
-    third_person: "intensifies",
-  },
-  interest: {
-    infinitive: "interest",
-    pastParticiple: "interested",
-    presentParticiple: "interesting",
-    perfect: "interested",
-    third_person: "interests",
-  },
-  interfere: {
-    infinitive: "interfere",
-    pastParticiple: "interfered",
-    presentParticiple: "interfering",
-    perfect: "interfered",
-    third_person: "interferes",
-  },
-  interlay: {
-    infinitive: "interlay",
-    pastParticiple: "interlaid",
-    presentParticiple: "interlaying",
-    perfect: "interlaid",
-    third_person: "interlays",
-  },
-  interpret: {
-    infinitive: "interpret",
-    pastParticiple: "interpreted",
-    presentParticiple: "interpreting",
-    perfect: "interpreted",
-    third_person: "interprets",
-  },
-  interrupt: {
-    infinitive: "interrupt",
-    pastParticiple: "interrupted",
-    presentParticiple: "interrupting",
-    perfect: "interrupted",
-    third_person: "interrupts",
-  },
-  interview: {
-    infinitive: "interview",
-    pastParticiple: "interviewed",
-    presentParticiple: "interviewing",
-    perfect: "interviewed",
-    third_person: "interviews",
-  },
-  introduce: {
-    infinitive: "introduce",
-    pastParticiple: "introduced",
-    presentParticiple: "introducing",
-    perfect: "introduced",
-    third_person: "introduces",
-  },
-  invent: {
-    infinitive: "invent",
-    pastParticiple: "invented",
-    presentParticiple: "inventing",
-    perfect: "invented",
-    third_person: "invents",
-  },
-  inventory: {
-    infinitive: "inventory",
-    pastParticiple: "inventoried",
-    presentParticiple: "inventorying",
-    perfect: "inventoried",
-    third_person: "inventories",
-  },
-  investigate: {
-    infinitive: "investigate",
-    pastParticiple: "investigated",
-    presentParticiple: "investigating",
-    perfect: "investigated",
-    third_person: "investigates",
-  },
-  invite: {
-    infinitive: "invite",
-    pastParticiple: "invited",
-    presentParticiple: "inviting",
-    perfect: "invited",
-    third_person: "invites",
-  },
-  irritate: {
-    infinitive: "irritate",
-    pastParticiple: "irritated",
-    presentParticiple: "irritating",
-    perfect: "irritated",
-    third_person: "irritates",
-  },
-  itch: {
-    infinitive: "itch",
-    pastParticiple: "itched",
-    presentParticiple: "itching",
-    perfect: "itched",
-    third_person: "itches",
-  },
-  jail: {
-    infinitive: "jail",
-    pastParticiple: "jailed",
-    presentParticiple: "jailing",
-    perfect: "jailed",
-    third_person: "jails",
-  },
-  jam: {
-    infinitive: "jam",
-    pastParticiple: "jammed",
-    presentParticiple: "jamming",
-    perfect: "jammed",
-    third_person: "jams",
-  },
-  jog: {
-    infinitive: "jog",
-    pastParticiple: "jogged",
-    presentParticiple: "jogging",
-    perfect: "jogged",
-    third_person: "jogs",
-  },
-  join: {
-    infinitive: "join",
-    pastParticiple: "joined",
-    presentParticiple: "joining",
-    perfect: "joined",
-    third_person: "joins",
-  },
-  joke: {
-    infinitive: "joke",
-    pastParticiple: "joked",
-    presentParticiple: "joking",
-    perfect: "joked",
-    third_person: "jokes",
-  },
-  judge: {
-    infinitive: "judge",
-    pastParticiple: "judged",
-    presentParticiple: "judging",
-    perfect: "judged",
-    third_person: "judges",
-  },
-  juggle: {
-    infinitive: "juggle",
-    pastParticiple: "juggled",
-    presentParticiple: "juggling",
-    perfect: "juggled",
-    third_person: "juggles",
-  },
-  jump: {
-    infinitive: "jump",
-    pastParticiple: "jumped",
-    presentParticiple: "jumping",
-    perfect: "jumped",
-    third_person: "jumps",
-  },
-  justify: {
-    infinitive: "justify",
-    pastParticiple: "justified",
-    presentParticiple: "justifying",
-    perfect: "justified",
-    third_person: "justifies",
-  },
-  keep: {
-    infinitive: "keep",
-    pastParticiple: "kept",
-    presentParticiple: "keeping",
-    perfect: "kept",
-    third_person: "keeps",
-  },
-  kick: {
-    infinitive: "kick",
-    pastParticiple: "kicked",
-    presentParticiple: "kicking",
-    perfect: "kicked",
-    third_person: "kicks",
-  },
-  kill: {
-    infinitive: "kill",
-    pastParticiple: "killed",
-    presentParticiple: "killing",
-    perfect: "killed",
-    third_person: "kills",
-  },
-  kiss: {
-    infinitive: "kiss",
-    pastParticiple: "kissed",
-    presentParticiple: "kissing",
-    perfect: "kissed",
-    third_person: "kisses",
-  },
-  kneel: {
-    infinitive: "kneel",
-    pastParticiple: "knelt",
-    presentParticiple: "kneeling",
-    perfect: "knelt",
-    third_person: "kneels",
-  },
-  knit: {
-    infinitive: "knit",
-    pastParticiple: "knitted",
-    presentParticiple: "knitting",
-    perfect: "knitted",
-    third_person: "knits",
-  },
-  knock: {
-    infinitive: "knock",
-    pastParticiple: "knocked",
-    presentParticiple: "knocking",
-    perfect: "knocked",
-    third_person: "knocks",
-  },
-  knot: {
-    infinitive: "knot",
-    pastParticiple: "knotted",
-    presentParticiple: "knotting",
-    perfect: "knotted",
-    third_person: "knots",
-  },
-  know: {
-    infinitive: "know",
-    pastParticiple: "knew",
-    presentParticiple: "knowing",
-    perfect: "known",
-    third_person: "knows",
-  },
-  label: {
-    infinitive: "label",
-    pastParticiple: "UK,someUS",
-    presentParticiple: "labelling",
-    perfect: "UK,someUS",
-    third_person: "labels",
-  },
-  land: {
-    infinitive: "land",
-    pastParticiple: "landed",
-    presentParticiple: "landing",
-    perfect: "landed",
-    third_person: "lands",
-  },
-  last: {
-    infinitive: "last",
-    pastParticiple: "lasted",
-    presentParticiple: "lasting",
-    perfect: "lasted",
-    third_person: "lasts",
-  },
-  laugh: {
-    infinitive: "laugh",
-    pastParticiple: "obsolete",
-    presentParticiple: "laughing",
-    perfect: "laughed",
-    third_person: "laughs",
-  },
-  launch: {
-    infinitive: "launch",
-    pastParticiple: "launched",
-    presentParticiple: "launching",
-    perfect: "launched",
-    third_person: "launches",
-  },
-  lay: {
-    infinitive: "lay",
-    pastParticiple: "laid",
-    presentParticiple: "laying",
-    perfect: "laid",
-    third_person: "lays",
-  },
-  lead: {
-    infinitive: "lead",
-    pastParticiple: "leaded",
-    presentParticiple: "leading",
-    perfect: "leaded",
-    third_person: "leads",
-  },
-  lean: {
-    infinitive: "lean",
-    pastParticiple: "leaned",
-    presentParticiple: "leaning",
-    perfect: "leaned",
-    third_person: "leans",
-  },
-  leap: {
-    infinitive: "leap",
-    pastParticiple: "leaped",
-    presentParticiple: "leaping",
-    perfect: "leaped",
-    third_person: "leaps",
-  },
-  learn: {
-    infinitive: "learn",
-    pastParticiple: "learned",
-    presentParticiple: "learning",
-    perfect: "learned",
-    third_person: "learns",
-  },
-  leave: {
-    infinitive: "leave",
-    pastParticiple: "left",
-    presentParticiple: "leaving",
-    perfect: "left",
-    third_person: "leaves",
-  },
-  lecture: {
-    infinitive: "lecture",
-    pastParticiple: "lectured",
-    presentParticiple: "lecturing",
-    perfect: "lectured",
-    third_person: "lectures",
-  },
-  lend: {
-    infinitive: "lend",
-    pastParticiple: "lent",
-    presentParticiple: "lending",
-    perfect: "lent",
-    third_person: "lends",
-  },
-  let: {
-    infinitive: "let",
-    pastParticiple: "let",
-    presentParticiple: "letting",
-    perfect: "let",
-    third_person: "lets",
-  },
-  level: {
-    infinitive: "level",
-    pastParticiple: "leveled",
-    presentParticiple: "leveling",
-    perfect: "leveled",
-    third_person: "levels",
-  },
-  license: {
-    infinitive: "license",
-    pastParticiple: "licensed",
-    presentParticiple: "licensing",
-    perfect: "licensed",
-    third_person: "licenses",
-  },
-  lick: {
-    infinitive: "lick",
-    pastParticiple: "licked",
-    presentParticiple: "licking",
-    perfect: "licked",
-    third_person: "licks",
-  },
-  lie: {
-    infinitive: "lie",
-    pastParticiple: "lay",
-    presentParticiple: "lying",
-    perfect: "lain",
-    third_person: "lies",
-  },
-  light: {
-    infinitive: "light",
-    pastParticiple: "lit",
-    presentParticiple: "lighting",
-    perfect: "lit",
-    third_person: "lights",
-  },
-  lighten: {
-    infinitive: "lighten",
-    pastParticiple: "lightened",
-    presentParticiple: "lightening",
-    perfect: "lightened",
-    third_person: "lightens",
-  },
-  like: {
-    infinitive: "like",
-    pastParticiple: "liked",
-    presentParticiple: "liking",
-    perfect: "liked",
-    third_person: "likes",
-  },
-  list: {
-    infinitive: "list",
-    pastParticiple: "listed",
-    presentParticiple: "listing",
-    perfect: "listed",
-    third_person: "lists",
-  },
-  listen: {
-    infinitive: "listen",
-    pastParticiple: "listened",
-    presentParticiple: "listening",
-    perfect: "listened",
-    third_person: "listens",
-  },
-  live: {
-    infinitive: "live",
-    pastParticiple: "lived",
-    presentParticiple: "living",
-    perfect: "lived",
-    third_person: "lives",
-  },
-  load: {
-    infinitive: "load",
-    pastParticiple: "loaded",
-    presentParticiple: "loading",
-    perfect: "loaded",
-    third_person: "loads",
-  },
-  locate: {
-    infinitive: "locate",
-    pastParticiple: "located",
-    presentParticiple: "locating",
-    perfect: "located",
-    third_person: "locates",
-  },
-  lock: {
-    infinitive: "lock",
-    pastParticiple: "locked",
-    presentParticiple: "locking",
-    perfect: "locked",
-    third_person: "locks",
-  },
-  log: {
-    infinitive: "log",
-    pastParticiple: "logged",
-    presentParticiple: "logging",
-    perfect: "logged",
-    third_person: "logs",
-  },
-  long: {
-    infinitive: "long",
-    pastParticiple: "longed",
-    presentParticiple: "longing",
-    perfect: "longed",
-    third_person: "longs",
-  },
-  look: {
-    infinitive: "look",
-    pastParticiple: "looked",
-    presentParticiple: "looking",
-    perfect: "looked",
-    third_person: "looks",
-  },
-  lose: {
-    infinitive: "lose",
-    pastParticiple: "lost",
-    presentParticiple: "losing",
-    perfect: "lost",
-    third_person: "loses",
-  },
-  love: {
-    infinitive: "love",
-    pastParticiple: "loved",
-    presentParticiple: "loving",
-    perfect: "loved",
-    third_person: "loves",
-  },
-  maintain: {
-    infinitive: "maintain",
-    pastParticiple: "maintained",
-    presentParticiple: "maintaining",
-    perfect: "maintained",
-    third_person: "maintains",
-  },
-  make: {
-    infinitive: "make",
-    pastParticiple: "made",
-    presentParticiple: "making",
-    perfect: "made",
-    third_person: "makes",
-  },
-  man: {
-    infinitive: "man",
-    pastParticiple: "manned",
-    presentParticiple: "manning",
-    perfect: "manned",
-    third_person: "mans",
-  },
-  manage: {
-    infinitive: "manage",
-    pastParticiple: "managed",
-    presentParticiple: "managing",
-    perfect: "managed",
-    third_person: "manages",
-  },
-  manipulate: {
-    infinitive: "manipulate",
-    pastParticiple: "manipulated",
-    presentParticiple: "manipulating",
-    perfect: "manipulated",
-    third_person: "manipulates",
-  },
-  manufacture: {
-    infinitive: "manufacture",
-    pastParticiple: "manufactured",
-    presentParticiple: "manufacturing",
-    perfect: "manufactured",
-    third_person: "manufactures",
-  },
-  map: {
-    infinitive: "map",
-    pastParticiple: "mapped",
-    presentParticiple: "mapping",
-    perfect: "mapped",
-    third_person: "maps",
-  },
-  march: {
-    infinitive: "march",
-    pastParticiple: "marched",
-    presentParticiple: "marching",
-    perfect: "marched",
-    third_person: "marches",
-  },
-  mark: {
-    infinitive: "mark",
-    pastParticiple: "marked",
-    presentParticiple: "marking",
-    perfect: "marked",
-    third_person: "marks",
-  },
-  market: {
-    infinitive: "market",
-    pastParticiple: "marketed",
-    presentParticiple: "marketing",
-    perfect: "marketed",
-    third_person: "markets",
-  },
-  marry: {
-    infinitive: "marry",
-    pastParticiple: "married",
-    presentParticiple: "marrying",
-    perfect: "married",
-    third_person: "marries",
-  },
-  match: {
-    infinitive: "match",
-    pastParticiple: "matched",
-    presentParticiple: "matching",
-    perfect: "matched",
-    third_person: "matches",
-  },
-  mate: {
-    infinitive: "mate",
-    pastParticiple: "mated",
-    presentParticiple: "mating",
-    perfect: "mated",
-    third_person: "mates",
-  },
-  matter: {
-    infinitive: "matter",
-    pastParticiple: "mattered",
-    presentParticiple: "mattering",
-    perfect: "mattered",
-    third_person: "matters",
-  },
-  mean: {
-    infinitive: "mean",
-    pastParticiple: "meant",
-    presentParticiple: "meaning",
-    perfect: "meant",
-    third_person: "means",
-  },
-  measure: {
-    infinitive: "measure",
-    pastParticiple: "measured",
-    presentParticiple: "measuring",
-    perfect: "measured",
-    third_person: "measures",
-  },
-  meddle: {
-    infinitive: "meddle",
-    pastParticiple: "meddled",
-    presentParticiple: "meddling",
-    perfect: "meddled",
-    third_person: "meddles",
-  },
-  mediate: {
-    infinitive: "mediate",
-    pastParticiple: "mediated",
-    presentParticiple: "mediating",
-    perfect: "mediated",
-    third_person: "mediates",
-  },
-  meet: {
-    infinitive: "meet",
-    pastParticiple: "met",
-    presentParticiple: "meeting",
-    perfect: "met",
-    third_person: "meets",
-  },
-  melt: {
-    infinitive: "melt",
-    pastParticiple: "melted",
-    presentParticiple: "melting",
-    perfect: "melted",
-    third_person: "melts",
-  },
-  memorize: {
-    infinitive: "memorize",
-    pastParticiple: "memorized",
-    presentParticiple: "memorizing",
-    perfect: "memorized",
-    third_person: "memorizes",
-  },
-  mend: {
-    infinitive: "mend",
-    pastParticiple: "mended",
-    presentParticiple: "mending",
-    perfect: "mended",
-    third_person: "mends",
-  },
-  mentor: {
-    infinitive: "mentor",
-    pastParticiple: "mentored",
-    presentParticiple: "mentoring",
-    perfect: "mentored",
-    third_person: "mentors",
-  },
-  milk: {
-    infinitive: "milk",
-    pastParticiple: "milked",
-    presentParticiple: "milking",
-    perfect: "milked",
-    third_person: "milks",
-  },
-  mine: {
-    infinitive: "mine",
-    pastParticiple: "mined",
-    presentParticiple: "mining",
-    perfect: "mined",
-    third_person: "mines",
-  },
-  mislead: {
-    infinitive: "mislead",
-    pastParticiple: "misled",
-    presentParticiple: "misleading",
-    perfect: "misled",
-    third_person: "misleads",
-  },
-  miss: {
-    infinitive: "miss",
-    pastParticiple: "missed",
-    presentParticiple: "missing",
-    perfect: "missed",
-    third_person: "misses",
-  },
-  misspell: {
-    infinitive: "misspell",
-    pastParticiple: "misspelt",
-    presentParticiple: "misspelling",
-    perfect: "misspelt",
-    third_person: "misspells",
-  },
-  mistake: {
-    infinitive: "mistake",
-    pastParticiple: "mistook",
-    presentParticiple: "mistaking",
-    perfect: "mistaken",
-    third_person: "mistakes",
-  },
-  misunderstand: {
-    infinitive: "misunderstand",
-    pastParticiple: "misunderstood",
-    presentParticiple: "misunderstanding",
-    perfect: "misunderstood",
-    third_person: "misunderstands",
-  },
-  mix: {
-    infinitive: "mix",
-    pastParticiple: "mixed",
-    presentParticiple: "mixing",
-    perfect: "mixed",
-    third_person: "mixes",
-  },
-  moan: {
-    infinitive: "moan",
-    pastParticiple: "moaned",
-    presentParticiple: "moaning",
-    perfect: "moaned",
-    third_person: "moans",
-  },
-  model: {
-    infinitive: "model",
-    pastParticiple: "modelled",
-    presentParticiple: "modelling",
-    perfect: "modelled",
-    third_person: "models",
-  },
-  modify: {
-    infinitive: "modify",
-    pastParticiple: "modified",
-    presentParticiple: "modifying",
-    perfect: "modified",
-    third_person: "modifies",
-  },
-  monitor: {
-    infinitive: "monitor",
-    pastParticiple: "monitored",
-    presentParticiple: "monitoring",
-    perfect: "monitored",
-    third_person: "monitors",
-  },
-  moor: {
-    infinitive: "moor",
-    pastParticiple: "moored",
-    presentParticiple: "mooring",
-    perfect: "moored",
-    third_person: "moors",
-  },
-  motivate: {
-    infinitive: "motivate",
-    pastParticiple: "motivated",
-    presentParticiple: "motivating",
-    perfect: "motivated",
-    third_person: "motivates",
-  },
-  mourn: {
-    infinitive: "mourn",
-    pastParticiple: "mourned",
-    presentParticiple: "mourning",
-    perfect: "mourned",
-    third_person: "mourns",
-  },
-  move: {
-    infinitive: "move",
-    pastParticiple: "moved",
-    presentParticiple: "moving",
-    perfect: "moved",
-    third_person: "moves",
-  },
-  mow: {
-    infinitive: "mow",
-    pastParticiple: "mowed",
-    presentParticiple: "mowing",
-    perfect: "mowed",
-    third_person: "mows",
-  },
-  muddle: {
-    infinitive: "muddle",
-    pastParticiple: "muddled",
-    presentParticiple: "muddling",
-    perfect: "muddled",
-    third_person: "muddles",
-  },
-  mug: {
-    infinitive: "mug",
-    pastParticiple: "mugged",
-    presentParticiple: "mugging",
-    perfect: "mugged",
-    third_person: "mugs",
-  },
-  multiply: {
-    infinitive: "multiply",
-    pastParticiple: "multiplied",
-    presentParticiple: "multiplying",
-    perfect: "multiplied",
-    third_person: "multiplies",
-  },
-  murder: {
-    infinitive: "murder",
-    pastParticiple: "murdered",
-    presentParticiple: "murdering",
-    perfect: "murdered",
-    third_person: "murders",
-  },
-  nail: {
-    infinitive: "nail",
-    pastParticiple: "nailed",
-    presentParticiple: "nailing",
-    perfect: "nailed",
-    third_person: "nails",
-  },
-  name: {
-    infinitive: "name",
-    pastParticiple: "named",
-    presentParticiple: "naming",
-    perfect: "named",
-    third_person: "names",
-  },
-  navigate: {
-    infinitive: "navigate",
-    pastParticiple: "navigated",
-    presentParticiple: "navigating",
-    perfect: "navigated",
-    third_person: "navigates",
-  },
-  need: {
-    infinitive: "need",
-    pastParticiple: "needed",
-    presentParticiple: "needing",
-    perfect: "needed",
-    third_person: "needs",
-  },
-  negotiate: {
-    infinitive: "negotiate",
-    pastParticiple: "negotiated",
-    presentParticiple: "negotiating",
-    perfect: "negotiated",
-    third_person: "negotiates",
-  },
-  nest: {
-    infinitive: "nest",
-    pastParticiple: "nested",
-    presentParticiple: "nesting",
-    perfect: "nested",
-    third_person: "nests",
-  },
-  nod: {
-    infinitive: "nod",
-    pastParticiple: "nodd",
-    presentParticiple: "nodding",
-    perfect: "nodd",
-    third_person: "nods",
-  },
-  nominate: {
-    infinitive: "nominate",
-    pastParticiple: "nominated",
-    presentParticiple: "nominating",
-    perfect: "nominated",
-    third_person: "nominates",
-  },
-  normalize: {
-    infinitive: "normalize",
-    pastParticiple: "normalized",
-    presentParticiple: "normalizing",
-    perfect: "normalized",
-    third_person: "normalizes",
-  },
-  note: {
-    infinitive: "note",
-    pastParticiple: "noted",
-    presentParticiple: "noting",
-    perfect: "noted",
-    third_person: "notes",
-  },
-  notice: {
-    infinitive: "notice",
-    pastParticiple: "noticed",
-    presentParticiple: "noticing",
-    perfect: "noticed",
-    third_person: "notices",
-  },
-  number: {
-    infinitive: "number",
-    pastParticiple: "numbered",
-    presentParticiple: "numbering",
-    perfect: "numbered",
-    third_person: "numbers",
-  },
-  obey: {
-    infinitive: "obey",
-    pastParticiple: "obeyed",
-    presentParticiple: "obeying",
-    perfect: "obeyed",
-    third_person: "obeys",
-  },
-  object: {
-    infinitive: "object",
-    pastParticiple: "objected",
-    presentParticiple: "objecting",
-    perfect: "objected",
-    third_person: "objects",
-  },
-  observe: {
-    infinitive: "observe",
-    pastParticiple: "observed",
-    presentParticiple: "observing",
-    perfect: "observed",
-    third_person: "observes",
-  },
-  obtain: {
-    infinitive: "obtain",
-    pastParticiple: "obtained",
-    presentParticiple: "obtaining",
-    perfect: "obtained",
-    third_person: "obtains",
-  },
-  occur: {
-    infinitive: "occur",
-    pastParticiple: "occurred",
-    presentParticiple: "occurring",
-    perfect: "occurred",
-    third_person: "occurs",
-  },
-  offend: {
-    infinitive: "offend",
-    pastParticiple: "offended",
-    presentParticiple: "offending",
-    perfect: "offended",
-    third_person: "offends",
-  },
-  offer: {
-    infinitive: "offer",
-    pastParticiple: "offered",
-    presentParticiple: "offering",
-    perfect: "offered",
-    third_person: "offers",
-  },
-  officiate: {
-    infinitive: "officiate",
-    pastParticiple: "officiated",
-    presentParticiple: "officiating",
-    perfect: "officiated",
-    third_person: "officiates",
-  },
-  operate: {
-    infinitive: "operate",
-    pastParticiple: "operated",
-    presentParticiple: "operating",
-    perfect: "operated",
-    third_person: "operates",
-  },
-  order: {
-    infinitive: "order",
-    pastParticiple: "ordered",
-    presentParticiple: "ordering",
-    perfect: "ordered",
-    third_person: "orders",
-  },
-  organize: {
-    infinitive: "organize",
-    pastParticiple: "organized",
-    presentParticiple: "organizing",
-    perfect: "organized",
-    third_person: "organizes",
-  },
-  originate: {
-    infinitive: "originate",
-    pastParticiple: "originated",
-    presentParticiple: "originating",
-    perfect: "originated",
-    third_person: "originates",
-  },
-  outline: {
-    infinitive: "outline",
-    pastParticiple: "outlined",
-    presentParticiple: "outlining",
-    perfect: "outlined",
-    third_person: "outlines",
-  },
-  overcome: {
-    infinitive: "overcome",
-    pastParticiple: "overcame",
-    presentParticiple: "overcoming",
-    perfect: "overcome",
-    third_person: "overcomes",
-  },
-  overdo: {
-    infinitive: "overdo",
-    pastParticiple: "overdid",
-    presentParticiple: "overdoing",
-    perfect: "overdone",
-    third_person: "overdoes",
-  },
-  overdraw: {
-    infinitive: "overdraw",
-    pastParticiple: "overdrew",
-    presentParticiple: "overdrawing",
-    perfect: "overdrawn",
-    third_person: "overdraws",
-  },
-  overflow: {
-    infinitive: "overflow",
-    pastParticiple: "overflowed",
-    presentParticiple: "overflowing",
-    perfect: "overflowed",
-    third_person: "overflows",
-  },
-  overhear: {
-    infinitive: "overhear",
-    pastParticiple: "overheard",
-    presentParticiple: "overhearing",
-    perfect: "overheard",
-    third_person: "overhears",
-  },
-  overtake: {
-    infinitive: "overtake",
-    pastParticiple: "overtook",
-    presentParticiple: "overtaking",
-    perfect: "overtaken",
-    third_person: "overtakes",
-  },
-  overthrow: {
-    infinitive: "overthrow",
-    pastParticiple: "overthrew",
-    presentParticiple: "overthrowing",
-    perfect: "overthrown",
-    third_person: "overthrows",
-  },
-  owe: {
-    infinitive: "owe",
-    pastParticiple: "owed",
-    presentParticiple: "owing",
-    perfect: "owed",
-    third_person: "owes",
-  },
-  own: {
-    infinitive: "own",
-    pastParticiple: "owned",
-    presentParticiple: "owning",
-    perfect: "owned",
-    third_person: "owns",
-  },
-  pack: {
-    infinitive: "pack",
-    pastParticiple: "packed",
-    presentParticiple: "packing",
-    perfect: "packed",
-    third_person: "packs",
-  },
-  paddle: {
-    infinitive: "paddle",
-    pastParticiple: "paddled",
-    presentParticiple: "paddling",
-    perfect: "paddled",
-    third_person: "paddles",
-  },
-  paint: {
-    infinitive: "paint",
-    pastParticiple: "painted",
-    presentParticiple: "painting",
-    perfect: "painted",
-    third_person: "paints",
-  },
-  park: {
-    infinitive: "park",
-    pastParticiple: "parked",
-    presentParticiple: "parking",
-    perfect: "parked",
-    third_person: "parks",
-  },
-  part: {
-    infinitive: "part",
-    pastParticiple: "parted",
-    presentParticiple: "parting",
-    perfect: "parted",
-    third_person: "parts",
-  },
-  participate: {
-    infinitive: "participate",
-    pastParticiple: "participated",
-    presentParticiple: "participating",
-    perfect: "participated",
-    third_person: "participates",
-  },
-  pass: {
-    infinitive: "pass",
-    pastParticiple: "passed",
-    presentParticiple: "passing",
-    perfect: "passed",
-    third_person: "passes",
-  },
-  paste: {
-    infinitive: "paste",
-    pastParticiple: "pasted",
-    presentParticiple: "pasting",
-    perfect: "pasted",
-    third_person: "pastes",
-  },
-  pat: {
-    infinitive: "pat",
-    pastParticiple: "patted",
-    presentParticiple: "patting",
-    perfect: "patted",
-    third_person: "pats",
-  },
-  pause: {
-    infinitive: "pause",
-    pastParticiple: "paused",
-    presentParticiple: "pausing",
-    perfect: "paused",
-    third_person: "pauses",
-  },
-  pay: {
-    infinitive: "pay",
-    pastParticiple: "paid",
-    presentParticiple: "paying",
-    perfect: "paid",
-    third_person: "pays",
-  },
-  peck: {
-    infinitive: "peck",
-    pastParticiple: "pecked",
-    presentParticiple: "pecking",
-    perfect: "pecked",
-    third_person: "pecks",
-  },
-  pedal: {
-    infinitive: "pedal",
-    pastParticiple: "pedalled",
-    presentParticiple: "pedalling",
-    perfect: "pedalled",
-    third_person: "pedals",
-  },
-  peel: {
-    infinitive: "peel",
-    pastParticiple: "peeled",
-    presentParticiple: "peeling",
-    perfect: "peeled",
-    third_person: "peels",
-  },
-  peep: {
-    infinitive: "peep",
-    pastParticiple: "peeped",
-    presentParticiple: "peeping",
-    perfect: "peeped",
-    third_person: "peeps",
-  },
-  pen: {
-    infinitive: "pen",
-    pastParticiple: "penned",
-    presentParticiple: "penning",
-    perfect: "penned",
-    third_person: "pens",
-  },
-  perceive: {
-    infinitive: "perceive",
-    pastParticiple: "perceived",
-    presentParticiple: "perceiving",
-    perfect: "perceived",
-    third_person: "perceives",
-  },
-  perfect: {
-    infinitive: "perfect",
-    pastParticiple: "perfected",
-    presentParticiple: "perfecting",
-    perfect: "perfected",
-    third_person: "perfects",
-  },
-  perform: {
-    infinitive: "perform",
-    pastParticiple: "performed",
-    presentParticiple: "performing",
-    perfect: "performed",
-    third_person: "performs",
-  },
-  permit: {
-    infinitive: "permit",
-    pastParticiple: "permitted",
-    presentParticiple: "permitting",
-    perfect: "permitted",
-    third_person: "permits",
-  },
-  persuade: {
-    infinitive: "persuade",
-    pastParticiple: "persuaded",
-    presentParticiple: "persuading",
-    perfect: "persuaded",
-    third_person: "persuades",
-  },
-  phone: {
-    infinitive: "phone",
-    pastParticiple: "phoned",
-    presentParticiple: "phoning",
-    perfect: "phoned",
-    third_person: "phones",
-  },
-  photograph: {
-    infinitive: "photograph",
-    pastParticiple: "photographed",
-    presentParticiple: "photographing",
-    perfect: "photographed",
-    third_person: "photographs",
-  },
-  pick: {
-    infinitive: "pick",
-    pastParticiple: "picked",
-    presentParticiple: "picking",
-    perfect: "picked",
-    third_person: "picks",
-  },
-  pilot: {
-    infinitive: "pilot",
-    pastParticiple: "piloted",
-    presentParticiple: "piloting",
-    perfect: "piloted",
-    third_person: "pilots",
-  },
-  pinch: {
-    infinitive: "pinch",
-    pastParticiple: "pinched",
-    presentParticiple: "pinching",
-    perfect: "pinched",
-    third_person: "pinches",
-  },
-  pine: {
-    infinitive: "pine",
-    pastParticiple: "pined",
-    presentParticiple: "pining",
-    perfect: "pined",
-    third_person: "pines",
-  },
-  pinpoint: {
-    infinitive: "pinpoint",
-    pastParticiple: "pinpointed",
-    presentParticiple: "pinpointing",
-    perfect: "pinpointed",
-    third_person: "pinpoints",
-  },
-  pioneer: {
-    infinitive: "pioneer",
-    pastParticiple: "pioneered",
-    presentParticiple: "pioneering",
-    perfect: "pioneered",
-    third_person: "pioneers",
-  },
-  place: {
-    infinitive: "place",
-    pastParticiple: "placed",
-    presentParticiple: "placing",
-    perfect: "placed",
-    third_person: "places",
-  },
-  plan: {
-    infinitive: "plan",
-    pastParticiple: "planned",
-    presentParticiple: "planning",
-    perfect: "planned",
-    third_person: "plans",
-  },
-  plant: {
-    infinitive: "plant",
-    pastParticiple: "planted",
-    presentParticiple: "planting",
-    perfect: "planted",
-    third_person: "plants",
-  },
-  play: {
-    infinitive: "play",
-    pastParticiple: "played",
-    presentParticiple: "playing",
-    perfect: "played",
-    third_person: "plays",
-  },
-  plead: {
-    infinitive: "plead",
-    pastParticiple: "pled",
-    presentParticiple: "pleading",
-    perfect: "pled",
-    third_person: "pleads",
-  },
-  please: {
-    infinitive: "please",
-    pastParticiple: "pleased",
-    presentParticiple: "pleasing",
-    perfect: "pleased",
-    third_person: "pleases",
-  },
-  plug: {
-    infinitive: "plug",
-    pastParticiple: "plugged",
-    presentParticiple: "plugging",
-    perfect: "plugged",
-    third_person: "plugs",
-  },
-  point: {
-    infinitive: "point",
-    pastParticiple: "pointed",
-    presentParticiple: "pointing",
-    perfect: "pointed",
-    third_person: "points",
-  },
-  poke: {
-    infinitive: "poke",
-    pastParticiple: "poked",
-    presentParticiple: "poking",
-    perfect: "poked",
-    third_person: "pokes",
-  },
-  polish: {
-    infinitive: "polish",
-    pastParticiple: "polished",
-    presentParticiple: "polishing",
-    perfect: "polished",
-    third_person: "polishes",
-  },
-  pop: {
-    infinitive: "pop",
-    pastParticiple: "popped",
-    presentParticiple: "popping",
-    perfect: "popped",
-    third_person: "pops",
-  },
-  possess: {
-    infinitive: "possess",
-    pastParticiple: "possessed",
-    presentParticiple: "possessing",
-    perfect: "possessed",
-    third_person: "possesses",
-  },
-  post: {
-    infinitive: "post",
-    pastParticiple: "posted",
-    presentParticiple: "posting",
-    perfect: "posted",
-    third_person: "posts",
-  },
-  pour: {
-    infinitive: "pour",
-    pastParticiple: "poured",
-    presentParticiple: "pouring",
-    perfect: "poured",
-    third_person: "pours",
-  },
-  practice: {
-    infinitive: "practice",
-    pastParticiple: "practiced",
-    presentParticiple: "practicing",
-    perfect: "practiced",
-    third_person: "practices",
-  },
-  pray: {
-    infinitive: "pray",
-    pastParticiple: "prayed",
-    presentParticiple: "praying",
-    perfect: "prayed",
-    third_person: "prays",
-  },
-  preach: {
-    infinitive: "preach",
-    pastParticiple: "preached",
-    presentParticiple: "preaching",
-    perfect: "preached",
-    third_person: "preaches",
-  },
-  precede: {
-    infinitive: "precede",
-    pastParticiple: "preceded",
-    presentParticiple: "preceding",
-    perfect: "preceded",
-    third_person: "precedes",
-  },
-  predict: {
-    infinitive: "predict",
-    pastParticiple: "predicted",
-    presentParticiple: "predicting",
-    perfect: "predicted",
-    third_person: "predicts",
-  },
-  prefer: {
-    infinitive: "prefer",
-    pastParticiple: "preferred",
-    presentParticiple: "preferring",
-    perfect: "preferred",
-    third_person: "prefers",
-  },
-  prepare: {
-    infinitive: "prepare",
-    pastParticiple: "prepared",
-    presentParticiple: "preparing",
-    perfect: "prepared",
-    third_person: "prepares",
-  },
-  prescribe: {
-    infinitive: "prescribe",
-    pastParticiple: "prescribed",
-    presentParticiple: "prescribing",
-    perfect: "prescribed",
-    third_person: "prescribes",
-  },
-  present: {
-    infinitive: "present",
-    pastParticiple: "presented",
-    presentParticiple: "presenting",
-    perfect: "presented",
-    third_person: "presents",
-  },
-  preserve: {
-    infinitive: "preserve",
-    pastParticiple: "preserved",
-    presentParticiple: "preserving",
-    perfect: "preserved",
-    third_person: "preserves",
-  },
-  preset: {
-    infinitive: "preset",
-    pastParticiple: "preset",
-    presentParticiple: "presetting",
-    perfect: "preset",
-    third_person: "presets",
-  },
-  preside: {
-    infinitive: "preside",
-    pastParticiple: "presided",
-    presentParticiple: "presiding",
-    perfect: "presided",
-    third_person: "presides",
-  },
-  press: {
-    infinitive: "press",
-    pastParticiple: "pressed",
-    presentParticiple: "pressing",
-    perfect: "pressed",
-    third_person: "presses",
-  },
-  pretend: {
-    infinitive: "pretend",
-    pastParticiple: "pretended",
-    presentParticiple: "pretending",
-    perfect: "pretended",
-    third_person: "pretends",
-  },
-  prevent: {
-    infinitive: "prevent",
-    pastParticiple: "prevented",
-    presentParticiple: "preventing",
-    perfect: "prevented",
-    third_person: "prevents",
-  },
-  prick: {
-    infinitive: "prick",
-    pastParticiple: "pricked",
-    presentParticiple: "pricking",
-    perfect: "pricked",
-    third_person: "pricks",
-  },
-  print: {
-    infinitive: "print",
-    pastParticiple: "printed",
-    presentParticiple: "printing",
-    perfect: "printed",
-    third_person: "prints",
-  },
-  process: {
-    infinitive: "process",
-    pastParticiple: "processed",
-    presentParticiple: "processing",
-    perfect: "processed",
-    third_person: "processes",
-  },
-  procure: {
-    infinitive: "procure",
-    pastParticiple: "procured",
-    presentParticiple: "procuring",
-    perfect: "procured",
-    third_person: "procures",
-  },
-  produce: {
-    infinitive: "produce",
-    pastParticiple: "produced",
-    presentParticiple: "producing",
-    perfect: "produced",
-    third_person: "produces",
-  },
-  profess: {
-    infinitive: "profess",
-    pastParticiple: "professed",
-    presentParticiple: "professing",
-    perfect: "professed",
-    third_person: "professes",
-  },
-  program: {
-    infinitive: "program",
-    pastParticiple: "programmed",
-    presentParticiple: "programming",
-    perfect: "programmed",
-    third_person: "programs",
-  },
-  progress: {
-    infinitive: "progress",
-    pastParticiple: "progressed",
-    presentParticiple: "progressing",
-    perfect: "progressed",
-    third_person: "progresses",
-  },
-  project: {
-    infinitive: "project",
-    pastParticiple: "projected",
-    presentParticiple: "projecting",
-    perfect: "projected",
-    third_person: "projects",
-  },
-  promise: {
-    infinitive: "promise",
-    pastParticiple: "promised",
-    presentParticiple: "promising",
-    perfect: "promised",
-    third_person: "promises",
-  },
-  promote: {
-    infinitive: "promote",
-    pastParticiple: "promoted",
-    presentParticiple: "promoting",
-    perfect: "promoted",
-    third_person: "promotes",
-  },
-  proofread: {
-    infinitive: "proofread",
-    pastParticiple: "proofread",
-    presentParticiple: "proofreading",
-    perfect: "proofread",
-    third_person: "proofreads",
-  },
-  propose: {
-    infinitive: "propose",
-    pastParticiple: "proposed",
-    presentParticiple: "proposing",
-    perfect: "proposed",
-    third_person: "proposes",
-  },
-  protect: {
-    infinitive: "protect",
-    pastParticiple: "protected",
-    presentParticiple: "protecting",
-    perfect: "protected",
-    third_person: "protects",
-  },
-  prove: {
-    infinitive: "prove",
-    pastParticiple: "proved",
-    presentParticiple: "proving",
-    perfect: "proved",
-    third_person: "proves",
-  },
-  provide: {
-    infinitive: "provide",
-    pastParticiple: "provided",
-    presentParticiple: "providing",
-    perfect: "provided",
-    third_person: "provides",
-  },
-  publicize: {
-    infinitive: "publicize",
-    pastParticiple: "publicized",
-    presentParticiple: "publicizing",
-    perfect: "publicized",
-    third_person: "publicizes",
-  },
-  pull: {
-    infinitive: "pull",
-    pastParticiple: "pulled",
-    presentParticiple: "pulling",
-    perfect: "pulled",
-    third_person: "pulls",
-  },
-  pump: {
-    infinitive: "pump",
-    pastParticiple: "pumped",
-    presentParticiple: "pumping",
-    perfect: "pumped",
-    third_person: "pumps",
-  },
-  punch: {
-    infinitive: "punch",
-    pastParticiple: "punched",
-    presentParticiple: "punching",
-    perfect: "punched",
-    third_person: "punches",
-  },
-  puncture: {
-    infinitive: "puncture",
-    pastParticiple: "punctured",
-    presentParticiple: "puncturing",
-    perfect: "punctured",
-    third_person: "punctures",
-  },
-  punish: {
-    infinitive: "punish",
-    pastParticiple: "punished",
-    presentParticiple: "punishing",
-    perfect: "punished",
-    third_person: "punishes",
-  },
-  purchase: {
-    infinitive: "purchase",
-    pastParticiple: "purchased",
-    presentParticiple: "purchasing",
-    perfect: "purchased",
-    third_person: "purchases",
-  },
-  push: {
-    infinitive: "push",
-    pastParticiple: "pushed",
-    presentParticiple: "pushing",
-    perfect: "pushed",
-    third_person: "pushes",
-  },
-  put: {
-    infinitive: "put",
-    pastParticiple: "put",
-    presentParticiple: "putting",
-    perfect: "put",
-    third_person: "puts",
-  },
-  qualify: {
-    infinitive: "qualify",
-    pastParticiple: "qualified",
-    presentParticiple: "qualifying",
-    perfect: "qualified",
-    third_person: "qualifies",
-  },
-  question: {
-    infinitive: "question",
-    pastParticiple: "questioned",
-    presentParticiple: "questioning",
-    perfect: "questioned",
-    third_person: "questions",
-  },
-  queue: {
-    infinitive: "queue",
-    pastParticiple: "queued",
-    presentParticiple: "queueing",
-    perfect: "queued",
-    third_person: "queues",
-  },
-  quit: {
-    infinitive: "quit",
-    pastParticiple: "quitted",
-    presentParticiple: "quitting",
-    perfect: "quitted",
-    third_person: "quits",
-  },
-  race: {
-    infinitive: "race",
-    pastParticiple: "raced",
-    presentParticiple: "racing",
-    perfect: "raced",
-    third_person: "races",
-  },
-  radiate: {
-    infinitive: "radiate",
-    pastParticiple: "radiated",
-    presentParticiple: "radiating",
-    perfect: "radiated",
-    third_person: "radiates",
-  },
-  rain: {
-    infinitive: "rain",
-    pastParticiple: "rained",
-    presentParticiple: "raining",
-    perfect: "rained",
-    third_person: "rains",
-  },
-  raise: {
-    infinitive: "raise",
-    pastParticiple: "raised",
-    presentParticiple: "raising",
-    perfect: "raised",
-    third_person: "raises",
-  },
-  rank: {
-    infinitive: "rank",
-    pastParticiple: "ranked",
-    presentParticiple: "ranking",
-    perfect: "ranked",
-    third_person: "ranks",
-  },
-  rate: {
-    infinitive: "rate",
-    pastParticiple: "rated",
-    presentParticiple: "rating",
-    perfect: "rated",
-    third_person: "rates",
-  },
-  ray: {
-    infinitive: "ray",
-    pastParticiple: "rayed",
-    presentParticiple: "raying",
-    perfect: "rayed",
-    third_person: "rays",
-  },
-  reach: {
-    infinitive: "reach",
-    pastParticiple: "reached",
-    presentParticiple: "reaching",
-    perfect: "reached",
-    third_person: "reaches",
-  },
-  read: {
-    infinitive: "read",
-    pastParticiple: "read",
-    presentParticiple: "reading",
-    perfect: "read",
-    third_person: "reads",
-  },
-  realign: {
-    infinitive: "realign",
-    pastParticiple: "realigned",
-    presentParticiple: "realigning",
-    perfect: "realigned",
-    third_person: "realigns",
-  },
-  realize: {
-    infinitive: "realize",
-    pastParticiple: "realized",
-    presentParticiple: "realizing",
-    perfect: "realized",
-    third_person: "realizes",
-  },
-  reason: {
-    infinitive: "reason",
-    pastParticiple: "reasoned",
-    presentParticiple: "reasoning",
-    perfect: "reasoned",
-    third_person: "reasons",
-  },
-  receive: {
-    infinitive: "receive",
-    pastParticiple: "received",
-    presentParticiple: "receiving",
-    perfect: "received",
-    third_person: "receives",
-  },
-  recognize: {
-    infinitive: "recognize",
-    pastParticiple: "recognized",
-    presentParticiple: "recognizing",
-    perfect: "recognized",
-    third_person: "recognizes",
-  },
-  recommend: {
-    infinitive: "recommend",
-    pastParticiple: "recommended",
-    presentParticiple: "recommending",
-    perfect: "recommended",
-    third_person: "recommends",
-  },
-  reconcile: {
-    infinitive: "reconcile",
-    pastParticiple: "reconciled",
-    presentParticiple: "reconciling",
-    perfect: "reconciled",
-    third_person: "reconciles",
-  },
-  record: {
-    infinitive: "record",
-    pastParticiple: "recorded",
-    presentParticiple: "recording",
-    perfect: "recorded",
-    third_person: "records",
-  },
-  recruit: {
-    infinitive: "recruit",
-    pastParticiple: "recruited",
-    presentParticiple: "recruiting",
-    perfect: "recruited",
-    third_person: "recruits",
-  },
-  reduce: {
-    infinitive: "reduce",
-    pastParticiple: "reduced",
-    presentParticiple: "reducing",
-    perfect: "reduced",
-    third_person: "reduces",
-  },
-  refer: {
-    infinitive: "refer",
-    pastParticiple: "referred",
-    presentParticiple: "referring",
-    perfect: "referred",
-    third_person: "refers",
-  },
-  reflect: {
-    infinitive: "reflect",
-    pastParticiple: "reflected",
-    presentParticiple: "reflecting",
-    perfect: "reflected",
-    third_person: "reflects",
-  },
-  refuse: {
-    infinitive: "refuse",
-    pastParticiple: "refused",
-    presentParticiple: "refusing",
-    perfect: "refused",
-    third_person: "refuses",
-  },
-  regret: {
-    infinitive: "regret",
-    pastParticiple: "regretted",
-    presentParticiple: "regretting",
-    perfect: "regretted",
-    third_person: "regrets",
-  },
-  regulate: {
-    infinitive: "regulate",
-    pastParticiple: "regulated",
-    presentParticiple: "regulating",
-    perfect: "regulated",
-    third_person: "regulates",
-  },
-  rehabilitate: {
-    infinitive: "rehabilitate",
-    pastParticiple: "rehabilitated",
-    presentParticiple: "rehabilitating",
-    perfect: "rehabilitated",
-    third_person: "rehabilitates",
-  },
-  reign: {
-    infinitive: "reign",
-    pastParticiple: "reigned",
-    presentParticiple: "reigning",
-    perfect: "reigned",
-    third_person: "reigns",
-  },
-  reinforce: {
-    infinitive: "reinforce",
-    pastParticiple: "reinforced",
-    presentParticiple: "reinforcing",
-    perfect: "reinforced",
-    third_person: "reinforces",
-  },
-  reject: {
-    infinitive: "reject",
-    pastParticiple: "rejected",
-    presentParticiple: "rejecting",
-    perfect: "rejected",
-    third_person: "rejects",
-  },
-  rejoice: {
-    infinitive: "rejoice",
-    pastParticiple: "rejoiced",
-    presentParticiple: "rejoicing",
-    perfect: "rejoiced",
-    third_person: "rejoices",
-  },
-  relate: {
-    infinitive: "relate",
-    pastParticiple: "related",
-    presentParticiple: "relating",
-    perfect: "related",
-    third_person: "relates",
-  },
-  relax: {
-    infinitive: "relax",
-    pastParticiple: "relaxed",
-    presentParticiple: "relaxing",
-    perfect: "relaxed",
-    third_person: "relaxes",
-  },
-  release: {
-    infinitive: "release",
-    pastParticiple: "released",
-    presentParticiple: "releasing",
-    perfect: "released",
-    third_person: "releases",
-  },
-  rely: {
-    infinitive: "rely",
-    pastParticiple: "relied",
-    presentParticiple: "relying",
-    perfect: "relied",
-    third_person: "relies",
-  },
-  remain: {
-    infinitive: "remain",
-    pastParticiple: "remained",
-    presentParticiple: "remaining",
-    perfect: "remained",
-    third_person: "remains",
-  },
-  remember: {
-    infinitive: "remember",
-    pastParticiple: "remembered",
-    presentParticiple: "remembering",
-    perfect: "remembered",
-    third_person: "remembers",
-  },
-  remind: {
-    infinitive: "remind",
-    pastParticiple: "reminded",
-    presentParticiple: "reminding",
-    perfect: "reminded",
-    third_person: "reminds",
-  },
-  remove: {
-    infinitive: "remove",
-    pastParticiple: "removed",
-    presentParticiple: "removing",
-    perfect: "removed",
-    third_person: "removes",
-  },
-  render: {
-    infinitive: "render",
-    pastParticiple: "rendered",
-    presentParticiple: "rendering",
-    perfect: "rendered",
-    third_person: "renders",
-  },
-  reorganize: {
-    infinitive: "reorganize",
-    pastParticiple: "reorganized",
-    presentParticiple: "reorganizing",
-    perfect: "reorganized",
-    third_person: "reorganizes",
-  },
-  repair: {
-    infinitive: "repair",
-    pastParticiple: "repaired",
-    presentParticiple: "repairing",
-    perfect: "repaired",
-    third_person: "repairs",
-  },
-  repeat: {
-    infinitive: "repeat",
-    pastParticiple: "repeated",
-    presentParticiple: "repeating",
-    perfect: "repeated",
-    third_person: "repeats",
-  },
-  replace: {
-    infinitive: "replace",
-    pastParticiple: "replaced",
-    presentParticiple: "replacing",
-    perfect: "replaced",
-    third_person: "replaces",
-  },
-  reply: {
-    infinitive: "reply",
-    pastParticiple: "replied",
-    presentParticiple: "replying",
-    perfect: "replied",
-    third_person: "replies",
-  },
-  report: {
-    infinitive: "report",
-    pastParticiple: "reported",
-    presentParticiple: "reporting",
-    perfect: "reported",
-    third_person: "reports",
-  },
-  represent: {
-    infinitive: "represent",
-    pastParticiple: "represented",
-    presentParticiple: "representing",
-    perfect: "represented",
-    third_person: "represents",
-  },
-  reproduce: {
-    infinitive: "reproduce",
-    pastParticiple: "reproduced",
-    presentParticiple: "reproducing",
-    perfect: "reproduced",
-    third_person: "reproduces",
-  },
-  request: {
-    infinitive: "request",
-    pastParticiple: "requested",
-    presentParticiple: "requesting",
-    perfect: "requested",
-    third_person: "requests",
-  },
-  rescue: {
-    infinitive: "rescue",
-    pastParticiple: "rescued",
-    presentParticiple: "rescuing",
-    perfect: "rescued",
-    third_person: "rescues",
-  },
-  research: {
-    infinitive: "research",
-    pastParticiple: "researched",
-    presentParticiple: "researching",
-    perfect: "researched",
-    third_person: "researches",
-  },
-  resolve: {
-    infinitive: "resolve",
-    pastParticiple: "resolved",
-    presentParticiple: "resolving",
-    perfect: "resolved",
-    third_person: "resolves",
-  },
-  respond: {
-    infinitive: "respond",
-    pastParticiple: "responded",
-    presentParticiple: "responding",
-    perfect: "responded",
-    third_person: "responds",
-  },
-  restructure: {
-    infinitive: "restructure",
-    pastParticiple: "restructured",
-    presentParticiple: "restructuring",
-    perfect: "restructured",
-    third_person: "restructures",
-  },
-  retire: {
-    infinitive: "retire",
-    pastParticiple: "retired",
-    presentParticiple: "retiring",
-    perfect: "retired",
-    third_person: "retires",
-  },
-  retrieve: {
-    infinitive: "retrieve",
-    pastParticiple: "retrieved",
-    presentParticiple: "retrieving",
-    perfect: "retrieved",
-    third_person: "retrieves",
-  },
-  return: {
-    infinitive: "return",
-    pastParticiple: "returned",
-    presentParticiple: "returning",
-    perfect: "returned",
-    third_person: "returns",
-  },
-  review: {
-    infinitive: "review",
-    pastParticiple: "reviewed",
-    presentParticiple: "reviewing",
-    perfect: "reviewed",
-    third_person: "reviews",
-  },
-  revise: {
-    infinitive: "revise",
-    pastParticiple: "revised",
-    presentParticiple: "revising",
-    perfect: "revised",
-    third_person: "revises",
-  },
-  rhyme: {
-    infinitive: "rhyme",
-    pastParticiple: "rhymed",
-    presentParticiple: "rhyming",
-    perfect: "rhymed",
-    third_person: "rhymes",
-  },
-  rid: {
-    infinitive: "rid",
-    pastParticiple: "rid",
-    presentParticiple: "ridding",
-    perfect: "ridded",
-    third_person: "rids",
-  },
-  ride: {
-    infinitive: "ride",
-    pastParticiple: "rode",
-    presentParticiple: "riding",
-    perfect: "ridden",
-    third_person: "rides",
-  },
-  ring: {
-    infinitive: "ring",
-    pastParticiple: "ringed",
-    presentParticiple: "ringing",
-    perfect: "ringed",
-    third_person: "rings",
-  },
-  rinse: {
-    infinitive: "rinse",
-    pastParticiple: "rinsed",
-    presentParticiple: "rinsing",
-    perfect: "rinsed",
-    third_person: "rinses",
-  },
-  rise: {
-    infinitive: "rise",
-    pastParticiple: "rose",
-    presentParticiple: "rising",
-    perfect: "risen",
-    third_person: "rises",
-  },
-  risk: {
-    infinitive: "risk",
-    pastParticiple: "risked",
-    presentParticiple: "risking",
-    perfect: "risked",
-    third_person: "risks",
-  },
-  rob: {
-    infinitive: "rob",
-    pastParticiple: "robbed",
-    presentParticiple: "robbing",
-    perfect: "robbed",
-    third_person: "robs",
-  },
-  rock: {
-    infinitive: "rock",
-    pastParticiple: "rocked",
-    presentParticiple: "rocking",
-    perfect: "rocked",
-    third_person: "rocks",
-  },
-  roll: {
-    infinitive: "roll",
-    pastParticiple: "rolled",
-    presentParticiple: "rolling",
-    perfect: "rolled",
-    third_person: "rolls",
-  },
-  rot: {
-    infinitive: "rot",
-    pastParticiple: "rotted",
-    presentParticiple: "rotting",
-    perfect: "rotten",
-    third_person: "rots",
-  },
-  rub: {
-    infinitive: "rub",
-    pastParticiple: "rubbed",
-    presentParticiple: "rubbing",
-    perfect: "rubbed",
-    third_person: "rubs",
-  },
-  ruin: {
-    infinitive: "ruin",
-    pastParticiple: "ruined",
-    presentParticiple: "ruining",
-    perfect: "ruined",
-    third_person: "ruins",
-  },
-  rule: {
-    infinitive: "rule",
-    pastParticiple: "ruled",
-    presentParticiple: "ruling",
-    perfect: "ruled",
-    third_person: "rules",
-  },
-  run: {
-    infinitive: "run",
-    pastParticiple: "ran",
-    presentParticiple: "running",
-    perfect: "run",
-    third_person: "runs",
-  },
-  rush: {
-    infinitive: "rush",
-    pastParticiple: "rushed",
-    presentParticiple: "rushing",
-    perfect: "rushed",
-    third_person: "rushes",
-  },
-  sack: {
-    infinitive: "sack",
-    pastParticiple: "sacked",
-    presentParticiple: "sacking",
-    perfect: "sacked",
-    third_person: "sacks",
-  },
-  sail: {
-    infinitive: "sail",
-    pastParticiple: "sailed",
-    presentParticiple: "sailing",
-    perfect: "sailed",
-    third_person: "sails",
-  },
-  satisfy: {
-    infinitive: "satisfy",
-    pastParticiple: "satisfied",
-    presentParticiple: "satisfying",
-    perfect: "satisfied",
-    third_person: "satisfies",
-  },
-  save: {
-    infinitive: "save",
-    pastParticiple: "saved",
-    presentParticiple: "saving",
-    perfect: "saved",
-    third_person: "saves",
-  },
-  saw: {
-    infinitive: "saw",
-    pastParticiple: "sawed",
-    presentParticiple: "sawing",
-    perfect: "sawed",
-    third_person: "saws",
-  },
-  say: {
-    infinitive: "say",
-    pastParticiple: "said",
-    presentParticiple: "saying",
-    perfect: "said",
-    third_person: "says",
-  },
-  scare: {
-    infinitive: "scare",
-    pastParticiple: "scared",
-    presentParticiple: "scaring",
-    perfect: "scared",
-    third_person: "scares",
-  },
-  scatter: {
-    infinitive: "scatter",
-    pastParticiple: "scattered",
-    presentParticiple: "scattering",
-    perfect: "scattered",
-    third_person: "scatters",
-  },
-  schedule: {
-    infinitive: "schedule",
-    pastParticiple: "scheduled",
-    presentParticiple: "scheduling",
-    perfect: "scheduled",
-    third_person: "schedules",
-  },
-  scold: {
-    infinitive: "scold",
-    pastParticiple: "scolded",
-    presentParticiple: "scolding",
-    perfect: "scolded",
-    third_person: "scolds",
-  },
-  scorch: {
-    infinitive: "scorch",
-    pastParticiple: "scorched",
-    presentParticiple: "scorching",
-    perfect: "scorched",
-    third_person: "scorches",
-  },
-  scrape: {
-    infinitive: "scrape",
-    pastParticiple: "scraped",
-    presentParticiple: "scraping",
-    perfect: "scraped",
-    third_person: "scrapes",
-  },
-  scratch: {
-    infinitive: "scratch",
-    pastParticiple: "scratched",
-    presentParticiple: "scratching",
-    perfect: "scratched",
-    third_person: "scratches",
-  },
-  scream: {
-    infinitive: "scream",
-    pastParticiple: "screamed",
-    presentParticiple: "screaming",
-    perfect: "screamed",
-    third_person: "screams",
-  },
-  screw: {
-    infinitive: "screw",
-    pastParticiple: "screwed",
-    presentParticiple: "screwing",
-    perfect: "screwed",
-    third_person: "screws",
-  },
-  scribble: {
-    infinitive: "scribble",
-    pastParticiple: "scribbled",
-    presentParticiple: "scribbling",
-    perfect: "scribbled",
-    third_person: "scribbles",
-  },
-  scrub: {
-    infinitive: "scrub",
-    pastParticiple: "scrubbed",
-    presentParticiple: "scrubbing",
-    perfect: "scrubbed",
-    third_person: "scrubs",
-  },
-  seal: {
-    infinitive: "seal",
-    pastParticiple: "sealed",
-    presentParticiple: "sealing",
-    perfect: "sealed",
-    third_person: "seals",
-  },
-  search: {
-    infinitive: "search",
-    pastParticiple: "searched",
-    presentParticiple: "searching",
-    perfect: "searched",
-    third_person: "searches",
-  },
-  secure: {
-    infinitive: "secure",
-    pastParticiple: "secured",
-    presentParticiple: "securing",
-    perfect: "secured",
-    third_person: "secures",
-  },
-  see: {
-    infinitive: "see",
-    pastParticiple: "saw",
-    presentParticiple: "seeing",
-    perfect: "seen",
-    third_person: "sees",
-  },
-  seek: {
-    infinitive: "seek",
-    pastParticiple: "sought",
-    presentParticiple: "seeking",
-    perfect: "sought",
-    third_person: "seeks",
-  },
-  select: {
-    infinitive: "select",
-    pastParticiple: "selected",
-    presentParticiple: "selecting",
-    perfect: "selected",
-    third_person: "selects",
-  },
-  sell: {
-    infinitive: "sell",
-    pastParticiple: "sold",
-    presentParticiple: "selling",
-    perfect: "sold",
-    third_person: "sells",
-  },
-  send: {
-    infinitive: "send",
-    pastParticiple: "sent",
-    presentParticiple: "sending",
-    perfect: "sent",
-    third_person: "sends",
-  },
-  sense: {
-    infinitive: "sense",
-    pastParticiple: "sensed",
-    presentParticiple: "sensing",
-    perfect: "sensed",
-    third_person: "senses",
-  },
-  separate: {
-    infinitive: "separate",
-    pastParticiple: "separated",
-    presentParticiple: "separating",
-    perfect: "separated",
-    third_person: "separates",
-  },
-  serve: {
-    infinitive: "serve",
-    pastParticiple: "served",
-    presentParticiple: "serving",
-    perfect: "served",
-    third_person: "serves",
-  },
-  service: {
-    infinitive: "service",
-    pastParticiple: "serviced",
-    presentParticiple: "servicing",
-    perfect: "serviced",
-    third_person: "services",
-  },
-  set: {
-    infinitive: "set",
-    pastParticiple: "set",
-    presentParticiple: "setting",
-    perfect: "set",
-    third_person: "sets",
-  },
-  settle: {
-    infinitive: "settle",
-    pastParticiple: "settled",
-    presentParticiple: "settling",
-    perfect: "settled",
-    third_person: "settles",
-  },
-  sew: {
-    infinitive: "sew",
-    pastParticiple: "sewed",
-    presentParticiple: "sewing",
-    perfect: "sewn",
-    third_person: "sews",
-  },
-  shade: {
-    infinitive: "shade",
-    pastParticiple: "shaded",
-    presentParticiple: "shading",
-    perfect: "shaded",
-    third_person: "shades",
-  },
-  shake: {
-    infinitive: "shake",
-    pastParticiple: "shook",
-    presentParticiple: "shaking",
-    perfect: "shaken",
-    third_person: "shakes",
-  },
-  shape: {
-    infinitive: "shape",
-    pastParticiple: "shaped",
-    presentParticiple: "shaping",
-    perfect: "shaped",
-    third_person: "shapes",
-  },
-  share: {
-    infinitive: "share",
-    pastParticiple: "shared",
-    presentParticiple: "sharing",
-    perfect: "shared",
-    third_person: "shares",
-  },
-  shave: {
-    infinitive: "shave",
-    pastParticiple: "shove",
-    presentParticiple: "shaving",
-    perfect: "shaven",
-    third_person: "shaves",
-  },
-  shear: {
-    infinitive: "shear",
-    pastParticiple: "sheared",
-    presentParticiple: "shearing",
-    perfect: "shorn",
-    third_person: "shears",
-  },
-  shed: {
-    infinitive: "shed",
-    pastParticiple: "shed",
-    presentParticiple: "shedding",
-    perfect: "shed",
-    third_person: "sheds",
-  },
-  shelter: {
-    infinitive: "shelter",
-    pastParticiple: "sheltered",
-    presentParticiple: "sheltering",
-    perfect: "sheltered",
-    third_person: "shelters",
-  },
-  shine: {
-    infinitive: "shine",
-    pastParticiple: "shined",
-    presentParticiple: "shining",
-    perfect: "shined",
-    third_person: "shines",
-  },
-  shit: {
-    infinitive: "shit",
-    pastParticiple: "shit",
-    presentParticiple: "shitting",
-    perfect: "shit",
-    third_person: "shits",
-  },
-  shiver: {
-    infinitive: "shiver",
-    pastParticiple: "shivered",
-    presentParticiple: "shivering",
-    perfect: "shivered",
-    third_person: "shivers",
-  },
-  shock: {
-    infinitive: "shock",
-    pastParticiple: "shocked",
-    presentParticiple: "shocking",
-    perfect: "shocked",
-    third_person: "shocks",
-  },
-  shoe: {
-    infinitive: "shoe",
-    pastParticiple: "shod",
-    presentParticiple: "shoeing",
-    perfect: "shodden",
-    third_person: "shoes",
-  },
-  shoot: {
-    infinitive: "shoot",
-    pastParticiple: "shot",
-    presentParticiple: "shooting",
-    perfect: "shot",
-    third_person: "shoots",
-  },
-  shop: {
-    infinitive: "shop",
-    pastParticiple: "shopped",
-    presentParticiple: "shopping",
-    perfect: "shopped",
-    third_person: "shops",
-  },
-  show: {
-    infinitive: "show",
-    pastParticiple: "showed",
-    presentParticiple: "showing",
-    perfect: "shown",
-    third_person: "shows",
-  },
-  shred: {
-    infinitive: "shred",
-    pastParticiple: "shredd",
-    presentParticiple: "shredding",
-    perfect: "shredd",
-    third_person: "shreds",
-  },
-  shrink: {
-    infinitive: "shrink",
-    pastParticiple: "shrank",
-    presentParticiple: "shrinking",
-    perfect: "shrunk",
-    third_person: "shrinks",
-  },
-  shrug: {
-    infinitive: "shrug",
-    pastParticiple: "shrugged",
-    presentParticiple: "shrugging",
-    perfect: "shrugged",
-    third_person: "shrugs",
-  },
-  shut: {
-    infinitive: "shut",
-    pastParticiple: "shut",
-    presentParticiple: "shutting",
-    perfect: "shut",
-    third_person: "shuts",
-  },
-  sigh: {
-    infinitive: "sigh",
-    pastParticiple: "sighed",
-    presentParticiple: "sighing",
-    perfect: "sighed",
-    third_person: "sighs",
-  },
-  sign: {
-    infinitive: "sign",
-    pastParticiple: "signed",
-    presentParticiple: "signing",
-    perfect: "signed",
-    third_person: "signs",
-  },
-  signal: {
-    infinitive: "signal",
-    pastParticiple: "signalled",
-    presentParticiple: "signalling",
-    perfect: "signalled",
-    third_person: "signals",
-  },
-  simplify: {
-    infinitive: "simplify",
-    pastParticiple: "simplified",
-    presentParticiple: "simplifying",
-    perfect: "simplified",
-    third_person: "simplifies",
-  },
-  sin: {
-    infinitive: "sin",
-    pastParticiple: "sinned",
-    presentParticiple: "sinning",
-    perfect: "sinned",
-    third_person: "sins",
-  },
-  sing: {
-    infinitive: "sing",
-    pastParticiple: "sang",
-    presentParticiple: "singing",
-    perfect: "sung",
-    third_person: "sings",
-  },
-  sink: {
-    infinitive: "sink",
-    pastParticiple: "sank",
-    presentParticiple: "sinking",
-    perfect: "sunk",
-    third_person: "sinks",
-  },
-  sip: {
-    infinitive: "sip",
-    pastParticiple: "sipped",
-    presentParticiple: "sipping",
-    perfect: "sipped",
-    third_person: "sips",
-  },
-  sit: {
-    infinitive: "sit",
-    pastParticiple: "sat",
-    presentParticiple: "sitting",
-    perfect: "sat",
-    third_person: "sits",
-  },
-  sketch: {
-    infinitive: "sketch",
-    pastParticiple: "sketched",
-    presentParticiple: "sketching",
-    perfect: "sketched",
-    third_person: "sketches",
-  },
-  ski: {
-    infinitive: "ski",
-    pastParticiple: "skied",
-    presentParticiple: "skiing",
-    perfect: "skied",
-    third_person: "skis",
-  },
-  skip: {
-    infinitive: "skip",
-    pastParticiple: "skipped",
-    presentParticiple: "skipping",
-    perfect: "skipped",
-    third_person: "skips",
-  },
-  slap: {
-    infinitive: "slap",
-    pastParticiple: "slapped",
-    presentParticiple: "slapping",
-    perfect: "slapped",
-    third_person: "slaps",
-  },
-  slay: {
-    infinitive: "slay",
-    pastParticiple: "slew",
-    presentParticiple: "slaying",
-    perfect: "slain",
-    third_person: "slays",
-  },
-  sleep: {
-    infinitive: "sleep",
-    pastParticiple: "slept",
-    presentParticiple: "sleeping",
-    perfect: "slept",
-    third_person: "sleeps",
-  },
-  slide: {
-    infinitive: "slide",
-    pastParticiple: "slid",
-    presentParticiple: "sliding",
-    perfect: "slid",
-    third_person: "slides",
-  },
-  sling: {
-    infinitive: "sling",
-    pastParticiple: "slung",
-    presentParticiple: "slinging",
-    perfect: "slung",
-    third_person: "slings",
-  },
-  slink: {
-    infinitive: "slink",
-    pastParticiple: "slunk",
-    presentParticiple: "slinking",
-    perfect: "slunk",
-    third_person: "slinks",
-  },
-  slip: {
-    infinitive: "slip",
-    pastParticiple: "slipped",
-    presentParticiple: "slipping",
-    perfect: "slipped",
-    third_person: "slips",
-  },
-  slit: {
-    infinitive: "slit",
-    pastParticiple: "slit",
-    presentParticiple: "slitting",
-    perfect: "slit",
-    third_person: "slits",
-  },
-  slow: {
-    infinitive: "slow",
-    pastParticiple: "slowed",
-    presentParticiple: "slowing",
-    perfect: "slowed",
-    third_person: "slows",
-  },
-  smash: {
-    infinitive: "smash",
-    pastParticiple: "smashed",
-    presentParticiple: "smashing",
-    perfect: "smashed",
-    third_person: "smashes",
-  },
-  smell: {
-    infinitive: "smell",
-    pastParticiple: "smelled",
-    presentParticiple: "smelling",
-    perfect: "smelled",
-    third_person: "smells",
-  },
-  smile: {
-    infinitive: "smile",
-    pastParticiple: "smiled",
-    presentParticiple: "smiling",
-    perfect: "smiled",
-    third_person: "smiles",
-  },
-  smite: {
-    infinitive: "smite",
-    pastParticiple: "smote",
-    presentParticiple: "smiting",
-    perfect: "smitten",
-    third_person: "smites",
-  },
-  smoke: {
-    infinitive: "smoke",
-    pastParticiple: "smoked",
-    presentParticiple: "smoking",
-    perfect: "smoked",
-    third_person: "smokes",
-  },
-  snatch: {
-    infinitive: "snatch",
-    pastParticiple: "snatched",
-    presentParticiple: "snatching",
-    perfect: "snatched",
-    third_person: "snatches",
-  },
-  sneak: {
-    infinitive: "sneak",
-    pastParticiple: "sneaked",
-    presentParticiple: "sneaking",
-    perfect: "sneaked",
-    third_person: "sneaks",
-  },
-  sneeze: {
-    infinitive: "sneeze",
-    pastParticiple: "sneezed",
-    presentParticiple: "sneezing",
-    perfect: "sneezed",
-    third_person: "sneezes",
-  },
-  sniff: {
-    infinitive: "sniff",
-    pastParticiple: "sniffed",
-    presentParticiple: "sniffing",
-    perfect: "sniffed",
-    third_person: "sniffs",
-  },
-  snore: {
-    infinitive: "snore",
-    pastParticiple: "snored",
-    presentParticiple: "snoring",
-    perfect: "snored",
-    third_person: "snores",
-  },
-  snow: {
-    infinitive: "snow",
-    pastParticiple: "snowed",
-    presentParticiple: "snowing",
-    perfect: "snowed",
-    third_person: "snows",
-  },
-  soak: {
-    infinitive: "soak",
-    pastParticiple: "soaked",
-    presentParticiple: "soaking",
-    perfect: "soaked",
-    third_person: "soaks",
-  },
-  solve: {
-    infinitive: "solve",
-    pastParticiple: "solved",
-    presentParticiple: "solving",
-    perfect: "solved",
-    third_person: "solves",
-  },
-  soothe: {
-    infinitive: "soothe",
-    pastParticiple: "soothed",
-    presentParticiple: "soothing",
-    perfect: "soothed",
-    third_person: "soothes",
-  },
-  sort: {
-    infinitive: "sort",
-    pastParticiple: "sorted",
-    presentParticiple: "sorting",
-    perfect: "sorted",
-    third_person: "sorts",
-  },
-  sound: {
-    infinitive: "sound",
-    pastParticiple: "sounded",
-    presentParticiple: "sounding",
-    perfect: "sounded",
-    third_person: "sounds",
-  },
-  sow: {
-    infinitive: "sow",
-    pastParticiple: "sowed",
-    presentParticiple: "sowing",
-    perfect: "sown",
-    third_person: "sows",
-  },
-  spare: {
-    infinitive: "spare",
-    pastParticiple: "spared",
-    presentParticiple: "sparing",
-    perfect: "spared",
-    third_person: "spares",
-  },
-  spark: {
-    infinitive: "spark",
-    pastParticiple: "sparked",
-    presentParticiple: "sparking",
-    perfect: "sparked",
-    third_person: "sparks",
-  },
-  sparkle: {
-    infinitive: "sparkle",
-    pastParticiple: "sparkled",
-    presentParticiple: "sparkling",
-    perfect: "sparkled",
-    third_person: "sparkles",
-  },
-  speak: {
-    infinitive: "speak",
-    pastParticiple: "speaked",
-    presentParticiple: "speaking",
-    perfect: "speaked",
-    third_person: "speaks",
-  },
-  specify: {
-    infinitive: "specify",
-    pastParticiple: "specified",
-    presentParticiple: "specifying",
-    perfect: "specified",
-    third_person: "specifies",
-  },
-  speed: {
-    infinitive: "speed",
-    pastParticiple: "sped",
-    presentParticiple: "speeding",
-    perfect: "sped",
-    third_person: "speeds",
-  },
-  spell: {
-    infinitive: "spell",
-    pastParticiple: "spelled",
-    presentParticiple: "spelling",
-    perfect: "spelled",
-    third_person: "spells",
-  },
-  spend: {
-    infinitive: "spend",
-    pastParticiple: "spent",
-    presentParticiple: "spending",
-    perfect: "spent",
-    third_person: "spends",
-  },
-  spill: {
-    infinitive: "spill",
-    pastParticiple: "spilled",
-    presentParticiple: "spilling",
-    perfect: "spilled",
-    third_person: "spills",
-  },
-  spin: {
-    infinitive: "spin",
-    pastParticiple: "spun",
-    presentParticiple: "spinning",
-    perfect: "spun",
-    third_person: "spins",
-  },
-  spit: {
-    infinitive: "spit",
-    pastParticiple: "spitted",
-    presentParticiple: "spitting",
-    perfect: "spitted",
-    third_person: "spits",
-  },
-  split: {
-    infinitive: "split",
-    pastParticiple: "split",
-    presentParticiple: "splitting",
-    perfect: "split",
-    third_person: "splits",
-  },
-  spoil: {
-    infinitive: "spoil",
-    pastParticiple: "spoiled",
-    presentParticiple: "spoiling",
-    perfect: "spoiled",
-    third_person: "spoils",
-  },
-  spot: {
-    infinitive: "spot",
-    pastParticiple: "spotted",
-    presentParticiple: "spotting",
-    perfect: "spotted",
-    third_person: "spots",
-  },
-  spray: {
-    infinitive: "spray",
-    pastParticiple: "sprayed",
-    presentParticiple: "spraying",
-    perfect: "sprayed",
-    third_person: "sprays",
-  },
-  spread: {
-    infinitive: "spread",
-    pastParticiple: "spread",
-    presentParticiple: "spreading",
-    perfect: "spread",
-    third_person: "spreads",
-  },
-  spring: {
-    infinitive: "spring",
-    pastParticiple: "sprang",
-    presentParticiple: "springing",
-    perfect: "sprung",
-    third_person: "springs",
-  },
-  sprout: {
-    infinitive: "sprout",
-    pastParticiple: "sprouted",
-    presentParticiple: "sprouting",
-    perfect: "sprouted",
-    third_person: "sprouts",
-  },
-  squash: {
-    infinitive: "squash",
-    pastParticiple: "squashed",
-    presentParticiple: "squashing",
-    perfect: "squashed",
-    third_person: "squashes",
-  },
-  squeak: {
-    infinitive: "squeak",
-    pastParticiple: "squeaked",
-    presentParticiple: "squeaking",
-    perfect: "squeaked",
-    third_person: "squeaks",
-  },
-  squeal: {
-    infinitive: "squeal",
-    pastParticiple: "squealed",
-    presentParticiple: "squealing",
-    perfect: "squealed",
-    third_person: "squeals",
-  },
-  squeeze: {
-    infinitive: "squeeze",
-    pastParticiple: "squeezed",
-    presentParticiple: "squeezing",
-    perfect: "squeezed",
-    third_person: "squeezes",
-  },
-  stain: {
-    infinitive: "stain",
-    pastParticiple: "stained",
-    presentParticiple: "staining",
-    perfect: "stained",
-    third_person: "stains",
-  },
-  stamp: {
-    infinitive: "stamp",
-    pastParticiple: "stamped",
-    presentParticiple: "stamping",
-    perfect: "stamped",
-    third_person: "stamps",
-  },
-  stand: {
-    infinitive: "stand",
-    pastParticiple: "stood",
-    presentParticiple: "standing",
-    perfect: "stood",
-    third_person: "stands",
-  },
-  stare: {
-    infinitive: "stare",
-    pastParticiple: "stared",
-    presentParticiple: "staring",
-    perfect: "stared",
-    third_person: "stares",
-  },
-  start: {
-    infinitive: "start",
-    pastParticiple: "started",
-    presentParticiple: "starting",
-    perfect: "started",
-    third_person: "starts",
-  },
-  stay: {
-    infinitive: "stay",
-    pastParticiple: "stayed",
-    presentParticiple: "staying",
-    perfect: "stayed",
-    third_person: "stays",
-  },
-  steal: {
-    infinitive: "steal",
-    pastParticiple: "stole",
-    presentParticiple: "stealing",
-    perfect: "stolen",
-    third_person: "steals",
-  },
-  steer: {
-    infinitive: "steer",
-    pastParticiple: "steered",
-    presentParticiple: "steering",
-    perfect: "steered",
-    third_person: "steers",
-  },
-  step: {
-    infinitive: "step",
-    pastParticiple: "stept",
-    presentParticiple: "stepping",
-    perfect: "stept",
-    third_person: "steps",
-  },
-  stick: {
-    infinitive: "stick",
-    pastParticiple: "sticked",
-    presentParticiple: "sticking",
-    perfect: "sticked",
-    third_person: "sticks",
-  },
-  stimulate: {
-    infinitive: "stimulate",
-    pastParticiple: "stimulated",
-    presentParticiple: "stimulating",
-    perfect: "stimulated",
-    third_person: "stimulates",
-  },
-  sting: {
-    infinitive: "sting",
-    pastParticiple: "stang",
-    presentParticiple: "stinging",
-    perfect: "stung",
-    third_person: "stings",
-  },
-  stink: {
-    infinitive: "stink",
-    pastParticiple: "stank",
-    presentParticiple: "stinking",
-    perfect: "stunk",
-    third_person: "stinks",
-  },
-  stir: {
-    infinitive: "stir",
-    pastParticiple: "stirred",
-    presentParticiple: "stirring",
-    perfect: "stirred",
-    third_person: "stirs",
-  },
-  stitch: {
-    infinitive: "stitch",
-    pastParticiple: "stitched",
-    presentParticiple: "stitching",
-    perfect: "stitched",
-    third_person: "stitches",
-  },
-  stop: {
-    infinitive: "stop",
-    pastParticiple: "stopped",
-    presentParticiple: "stopping",
-    perfect: "stopped",
-    third_person: "stops",
-  },
-  store: {
-    infinitive: "store",
-    pastParticiple: "stored",
-    presentParticiple: "storing",
-    perfect: "stored",
-    third_person: "stores",
-  },
-  strap: {
-    infinitive: "strap",
-    pastParticiple: "strapped",
-    presentParticiple: "strapping",
-    perfect: "strapped",
-    third_person: "straps",
-  },
-  streamline: {
-    infinitive: "streamline",
-    pastParticiple: "streamlined",
-    presentParticiple: "streamlining",
-    perfect: "streamlined",
-    third_person: "streamlines",
-  },
-  strengthen: {
-    infinitive: "strengthen",
-    pastParticiple: "strengthened",
-    presentParticiple: "strengthening",
-    perfect: "strengthened",
-    third_person: "strengthens",
-  },
-  stretch: {
-    infinitive: "stretch",
-    pastParticiple: "obsolete",
-    presentParticiple: "stretching",
-    perfect: "straught",
-    third_person: "stretches",
-  },
-  stride: {
-    infinitive: "stride",
-    pastParticiple: "strode",
-    presentParticiple: "striding",
-    perfect: "stridden",
-    third_person: "strides",
-  },
-  strike: {
-    infinitive: "strike",
-    pastParticiple: "struck",
-    presentParticiple: "striking",
-    perfect: "struck",
-    third_person: "strikes",
-  },
-  string: {
-    infinitive: "string",
-    pastParticiple: "strung",
-    presentParticiple: "stringing",
-    perfect: "strung",
-    third_person: "strings",
-  },
-  strip: {
-    infinitive: "strip",
-    pastParticiple: "stripped",
-    presentParticiple: "stripping",
-    perfect: "stripped",
-    third_person: "strips",
-  },
-  strive: {
-    infinitive: "strive",
-    pastParticiple: "strove",
-    presentParticiple: "striving",
-    perfect: "striven",
-    third_person: "strives",
-  },
-  stroke: {
-    infinitive: "stroke",
-    pastParticiple: "stroked",
-    presentParticiple: "stroking",
-    perfect: "stroked",
-    third_person: "strokes",
-  },
-  structure: {
-    infinitive: "structure",
-    pastParticiple: "structured",
-    presentParticiple: "structuring",
-    perfect: "structured",
-    third_person: "structures",
-  },
-  study: {
-    infinitive: "study",
-    pastParticiple: "studied",
-    presentParticiple: "studying",
-    perfect: "studied",
-    third_person: "studies",
-  },
-  stuff: {
-    infinitive: "stuff",
-    pastParticiple: "stuffed",
-    presentParticiple: "stuffing",
-    perfect: "stuffed",
-    third_person: "stuffs",
-  },
-  sublet: {
-    infinitive: "sublet",
-    pastParticiple: "sublet",
-    presentParticiple: "subletting",
-    perfect: "sublet",
-    third_person: "sublets",
-  },
-  subtract: {
-    infinitive: "subtract",
-    pastParticiple: "subtracted",
-    presentParticiple: "subtracting",
-    perfect: "subtracted",
-    third_person: "subtracts",
-  },
-  succeed: {
-    infinitive: "succeed",
-    pastParticiple: "succeeded",
-    presentParticiple: "succeeding",
-    perfect: "succeeded",
-    third_person: "succeeds",
-  },
-  suck: {
-    infinitive: "suck",
-    pastParticiple: "sucked",
-    presentParticiple: "sucking",
-    perfect: "sucked",
-    third_person: "sucks",
-  },
-  suffer: {
-    infinitive: "suffer",
-    pastParticiple: "suffered",
-    presentParticiple: "suffering",
-    perfect: "suffered",
-    third_person: "suffers",
-  },
-  suggest: {
-    infinitive: "suggest",
-    pastParticiple: "suggested",
-    presentParticiple: "suggesting",
-    perfect: "suggested",
-    third_person: "suggests",
-  },
-  suit: {
-    infinitive: "suit",
-    pastParticiple: "suited",
-    presentParticiple: "suiting",
-    perfect: "suited",
-    third_person: "suits",
-  },
-  summarize: {
-    infinitive: "summarize",
-    pastParticiple: "summarized",
-    presentParticiple: "summarizing",
-    perfect: "summarized",
-    third_person: "summarizes",
-  },
-  supervise: {
-    infinitive: "supervise",
-    pastParticiple: "supervised",
-    presentParticiple: "supervising",
-    perfect: "supervised",
-    third_person: "supervises",
-  },
-  supply: {
-    infinitive: "supply",
-    pastParticiple: "supplied",
-    presentParticiple: "supplying",
-    perfect: "supplied",
-    third_person: "supplies",
-  },
-  support: {
-    infinitive: "support",
-    pastParticiple: "supported",
-    presentParticiple: "supporting",
-    perfect: "supported",
-    third_person: "supports",
-  },
-  suppose: {
-    infinitive: "suppose",
-    pastParticiple: "supposed",
-    presentParticiple: "supposing",
-    perfect: "supposed",
-    third_person: "supposes",
-  },
-  surprise: {
-    infinitive: "surprise",
-    pastParticiple: "surprised",
-    presentParticiple: "surprising",
-    perfect: "surprised",
-    third_person: "surprises",
-  },
-  surround: {
-    infinitive: "surround",
-    pastParticiple: "surrounded",
-    presentParticiple: "surrounding",
-    perfect: "surrounded",
-    third_person: "surrounds",
-  },
-  suspect: {
-    infinitive: "suspect",
-    pastParticiple: "suspected",
-    presentParticiple: "suspecting",
-    perfect: "suspected",
-    third_person: "suspects",
-  },
-  suspend: {
-    infinitive: "suspend",
-    pastParticiple: "suspended",
-    presentParticiple: "suspending",
-    perfect: "suspended",
-    third_person: "suspends",
-  },
-  swear: {
-    infinitive: "swear",
-    pastParticiple: "swore",
-    presentParticiple: "swearing",
-    perfect: "sworn",
-    third_person: "swears",
-  },
-  sweat: {
-    infinitive: "sweat",
-    pastParticiple: "sweated",
-    presentParticiple: "sweating",
-    perfect: "sweated",
-    third_person: "sweats",
-  },
-  sweep: {
-    infinitive: "sweep",
-    pastParticiple: "swept",
-    presentParticiple: "sweeping",
-    perfect: "swept",
-    third_person: "sweeps",
-  },
-  swell: {
-    infinitive: "swell",
-    pastParticiple: "swelled",
-    presentParticiple: "swelling",
-    perfect: "swollen",
-    third_person: "swells",
-  },
-  swim: {
-    infinitive: "swim",
-    pastParticiple: "swam",
-    presentParticiple: "swimming",
-    perfect: "swum",
-    third_person: "swims",
-  },
-  swing: {
-    infinitive: "swing",
-    pastParticiple: "swang",
-    presentParticiple: "swinging",
-    perfect: "swung",
-    third_person: "swings",
-  },
-  switch: {
-    infinitive: "switch",
-    pastParticiple: "switched",
-    presentParticiple: "switching",
-    perfect: "switched",
-    third_person: "switches",
-  },
-  symbolize: {
-    infinitive: "symbolize",
-    pastParticiple: "symbolized",
-    presentParticiple: "symbolizing",
-    perfect: "symbolized",
-    third_person: "symbolizes",
-  },
-  synthesize: {
-    infinitive: "synthesize",
-    pastParticiple: "synthesized",
-    presentParticiple: "synthesizing",
-    perfect: "synthesized",
-    third_person: "synthesizes",
-  },
-  systemize: {
-    infinitive: "systemize",
-    pastParticiple: "systemized",
-    presentParticiple: "systemizing",
-    perfect: "systemized",
-    third_person: "systemizes",
-  },
-  tabulate: {
-    infinitive: "tabulate",
-    pastParticiple: "tabulating",
-    presentParticiple: "tabulates",
-    perfect: "tabulated",
-    third_person: "tabulate",
-  },
-  take: {
-    infinitive: "take",
-    pastParticiple: "took",
-    presentParticiple: "taking",
-    perfect: "taken",
-    third_person: "takes",
-  },
-  talk: {
-    infinitive: "talk",
-    pastParticiple: "talked",
-    presentParticiple: "talking",
-    perfect: "talked",
-    third_person: "talks",
-  },
-  tame: {
-    infinitive: "tame",
-    pastParticiple: "tamed",
-    presentParticiple: "taming",
-    perfect: "tamed",
-    third_person: "tames",
-  },
-  tap: {
-    infinitive: "tap",
-    pastParticiple: "tapped",
-    presentParticiple: "tapping",
-    perfect: "tapped",
-    third_person: "taps",
-  },
-  target: {
-    infinitive: "target",
-    pastParticiple: "targeted",
-    presentParticiple: "targeting",
-    perfect: "targeted",
-    third_person: "targets",
-  },
-  taste: {
-    infinitive: "taste",
-    pastParticiple: "tasted",
-    presentParticiple: "tasting",
-    perfect: "tasted",
-    third_person: "tastes",
-  },
-  teach: {
-    infinitive: "teach",
-    pastParticiple: "taught",
-    presentParticiple: "teaching",
-    perfect: "taught",
-    third_person: "teaches",
-  },
-  tear: {
-    infinitive: "tear",
-    pastParticiple: "tore",
-    presentParticiple: "tearing",
-    perfect: "torn",
-    third_person: "tears",
-  },
-  tease: {
-    infinitive: "tease",
-    pastParticiple: "teased",
-    presentParticiple: "teasing",
-    perfect: "teased",
-    third_person: "teases",
-  },
-  telecast: {
-    infinitive: "telecast",
-    pastParticiple: "telecasted",
-    presentParticiple: "telecasting",
-    perfect: "telecasted",
-    third_person: "telecasts",
-  },
-  telephone: {
-    infinitive: "telephone",
-    pastParticiple: "telephoned",
-    presentParticiple: "telephoning",
-    perfect: "telephoned",
-    third_person: "telephones",
-  },
-  tell: {
-    infinitive: "tell",
-    pastParticiple: "told",
-    presentParticiple: "telling",
-    perfect: "told",
-    third_person: "tells",
-  },
-  tempt: {
-    infinitive: "tempt",
-    pastParticiple: "tempted",
-    presentParticiple: "tempting",
-    perfect: "tempted",
-    third_person: "tempts",
-  },
-  terrify: {
-    infinitive: "terrify",
-    pastParticiple: "terrified",
-    presentParticiple: "terrifying",
-    perfect: "terrified",
-    third_person: "terrifies",
-  },
-  test: {
-    infinitive: "test",
-    pastParticiple: "tested",
-    presentParticiple: "testing",
-    perfect: "tested",
-    third_person: "tests",
-  },
-  thank: {
-    infinitive: "thank",
-    pastParticiple: "thanked",
-    presentParticiple: "thanking",
-    perfect: "thanked",
-    third_person: "thanks",
-  },
-  thaw: {
-    infinitive: "thaw",
-    pastParticiple: "thawed",
-    presentParticiple: "thawing",
-    perfect: "thawed",
-    third_person: "thaws",
-  },
-  think: {
-    infinitive: "think",
-    pastParticiple: "thought",
-    presentParticiple: "thinking",
-    perfect: "thought",
-    third_person: "thinks",
-  },
-  thrive: {
-    infinitive: "thrive",
-    pastParticiple: "throve",
-    presentParticiple: "thriving",
-    perfect: "thriven",
-    third_person: "thrives",
-  },
-  throw: {
-    infinitive: "throw",
-    pastParticiple: "threw",
-    presentParticiple: "throwing",
-    perfect: "thrown",
-    third_person: "throws",
-  },
-  thrust: {
-    infinitive: "thrust",
-    pastParticiple: "thrusted",
-    presentParticiple: "thrusting",
-    perfect: "thrusted",
-    third_person: "thrusts",
-  },
-  tick: {
-    infinitive: "tick",
-    pastParticiple: "ticked",
-    presentParticiple: "ticking",
-    perfect: "ticked",
-    third_person: "ticks",
-  },
-  tickle: {
-    infinitive: "tickle",
-    pastParticiple: "tickled",
-    presentParticiple: "tickling",
-    perfect: "tickled",
-    third_person: "tickles",
-  },
-  tie: {
-    infinitive: "tie",
-    pastParticiple: "tied",
-    presentParticiple: "tying",
-    perfect: "tied",
-    third_person: "ties",
-  },
-  time: {
-    infinitive: "time",
-    pastParticiple: "timed",
-    presentParticiple: "timing",
-    perfect: "timed",
-    third_person: "times",
-  },
-  tip: {
-    infinitive: "tip",
-    pastParticiple: "tipped",
-    presentParticiple: "tipping",
-    perfect: "tipped",
-    third_person: "tips",
-  },
-  tire: {
-    infinitive: "tire",
-    pastParticiple: "tired",
-    presentParticiple: "tiring",
-    perfect: "tired",
-    third_person: "tires",
-  },
-  touch: {
-    infinitive: "touch",
-    pastParticiple: "touched",
-    presentParticiple: "touching",
-    perfect: "touched",
-    third_person: "touches",
-  },
-  tour: {
-    infinitive: "tour",
-    pastParticiple: "toured",
-    presentParticiple: "touring",
-    perfect: "toured",
-    third_person: "tours",
-  },
-  tow: {
-    infinitive: "tow",
-    pastParticiple: "towed",
-    presentParticiple: "towing",
-    perfect: "towed",
-    third_person: "tows",
-  },
-  trace: {
-    infinitive: "trace",
-    pastParticiple: "traced",
-    presentParticiple: "tracing",
-    perfect: "traced",
-    third_person: "traces",
-  },
-  trade: {
-    infinitive: "trade",
-    pastParticiple: "traded",
-    presentParticiple: "trading",
-    perfect: "traded",
-    third_person: "trades",
-  },
-  train: {
-    infinitive: "train",
-    pastParticiple: "trained",
-    presentParticiple: "training",
-    perfect: "trained",
-    third_person: "trains",
-  },
-  transcribe: {
-    infinitive: "transcribe",
-    pastParticiple: "transcribed",
-    presentParticiple: "transcribing",
-    perfect: "transcribed",
-    third_person: "transcribes",
-  },
-  transfer: {
-    infinitive: "transfer",
-    pastParticiple: "transferred",
-    presentParticiple: "transferring",
-    perfect: "transferred",
-    third_person: "transfers",
-  },
-  transform: {
-    infinitive: "transform",
-    pastParticiple: "transformed",
-    presentParticiple: "transforming",
-    perfect: "transformed",
-    third_person: "transforms",
-  },
-  translate: {
-    infinitive: "translate",
-    pastParticiple: "translated",
-    presentParticiple: "translating",
-    perfect: "translated",
-    third_person: "translates",
-  },
-  transport: {
-    infinitive: "transport",
-    pastParticiple: "transported",
-    presentParticiple: "transporting",
-    perfect: "transported",
-    third_person: "transports",
-  },
-  trap: {
-    infinitive: "trap",
-    pastParticiple: "trapped",
-    presentParticiple: "trapping",
-    perfect: "trapped",
-    third_person: "traps",
-  },
-  travel: {
-    infinitive: "travel",
-    pastParticiple: "travelled",
-    presentParticiple: "travelling",
-    perfect: "travelled",
-    third_person: "travels",
-  },
-  tread: {
-    infinitive: "tread",
-    pastParticiple: "trod",
-    presentParticiple: "treading",
-    perfect: "trodden",
-    third_person: "treads",
-  },
-  treat: {
-    infinitive: "treat",
-    pastParticiple: "treated",
-    presentParticiple: "treating",
-    perfect: "treated",
-    third_person: "treats",
-  },
-  tremble: {
-    infinitive: "tremble",
-    pastParticiple: "trembled",
-    presentParticiple: "trembling",
-    perfect: "trembled",
-    third_person: "trembles",
-  },
-  trick: {
-    infinitive: "trick",
-    pastParticiple: "tricked",
-    presentParticiple: "tricking",
-    perfect: "tricked",
-    third_person: "tricks",
-  },
-  trip: {
-    infinitive: "trip",
-    pastParticiple: "tripped",
-    presentParticiple: "tripping",
-    perfect: "tripped",
-    third_person: "trips",
-  },
-  trot: {
-    infinitive: "trot",
-    pastParticiple: "trotted",
-    presentParticiple: "trotting",
-    perfect: "trotted",
-    third_person: "trots",
-  },
-  trouble: {
-    infinitive: "trouble",
-    pastParticiple: "troubled",
-    presentParticiple: "troubling",
-    perfect: "troubled",
-    third_person: "troubles",
-  },
-  troubleshoot: {
-    infinitive: "troubleshoot",
-    pastParticiple: "troubleshot",
-    presentParticiple: "troubleshooting",
-    perfect: "troubleshot",
-    third_person: "troubleshoots",
-  },
-  trust: {
-    infinitive: "trust",
-    pastParticiple: "trusted",
-    presentParticiple: "trusting",
-    perfect: "trusted",
-    third_person: "trusts",
-  },
-  try: {
-    infinitive: "try",
-    pastParticiple: "tried",
-    presentParticiple: "trying",
-    perfect: "tried",
-    third_person: "tries",
-  },
-  tug: {
-    infinitive: "tug",
-    pastParticiple: "tugged",
-    presentParticiple: "tugging",
-    perfect: "tugged",
-    third_person: "tugs",
-  },
-  tumble: {
-    infinitive: "tumble",
-    pastParticiple: "tumbled",
-    presentParticiple: "tumbling",
-    perfect: "tumbled",
-    third_person: "tumbles",
-  },
-  turn: {
-    infinitive: "turn",
-    pastParticiple: "turned",
-    presentParticiple: "turning",
-    perfect: "turned",
-    third_person: "turns",
-  },
-  tutor: {
-    infinitive: "tutor",
-    pastParticiple: "tutored",
-    presentParticiple: "tutoring",
-    perfect: "tutored",
-    third_person: "tutors",
-  },
-  twist: {
-    infinitive: "twist",
-    pastParticiple: "twisted",
-    presentParticiple: "twisting",
-    perfect: "twisted",
-    third_person: "twists",
-  },
-  undergo: {
-    infinitive: "undergo",
-    pastParticiple: "underwent",
-    presentParticiple: "undergoing",
-    perfect: "undergone",
-    third_person: "undergoes",
-  },
-  understand: {
-    infinitive: "understand",
-    pastParticiple: "understood",
-    presentParticiple: "understanding",
-    perfect: "understood",
-    third_person: "understands",
-  },
-  undertake: {
-    infinitive: "undertake",
-    pastParticiple: "undertook",
-    presentParticiple: "undertaking",
-    perfect: "undertaken",
-    third_person: "undertakes",
-  },
-  undress: {
-    infinitive: "undress",
-    pastParticiple: "undressed",
-    presentParticiple: "undressing",
-    perfect: "undressed",
-    third_person: "undresses",
-  },
-  unfasten: {
-    infinitive: "unfasten",
-    pastParticiple: "unfastened",
-    presentParticiple: "unfastening",
-    perfect: "unfastened",
-    third_person: "unfastens",
-  },
-  unify: {
-    infinitive: "unify",
-    pastParticiple: "unified",
-    presentParticiple: "unifying",
-    perfect: "unified",
-    third_person: "unifies",
-  },
-  unite: {
-    infinitive: "unite",
-    pastParticiple: "united",
-    presentParticiple: "uniting",
-    perfect: "united",
-    third_person: "unites",
-  },
-  unlock: {
-    infinitive: "unlock",
-    pastParticiple: "unlocked",
-    presentParticiple: "unlocking",
-    perfect: "unlocked",
-    third_person: "unlocks",
-  },
-  unpack: {
-    infinitive: "unpack",
-    pastParticiple: "unpacked",
-    presentParticiple: "unpacking",
-    perfect: "unpacked",
-    third_person: "unpacks",
-  },
-  update: {
-    infinitive: "update",
-    pastParticiple: "updated",
-    presentParticiple: "updating",
-    perfect: "updated",
-    third_person: "updates",
-  },
-  upgrade: {
-    infinitive: "upgrade",
-    pastParticiple: "upgraded",
-    presentParticiple: "upgrading",
-    perfect: "upgraded",
-    third_person: "upgrades",
-  },
-  uphold: {
-    infinitive: "uphold",
-    pastParticiple: "upheld",
-    presentParticiple: "upholding",
-    perfect: "upheld",
-    third_person: "upholds",
-  },
-  upset: {
-    infinitive: "upset",
-    pastParticiple: "upset",
-    presentParticiple: "upsetting",
-    perfect: "upset",
-    third_person: "upsets",
-  },
-  use: {
-    infinitive: "use",
-    pastParticiple: "used",
-    presentParticiple: "using",
-    perfect: "used",
-    third_person: "uses",
-  },
-  utilize: {
-    infinitive: "utilize",
-    pastParticiple: "utilized",
-    presentParticiple: "utilizing",
-    perfect: "utilized",
-    third_person: "utilizes",
-  },
-  vanish: {
-    infinitive: "vanish",
-    pastParticiple: "vanished",
-    presentParticiple: "vanishing",
-    perfect: "vanished",
-    third_person: "vanishes",
-  },
-  verbalize: {
-    infinitive: "verbalize",
-    pastParticiple: "verbalized",
-    presentParticiple: "verbalizing",
-    perfect: "verbalized",
-    third_person: "verbalizes",
-  },
-  verify: {
-    infinitive: "verify",
-    pastParticiple: "verified",
-    presentParticiple: "verifying",
-    perfect: "verified",
-    third_person: "verifies",
-  },
-  vex: {
-    infinitive: "vex",
-    pastParticiple: "vexed",
-    presentParticiple: "vexing",
-    perfect: "vexed",
-    third_person: "vexes",
-  },
-  visit: {
-    infinitive: "visit",
-    pastParticiple: "visited",
-    presentParticiple: "visiting",
-    perfect: "visited",
-    third_person: "visits",
-  },
-  wail: {
-    infinitive: "wail",
-    pastParticiple: "wailed",
-    presentParticiple: "wailing",
-    perfect: "wailed",
-    third_person: "wails",
-  },
-  wait: {
-    infinitive: "wait",
-    pastParticiple: "waited",
-    presentParticiple: "waiting",
-    perfect: "waited",
-    third_person: "waits",
-  },
-  wake: {
-    infinitive: "wake",
-    pastParticiple: "woke",
-    presentParticiple: "waking",
-    perfect: "woken",
-    third_person: "wakes",
-  },
-  walk: {
-    infinitive: "walk",
-    pastParticiple: "walked",
-    presentParticiple: "walking",
-    perfect: "walked",
-    third_person: "walks",
-  },
-  wander: {
-    infinitive: "wander",
-    pastParticiple: "wandered",
-    presentParticiple: "wandering",
-    perfect: "wandered",
-    third_person: "wanders",
-  },
-  want: {
-    infinitive: "want",
-    pastParticiple: "wanted",
-    presentParticiple: "wanting",
-    perfect: "wanted",
-    third_person: "wants",
-  },
-  warm: {
-    infinitive: "warm",
-    pastParticiple: "warmed",
-    presentParticiple: "warming",
-    perfect: "warmed",
-    third_person: "warms",
-  },
-  warn: {
-    infinitive: "warn",
-    pastParticiple: "warned",
-    presentParticiple: "warning",
-    perfect: "warned",
-    third_person: "warns",
-  },
-  wash: {
-    infinitive: "wash",
-    pastParticiple: "washed",
-    presentParticiple: "washing",
-    perfect: "washed",
-    third_person: "washes",
-  },
-  waste: {
-    infinitive: "waste",
-    pastParticiple: "wasted",
-    presentParticiple: "wasting",
-    perfect: "wasted",
-    third_person: "wastes",
-  },
-  watch: {
-    infinitive: "watch",
-    pastParticiple: "watched",
-    presentParticiple: "watching",
-    perfect: "watched",
-    third_person: "watches",
-  },
-  water: {
-    infinitive: "water",
-    pastParticiple: "watered",
-    presentParticiple: "watering",
-    perfect: "watered",
-    third_person: "waters",
-  },
-  wave: {
-    infinitive: "wave",
-    pastParticiple: "waved",
-    presentParticiple: "waving",
-    perfect: "waved",
-    third_person: "waves",
-  },
-  wear: {
-    infinitive: "wear",
-    pastParticiple: "wore",
-    presentParticiple: "wearing",
-    perfect: "worn",
-    third_person: "wears",
-  },
-  weave: {
-    infinitive: "weave",
-    pastParticiple: "wove",
-    presentParticiple: "weaving",
-    perfect: "woven",
-    third_person: "weaves",
-  },
-  wed: {
-    infinitive: "wed",
-    pastParticiple: "wedded",
-    presentParticiple: "wedding",
-    perfect: "wedded",
-    third_person: "weds",
-  },
-  weep: {
-    infinitive: "weep",
-    pastParticiple: "wept",
-    presentParticiple: "weeping",
-    perfect: "wept",
-    third_person: "weeps",
-  },
-  weigh: {
-    infinitive: "weigh",
-    pastParticiple: "weighed",
-    presentParticiple: "weighing",
-    perfect: "weighed",
-    third_person: "weighs",
-  },
-  welcome: {
-    infinitive: "welcome",
-    pastParticiple: "welcomed",
-    presentParticiple: "welcoming",
-    perfect: "welcomed",
-    third_person: "welcomes",
-  },
-  wend: {
-    infinitive: "wend",
-    pastParticiple: "wended",
-    presentParticiple: "wending",
-    perfect: "wended",
-    third_person: "wends",
-  },
-  wet: {
-    infinitive: "wet",
-    pastParticiple: "wet",
-    presentParticiple: "wetting",
-    perfect: "wet",
-    third_person: "wets",
-  },
-  whine: {
-    infinitive: "whine",
-    pastParticiple: "whined",
-    presentParticiple: "whining",
-    perfect: "whined",
-    third_person: "whines",
-  },
-  whip: {
-    infinitive: "whip",
-    pastParticiple: "whipped",
-    presentParticiple: "whipping",
-    perfect: "whipped",
-    third_person: "whips",
-  },
-  whirl: {
-    infinitive: "whirl",
-    pastParticiple: "whirled",
-    presentParticiple: "whirling",
-    perfect: "whirled",
-    third_person: "whirls",
-  },
-  whisper: {
-    infinitive: "whisper",
-    pastParticiple: "whispered",
-    presentParticiple: "whispering",
-    perfect: "whispered",
-    third_person: "whispers",
-  },
-  whistle: {
-    infinitive: "whistle",
-    pastParticiple: "whistled",
-    presentParticiple: "whistling",
-    perfect: "whistled",
-    third_person: "whistles",
-  },
-  win: {
-    infinitive: "win",
-    pastParticiple: "won",
-    presentParticiple: "winning",
-    perfect: "won",
-    third_person: "wins",
-  },
-  wind: {
-    infinitive: "wind",
-    pastParticiple: "winded",
-    presentParticiple: "winding",
-    perfect: "winded",
-    third_person: "winds",
-  },
-  wink: {
-    infinitive: "wink",
-    pastParticiple: "winked",
-    presentParticiple: "winking",
-    perfect: "winked",
-    third_person: "winks",
-  },
-  wipe: {
-    infinitive: "wipe",
-    pastParticiple: "wiped",
-    presentParticiple: "wiping",
-    perfect: "wiped",
-    third_person: "wipes",
-  },
-  wish: {
-    infinitive: "wish",
-    pastParticiple: "wished",
-    presentParticiple: "wishing",
-    perfect: "wished",
-    third_person: "wishes",
-  },
-  withdraw: {
-    infinitive: "withdraw",
-    pastParticiple: "withdrew",
-    presentParticiple: "withdrawing",
-    perfect: "withdrawn",
-    third_person: "withdraws",
-  },
-  withhold: {
-    infinitive: "withhold",
-    pastParticiple: "withheld",
-    presentParticiple: "withholding",
-    perfect: "withheld",
-    third_person: "withholds",
-  },
-  withstand: {
-    infinitive: "withstand",
-    pastParticiple: "withstood",
-    presentParticiple: "withstanding",
-    perfect: "withstood",
-    third_person: "withstands",
-  },
-  wobble: {
-    infinitive: "wobble",
-    pastParticiple: "wobbled",
-    presentParticiple: "wobbling",
-    perfect: "wobbled",
-    third_person: "wobbles",
-  },
-  wonder: {
-    infinitive: "wonder",
-    pastParticiple: "wondered",
-    presentParticiple: "wondering",
-    perfect: "wondered",
-    third_person: "wonders",
-  },
-  work: {
-    infinitive: "work",
-    pastParticiple: "worked",
-    presentParticiple: "working",
-    perfect: "worked",
-    third_person: "works",
-  },
-  worry: {
-    infinitive: "worry",
-    pastParticiple: "worried",
-    presentParticiple: "worrying",
-    perfect: "worried",
-    third_person: "worries",
-  },
-  wrap: {
-    infinitive: "wrap",
-    pastParticiple: "wrapped",
-    presentParticiple: "wrapping",
-    perfect: "wrapped",
-    third_person: "wraps",
-  },
-  wreck: {
-    infinitive: "wreck",
-    pastParticiple: "wrecked",
-    presentParticiple: "wrecking",
-    perfect: "wrecked",
-    third_person: "wrecks",
-  },
-  wrestle: {
-    infinitive: "wrestle",
-    pastParticiple: "wrestled",
-    presentParticiple: "wrestling",
-    perfect: "wrestled",
-    third_person: "wrestles",
-  },
-  wriggle: {
-    infinitive: "wriggle",
-    pastParticiple: "wriggled",
-    presentParticiple: "wriggling",
-    perfect: "wriggled",
-    third_person: "wriggles",
-  },
-  wring: {
-    infinitive: "wring",
-    pastParticiple: "wrang",
-    presentParticiple: "wringing",
-    perfect: "wrung",
-    third_person: "wrings",
-  },
-  write: {
-    infinitive: "write",
-    pastParticiple: "written",
-    presentParticiple: "writing",
-    perfect: "wrote",
-    third_person: "writes",
-  },
-  yawn: {
-    infinitive: "yawn",
-    pastParticiple: "yawned",
-    presentParticiple: "yawning",
-    perfect: "yawned",
-    third_person: "yawns",
-  },
-  yell: {
-    infinitive: "yell",
-    pastParticiple: "yelled",
-    presentParticiple: "yelling",
-    perfect: "yelled",
-    third_person: "yells",
-  },
-  zip: {
-    infinitive: "zip",
-    pastParticiple: "zipped",
-    presentParticiple: "zipping",
-    perfect: "zipped",
-    third_person: "zips",
-  },
-  zoom: {
-    infinitive: "zoom",
-    pastParticiple: "zoomed",
-    presentParticiple: "zooming",
-    perfect: "zoomed",
-    third_person: "zooms",
-  },
-};
+  "abide": {
+    "infinitive": "abide",
+    "perfect": "abode",
+    "pastParticiple": "abode",
+    "presentParticiple": "abiding",
+    "thirdPerson": "abides"
+  },
+  "accelerate": {
+    "infinitive": "accelerate",
+    "perfect": "accelerated",
+    "pastParticiple": "accelerated",
+    "presentParticiple": "accelerating",
+    "thirdPerson": "accelerates"
+  },
+  "accept": {
+    "infinitive": "accept",
+    "perfect": "accepted",
+    "pastParticiple": "accepted",
+    "presentParticiple": "accepting",
+    "thirdPerson": "accepts"
+  },
+  "accomplish": {
+    "infinitive": "accomplish",
+    "perfect": "accomplished",
+    "pastParticiple": "accomplished",
+    "presentParticiple": "accomplishing",
+    "thirdPerson": "accomplishes"
+  },
+  "achieve": {
+    "infinitive": "achieve",
+    "perfect": "achieved",
+    "pastParticiple": "achieved",
+    "presentParticiple": "achieving",
+    "thirdPerson": "achieves"
+  },
+  "acquire": {
+    "infinitive": "acquire",
+    "perfect": "acquired",
+    "pastParticiple": "acquired",
+    "presentParticiple": "acquiring",
+    "thirdPerson": "acquires"
+  },
+  "activate": {
+    "infinitive": "activate",
+    "perfect": "activated",
+    "pastParticiple": "activated",
+    "presentParticiple": "activating",
+    "thirdPerson": "activates"
+  },
+  "adapt": {
+    "infinitive": "adapt",
+    "perfect": "adapted",
+    "pastParticiple": "adapted",
+    "presentParticiple": "adapting",
+    "thirdPerson": "adapts"
+  },
+  "add": {
+    "infinitive": "add",
+    "perfect": "added",
+    "pastParticiple": "added",
+    "presentParticiple": "adding",
+    "thirdPerson": "adds"
+  },
+  "administer": {
+    "infinitive": "administer",
+    "perfect": "administered",
+    "pastParticiple": "administered",
+    "presentParticiple": "administering",
+    "thirdPerson": "administers"
+  },
+  "admire": {
+    "infinitive": "admire",
+    "perfect": "admired",
+    "pastParticiple": "admired",
+    "presentParticiple": "admiring",
+    "thirdPerson": "admires"
+  },
+  "admit": {
+    "infinitive": "admit",
+    "perfect": "admitted",
+    "pastParticiple": "admitted",
+    "presentParticiple": "admitting",
+    "thirdPerson": "admits"
+  },
+  "adopt": {
+    "infinitive": "adopt",
+    "perfect": "adopted",
+    "pastParticiple": "adopted",
+    "presentParticiple": "adopting",
+    "thirdPerson": "adopts"
+  },
+  "advise": {
+    "infinitive": "advise",
+    "perfect": "advised",
+    "pastParticiple": "advised",
+    "presentParticiple": "advising",
+    "thirdPerson": "advises"
+  },
+  "afford": {
+    "infinitive": "afford",
+    "perfect": "afforded",
+    "pastParticiple": "afforded",
+    "presentParticiple": "affording",
+    "thirdPerson": "affords"
+  },
+  "agree": {
+    "infinitive": "agree",
+    "perfect": "agreed",
+    "pastParticiple": "agreed",
+    "presentParticiple": "agreeing",
+    "thirdPerson": "agrees"
+  },
+  "alert": {
+    "infinitive": "alert",
+    "perfect": "alerted",
+    "pastParticiple": "alerted",
+    "presentParticiple": "alerting",
+    "thirdPerson": "alerts"
+  },
+  "alight": {
+    "infinitive": "alight",
+    "perfect": "alighted",
+    "pastParticiple": "alighted",
+    "presentParticiple": "alighting",
+    "thirdPerson": "alights"
+  },
+  "allow": {
+    "infinitive": "allow",
+    "perfect": "allowed",
+    "pastParticiple": "allowed",
+    "presentParticiple": "allowing",
+    "thirdPerson": "allows"
+  },
+  "amuse": {
+    "infinitive": "amuse",
+    "perfect": "amused",
+    "pastParticiple": "amused",
+    "presentParticiple": "amusing",
+    "thirdPerson": "amuses"
+  },
+  "analyze": {
+    "infinitive": "analyze",
+    "perfect": "analyzed",
+    "pastParticiple": "analyzed",
+    "presentParticiple": "analyzing",
+    "thirdPerson": "analyzes"
+  },
+  "announce": {
+    "infinitive": "announce",
+    "perfect": "announced",
+    "pastParticiple": "announced",
+    "presentParticiple": "announcing",
+    "thirdPerson": "announces"
+  },
+  "annoy": {
+    "infinitive": "annoy",
+    "perfect": "annoyed",
+    "pastParticiple": "annoyed",
+    "presentParticiple": "annoying",
+    "thirdPerson": "annoys"
+  },
+  "answer": {
+    "infinitive": "answer",
+    "perfect": "answered",
+    "pastParticiple": "answered",
+    "presentParticiple": "answering",
+    "thirdPerson": "answers"
+  },
+  "anticipate": {
+    "infinitive": "anticipate",
+    "perfect": "anticipated",
+    "pastParticiple": "anticipated",
+    "presentParticiple": "anticipating",
+    "thirdPerson": "anticipates"
+  },
+  "apologize": {
+    "infinitive": "apologize",
+    "perfect": "apologized",
+    "pastParticiple": "apologized",
+    "presentParticiple": "apologizing",
+    "thirdPerson": "apologizes"
+  },
+  "appear": {
+    "infinitive": "appear",
+    "perfect": "appeared",
+    "pastParticiple": "appeared",
+    "presentParticiple": "appearing",
+    "thirdPerson": "appears"
+  },
+  "applaud": {
+    "infinitive": "applaud",
+    "perfect": "applauded",
+    "pastParticiple": "applauded",
+    "presentParticiple": "applauding",
+    "thirdPerson": "applauds"
+  },
+  "appoint": {
+    "infinitive": "appoint",
+    "perfect": "appointed",
+    "pastParticiple": "appointed",
+    "presentParticiple": "appointing",
+    "thirdPerson": "appoints"
+  },
+  "appraise": {
+    "infinitive": "appraise",
+    "perfect": "appraised",
+    "pastParticiple": "appraised",
+    "presentParticiple": "appraising",
+    "thirdPerson": "appraises"
+  },
+  "appreciate": {
+    "infinitive": "appreciate",
+    "perfect": "appreciated",
+    "pastParticiple": "appreciated",
+    "presentParticiple": "appreciating",
+    "thirdPerson": "appreciates"
+  },
+  "approve": {
+    "infinitive": "approve",
+    "perfect": "approved",
+    "pastParticiple": "approved",
+    "presentParticiple": "approving",
+    "thirdPerson": "approves"
+  },
+  "arbitrate": {
+    "infinitive": "arbitrate",
+    "perfect": "arbitrated",
+    "pastParticiple": "arbitrated",
+    "presentParticiple": "arbitrating",
+    "thirdPerson": "arbitrates"
+  },
+  "argue": {
+    "infinitive": "argue",
+    "perfect": "argued",
+    "pastParticiple": "argued",
+    "presentParticiple": "arguing",
+    "thirdPerson": "argues"
+  },
+  "arise": {
+    "infinitive": "arise",
+    "perfect": "arisen",
+    "pastParticiple": "arose",
+    "presentParticiple": "arising",
+    "thirdPerson": "arises"
+  },
+  "arrange": {
+    "infinitive": "arrange",
+    "perfect": "arranged",
+    "pastParticiple": "arranged",
+    "presentParticiple": "arranging",
+    "thirdPerson": "arranges"
+  },
+  "arrest": {
+    "infinitive": "arrest",
+    "perfect": "arrested",
+    "pastParticiple": "arrested",
+    "presentParticiple": "arresting",
+    "thirdPerson": "arrests"
+  },
+  "arrive": {
+    "infinitive": "arrive",
+    "perfect": "arrived",
+    "pastParticiple": "arrived",
+    "presentParticiple": "arriving",
+    "thirdPerson": "arrives"
+  },
+  "ascertain": {
+    "infinitive": "ascertain",
+    "perfect": "ascertained",
+    "pastParticiple": "ascertained",
+    "presentParticiple": "ascertaining",
+    "thirdPerson": "ascertains"
+  },
+  "ask": {
+    "infinitive": "ask",
+    "perfect": "asked",
+    "pastParticiple": "asked",
+    "presentParticiple": "asking",
+    "thirdPerson": "asks"
+  },
+  "assemble": {
+    "infinitive": "assemble",
+    "perfect": "assembled",
+    "pastParticiple": "assembled",
+    "presentParticiple": "assembling",
+    "thirdPerson": "assembles"
+  },
+  "assess": {
+    "infinitive": "assess",
+    "perfect": "assessed",
+    "pastParticiple": "assessed",
+    "presentParticiple": "assessing",
+    "thirdPerson": "assesses"
+  },
+  "assist": {
+    "infinitive": "assist",
+    "perfect": "assisted",
+    "pastParticiple": "assisted",
+    "presentParticiple": "assisting",
+    "thirdPerson": "assists"
+  },
+  "assure": {
+    "infinitive": "assure",
+    "perfect": "assured",
+    "pastParticiple": "assured",
+    "presentParticiple": "assuring",
+    "thirdPerson": "assures"
+  },
+  "attach": {
+    "infinitive": "attach",
+    "perfect": "attached",
+    "pastParticiple": "attached",
+    "presentParticiple": "attaching",
+    "thirdPerson": "attaches"
+  },
+  "attack": {
+    "infinitive": "attack",
+    "perfect": "attacked",
+    "pastParticiple": "attacked",
+    "presentParticiple": "attacking",
+    "thirdPerson": "attacks"
+  },
+  "attain": {
+    "infinitive": "attain",
+    "perfect": "attained",
+    "pastParticiple": "attained",
+    "presentParticiple": "attaining",
+    "thirdPerson": "attains"
+  },
+  "attempt": {
+    "infinitive": "attempt",
+    "perfect": "attempted",
+    "pastParticiple": "attempted",
+    "presentParticiple": "attempting",
+    "thirdPerson": "attempts"
+  },
+  "attend": {
+    "infinitive": "attend",
+    "perfect": "attended",
+    "pastParticiple": "attended",
+    "presentParticiple": "attending",
+    "thirdPerson": "attends"
+  },
+  "attract": {
+    "infinitive": "attract",
+    "perfect": "attracted",
+    "pastParticiple": "attracted",
+    "presentParticiple": "attracting",
+    "thirdPerson": "attracts"
+  },
+  "avoid": {
+    "infinitive": "avoid",
+    "perfect": "avoided",
+    "pastParticiple": "avoided",
+    "presentParticiple": "avoiding",
+    "thirdPerson": "avoids"
+  },
+  "awake": {
+    "infinitive": "awake",
+    "perfect": "awoken",
+    "pastParticiple": "awoke",
+    "presentParticiple": "awaking",
+    "thirdPerson": "awakes"
+  },
+  "back": {
+    "infinitive": "back",
+    "perfect": "backed",
+    "pastParticiple": "backed",
+    "presentParticiple": "backing",
+    "thirdPerson": "backs"
+  },
+  "bake": {
+    "infinitive": "bake",
+    "perfect": "baked",
+    "pastParticiple": "baked",
+    "presentParticiple": "baking",
+    "thirdPerson": "bakes"
+  },
+  "ban": {
+    "infinitive": "ban",
+    "perfect": "banned",
+    "pastParticiple": "banned",
+    "presentParticiple": "banning",
+    "thirdPerson": "bans"
+  },
+  "bang": {
+    "infinitive": "bang",
+    "perfect": "banged",
+    "pastParticiple": "banged",
+    "presentParticiple": "banging",
+    "thirdPerson": "bangs"
+  },
+  "bare": {
+    "infinitive": "bare",
+    "perfect": "bared",
+    "pastParticiple": "bared",
+    "presentParticiple": "baring",
+    "thirdPerson": "bares"
+  },
+  "bat": {
+    "infinitive": "bat",
+    "perfect": "batted",
+    "pastParticiple": "batted",
+    "presentParticiple": "batting",
+    "thirdPerson": "bats"
+  },
+  "bathe": {
+    "infinitive": "bathe",
+    "perfect": "bathed",
+    "pastParticiple": "bathed",
+    "presentParticiple": "bathing",
+    "thirdPerson": "bathes"
+  },
+  "battle": {
+    "infinitive": "battle",
+    "perfect": "battled",
+    "pastParticiple": "battled",
+    "presentParticiple": "battling",
+    "thirdPerson": "battles"
+  },
+  "beam": {
+    "infinitive": "beam",
+    "perfect": "beamed",
+    "pastParticiple": "beamed",
+    "presentParticiple": "beaming",
+    "thirdPerson": "beams"
+  },
+  "bear": {
+    "infinitive": "bear",
+    "perfect": "borne/born",
+    "pastParticiple": "bore/bare",
+    "presentParticiple": "bearing",
+    "thirdPerson": "bears"
+  },
+  "beat": {
+    "infinitive": "beat",
+    "perfect": "beaten",
+    "pastParticiple": "beat",
+    "presentParticiple": "beating",
+    "thirdPerson": "beats"
+  },
+  "become": {
+    "infinitive": "become",
+    "perfect": "become",
+    "pastParticiple": "became",
+    "presentParticiple": "becoming",
+    "thirdPerson": "becomes"
+  },
+  "beg": {
+    "infinitive": "beg",
+    "perfect": "begged",
+    "pastParticiple": "begged",
+    "presentParticiple": "begging",
+    "thirdPerson": "begs"
+  },
+  "beget": {
+    "infinitive": "beget",
+    "perfect": "begotten",
+    "pastParticiple": "begot",
+    "presentParticiple": "begetting",
+    "thirdPerson": "begets"
+  },
+  "begin": {
+    "infinitive": "begin",
+    "perfect": "begun",
+    "pastParticiple": "began",
+    "presentParticiple": "beginning",
+    "thirdPerson": "begins"
+  },
+  "behave": {
+    "infinitive": "behave",
+    "perfect": "behaved",
+    "pastParticiple": "behaved",
+    "presentParticiple": "behaving",
+    "thirdPerson": "behaves"
+  },
+  "behold": {
+    "infinitive": "behold",
+    "perfect": "beheld",
+    "pastParticiple": "beheld",
+    "presentParticiple": "beholding",
+    "thirdPerson": "beholds"
+  },
+  "belong": {
+    "infinitive": "belong",
+    "perfect": "belonged",
+    "pastParticiple": "belonged",
+    "presentParticiple": "belonging",
+    "thirdPerson": "belongs"
+  },
+  "bend": {
+    "infinitive": "bend",
+    "perfect": "bent",
+    "pastParticiple": "bent",
+    "presentParticiple": "bending",
+    "thirdPerson": "bends"
+  },
+  "bereave": {
+    "infinitive": "bereave",
+    "perfect": "bereaved",
+    "pastParticiple": "bereaved",
+    "presentParticiple": "bereaving",
+    "thirdPerson": "bereaves"
+  },
+  "beseech": {
+    "infinitive": "beseech",
+    "perfect": "beseeched",
+    "pastParticiple": "beseeched",
+    "presentParticiple": "beseeching",
+    "thirdPerson": "beseeches"
+  },
+  "beset": {
+    "infinitive": "beset",
+    "perfect": "beset",
+    "pastParticiple": "beset",
+    "presentParticiple": "besetting",
+    "thirdPerson": "besets"
+  },
+  "bet": {
+    "infinitive": "bet",
+    "perfect": "betted",
+    "pastParticiple": "betted",
+    "presentParticiple": "betting",
+    "thirdPerson": "bets"
+  },
+  "bid": {
+    "infinitive": "bid",
+    "perfect": "bidden",
+    "pastParticiple": "bade",
+    "presentParticiple": "bidding",
+    "thirdPerson": "bids"
+  },
+  "bide": {
+    "infinitive": "bide",
+    "perfect": "bode",
+    "pastParticiple": "bided",
+    "presentParticiple": "biding",
+    "thirdPerson": "bides"
+  },
+  "bind": {
+    "infinitive": "bind",
+    "perfect": "bound",
+    "pastParticiple": "bound",
+    "presentParticiple": "binding",
+    "thirdPerson": "binds"
+  },
+  "bite": {
+    "infinitive": "bite",
+    "perfect": "bitten",
+    "pastParticiple": "bit",
+    "presentParticiple": "biting",
+    "thirdPerson": "bites"
+  },
+  "bleach": {
+    "infinitive": "bleach",
+    "perfect": "bleached",
+    "pastParticiple": "bleached",
+    "presentParticiple": "bleaching",
+    "thirdPerson": "bleaches"
+  },
+  "bleed": {
+    "infinitive": "bleed",
+    "perfect": "bled",
+    "pastParticiple": "bled",
+    "presentParticiple": "bleeding",
+    "thirdPerson": "bleeds"
+  },
+  "bless": {
+    "infinitive": "bless",
+    "perfect": "blest",
+    "pastParticiple": "blest",
+    "presentParticiple": "blessing",
+    "thirdPerson": "blesses"
+  },
+  "blind": {
+    "infinitive": "blind",
+    "perfect": "blinded",
+    "pastParticiple": "blinded",
+    "presentParticiple": "blinding",
+    "thirdPerson": "blinds"
+  },
+  "blink": {
+    "infinitive": "blink",
+    "perfect": "blinked",
+    "pastParticiple": "blinked",
+    "presentParticiple": "blinking",
+    "thirdPerson": "blinks"
+  },
+  "blot": {
+    "infinitive": "blot",
+    "perfect": "blotted",
+    "pastParticiple": "blotted",
+    "presentParticiple": "blotting",
+    "thirdPerson": "blots"
+  },
+  "blow": {
+    "infinitive": "blow",
+    "perfect": "blown",
+    "pastParticiple": "blew",
+    "presentParticiple": "blowing",
+    "thirdPerson": "blows"
+  },
+  "blush": {
+    "infinitive": "blush",
+    "perfect": "blushed",
+    "pastParticiple": "blushed",
+    "presentParticiple": "blushing",
+    "thirdPerson": "blushes"
+  },
+  "boast": {
+    "infinitive": "boast",
+    "perfect": "boasted",
+    "pastParticiple": "boasted",
+    "presentParticiple": "boasting",
+    "thirdPerson": "boasts"
+  },
+  "boil": {
+    "infinitive": "boil",
+    "perfect": "boiled",
+    "pastParticiple": "boiled",
+    "presentParticiple": "boiling",
+    "thirdPerson": "boils"
+  },
+  "bolt": {
+    "infinitive": "bolt",
+    "perfect": "bolted",
+    "pastParticiple": "bolted",
+    "presentParticiple": "bolting",
+    "thirdPerson": "bolts"
+  },
+  "bomb": {
+    "infinitive": "bomb",
+    "perfect": "bombed",
+    "pastParticiple": "bombed",
+    "presentParticiple": "bombing",
+    "thirdPerson": "bombs"
+  },
+  "book": {
+    "infinitive": "book",
+    "perfect": "booked",
+    "pastParticiple": "booked",
+    "presentParticiple": "booking",
+    "thirdPerson": "books"
+  },
+  "bore": {
+    "infinitive": "bore",
+    "perfect": "bored",
+    "pastParticiple": "bored",
+    "presentParticiple": "boring",
+    "thirdPerson": "bores"
+  },
+  "borrow": {
+    "infinitive": "borrow",
+    "perfect": "borrowed",
+    "pastParticiple": "borrowed",
+    "presentParticiple": "borrowing",
+    "thirdPerson": "borrows"
+  },
+  "bounce": {
+    "infinitive": "bounce",
+    "perfect": "bounced",
+    "pastParticiple": "bounced",
+    "presentParticiple": "bouncing",
+    "thirdPerson": "bounces"
+  },
+  "bow": {
+    "infinitive": "bow",
+    "perfect": "bowed",
+    "pastParticiple": "bowed",
+    "presentParticiple": "bowing",
+    "thirdPerson": "bows"
+  },
+  "box": {
+    "infinitive": "box",
+    "perfect": "boxed",
+    "pastParticiple": "boxed",
+    "presentParticiple": "boxing",
+    "thirdPerson": "boxes"
+  },
+  "brake": {
+    "infinitive": "brake",
+    "perfect": "braked",
+    "pastParticiple": "braked",
+    "presentParticiple": "braking",
+    "thirdPerson": "brakes"
+  },
+  "branch": {
+    "infinitive": "branch",
+    "perfect": "branched",
+    "pastParticiple": "branched",
+    "presentParticiple": "branching",
+    "thirdPerson": "branches"
+  },
+  "break": {
+    "infinitive": "break",
+    "perfect": "broken",
+    "pastParticiple": "broke",
+    "presentParticiple": "breaking",
+    "thirdPerson": "breaks"
+  },
+  "breathe": {
+    "infinitive": "breathe",
+    "perfect": "breathed",
+    "pastParticiple": "breathed",
+    "presentParticiple": "breathing",
+    "thirdPerson": "breathes"
+  },
+  "breed": {
+    "infinitive": "breed",
+    "perfect": "bred",
+    "pastParticiple": "bred",
+    "presentParticiple": "breeding",
+    "thirdPerson": "breeds"
+  },
+  "brief": {
+    "infinitive": "brief",
+    "perfect": "briefed",
+    "pastParticiple": "briefed",
+    "presentParticiple": "briefing",
+    "thirdPerson": "briefs"
+  },
+  "bring": {
+    "infinitive": "bring",
+    "perfect": "brought",
+    "pastParticiple": "brought",
+    "presentParticiple": "bringing",
+    "thirdPerson": "brings"
+  },
+  "broadcast": {
+    "infinitive": "broadcast",
+    "perfect": "broadcast",
+    "pastParticiple": "broadcast",
+    "presentParticiple": "broadcasting",
+    "thirdPerson": "broadcasts"
+  },
+  "bruise": {
+    "infinitive": "bruise",
+    "perfect": "bruised",
+    "pastParticiple": "bruised",
+    "presentParticiple": "bruising",
+    "thirdPerson": "bruises"
+  },
+  "brush": {
+    "infinitive": "brush",
+    "perfect": "brushed",
+    "pastParticiple": "brushed",
+    "presentParticiple": "brushing",
+    "thirdPerson": "brushes"
+  },
+  "bubble": {
+    "infinitive": "bubble",
+    "perfect": "bubbled",
+    "pastParticiple": "bubbled",
+    "presentParticiple": "bubbling",
+    "thirdPerson": "bubbles"
+  },
+  "budget": {
+    "infinitive": "budget",
+    "perfect": "budgeted",
+    "pastParticiple": "budgeted",
+    "presentParticiple": "budgeting",
+    "thirdPerson": "budgets"
+  },
+  "build": {
+    "infinitive": "build",
+    "perfect": "built",
+    "pastParticiple": "built",
+    "presentParticiple": "building",
+    "thirdPerson": "builds"
+  },
+  "bump": {
+    "infinitive": "bump",
+    "perfect": "bumped",
+    "pastParticiple": "bumped",
+    "presentParticiple": "bumping",
+    "thirdPerson": "bumps"
+  },
+  "burn": {
+    "infinitive": "burn",
+    "perfect": "burned",
+    "pastParticiple": "burned",
+    "presentParticiple": "burning",
+    "thirdPerson": "burns"
+  },
+  "burst": {
+    "infinitive": "burst",
+    "perfect": "burst",
+    "pastParticiple": "burst",
+    "presentParticiple": "bursting",
+    "thirdPerson": "bursts"
+  },
+  "bury": {
+    "infinitive": "bury",
+    "perfect": "buried",
+    "pastParticiple": "buried",
+    "presentParticiple": "burying",
+    "thirdPerson": "buries"
+  },
+  "bust": {
+    "infinitive": "bust",
+    "perfect": "busted",
+    "pastParticiple": "busted",
+    "presentParticiple": "busting",
+    "thirdPerson": "busts"
+  },
+  "buy": {
+    "infinitive": "buy",
+    "perfect": "bought",
+    "pastParticiple": "bought",
+    "presentParticiple": "buying",
+    "thirdPerson": "buys"
+  },
+  "buzz": {
+    "infinitive": "buzz",
+    "perfect": "buzzed",
+    "pastParticiple": "buzzed",
+    "presentParticiple": "buzzing",
+    "thirdPerson": "buzzes"
+  },
+  "calculate": {
+    "infinitive": "calculate",
+    "perfect": "calculated",
+    "pastParticiple": "calculated",
+    "presentParticiple": "calculating",
+    "thirdPerson": "calculates"
+  },
+  "call": {
+    "infinitive": "call",
+    "perfect": "called",
+    "pastParticiple": "called",
+    "presentParticiple": "calling",
+    "thirdPerson": "calls"
+  },
+  "camp": {
+    "infinitive": "camp",
+    "perfect": "camped",
+    "pastParticiple": "camped",
+    "presentParticiple": "camping",
+    "thirdPerson": "camps"
+  },
+  "can": {
+    "infinitive": "can",
+    "perfect": "couldhave",
+    "pastParticiple": "Iwasable",
+    "presentParticiple": "Ican",
+    "thirdPerson": "can"
+  },
+  "care": {
+    "infinitive": "care",
+    "perfect": "cared",
+    "pastParticiple": "cared",
+    "presentParticiple": "caring",
+    "thirdPerson": "cares"
+  },
+  "carry": {
+    "infinitive": "carry",
+    "perfect": "carried",
+    "pastParticiple": "carried",
+    "presentParticiple": "carrying",
+    "thirdPerson": "carries"
+  },
+  "carve": {
+    "infinitive": "carve",
+    "perfect": "carved",
+    "pastParticiple": "carved",
+    "presentParticiple": "carving",
+    "thirdPerson": "carves"
+  },
+  "cast": {
+    "infinitive": "cast",
+    "perfect": "cast",
+    "pastParticiple": "cast",
+    "presentParticiple": "casting",
+    "thirdPerson": "casts"
+  },
+  "catalog": {
+    "infinitive": "catalog",
+    "perfect": "cataloged",
+    "pastParticiple": "cataloged",
+    "presentParticiple": "cataloging",
+    "thirdPerson": "catalogs"
+  },
+  "catch": {
+    "infinitive": "catch",
+    "perfect": "caught",
+    "pastParticiple": "caught",
+    "presentParticiple": "catching",
+    "thirdPerson": "catches"
+  },
+  "cause": {
+    "infinitive": "cause",
+    "perfect": "caused",
+    "pastParticiple": "caused",
+    "presentParticiple": "causing",
+    "thirdPerson": "causes"
+  },
+  "challenge": {
+    "infinitive": "challenge",
+    "perfect": "challenged",
+    "pastParticiple": "challenged",
+    "presentParticiple": "challenging",
+    "thirdPerson": "challenges"
+  },
+  "change": {
+    "infinitive": "change",
+    "perfect": "changed",
+    "pastParticiple": "changed",
+    "presentParticiple": "changing",
+    "thirdPerson": "changes"
+  },
+  "charge": {
+    "infinitive": "charge",
+    "perfect": "charged",
+    "pastParticiple": "charged",
+    "presentParticiple": "charging",
+    "thirdPerson": "charges"
+  },
+  "chart": {
+    "infinitive": "chart",
+    "perfect": "charted",
+    "pastParticiple": "charted",
+    "presentParticiple": "charting",
+    "thirdPerson": "charts"
+  },
+  "chase": {
+    "infinitive": "chase",
+    "perfect": "chased",
+    "pastParticiple": "chased",
+    "presentParticiple": "chasing",
+    "thirdPerson": "chases"
+  },
+  "cheat": {
+    "infinitive": "cheat",
+    "perfect": "cheated",
+    "pastParticiple": "cheated",
+    "presentParticiple": "cheating",
+    "thirdPerson": "cheats"
+  },
+  "check": {
+    "infinitive": "check",
+    "perfect": "checked",
+    "pastParticiple": "checked",
+    "presentParticiple": "checking",
+    "thirdPerson": "checks"
+  },
+  "cheer": {
+    "infinitive": "cheer",
+    "perfect": "cheered",
+    "pastParticiple": "cheered",
+    "presentParticiple": "cheering",
+    "thirdPerson": "cheers"
+  },
+  "chew": {
+    "infinitive": "chew",
+    "perfect": "chewed",
+    "pastParticiple": "chewed",
+    "presentParticiple": "chewing",
+    "thirdPerson": "chews"
+  },
+  "choke": {
+    "infinitive": "choke",
+    "perfect": "choked",
+    "pastParticiple": "choked",
+    "presentParticiple": "choking",
+    "thirdPerson": "chokes"
+  },
+  "choose": {
+    "infinitive": "choose",
+    "perfect": "chosen",
+    "pastParticiple": "chose",
+    "presentParticiple": "choosing",
+    "thirdPerson": "chooses"
+  },
+  "chop": {
+    "infinitive": "chop",
+    "perfect": "chopped",
+    "pastParticiple": "chopped",
+    "presentParticiple": "chopping",
+    "thirdPerson": "chops"
+  },
+  "claim": {
+    "infinitive": "claim",
+    "perfect": "claimed",
+    "pastParticiple": "claimed",
+    "presentParticiple": "claiming",
+    "thirdPerson": "claims"
+  },
+  "clap": {
+    "infinitive": "clap",
+    "perfect": "clapped",
+    "pastParticiple": "clapped",
+    "presentParticiple": "clapping",
+    "thirdPerson": "claps"
+  },
+  "clarify": {
+    "infinitive": "clarify",
+    "perfect": "clarified",
+    "pastParticiple": "clarified",
+    "presentParticiple": "clarifying",
+    "thirdPerson": "clarifies"
+  },
+  "classify": {
+    "infinitive": "classify",
+    "perfect": "classified",
+    "pastParticiple": "classified",
+    "presentParticiple": "classifying",
+    "thirdPerson": "classifies"
+  },
+  "clean": {
+    "infinitive": "clean",
+    "perfect": "cleaned",
+    "pastParticiple": "cleaned",
+    "presentParticiple": "cleaning",
+    "thirdPerson": "cleans"
+  },
+  "clear": {
+    "infinitive": "clear",
+    "perfect": "cleared",
+    "pastParticiple": "cleared",
+    "presentParticiple": "clearing",
+    "thirdPerson": "clears"
+  },
+  "cleave": {
+    "infinitive": "cleave",
+    "perfect": "cleft",
+    "pastParticiple": "cleft",
+    "presentParticiple": "cleaving",
+    "thirdPerson": "cleaves"
+  },
+  "cling": {
+    "infinitive": "cling",
+    "perfect": "clung",
+    "pastParticiple": "clung",
+    "presentParticiple": "clinging",
+    "thirdPerson": "clings"
+  },
+  "clip": {
+    "infinitive": "clip",
+    "perfect": "clipped",
+    "pastParticiple": "clipped",
+    "presentParticiple": "clipping",
+    "thirdPerson": "clips"
+  },
+  "close": {
+    "infinitive": "close",
+    "perfect": "closed",
+    "pastParticiple": "closed",
+    "presentParticiple": "closing",
+    "thirdPerson": "closes"
+  },
+  "clothe": {
+    "infinitive": "clothe",
+    "perfect": "clad",
+    "pastParticiple": "clad",
+    "presentParticiple": "clothing",
+    "thirdPerson": "clothes"
+  },
+  "coach": {
+    "infinitive": "coach",
+    "perfect": "coached",
+    "pastParticiple": "coached",
+    "presentParticiple": "coaching",
+    "thirdPerson": "coaches"
+  },
+  "coil": {
+    "infinitive": "coil",
+    "perfect": "coiled",
+    "pastParticiple": "coiled",
+    "presentParticiple": "coiling",
+    "thirdPerson": "coils"
+  },
+  "collect": {
+    "infinitive": "collect",
+    "perfect": "collected",
+    "pastParticiple": "collected",
+    "presentParticiple": "collecting",
+    "thirdPerson": "collects"
+  },
+  "color": {
+    "infinitive": "color",
+    "perfect": "colored",
+    "pastParticiple": "colored",
+    "presentParticiple": "coloring",
+    "thirdPerson": "colors"
+  },
+  "comb": {
+    "infinitive": "comb",
+    "perfect": "combed",
+    "pastParticiple": "combed",
+    "presentParticiple": "combing",
+    "thirdPerson": "combs"
+  },
+  "come": {
+    "infinitive": "come",
+    "perfect": "come",
+    "pastParticiple": "came",
+    "presentParticiple": "coming",
+    "thirdPerson": "comes"
+  },
+  "command": {
+    "infinitive": "command",
+    "perfect": "commanded",
+    "pastParticiple": "commanded",
+    "presentParticiple": "commanding",
+    "thirdPerson": "commands"
+  },
+  "communicate": {
+    "infinitive": "communicate",
+    "perfect": "communicated",
+    "pastParticiple": "communicated",
+    "presentParticiple": "communicating",
+    "thirdPerson": "communicates"
+  },
+  "compare": {
+    "infinitive": "compare",
+    "perfect": "compared",
+    "pastParticiple": "compared",
+    "presentParticiple": "comparing",
+    "thirdPerson": "compares"
+  },
+  "compete": {
+    "infinitive": "compete",
+    "perfect": "competed",
+    "pastParticiple": "competed",
+    "presentParticiple": "competing",
+    "thirdPerson": "competes"
+  },
+  "compile": {
+    "infinitive": "compile",
+    "perfect": "compiled",
+    "pastParticiple": "compiled",
+    "presentParticiple": "compiling",
+    "thirdPerson": "compiles"
+  },
+  "complain": {
+    "infinitive": "complain",
+    "perfect": "complained",
+    "pastParticiple": "complained",
+    "presentParticiple": "complaining",
+    "thirdPerson": "complains"
+  },
+  "complete": {
+    "infinitive": "complete",
+    "perfect": "completed",
+    "pastParticiple": "completed",
+    "presentParticiple": "completing",
+    "thirdPerson": "completes"
+  },
+  "compose": {
+    "infinitive": "compose",
+    "perfect": "composed",
+    "pastParticiple": "composed",
+    "presentParticiple": "composing",
+    "thirdPerson": "composes"
+  },
+  "compute": {
+    "infinitive": "compute",
+    "perfect": "computed",
+    "pastParticiple": "computed",
+    "presentParticiple": "computing",
+    "thirdPerson": "computes"
+  },
+  "conceive": {
+    "infinitive": "conceive",
+    "perfect": "conceived",
+    "pastParticiple": "conceived",
+    "presentParticiple": "conceiving",
+    "thirdPerson": "conceives"
+  },
+  "concentrate": {
+    "infinitive": "concentrate",
+    "perfect": "concentrated",
+    "pastParticiple": "concentrated",
+    "presentParticiple": "concentrating",
+    "thirdPerson": "concentrates"
+  },
+  "conceptualize": {
+    "infinitive": "conceptualize",
+    "perfect": "conceptualized",
+    "pastParticiple": "conceptualized",
+    "presentParticiple": "conceptualizing",
+    "thirdPerson": "conceptualizes"
+  },
+  "concern": {
+    "infinitive": "concern",
+    "perfect": "concerned",
+    "pastParticiple": "concerned",
+    "presentParticiple": "concerning",
+    "thirdPerson": "concerns"
+  },
+  "conclude": {
+    "infinitive": "conclude",
+    "perfect": "concluded",
+    "pastParticiple": "concluded",
+    "presentParticiple": "concluding",
+    "thirdPerson": "concludes"
+  },
+  "conduct": {
+    "infinitive": "conduct",
+    "perfect": "conducted",
+    "pastParticiple": "conducted",
+    "presentParticiple": "conducting",
+    "thirdPerson": "conducts"
+  },
+  "confess": {
+    "infinitive": "confess",
+    "perfect": "confessed",
+    "pastParticiple": "confessed",
+    "presentParticiple": "confessing",
+    "thirdPerson": "confesses"
+  },
+  "confront": {
+    "infinitive": "confront",
+    "perfect": "confronted",
+    "pastParticiple": "confronted",
+    "presentParticiple": "confronting",
+    "thirdPerson": "confronts"
+  },
+  "confuse": {
+    "infinitive": "confuse",
+    "perfect": "confused",
+    "pastParticiple": "confused",
+    "presentParticiple": "confusing",
+    "thirdPerson": "confuses"
+  },
+  "connect": {
+    "infinitive": "connect",
+    "perfect": "connected",
+    "pastParticiple": "connected",
+    "presentParticiple": "connecting",
+    "thirdPerson": "connects"
+  },
+  "conserve": {
+    "infinitive": "conserve",
+    "perfect": "conserved",
+    "pastParticiple": "conserved",
+    "presentParticiple": "conserving",
+    "thirdPerson": "conserves"
+  },
+  "consider": {
+    "infinitive": "consider",
+    "perfect": "considered",
+    "pastParticiple": "considered",
+    "presentParticiple": "considering",
+    "thirdPerson": "considers"
+  },
+  "consist": {
+    "infinitive": "consist",
+    "perfect": "consisted",
+    "pastParticiple": "consisted",
+    "presentParticiple": "consisting",
+    "thirdPerson": "consists"
+  },
+  "consolidate": {
+    "infinitive": "consolidate",
+    "perfect": "consolidated",
+    "pastParticiple": "consolidated",
+    "presentParticiple": "consolidating",
+    "thirdPerson": "consolidates"
+  },
+  "construct": {
+    "infinitive": "construct",
+    "perfect": "constructed",
+    "pastParticiple": "constructed",
+    "presentParticiple": "constructing",
+    "thirdPerson": "constructs"
+  },
+  "consult": {
+    "infinitive": "consult",
+    "perfect": "consulted",
+    "pastParticiple": "consulted",
+    "presentParticiple": "consulting",
+    "thirdPerson": "consults"
+  },
+  "contain": {
+    "infinitive": "contain",
+    "perfect": "contained",
+    "pastParticiple": "contained",
+    "presentParticiple": "containing",
+    "thirdPerson": "contains"
+  },
+  "continue": {
+    "infinitive": "continue",
+    "perfect": "continued",
+    "pastParticiple": "continued",
+    "presentParticiple": "continuing",
+    "thirdPerson": "continues"
+  },
+  "contract": {
+    "infinitive": "contract",
+    "perfect": "contracted",
+    "pastParticiple": "contracted",
+    "presentParticiple": "contracting",
+    "thirdPerson": "contracts"
+  },
+  "control": {
+    "infinitive": "control",
+    "perfect": "controlled",
+    "pastParticiple": "controlled",
+    "presentParticiple": "controlling",
+    "thirdPerson": "controls"
+  },
+  "convert": {
+    "infinitive": "convert",
+    "perfect": "converted",
+    "pastParticiple": "converted",
+    "presentParticiple": "converting",
+    "thirdPerson": "converts"
+  },
+  "coordinate": {
+    "infinitive": "coordinate",
+    "perfect": "coordinated",
+    "pastParticiple": "coordinated",
+    "presentParticiple": "coordinating",
+    "thirdPerson": "coordinates"
+  },
+  "copy": {
+    "infinitive": "copy",
+    "perfect": "copied",
+    "pastParticiple": "copied",
+    "presentParticiple": "copying",
+    "thirdPerson": "copies"
+  },
+  "correct": {
+    "infinitive": "correct",
+    "perfect": "corrected",
+    "pastParticiple": "corrected",
+    "presentParticiple": "correcting",
+    "thirdPerson": "corrects"
+  },
+  "correlate": {
+    "infinitive": "correlate",
+    "perfect": "correlated",
+    "pastParticiple": "correlated",
+    "presentParticiple": "correlating",
+    "thirdPerson": "correlates"
+  },
+  "cost": {
+    "infinitive": "cost",
+    "perfect": "cost",
+    "pastParticiple": "cost",
+    "presentParticiple": "costing",
+    "thirdPerson": "costs"
+  },
+  "cough": {
+    "infinitive": "cough",
+    "perfect": "coughed",
+    "pastParticiple": "coughed",
+    "presentParticiple": "coughing",
+    "thirdPerson": "coughs"
+  },
+  "counsel": {
+    "infinitive": "counsel",
+    "perfect": "counselled",
+    "pastParticiple": "counselled",
+    "presentParticiple": "counselling",
+    "thirdPerson": "counsels"
+  },
+  "count": {
+    "infinitive": "count",
+    "perfect": "counted",
+    "pastParticiple": "counted",
+    "presentParticiple": "counting",
+    "thirdPerson": "counts"
+  },
+  "cover": {
+    "infinitive": "cover",
+    "perfect": "covered",
+    "pastParticiple": "covered",
+    "presentParticiple": "covering",
+    "thirdPerson": "covers"
+  },
+  "crack": {
+    "infinitive": "crack",
+    "perfect": "cracked",
+    "pastParticiple": "cracked",
+    "presentParticiple": "cracking",
+    "thirdPerson": "cracks"
+  },
+  "crash": {
+    "infinitive": "crash",
+    "perfect": "crashed",
+    "pastParticiple": "crashed",
+    "presentParticiple": "crashing",
+    "thirdPerson": "crashes"
+  },
+  "crawl": {
+    "infinitive": "crawl",
+    "perfect": "crawled",
+    "pastParticiple": "crawled",
+    "presentParticiple": "crawling",
+    "thirdPerson": "crawls"
+  },
+  "create": {
+    "infinitive": "create",
+    "perfect": "created",
+    "pastParticiple": "created",
+    "presentParticiple": "creating",
+    "thirdPerson": "creates"
+  },
+  "creep": {
+    "infinitive": "creep",
+    "perfect": "crept",
+    "pastParticiple": "crept",
+    "presentParticiple": "creeping",
+    "thirdPerson": "creeps"
+  },
+  "critique": {
+    "infinitive": "critique",
+    "perfect": "critiqued",
+    "pastParticiple": "critiqued",
+    "presentParticiple": "critiquing",
+    "thirdPerson": "critiques"
+  },
+  "cross": {
+    "infinitive": "cross",
+    "perfect": "crossed",
+    "pastParticiple": "crossed",
+    "presentParticiple": "crossing",
+    "thirdPerson": "crosses"
+  },
+  "crow": {
+    "infinitive": "crow",
+    "perfect": "crowed",
+    "pastParticiple": "crowed",
+    "presentParticiple": "crowing",
+    "thirdPerson": "crows"
+  },
+  "crush": {
+    "infinitive": "crush",
+    "perfect": "crushed",
+    "pastParticiple": "crushed",
+    "presentParticiple": "crushing",
+    "thirdPerson": "crushes"
+  },
+  "cry": {
+    "infinitive": "cry",
+    "perfect": "cried",
+    "pastParticiple": "cried",
+    "presentParticiple": "crying",
+    "thirdPerson": "cries"
+  },
+  "cure": {
+    "infinitive": "cure",
+    "perfect": "cured",
+    "pastParticiple": "cured",
+    "presentParticiple": "curing",
+    "thirdPerson": "cures"
+  },
+  "curl": {
+    "infinitive": "curl",
+    "perfect": "curled",
+    "pastParticiple": "curled",
+    "presentParticiple": "curling",
+    "thirdPerson": "curls"
+  },
+  "curve": {
+    "infinitive": "curve",
+    "perfect": "curved",
+    "pastParticiple": "curved",
+    "presentParticiple": "curving",
+    "thirdPerson": "curves"
+  },
+  "cut": {
+    "infinitive": "cut",
+    "perfect": "cut",
+    "pastParticiple": "cut",
+    "presentParticiple": "cutting",
+    "thirdPerson": "cuts"
+  },
+  "cycle": {
+    "infinitive": "cycle",
+    "perfect": "cycled",
+    "pastParticiple": "cycled",
+    "presentParticiple": "cycling",
+    "thirdPerson": "cycles"
+  },
+  "dam": {
+    "infinitive": "dam",
+    "perfect": "dammed",
+    "pastParticiple": "dammed",
+    "presentParticiple": "damming",
+    "thirdPerson": "dams"
+  },
+  "damage": {
+    "infinitive": "damage",
+    "perfect": "damaged",
+    "pastParticiple": "damaged",
+    "presentParticiple": "damaging",
+    "thirdPerson": "damages"
+  },
+  "dance": {
+    "infinitive": "dance",
+    "perfect": "danced",
+    "pastParticiple": "danced",
+    "presentParticiple": "dancing",
+    "thirdPerson": "dances"
+  },
+  "dare": {
+    "infinitive": "dare",
+    "perfect": "dared",
+    "pastParticiple": "dared",
+    "presentParticiple": "daring",
+    "thirdPerson": "dares"
+  },
+  "deal": {
+    "infinitive": "deal",
+    "perfect": "dealt",
+    "pastParticiple": "dealt",
+    "presentParticiple": "dealing",
+    "thirdPerson": "deals"
+  },
+  "decay": {
+    "infinitive": "decay",
+    "perfect": "decayed",
+    "pastParticiple": "decayed",
+    "presentParticiple": "decaying",
+    "thirdPerson": "decays"
+  },
+  "deceive": {
+    "infinitive": "deceive",
+    "perfect": "deceived",
+    "pastParticiple": "deceived",
+    "presentParticiple": "deceiving",
+    "thirdPerson": "deceives"
+  },
+  "decide": {
+    "infinitive": "decide",
+    "perfect": "decided",
+    "pastParticiple": "decided",
+    "presentParticiple": "deciding",
+    "thirdPerson": "decides"
+  },
+  "decorate": {
+    "infinitive": "decorate",
+    "perfect": "decorated",
+    "pastParticiple": "decorated",
+    "presentParticiple": "decorating",
+    "thirdPerson": "decorates"
+  },
+  "define": {
+    "infinitive": "define",
+    "perfect": "defined",
+    "pastParticiple": "defined",
+    "presentParticiple": "defining",
+    "thirdPerson": "defines"
+  },
+  "delay": {
+    "infinitive": "delay",
+    "perfect": "delayed",
+    "pastParticiple": "delayed",
+    "presentParticiple": "delaying",
+    "thirdPerson": "delays"
+  },
+  "delegate": {
+    "infinitive": "delegate",
+    "perfect": "delegated",
+    "pastParticiple": "delegated",
+    "presentParticiple": "delegating",
+    "thirdPerson": "delegates"
+  },
+  "delight": {
+    "infinitive": "delight",
+    "perfect": "delighted",
+    "pastParticiple": "delighted",
+    "presentParticiple": "delighting",
+    "thirdPerson": "delights"
+  },
+  "deliver": {
+    "infinitive": "deliver",
+    "perfect": "delivered",
+    "pastParticiple": "delivered",
+    "presentParticiple": "delivering",
+    "thirdPerson": "delivers"
+  },
+  "demonstrate": {
+    "infinitive": "demonstrate",
+    "perfect": "demonstrated",
+    "pastParticiple": "demonstrated",
+    "presentParticiple": "demonstrating",
+    "thirdPerson": "demonstrates"
+  },
+  "depend": {
+    "infinitive": "depend",
+    "perfect": "depended",
+    "pastParticiple": "depended",
+    "presentParticiple": "depending",
+    "thirdPerson": "depends"
+  },
+  "describe": {
+    "infinitive": "describe",
+    "perfect": "described",
+    "pastParticiple": "described",
+    "presentParticiple": "describing",
+    "thirdPerson": "describes"
+  },
+  "desert": {
+    "infinitive": "desert",
+    "perfect": "deserted",
+    "pastParticiple": "deserted",
+    "presentParticiple": "deserting",
+    "thirdPerson": "deserts"
+  },
+  "deserve": {
+    "infinitive": "deserve",
+    "perfect": "deserved",
+    "pastParticiple": "deserved",
+    "presentParticiple": "deserving",
+    "thirdPerson": "deserves"
+  },
+  "design": {
+    "infinitive": "design",
+    "perfect": "designed",
+    "pastParticiple": "designed",
+    "presentParticiple": "designing",
+    "thirdPerson": "designs"
+  },
+  "destroy": {
+    "infinitive": "destroy",
+    "perfect": "destroyed",
+    "pastParticiple": "destroyed",
+    "presentParticiple": "destroying",
+    "thirdPerson": "destroys"
+  },
+  "detail": {
+    "infinitive": "detail",
+    "perfect": "detailed",
+    "pastParticiple": "detailed",
+    "presentParticiple": "detailing",
+    "thirdPerson": "details"
+  },
+  "detect": {
+    "infinitive": "detect",
+    "perfect": "detected",
+    "pastParticiple": "detected",
+    "presentParticiple": "detecting",
+    "thirdPerson": "detects"
+  },
+  "determine": {
+    "infinitive": "determine",
+    "perfect": "determined",
+    "pastParticiple": "determined",
+    "presentParticiple": "determining",
+    "thirdPerson": "determines"
+  },
+  "develop": {
+    "infinitive": "develop",
+    "perfect": "developed",
+    "pastParticiple": "developed",
+    "presentParticiple": "developing",
+    "thirdPerson": "develops"
+  },
+  "devise": {
+    "infinitive": "devise",
+    "perfect": "devised",
+    "pastParticiple": "devised",
+    "presentParticiple": "devising",
+    "thirdPerson": "devises"
+  },
+  "diagnose": {
+    "infinitive": "diagnose",
+    "perfect": "diagnosed",
+    "pastParticiple": "diagnosed",
+    "presentParticiple": "diagnosing",
+    "thirdPerson": "diagnoses"
+  },
+  "dig": {
+    "infinitive": "dig",
+    "perfect": "dug",
+    "pastParticiple": "dug",
+    "presentParticiple": "digging",
+    "thirdPerson": "digs"
+  },
+  "direct": {
+    "infinitive": "direct",
+    "perfect": "directed",
+    "pastParticiple": "directed",
+    "presentParticiple": "directing",
+    "thirdPerson": "directs"
+  },
+  "disagree": {
+    "infinitive": "disagree",
+    "perfect": "disagreed",
+    "pastParticiple": "disagreed",
+    "presentParticiple": "disagreeing",
+    "thirdPerson": "disagrees"
+  },
+  "disappear": {
+    "infinitive": "disappear",
+    "perfect": "disappeared",
+    "pastParticiple": "disappeared",
+    "presentParticiple": "disappearing",
+    "thirdPerson": "disappears"
+  },
+  "disapprove": {
+    "infinitive": "disapprove",
+    "perfect": "disapproved",
+    "pastParticiple": "disapproved",
+    "presentParticiple": "disapproving",
+    "thirdPerson": "disapproves"
+  },
+  "disarm": {
+    "infinitive": "disarm",
+    "perfect": "disarmed",
+    "pastParticiple": "disarmed",
+    "presentParticiple": "disarming",
+    "thirdPerson": "disarms"
+  },
+  "discover": {
+    "infinitive": "discover",
+    "perfect": "discovered",
+    "pastParticiple": "discovered",
+    "presentParticiple": "discovering",
+    "thirdPerson": "discovers"
+  },
+  "discuss": {
+    "infinitive": "discuss",
+    "perfect": "discussed",
+    "pastParticiple": "discussed",
+    "presentParticiple": "discussing",
+    "thirdPerson": "discusses"
+  },
+  "dislike": {
+    "infinitive": "dislike",
+    "perfect": "disliked",
+    "pastParticiple": "disliked",
+    "presentParticiple": "disliking",
+    "thirdPerson": "dislikes"
+  },
+  "dispense": {
+    "infinitive": "dispense",
+    "perfect": "dispensed",
+    "pastParticiple": "dispensed",
+    "presentParticiple": "dispensing",
+    "thirdPerson": "dispenses"
+  },
+  "display": {
+    "infinitive": "display",
+    "perfect": "displayed",
+    "pastParticiple": "displayed",
+    "presentParticiple": "displaying",
+    "thirdPerson": "displays"
+  },
+  "disprove": {
+    "infinitive": "disprove",
+    "perfect": "disproved",
+    "pastParticiple": "disproved",
+    "presentParticiple": "disproving",
+    "thirdPerson": "disproves"
+  },
+  "dissect": {
+    "infinitive": "dissect",
+    "perfect": "dissected",
+    "pastParticiple": "dissected",
+    "presentParticiple": "dissecting",
+    "thirdPerson": "dissects"
+  },
+  "distribute": {
+    "infinitive": "distribute",
+    "perfect": "distributed",
+    "pastParticiple": "distributed",
+    "presentParticiple": "distributing",
+    "thirdPerson": "distributes"
+  },
+  "dive": {
+    "infinitive": "dive",
+    "perfect": "dived",
+    "pastParticiple": "dived",
+    "presentParticiple": "diving",
+    "thirdPerson": "dives"
+  },
+  "divert": {
+    "infinitive": "divert",
+    "perfect": "diverted",
+    "pastParticiple": "diverted",
+    "presentParticiple": "diverting",
+    "thirdPerson": "diverts"
+  },
+  "divide": {
+    "infinitive": "divide",
+    "perfect": "divided",
+    "pastParticiple": "divided",
+    "presentParticiple": "dividing",
+    "thirdPerson": "divides"
+  },
+  "do": {
+    "infinitive": "do",
+    "perfect": "done",
+    "pastParticiple": "did",
+    "presentParticiple": "doing",
+    "thirdPerson": "does"
+  },
+  "double": {
+    "infinitive": "double",
+    "perfect": "doubled",
+    "pastParticiple": "doubled",
+    "presentParticiple": "doubling",
+    "thirdPerson": "doubles"
+  },
+  "doubt": {
+    "infinitive": "doubt",
+    "perfect": "doubted",
+    "pastParticiple": "doubted",
+    "presentParticiple": "doubting",
+    "thirdPerson": "doubts"
+  },
+  "draft": {
+    "infinitive": "draft",
+    "perfect": "drafted",
+    "pastParticiple": "drafted",
+    "presentParticiple": "drafting",
+    "thirdPerson": "drafts"
+  },
+  "drag": {
+    "infinitive": "drag",
+    "perfect": "dragged",
+    "pastParticiple": "dragged",
+    "presentParticiple": "dragging",
+    "thirdPerson": "drags"
+  },
+  "drain": {
+    "infinitive": "drain",
+    "perfect": "drained",
+    "pastParticiple": "drained",
+    "presentParticiple": "draining",
+    "thirdPerson": "drains"
+  },
+  "dramatize": {
+    "infinitive": "dramatize",
+    "perfect": "dramatized",
+    "pastParticiple": "dramatized",
+    "presentParticiple": "dramatizing",
+    "thirdPerson": "dramatizes"
+  },
+  "draw": {
+    "infinitive": "draw",
+    "perfect": "drawn",
+    "pastParticiple": "drew",
+    "presentParticiple": "drawing",
+    "thirdPerson": "draws"
+  },
+  "dream": {
+    "infinitive": "dream",
+    "perfect": "dreamed",
+    "pastParticiple": "dreamed",
+    "presentParticiple": "dreaming",
+    "thirdPerson": "dreams"
+  },
+  "dress": {
+    "infinitive": "dress",
+    "perfect": "dressed",
+    "pastParticiple": "dressed",
+    "presentParticiple": "dressing",
+    "thirdPerson": "dresses"
+  },
+  "drink": {
+    "infinitive": "drink",
+    "perfect": "drunk",
+    "pastParticiple": "drank",
+    "presentParticiple": "drinking",
+    "thirdPerson": "drinks"
+  },
+  "drip": {
+    "infinitive": "drip",
+    "perfect": "dripped",
+    "pastParticiple": "dripped",
+    "presentParticiple": "dripping",
+    "thirdPerson": "drips"
+  },
+  "drive": {
+    "infinitive": "drive",
+    "perfect": "driven",
+    "pastParticiple": "drove",
+    "presentParticiple": "driving",
+    "thirdPerson": "drives"
+  },
+  "drop": {
+    "infinitive": "drop",
+    "perfect": "dropped",
+    "pastParticiple": "dropped",
+    "presentParticiple": "dropping",
+    "thirdPerson": "drops"
+  },
+  "drown": {
+    "infinitive": "drown",
+    "perfect": "drowned",
+    "pastParticiple": "drowned",
+    "presentParticiple": "drowning",
+    "thirdPerson": "drowns"
+  },
+  "drum": {
+    "infinitive": "drum",
+    "perfect": "drummed",
+    "pastParticiple": "drummed",
+    "presentParticiple": "drumming",
+    "thirdPerson": "drums"
+  },
+  "dry": {
+    "infinitive": "dry",
+    "perfect": "dried",
+    "pastParticiple": "dried",
+    "presentParticiple": "drying",
+    "thirdPerson": "dries"
+  },
+  "dust": {
+    "infinitive": "dust",
+    "perfect": "dusted",
+    "pastParticiple": "dusted",
+    "presentParticiple": "dusting",
+    "thirdPerson": "dusts"
+  },
+  "dwell": {
+    "infinitive": "dwell",
+    "perfect": "dwelt",
+    "pastParticiple": "dwelt",
+    "presentParticiple": "dwelling",
+    "thirdPerson": "dwells"
+  },
+  "earn": {
+    "infinitive": "earn",
+    "perfect": "earned",
+    "pastParticiple": "earned",
+    "presentParticiple": "earning",
+    "thirdPerson": "earns"
+  },
+  "eat": {
+    "infinitive": "eat",
+    "perfect": "eaten",
+    "pastParticiple": "ate",
+    "presentParticiple": "eating",
+    "thirdPerson": "eats"
+  },
+  "educate": {
+    "infinitive": "educate",
+    "perfect": "educated",
+    "pastParticiple": "educated",
+    "presentParticiple": "educating",
+    "thirdPerson": "educates"
+  },
+  "eliminate": {
+    "infinitive": "eliminate",
+    "perfect": "eliminated",
+    "pastParticiple": "eliminated",
+    "presentParticiple": "eliminating",
+    "thirdPerson": "eliminates"
+  },
+  "embarrass": {
+    "infinitive": "embarrass",
+    "perfect": "embarrassed",
+    "pastParticiple": "embarrassed",
+    "presentParticiple": "embarrassing",
+    "thirdPerson": "embarrasses"
+  },
+  "employ": {
+    "infinitive": "employ",
+    "perfect": "employed",
+    "pastParticiple": "employed",
+    "presentParticiple": "employing",
+    "thirdPerson": "employs"
+  },
+  "empty": {
+    "infinitive": "empty",
+    "perfect": "emptied",
+    "pastParticiple": "emptied",
+    "presentParticiple": "emptying",
+    "thirdPerson": "empties"
+  },
+  "encourage": {
+    "infinitive": "encourage",
+    "perfect": "encouraged",
+    "pastParticiple": "encouraged",
+    "presentParticiple": "encouraging",
+    "thirdPerson": "encourages"
+  },
+  "end": {
+    "infinitive": "end",
+    "perfect": "ended",
+    "pastParticiple": "ended",
+    "presentParticiple": "ending",
+    "thirdPerson": "ends"
+  },
+  "endure": {
+    "infinitive": "endure",
+    "perfect": "endured",
+    "pastParticiple": "endured",
+    "presentParticiple": "enduring",
+    "thirdPerson": "endures"
+  },
+  "enforce": {
+    "infinitive": "enforce",
+    "perfect": "enforced",
+    "pastParticiple": "enforced",
+    "presentParticiple": "enforcing",
+    "thirdPerson": "enforces"
+  },
+  "engineer": {
+    "infinitive": "engineer",
+    "perfect": "engineered",
+    "pastParticiple": "engineered",
+    "presentParticiple": "engineering",
+    "thirdPerson": "engineers"
+  },
+  "enhance": {
+    "infinitive": "enhance",
+    "perfect": "enhanced",
+    "pastParticiple": "enhanced",
+    "presentParticiple": "enhancing",
+    "thirdPerson": "enhances"
+  },
+  "enjoy": {
+    "infinitive": "enjoy",
+    "perfect": "enjoyed",
+    "pastParticiple": "enjoyed",
+    "presentParticiple": "enjoying",
+    "thirdPerson": "enjoys"
+  },
+  "enlist": {
+    "infinitive": "enlist",
+    "perfect": "enlisted",
+    "pastParticiple": "enlisted",
+    "presentParticiple": "enlisting",
+    "thirdPerson": "enlists"
+  },
+  "ensure": {
+    "infinitive": "ensure",
+    "perfect": "ensured",
+    "pastParticiple": "ensured",
+    "presentParticiple": "ensuring",
+    "thirdPerson": "ensures"
+  },
+  "enter": {
+    "infinitive": "enter",
+    "perfect": "entered",
+    "pastParticiple": "entered",
+    "presentParticiple": "entering",
+    "thirdPerson": "enters"
+  },
+  "entertain": {
+    "infinitive": "entertain",
+    "perfect": "entertained",
+    "pastParticiple": "entertained",
+    "presentParticiple": "entertaining",
+    "thirdPerson": "entertains"
+  },
+  "escape": {
+    "infinitive": "escape",
+    "perfect": "escaped",
+    "pastParticiple": "escaped",
+    "presentParticiple": "escaping",
+    "thirdPerson": "escapes"
+  },
+  "establish": {
+    "infinitive": "establish",
+    "perfect": "established",
+    "pastParticiple": "established",
+    "presentParticiple": "establishing",
+    "thirdPerson": "establishes"
+  },
+  "estimate": {
+    "infinitive": "estimate",
+    "perfect": "estimated",
+    "pastParticiple": "estimated",
+    "presentParticiple": "estimating",
+    "thirdPerson": "estimates"
+  },
+  "evaluate": {
+    "infinitive": "evaluate",
+    "perfect": "evaluated",
+    "pastParticiple": "evaluated",
+    "presentParticiple": "evaluating",
+    "thirdPerson": "evaluates"
+  },
+  "examine": {
+    "infinitive": "examine",
+    "perfect": "examined",
+    "pastParticiple": "examined",
+    "presentParticiple": "examining",
+    "thirdPerson": "examines"
+  },
+  "exceed": {
+    "infinitive": "exceed",
+    "perfect": "exceeded",
+    "pastParticiple": "exceeded",
+    "presentParticiple": "exceeding",
+    "thirdPerson": "exceeds"
+  },
+  "excite": {
+    "infinitive": "excite",
+    "perfect": "excited",
+    "pastParticiple": "excited",
+    "presentParticiple": "exciting",
+    "thirdPerson": "excites"
+  },
+  "excuse": {
+    "infinitive": "excuse",
+    "perfect": "excused",
+    "pastParticiple": "excused",
+    "presentParticiple": "excusing",
+    "thirdPerson": "excuses"
+  },
+  "execute": {
+    "infinitive": "execute",
+    "perfect": "executed",
+    "pastParticiple": "executed",
+    "presentParticiple": "executing",
+    "thirdPerson": "executes"
+  },
+  "exercise": {
+    "infinitive": "exercise",
+    "perfect": "exercised",
+    "pastParticiple": "exercised",
+    "presentParticiple": "exercising",
+    "thirdPerson": "exercises"
+  },
+  "exhibit": {
+    "infinitive": "exhibit",
+    "perfect": "exhibited",
+    "pastParticiple": "exhibited",
+    "presentParticiple": "exhibiting",
+    "thirdPerson": "exhibits"
+  },
+  "exist": {
+    "infinitive": "exist",
+    "perfect": "existed",
+    "pastParticiple": "existed",
+    "presentParticiple": "existing",
+    "thirdPerson": "exists"
+  },
+  "expand": {
+    "infinitive": "expand",
+    "perfect": "expanded",
+    "pastParticiple": "expanded",
+    "presentParticiple": "expanding",
+    "thirdPerson": "expands"
+  },
+  "expect": {
+    "infinitive": "expect",
+    "perfect": "expected",
+    "pastParticiple": "expected",
+    "presentParticiple": "expecting",
+    "thirdPerson": "expects"
+  },
+  "expedite": {
+    "infinitive": "expedite",
+    "perfect": "expedited",
+    "pastParticiple": "expedited",
+    "presentParticiple": "expediting",
+    "thirdPerson": "expedites"
+  },
+  "experiment": {
+    "infinitive": "experiment",
+    "perfect": "experimented",
+    "pastParticiple": "experimented",
+    "presentParticiple": "experimenting",
+    "thirdPerson": "experiments"
+  },
+  "explain": {
+    "infinitive": "explain",
+    "perfect": "explained",
+    "pastParticiple": "explained",
+    "presentParticiple": "explaining",
+    "thirdPerson": "explains"
+  },
+  "explode": {
+    "infinitive": "explode",
+    "perfect": "exploded",
+    "pastParticiple": "exploded",
+    "presentParticiple": "exploding",
+    "thirdPerson": "explodes"
+  },
+  "express": {
+    "infinitive": "express",
+    "perfect": "expressed",
+    "pastParticiple": "expressed",
+    "presentParticiple": "expressing",
+    "thirdPerson": "expresses"
+  },
+  "extend": {
+    "infinitive": "extend",
+    "perfect": "extended",
+    "pastParticiple": "extended",
+    "presentParticiple": "extending",
+    "thirdPerson": "extends"
+  },
+  "extract": {
+    "infinitive": "extract",
+    "perfect": "extracted",
+    "pastParticiple": "extracted",
+    "presentParticiple": "extracting",
+    "thirdPerson": "extracts"
+  },
+  "face": {
+    "infinitive": "face",
+    "perfect": "faced",
+    "pastParticiple": "faced",
+    "presentParticiple": "facing",
+    "thirdPerson": "faces"
+  },
+  "facilitate": {
+    "infinitive": "facilitate",
+    "perfect": "facilitated",
+    "pastParticiple": "facilitated",
+    "presentParticiple": "facilitating",
+    "thirdPerson": "facilitates"
+  },
+  "fade": {
+    "infinitive": "fade",
+    "perfect": "faded",
+    "pastParticiple": "faded",
+    "presentParticiple": "fading",
+    "thirdPerson": "fades"
+  },
+  "fail": {
+    "infinitive": "fail",
+    "perfect": "failed",
+    "pastParticiple": "failed",
+    "presentParticiple": "failing",
+    "thirdPerson": "fails"
+  },
+  "fall": {
+    "infinitive": "fall",
+    "perfect": "fallen",
+    "pastParticiple": "fell",
+    "presentParticiple": "falling",
+    "thirdPerson": "falls"
+  },
+  "fancy": {
+    "infinitive": "fancy",
+    "perfect": "fancied",
+    "pastParticiple": "fancied",
+    "presentParticiple": "fancying",
+    "thirdPerson": "fancies"
+  },
+  "fasten": {
+    "infinitive": "fasten",
+    "perfect": "fastened",
+    "pastParticiple": "fastened",
+    "presentParticiple": "fastening",
+    "thirdPerson": "fastens"
+  },
+  "fax": {
+    "infinitive": "fax",
+    "perfect": "faxed",
+    "pastParticiple": "faxed",
+    "presentParticiple": "faxing",
+    "thirdPerson": "faxes"
+  },
+  "fear": {
+    "infinitive": "fear",
+    "perfect": "feared",
+    "pastParticiple": "feared",
+    "presentParticiple": "fearing",
+    "thirdPerson": "fears"
+  },
+  "feed": {
+    "infinitive": "feed",
+    "perfect": "fed",
+    "pastParticiple": "fed",
+    "presentParticiple": "feeding",
+    "thirdPerson": "feeds"
+  },
+  "feel": {
+    "infinitive": "feel",
+    "perfect": "felt",
+    "pastParticiple": "felt",
+    "presentParticiple": "feeling",
+    "thirdPerson": "feels"
+  },
+  "fence": {
+    "infinitive": "fence",
+    "perfect": "fenced",
+    "pastParticiple": "fenced",
+    "presentParticiple": "fencing",
+    "thirdPerson": "fences"
+  },
+  "fetch": {
+    "infinitive": "fetch",
+    "perfect": "fetched",
+    "pastParticiple": "fetched",
+    "presentParticiple": "fetching",
+    "thirdPerson": "fetches"
+  },
+  "fight": {
+    "infinitive": "fight",
+    "perfect": "fought",
+    "pastParticiple": "fought",
+    "presentParticiple": "fighting",
+    "thirdPerson": "fights"
+  },
+  "file": {
+    "infinitive": "file",
+    "perfect": "filed",
+    "pastParticiple": "filed",
+    "presentParticiple": "filing",
+    "thirdPerson": "files"
+  },
+  "fill": {
+    "infinitive": "fill",
+    "perfect": "filled",
+    "pastParticiple": "filled",
+    "presentParticiple": "filling",
+    "thirdPerson": "fills"
+  },
+  "film": {
+    "infinitive": "film",
+    "perfect": "filmed",
+    "pastParticiple": "filmed",
+    "presentParticiple": "filming",
+    "thirdPerson": "films"
+  },
+  "finalize": {
+    "infinitive": "finalize",
+    "perfect": "finalized",
+    "pastParticiple": "finalized",
+    "presentParticiple": "finalizing",
+    "thirdPerson": "finalizes"
+  },
+  "finance": {
+    "infinitive": "finance",
+    "perfect": "financed",
+    "pastParticiple": "financed",
+    "presentParticiple": "financing",
+    "thirdPerson": "finances"
+  },
+  "fire": {
+    "infinitive": "fire",
+    "perfect": "fired",
+    "pastParticiple": "fired",
+    "presentParticiple": "firing",
+    "thirdPerson": "fires"
+  },
+  "fit": {
+    "infinitive": "fit",
+    "perfect": "fitted",
+    "pastParticiple": "fitted",
+    "presentParticiple": "fitting",
+    "thirdPerson": "fits"
+  },
+  "fix": {
+    "infinitive": "fix",
+    "perfect": "fixt",
+    "pastParticiple": "fixt",
+    "presentParticiple": "fixing",
+    "thirdPerson": "fixes"
+  },
+  "flash": {
+    "infinitive": "flash",
+    "perfect": "flashed",
+    "pastParticiple": "flashed",
+    "presentParticiple": "flashing",
+    "thirdPerson": "flashes"
+  },
+  "flee": {
+    "infinitive": "flee",
+    "perfect": "fled",
+    "pastParticiple": "fled",
+    "presentParticiple": "fleeing",
+    "thirdPerson": "flees"
+  },
+  "fling": {
+    "infinitive": "fling",
+    "perfect": "flung",
+    "pastParticiple": "flung",
+    "presentParticiple": "flinging",
+    "thirdPerson": "flings"
+  },
+  "float": {
+    "infinitive": "float",
+    "perfect": "floated",
+    "pastParticiple": "floated",
+    "presentParticiple": "floating",
+    "thirdPerson": "floats"
+  },
+  "flood": {
+    "infinitive": "flood",
+    "perfect": "flooded",
+    "pastParticiple": "flooded",
+    "presentParticiple": "flooding",
+    "thirdPerson": "floods"
+  },
+  "flow": {
+    "infinitive": "flow",
+    "perfect": "flowed",
+    "pastParticiple": "flowed",
+    "presentParticiple": "flowing",
+    "thirdPerson": "flows"
+  },
+  "flower": {
+    "infinitive": "flower",
+    "perfect": "flowered",
+    "pastParticiple": "flowered",
+    "presentParticiple": "flowering",
+    "thirdPerson": "flowers"
+  },
+  "fly": {
+    "infinitive": "fly",
+    "perfect": "flown",
+    "pastParticiple": "flew",
+    "presentParticiple": "flying",
+    "thirdPerson": "flies"
+  },
+  "fold": {
+    "infinitive": "fold",
+    "perfect": "folded",
+    "pastParticiple": "obsolete",
+    "presentParticiple": "folding",
+    "thirdPerson": "folds"
+  },
+  "follow": {
+    "infinitive": "follow",
+    "perfect": "followed",
+    "pastParticiple": "followed",
+    "presentParticiple": "following",
+    "thirdPerson": "follows"
+  },
+  "fool": {
+    "infinitive": "fool",
+    "perfect": "fooled",
+    "pastParticiple": "fooled",
+    "presentParticiple": "fooling",
+    "thirdPerson": "fools"
+  },
+  "forbid": {
+    "infinitive": "forbid",
+    "perfect": "forbidden",
+    "pastParticiple": "forbade",
+    "presentParticiple": "forbidding",
+    "thirdPerson": "forbids"
+  },
+  "force": {
+    "infinitive": "force",
+    "perfect": "forced",
+    "pastParticiple": "forced",
+    "presentParticiple": "forcing",
+    "thirdPerson": "forces"
+  },
+  "forecast": {
+    "infinitive": "forecast",
+    "perfect": "forecasted",
+    "pastParticiple": "forecasted",
+    "presentParticiple": "forecasting",
+    "thirdPerson": "forecasts"
+  },
+  "forego": {
+    "infinitive": "forego",
+    "perfect": "foregone",
+    "pastParticiple": "forewent",
+    "presentParticiple": "foregoing",
+    "thirdPerson": "foregoes"
+  },
+  "foresee": {
+    "infinitive": "foresee",
+    "perfect": "foreseen",
+    "pastParticiple": "foresaw",
+    "presentParticiple": "foreseeing",
+    "thirdPerson": "foresees"
+  },
+  "foretell": {
+    "infinitive": "foretell",
+    "perfect": "foretold",
+    "pastParticiple": "foretold",
+    "presentParticiple": "foretelling",
+    "thirdPerson": "foretells"
+  },
+  "forget": {
+    "infinitive": "forget",
+    "perfect": "forgotten",
+    "pastParticiple": "forgot",
+    "presentParticiple": "forgetting",
+    "thirdPerson": "forgets"
+  },
+  "forgive": {
+    "infinitive": "forgive",
+    "perfect": "forgiven",
+    "pastParticiple": "forgave",
+    "presentParticiple": "forgiving",
+    "thirdPerson": "forgives"
+  },
+  "form": {
+    "infinitive": "form",
+    "perfect": "formed",
+    "pastParticiple": "formed",
+    "presentParticiple": "forming",
+    "thirdPerson": "forms"
+  },
+  "formulate": {
+    "infinitive": "formulate",
+    "perfect": "formulated",
+    "pastParticiple": "formulated",
+    "presentParticiple": "formulating",
+    "thirdPerson": "formulates"
+  },
+  "forsake": {
+    "infinitive": "forsake",
+    "perfect": "forsaken",
+    "pastParticiple": "forsook",
+    "presentParticiple": "forsaking",
+    "thirdPerson": "forsakes"
+  },
+  "frame": {
+    "infinitive": "frame",
+    "perfect": "framed",
+    "pastParticiple": "framed",
+    "presentParticiple": "framing",
+    "thirdPerson": "frames"
+  },
+  "freeze": {
+    "infinitive": "freeze",
+    "perfect": "frozen",
+    "pastParticiple": "froze",
+    "presentParticiple": "freezing",
+    "thirdPerson": "freezes"
+  },
+  "frighten": {
+    "infinitive": "frighten",
+    "perfect": "frightened",
+    "pastParticiple": "frightened",
+    "presentParticiple": "frightening",
+    "thirdPerson": "frightens"
+  },
+  "gather": {
+    "infinitive": "gather",
+    "perfect": "gathered",
+    "pastParticiple": "gathered",
+    "presentParticiple": "gathering",
+    "thirdPerson": "gathers"
+  },
+  "gaze": {
+    "infinitive": "gaze",
+    "perfect": "gazed",
+    "pastParticiple": "gazed",
+    "presentParticiple": "gazing",
+    "thirdPerson": "gazes"
+  },
+  "geld": {
+    "infinitive": "geld",
+    "perfect": "gelded",
+    "pastParticiple": "gelded",
+    "presentParticiple": "gelding",
+    "thirdPerson": "gelds"
+  },
+  "generate": {
+    "infinitive": "generate",
+    "perfect": "generated",
+    "pastParticiple": "generated",
+    "presentParticiple": "generating",
+    "thirdPerson": "generates"
+  },
+  "get": {
+    "infinitive": "get",
+    "perfect": "got",
+    "pastParticiple": "got",
+    "presentParticiple": "getting",
+    "thirdPerson": "gets"
+  },
+  "gild": {
+    "infinitive": "gild",
+    "perfect": "gilding",
+    "pastParticiple": "gilded",
+    "presentParticiple": "gilds",
+    "thirdPerson": "gild"
+  },
+  "give": {
+    "infinitive": "give",
+    "perfect": "given",
+    "pastParticiple": "gave",
+    "presentParticiple": "giving",
+    "thirdPerson": "gives"
+  },
+  "glow": {
+    "infinitive": "glow",
+    "perfect": "glowed",
+    "pastParticiple": "glowed",
+    "presentParticiple": "glowing",
+    "thirdPerson": "glows"
+  },
+  "glue": {
+    "infinitive": "glue",
+    "perfect": "glued",
+    "pastParticiple": "glued",
+    "presentParticiple": "gluing",
+    "thirdPerson": "glues"
+  },
+  "gnaw": {
+    "infinitive": "gnaw",
+    "perfect": "gnawed",
+    "pastParticiple": "gnawed",
+    "presentParticiple": "gnawing",
+    "thirdPerson": "gnaws"
+  },
+  "go": {
+    "infinitive": "go",
+    "perfect": "gone",
+    "pastParticiple": "went",
+    "presentParticiple": "going",
+    "thirdPerson": "goes"
+  },
+  "govern": {
+    "infinitive": "govern",
+    "perfect": "governed",
+    "pastParticiple": "governed",
+    "presentParticiple": "governing",
+    "thirdPerson": "governs"
+  },
+  "grab": {
+    "infinitive": "grab",
+    "perfect": "grabbed",
+    "pastParticiple": "grabbed",
+    "presentParticiple": "grabbing",
+    "thirdPerson": "grabs"
+  },
+  "graduate": {
+    "infinitive": "graduate",
+    "perfect": "graduated",
+    "pastParticiple": "graduated",
+    "presentParticiple": "graduating",
+    "thirdPerson": "graduates"
+  },
+  "grasp": {
+    "infinitive": "grasp",
+    "perfect": "grasped",
+    "pastParticiple": "grasped",
+    "presentParticiple": "grasping",
+    "thirdPerson": "grasps"
+  },
+  "grate": {
+    "infinitive": "grate",
+    "perfect": "grated",
+    "pastParticiple": "grated",
+    "presentParticiple": "grating",
+    "thirdPerson": "grates"
+  },
+  "grease": {
+    "infinitive": "grease",
+    "perfect": "greased",
+    "pastParticiple": "greased",
+    "presentParticiple": "greasing",
+    "thirdPerson": "greases"
+  },
+  "greet": {
+    "infinitive": "greet",
+    "perfect": "greeted",
+    "pastParticiple": "greeted",
+    "presentParticiple": "greeting",
+    "thirdPerson": "greets"
+  },
+  "grin": {
+    "infinitive": "grin",
+    "perfect": "grinned",
+    "pastParticiple": "grinned",
+    "presentParticiple": "grinning",
+    "thirdPerson": "grins"
+  },
+  "grind": {
+    "infinitive": "grind",
+    "perfect": "ground",
+    "pastParticiple": "ground",
+    "presentParticiple": "grinding",
+    "thirdPerson": "grinds"
+  },
+  "grip": {
+    "infinitive": "grip",
+    "perfect": "gripped",
+    "pastParticiple": "gripped",
+    "presentParticiple": "gripping",
+    "thirdPerson": "grips"
+  },
+  "groan": {
+    "infinitive": "groan",
+    "perfect": "groaned",
+    "pastParticiple": "groaned",
+    "presentParticiple": "groaning",
+    "thirdPerson": "groans"
+  },
+  "grow": {
+    "infinitive": "grow",
+    "perfect": "grown",
+    "pastParticiple": "grew",
+    "presentParticiple": "growing",
+    "thirdPerson": "grows"
+  },
+  "guarantee": {
+    "infinitive": "guarantee",
+    "perfect": "guaranteed",
+    "pastParticiple": "guaranteed",
+    "presentParticiple": "guaranteeing",
+    "thirdPerson": "guarantees"
+  },
+  "guard": {
+    "infinitive": "guard",
+    "perfect": "guarded",
+    "pastParticiple": "guarded",
+    "presentParticiple": "guarding",
+    "thirdPerson": "guards"
+  },
+  "guess": {
+    "infinitive": "guess",
+    "perfect": "guessed",
+    "pastParticiple": "guessed",
+    "presentParticiple": "guessing",
+    "thirdPerson": "guesses"
+  },
+  "guide": {
+    "infinitive": "guide",
+    "perfect": "guided",
+    "pastParticiple": "guided",
+    "presentParticiple": "guiding",
+    "thirdPerson": "guides"
+  },
+  "hammer": {
+    "infinitive": "hammer",
+    "perfect": "hammered",
+    "pastParticiple": "hammered",
+    "presentParticiple": "hammering",
+    "thirdPerson": "hammers"
+  },
+  "hand": {
+    "infinitive": "hand",
+    "perfect": "handed",
+    "pastParticiple": "handed",
+    "presentParticiple": "handing",
+    "thirdPerson": "hands"
+  },
+  "handle": {
+    "infinitive": "handle",
+    "perfect": "handled",
+    "pastParticiple": "handled",
+    "presentParticiple": "handling",
+    "thirdPerson": "handles"
+  },
+  "handwrite": {
+    "infinitive": "handwrite",
+    "perfect": "handwritten",
+    "pastParticiple": "handwrote",
+    "presentParticiple": "handwriting",
+    "thirdPerson": "handwrites"
+  },
+  "hang": {
+    "infinitive": "hang",
+    "perfect": "hung",
+    "pastParticiple": "usage]])''",
+    "presentParticiple": "hanging",
+    "thirdPerson": "hangs"
+  },
+  "happen": {
+    "infinitive": "happen",
+    "perfect": "happened",
+    "pastParticiple": "happened",
+    "presentParticiple": "happening",
+    "thirdPerson": "happens"
+  },
+  "harass": {
+    "infinitive": "harass",
+    "perfect": "harassed",
+    "pastParticiple": "harassed",
+    "presentParticiple": "harassing",
+    "thirdPerson": "harasses"
+  },
+  "harm": {
+    "infinitive": "harm",
+    "perfect": "harmed",
+    "pastParticiple": "harmed",
+    "presentParticiple": "harming",
+    "thirdPerson": "harms"
+  },
+  "hate": {
+    "infinitive": "hate",
+    "perfect": "hated",
+    "pastParticiple": "hated",
+    "presentParticiple": "hating",
+    "thirdPerson": "hates"
+  },
+  "haunt": {
+    "infinitive": "haunt",
+    "perfect": "haunted",
+    "pastParticiple": "haunted",
+    "presentParticiple": "haunting",
+    "thirdPerson": "haunts"
+  },
+  "have": {
+    "infinitive": "have",
+    "perfect": "had",
+    "pastParticiple": "had",
+    "presentParticiple": "having",
+    "thirdPerson": "has"
+  },
+  "head": {
+    "infinitive": "head",
+    "perfect": "headed",
+    "pastParticiple": "headed",
+    "presentParticiple": "heading",
+    "thirdPerson": "heads"
+  },
+  "heal": {
+    "infinitive": "heal",
+    "perfect": "healed",
+    "pastParticiple": "healed",
+    "presentParticiple": "healing",
+    "thirdPerson": "heals"
+  },
+  "heap": {
+    "infinitive": "heap",
+    "perfect": "heaped",
+    "pastParticiple": "heaped",
+    "presentParticiple": "heaping",
+    "thirdPerson": "heaps"
+  },
+  "hear": {
+    "infinitive": "hear",
+    "perfect": "heard",
+    "pastParticiple": "heard",
+    "presentParticiple": "hearing",
+    "thirdPerson": "hears"
+  },
+  "heat": {
+    "infinitive": "heat",
+    "perfect": "heated",
+    "pastParticiple": "heated",
+    "presentParticiple": "heating",
+    "thirdPerson": "heats"
+  },
+  "heave": {
+    "infinitive": "heave",
+    "perfect": "heaved",
+    "pastParticiple": "heaved",
+    "presentParticiple": "heaving",
+    "thirdPerson": "heaves"
+  },
+  "help": {
+    "infinitive": "help",
+    "perfect": "helped",
+    "pastParticiple": "helped",
+    "presentParticiple": "helping",
+    "thirdPerson": "helps"
+  },
+  "hew": {
+    "infinitive": "hew",
+    "perfect": "hewed",
+    "pastParticiple": "hewed",
+    "presentParticiple": "hewing",
+    "thirdPerson": "hews"
+  },
+  "hide": {
+    "infinitive": "hide",
+    "perfect": "hidden",
+    "pastParticiple": "hid",
+    "presentParticiple": "hiding",
+    "thirdPerson": "hides"
+  },
+  "hit": {
+    "infinitive": "hit",
+    "perfect": "hit",
+    "pastParticiple": "hit",
+    "presentParticiple": "hitting",
+    "thirdPerson": "hits"
+  },
+  "hold": {
+    "infinitive": "hold",
+    "perfect": "held",
+    "pastParticiple": "held",
+    "presentParticiple": "holding",
+    "thirdPerson": "holds"
+  },
+  "hook": {
+    "infinitive": "hook",
+    "perfect": "hooked",
+    "pastParticiple": "hooked",
+    "presentParticiple": "hooking",
+    "thirdPerson": "hooks"
+  },
+  "hop": {
+    "infinitive": "hop",
+    "perfect": "hopped",
+    "pastParticiple": "hopped",
+    "presentParticiple": "hopping",
+    "thirdPerson": "hops"
+  },
+  "hope": {
+    "infinitive": "hope",
+    "perfect": "hoped",
+    "pastParticiple": "hoped",
+    "presentParticiple": "hoping",
+    "thirdPerson": "hopes"
+  },
+  "hug": {
+    "infinitive": "hug",
+    "perfect": "hugged",
+    "pastParticiple": "hugged",
+    "presentParticiple": "hugging",
+    "thirdPerson": "hugs"
+  },
+  "hum": {
+    "infinitive": "hum",
+    "perfect": "hummed",
+    "pastParticiple": "hummed",
+    "presentParticiple": "humming",
+    "thirdPerson": "hums"
+  },
+  "hunt": {
+    "infinitive": "hunt",
+    "perfect": "hunted",
+    "pastParticiple": "hunted",
+    "presentParticiple": "hunting",
+    "thirdPerson": "hunts"
+  },
+  "hurry": {
+    "infinitive": "hurry",
+    "perfect": "hurried",
+    "pastParticiple": "hurried",
+    "presentParticiple": "hurrying",
+    "thirdPerson": "hurries"
+  },
+  "hurt": {
+    "infinitive": "hurt",
+    "perfect": "hurt",
+    "pastParticiple": "hurt",
+    "presentParticiple": "hurting",
+    "thirdPerson": "hurts"
+  },
+  "hypothesize": {
+    "infinitive": "hypothesize",
+    "perfect": "hypothesized",
+    "pastParticiple": "hypothesized",
+    "presentParticiple": "hypothesizing",
+    "thirdPerson": "hypothesizes"
+  },
+  "identify": {
+    "infinitive": "identify",
+    "perfect": "identified",
+    "pastParticiple": "identified",
+    "presentParticiple": "identifying",
+    "thirdPerson": "identifies"
+  },
+  "ignore": {
+    "infinitive": "ignore",
+    "perfect": "ignored",
+    "pastParticiple": "ignored",
+    "presentParticiple": "ignoring",
+    "thirdPerson": "ignores"
+  },
+  "illustrate": {
+    "infinitive": "illustrate",
+    "perfect": "illustrated",
+    "pastParticiple": "illustrated",
+    "presentParticiple": "illustrating",
+    "thirdPerson": "illustrates"
+  },
+  "imagine": {
+    "infinitive": "imagine",
+    "perfect": "imagined",
+    "pastParticiple": "imagined",
+    "presentParticiple": "imagining",
+    "thirdPerson": "imagines"
+  },
+  "implement": {
+    "infinitive": "implement",
+    "perfect": "implemented",
+    "pastParticiple": "implemented",
+    "presentParticiple": "implementing",
+    "thirdPerson": "implements"
+  },
+  "impress": {
+    "infinitive": "impress",
+    "perfect": "impressed",
+    "pastParticiple": "impressed",
+    "presentParticiple": "impressing",
+    "thirdPerson": "impresses"
+  },
+  "improve": {
+    "infinitive": "improve",
+    "perfect": "improved",
+    "pastParticiple": "improved",
+    "presentParticiple": "improving",
+    "thirdPerson": "improves"
+  },
+  "improvise": {
+    "infinitive": "improvise",
+    "perfect": "improvised",
+    "pastParticiple": "improvised",
+    "presentParticiple": "improvising",
+    "thirdPerson": "improvises"
+  },
+  "include": {
+    "infinitive": "include",
+    "perfect": "included",
+    "pastParticiple": "included",
+    "presentParticiple": "including",
+    "thirdPerson": "includes"
+  },
+  "increase": {
+    "infinitive": "increase",
+    "perfect": "increased",
+    "pastParticiple": "increased",
+    "presentParticiple": "increasing",
+    "thirdPerson": "increases"
+  },
+  "induce": {
+    "infinitive": "induce",
+    "perfect": "induced",
+    "pastParticiple": "induced",
+    "presentParticiple": "inducing",
+    "thirdPerson": "induces"
+  },
+  "influence": {
+    "infinitive": "influence",
+    "perfect": "influenced",
+    "pastParticiple": "influenced",
+    "presentParticiple": "influencing",
+    "thirdPerson": "influences"
+  },
+  "inform": {
+    "infinitive": "inform",
+    "perfect": "informed",
+    "pastParticiple": "informed",
+    "presentParticiple": "informing",
+    "thirdPerson": "informs"
+  },
+  "initiate": {
+    "infinitive": "initiate",
+    "perfect": "initiated",
+    "pastParticiple": "initiated",
+    "presentParticiple": "initiating",
+    "thirdPerson": "initiates"
+  },
+  "inject": {
+    "infinitive": "inject",
+    "perfect": "injected",
+    "pastParticiple": "injected",
+    "presentParticiple": "injecting",
+    "thirdPerson": "injects"
+  },
+  "injure": {
+    "infinitive": "injure",
+    "perfect": "injured",
+    "pastParticiple": "injured",
+    "presentParticiple": "injuring",
+    "thirdPerson": "injures"
+  },
+  "inlay": {
+    "infinitive": "inlay",
+    "perfect": "inlaid",
+    "pastParticiple": "inlaid",
+    "presentParticiple": "inlaying",
+    "thirdPerson": "inlays"
+  },
+  "innovate": {
+    "infinitive": "innovate",
+    "perfect": "innovated",
+    "pastParticiple": "innovated",
+    "presentParticiple": "innovating",
+    "thirdPerson": "innovates"
+  },
+  "input": {
+    "infinitive": "input",
+    "perfect": "inputted",
+    "pastParticiple": "inputted",
+    "presentParticiple": "inputting",
+    "thirdPerson": "inputs"
+  },
+  "inspect": {
+    "infinitive": "inspect",
+    "perfect": "inspected",
+    "pastParticiple": "inspected",
+    "presentParticiple": "inspecting",
+    "thirdPerson": "inspects"
+  },
+  "inspire": {
+    "infinitive": "inspire",
+    "perfect": "inspired",
+    "pastParticiple": "inspired",
+    "presentParticiple": "inspiring",
+    "thirdPerson": "inspires"
+  },
+  "install": {
+    "infinitive": "install",
+    "perfect": "installed",
+    "pastParticiple": "installed",
+    "presentParticiple": "installing",
+    "thirdPerson": "installs"
+  },
+  "institute": {
+    "infinitive": "institute",
+    "perfect": "instituted",
+    "pastParticiple": "instituted",
+    "presentParticiple": "instituting",
+    "thirdPerson": "institutes"
+  },
+  "instruct": {
+    "infinitive": "instruct",
+    "perfect": "instructed",
+    "pastParticiple": "instructed",
+    "presentParticiple": "instructing",
+    "thirdPerson": "instructs"
+  },
+  "insure": {
+    "infinitive": "insure",
+    "perfect": "insured",
+    "pastParticiple": "insured",
+    "presentParticiple": "insuring",
+    "thirdPerson": "insures"
+  },
+  "integrate": {
+    "infinitive": "integrate",
+    "perfect": "integrated",
+    "pastParticiple": "integrated",
+    "presentParticiple": "integrating",
+    "thirdPerson": "integrates"
+  },
+  "intend": {
+    "infinitive": "intend",
+    "perfect": "intended",
+    "pastParticiple": "intended",
+    "presentParticiple": "intending",
+    "thirdPerson": "intends"
+  },
+  "intensify": {
+    "infinitive": "intensify",
+    "perfect": "intensified",
+    "pastParticiple": "intensified",
+    "presentParticiple": "intensifying",
+    "thirdPerson": "intensifies"
+  },
+  "interest": {
+    "infinitive": "interest",
+    "perfect": "interested",
+    "pastParticiple": "interested",
+    "presentParticiple": "interesting",
+    "thirdPerson": "interests"
+  },
+  "interfere": {
+    "infinitive": "interfere",
+    "perfect": "interfered",
+    "pastParticiple": "interfered",
+    "presentParticiple": "interfering",
+    "thirdPerson": "interferes"
+  },
+  "interlay": {
+    "infinitive": "interlay",
+    "perfect": "interlaid",
+    "pastParticiple": "interlaid",
+    "presentParticiple": "interlaying",
+    "thirdPerson": "interlays"
+  },
+  "interpret": {
+    "infinitive": "interpret",
+    "perfect": "interpreted",
+    "pastParticiple": "interpreted",
+    "presentParticiple": "interpreting",
+    "thirdPerson": "interprets"
+  },
+  "interrupt": {
+    "infinitive": "interrupt",
+    "perfect": "interrupted",
+    "pastParticiple": "interrupted",
+    "presentParticiple": "interrupting",
+    "thirdPerson": "interrupts"
+  },
+  "interview": {
+    "infinitive": "interview",
+    "perfect": "interviewed",
+    "pastParticiple": "interviewed",
+    "presentParticiple": "interviewing",
+    "thirdPerson": "interviews"
+  },
+  "introduce": {
+    "infinitive": "introduce",
+    "perfect": "introduced",
+    "pastParticiple": "introduced",
+    "presentParticiple": "introducing",
+    "thirdPerson": "introduces"
+  },
+  "invent": {
+    "infinitive": "invent",
+    "perfect": "invented",
+    "pastParticiple": "invented",
+    "presentParticiple": "inventing",
+    "thirdPerson": "invents"
+  },
+  "inventory": {
+    "infinitive": "inventory",
+    "perfect": "inventoried",
+    "pastParticiple": "inventoried",
+    "presentParticiple": "inventorying",
+    "thirdPerson": "inventories"
+  },
+  "investigate": {
+    "infinitive": "investigate",
+    "perfect": "investigated",
+    "pastParticiple": "investigated",
+    "presentParticiple": "investigating",
+    "thirdPerson": "investigates"
+  },
+  "invite": {
+    "infinitive": "invite",
+    "perfect": "invited",
+    "pastParticiple": "invited",
+    "presentParticiple": "inviting",
+    "thirdPerson": "invites"
+  },
+  "irritate": {
+    "infinitive": "irritate",
+    "perfect": "irritated",
+    "pastParticiple": "irritated",
+    "presentParticiple": "irritating",
+    "thirdPerson": "irritates"
+  },
+  "itch": {
+    "infinitive": "itch",
+    "perfect": "itched",
+    "pastParticiple": "itched",
+    "presentParticiple": "itching",
+    "thirdPerson": "itches"
+  },
+  "jail": {
+    "infinitive": "jail",
+    "perfect": "jailed",
+    "pastParticiple": "jailed",
+    "presentParticiple": "jailing",
+    "thirdPerson": "jails"
+  },
+  "jam": {
+    "infinitive": "jam",
+    "perfect": "jammed",
+    "pastParticiple": "jammed",
+    "presentParticiple": "jamming",
+    "thirdPerson": "jams"
+  },
+  "jog": {
+    "infinitive": "jog",
+    "perfect": "jogged",
+    "pastParticiple": "jogged",
+    "presentParticiple": "jogging",
+    "thirdPerson": "jogs"
+  },
+  "join": {
+    "infinitive": "join",
+    "perfect": "joined",
+    "pastParticiple": "joined",
+    "presentParticiple": "joining",
+    "thirdPerson": "joins"
+  },
+  "joke": {
+    "infinitive": "joke",
+    "perfect": "joked",
+    "pastParticiple": "joked",
+    "presentParticiple": "joking",
+    "thirdPerson": "jokes"
+  },
+  "judge": {
+    "infinitive": "judge",
+    "perfect": "judged",
+    "pastParticiple": "judged",
+    "presentParticiple": "judging",
+    "thirdPerson": "judges"
+  },
+  "juggle": {
+    "infinitive": "juggle",
+    "perfect": "juggled",
+    "pastParticiple": "juggled",
+    "presentParticiple": "juggling",
+    "thirdPerson": "juggles"
+  },
+  "jump": {
+    "infinitive": "jump",
+    "perfect": "jumped",
+    "pastParticiple": "jumped",
+    "presentParticiple": "jumping",
+    "thirdPerson": "jumps"
+  },
+  "justify": {
+    "infinitive": "justify",
+    "perfect": "justified",
+    "pastParticiple": "justified",
+    "presentParticiple": "justifying",
+    "thirdPerson": "justifies"
+  },
+  "keep": {
+    "infinitive": "keep",
+    "perfect": "kept",
+    "pastParticiple": "kept",
+    "presentParticiple": "keeping",
+    "thirdPerson": "keeps"
+  },
+  "kick": {
+    "infinitive": "kick",
+    "perfect": "kicked",
+    "pastParticiple": "kicked",
+    "presentParticiple": "kicking",
+    "thirdPerson": "kicks"
+  },
+  "kill": {
+    "infinitive": "kill",
+    "perfect": "killed",
+    "pastParticiple": "killed",
+    "presentParticiple": "killing",
+    "thirdPerson": "kills"
+  },
+  "kiss": {
+    "infinitive": "kiss",
+    "perfect": "kissed",
+    "pastParticiple": "kissed",
+    "presentParticiple": "kissing",
+    "thirdPerson": "kisses"
+  },
+  "kneel": {
+    "infinitive": "kneel",
+    "perfect": "knelt",
+    "pastParticiple": "knelt",
+    "presentParticiple": "kneeling",
+    "thirdPerson": "kneels"
+  },
+  "knit": {
+    "infinitive": "knit",
+    "perfect": "knitted",
+    "pastParticiple": "knitted",
+    "presentParticiple": "knitting",
+    "thirdPerson": "knits"
+  },
+  "knock": {
+    "infinitive": "knock",
+    "perfect": "knocked",
+    "pastParticiple": "knocked",
+    "presentParticiple": "knocking",
+    "thirdPerson": "knocks"
+  },
+  "knot": {
+    "infinitive": "knot",
+    "perfect": "knotted",
+    "pastParticiple": "knotted",
+    "presentParticiple": "knotting",
+    "thirdPerson": "knots"
+  },
+  "know": {
+    "infinitive": "know",
+    "perfect": "known",
+    "pastParticiple": "knew",
+    "presentParticiple": "knowing",
+    "thirdPerson": "knows"
+  },
+  "label": {
+    "infinitive": "label",
+    "perfect": "UK,someUS",
+    "pastParticiple": "UK,someUS",
+    "presentParticiple": "labelling",
+    "thirdPerson": "labels"
+  },
+  "land": {
+    "infinitive": "land",
+    "perfect": "landed",
+    "pastParticiple": "landed",
+    "presentParticiple": "landing",
+    "thirdPerson": "lands"
+  },
+  "last": {
+    "infinitive": "last",
+    "perfect": "lasted",
+    "pastParticiple": "lasted",
+    "presentParticiple": "lasting",
+    "thirdPerson": "lasts"
+  },
+  "laugh": {
+    "infinitive": "laugh",
+    "perfect": "laughed",
+    "pastParticiple": "obsolete",
+    "presentParticiple": "laughing",
+    "thirdPerson": "laughs"
+  },
+  "launch": {
+    "infinitive": "launch",
+    "perfect": "launched",
+    "pastParticiple": "launched",
+    "presentParticiple": "launching",
+    "thirdPerson": "launches"
+  },
+  "lay": {
+    "infinitive": "lay",
+    "perfect": "laid",
+    "pastParticiple": "laid",
+    "presentParticiple": "laying",
+    "thirdPerson": "lays"
+  },
+  "lead": {
+    "infinitive": "lead",
+    "perfect": "leaded",
+    "pastParticiple": "leaded",
+    "presentParticiple": "leading",
+    "thirdPerson": "leads"
+  },
+  "lean": {
+    "infinitive": "lean",
+    "perfect": "leaned",
+    "pastParticiple": "leaned",
+    "presentParticiple": "leaning",
+    "thirdPerson": "leans"
+  },
+  "leap": {
+    "infinitive": "leap",
+    "perfect": "leaped",
+    "pastParticiple": "leaped",
+    "presentParticiple": "leaping",
+    "thirdPerson": "leaps"
+  },
+  "learn": {
+    "infinitive": "learn",
+    "perfect": "learned",
+    "pastParticiple": "learned",
+    "presentParticiple": "learning",
+    "thirdPerson": "learns"
+  },
+  "leave": {
+    "infinitive": "leave",
+    "perfect": "left",
+    "pastParticiple": "left",
+    "presentParticiple": "leaving",
+    "thirdPerson": "leaves"
+  },
+  "lecture": {
+    "infinitive": "lecture",
+    "perfect": "lectured",
+    "pastParticiple": "lectured",
+    "presentParticiple": "lecturing",
+    "thirdPerson": "lectures"
+  },
+  "lend": {
+    "infinitive": "lend",
+    "perfect": "lent",
+    "pastParticiple": "lent",
+    "presentParticiple": "lending",
+    "thirdPerson": "lends"
+  },
+  "let": {
+    "infinitive": "let",
+    "perfect": "let",
+    "pastParticiple": "let",
+    "presentParticiple": "letting",
+    "thirdPerson": "lets"
+  },
+  "level": {
+    "infinitive": "level",
+    "perfect": "leveled",
+    "pastParticiple": "leveled",
+    "presentParticiple": "leveling",
+    "thirdPerson": "levels"
+  },
+  "license": {
+    "infinitive": "license",
+    "perfect": "licensed",
+    "pastParticiple": "licensed",
+    "presentParticiple": "licensing",
+    "thirdPerson": "licenses"
+  },
+  "lick": {
+    "infinitive": "lick",
+    "perfect": "licked",
+    "pastParticiple": "licked",
+    "presentParticiple": "licking",
+    "thirdPerson": "licks"
+  },
+  "lie": {
+    "infinitive": "lie",
+    "perfect": "lain",
+    "pastParticiple": "lay",
+    "presentParticiple": "lying",
+    "thirdPerson": "lies"
+  },
+  "light": {
+    "infinitive": "light",
+    "perfect": "lit",
+    "pastParticiple": "lit",
+    "presentParticiple": "lighting",
+    "thirdPerson": "lights"
+  },
+  "lighten": {
+    "infinitive": "lighten",
+    "perfect": "lightened",
+    "pastParticiple": "lightened",
+    "presentParticiple": "lightening",
+    "thirdPerson": "lightens"
+  },
+  "like": {
+    "infinitive": "like",
+    "perfect": "liked",
+    "pastParticiple": "liked",
+    "presentParticiple": "liking",
+    "thirdPerson": "likes"
+  },
+  "list": {
+    "infinitive": "list",
+    "perfect": "listed",
+    "pastParticiple": "listed",
+    "presentParticiple": "listing",
+    "thirdPerson": "lists"
+  },
+  "listen": {
+    "infinitive": "listen",
+    "perfect": "listened",
+    "pastParticiple": "listened",
+    "presentParticiple": "listening",
+    "thirdPerson": "listens"
+  },
+  "live": {
+    "infinitive": "live",
+    "perfect": "lived",
+    "pastParticiple": "lived",
+    "presentParticiple": "living",
+    "thirdPerson": "lives"
+  },
+  "load": {
+    "infinitive": "load",
+    "perfect": "loaded",
+    "pastParticiple": "loaded",
+    "presentParticiple": "loading",
+    "thirdPerson": "loads"
+  },
+  "locate": {
+    "infinitive": "locate",
+    "perfect": "located",
+    "pastParticiple": "located",
+    "presentParticiple": "locating",
+    "thirdPerson": "locates"
+  },
+  "lock": {
+    "infinitive": "lock",
+    "perfect": "locked",
+    "pastParticiple": "locked",
+    "presentParticiple": "locking",
+    "thirdPerson": "locks"
+  },
+  "log": {
+    "infinitive": "log",
+    "perfect": "logged",
+    "pastParticiple": "logged",
+    "presentParticiple": "logging",
+    "thirdPerson": "logs"
+  },
+  "long": {
+    "infinitive": "long",
+    "perfect": "longed",
+    "pastParticiple": "longed",
+    "presentParticiple": "longing",
+    "thirdPerson": "longs"
+  },
+  "look": {
+    "infinitive": "look",
+    "perfect": "looked",
+    "pastParticiple": "looked",
+    "presentParticiple": "looking",
+    "thirdPerson": "looks"
+  },
+  "lose": {
+    "infinitive": "lose",
+    "perfect": "lost",
+    "pastParticiple": "lost",
+    "presentParticiple": "losing",
+    "thirdPerson": "loses"
+  },
+  "love": {
+    "infinitive": "love",
+    "perfect": "loved",
+    "pastParticiple": "loved",
+    "presentParticiple": "loving",
+    "thirdPerson": "loves"
+  },
+  "maintain": {
+    "infinitive": "maintain",
+    "perfect": "maintained",
+    "pastParticiple": "maintained",
+    "presentParticiple": "maintaining",
+    "thirdPerson": "maintains"
+  },
+  "make": {
+    "infinitive": "make",
+    "perfect": "made",
+    "pastParticiple": "made",
+    "presentParticiple": "making",
+    "thirdPerson": "makes"
+  },
+  "man": {
+    "infinitive": "man",
+    "perfect": "manned",
+    "pastParticiple": "manned",
+    "presentParticiple": "manning",
+    "thirdPerson": "mans"
+  },
+  "manage": {
+    "infinitive": "manage",
+    "perfect": "managed",
+    "pastParticiple": "managed",
+    "presentParticiple": "managing",
+    "thirdPerson": "manages"
+  },
+  "manipulate": {
+    "infinitive": "manipulate",
+    "perfect": "manipulated",
+    "pastParticiple": "manipulated",
+    "presentParticiple": "manipulating",
+    "thirdPerson": "manipulates"
+  },
+  "manufacture": {
+    "infinitive": "manufacture",
+    "perfect": "manufactured",
+    "pastParticiple": "manufactured",
+    "presentParticiple": "manufacturing",
+    "thirdPerson": "manufactures"
+  },
+  "map": {
+    "infinitive": "map",
+    "perfect": "mapped",
+    "pastParticiple": "mapped",
+    "presentParticiple": "mapping",
+    "thirdPerson": "maps"
+  },
+  "march": {
+    "infinitive": "march",
+    "perfect": "marched",
+    "pastParticiple": "marched",
+    "presentParticiple": "marching",
+    "thirdPerson": "marches"
+  },
+  "mark": {
+    "infinitive": "mark",
+    "perfect": "marked",
+    "pastParticiple": "marked",
+    "presentParticiple": "marking",
+    "thirdPerson": "marks"
+  },
+  "market": {
+    "infinitive": "market",
+    "perfect": "marketed",
+    "pastParticiple": "marketed",
+    "presentParticiple": "marketing",
+    "thirdPerson": "markets"
+  },
+  "marry": {
+    "infinitive": "marry",
+    "perfect": "married",
+    "pastParticiple": "married",
+    "presentParticiple": "marrying",
+    "thirdPerson": "marries"
+  },
+  "match": {
+    "infinitive": "match",
+    "perfect": "matched",
+    "pastParticiple": "matched",
+    "presentParticiple": "matching",
+    "thirdPerson": "matches"
+  },
+  "mate": {
+    "infinitive": "mate",
+    "perfect": "mated",
+    "pastParticiple": "mated",
+    "presentParticiple": "mating",
+    "thirdPerson": "mates"
+  },
+  "matter": {
+    "infinitive": "matter",
+    "perfect": "mattered",
+    "pastParticiple": "mattered",
+    "presentParticiple": "mattering",
+    "thirdPerson": "matters"
+  },
+  "mean": {
+    "infinitive": "mean",
+    "perfect": "meant",
+    "pastParticiple": "meant",
+    "presentParticiple": "meaning",
+    "thirdPerson": "means"
+  },
+  "measure": {
+    "infinitive": "measure",
+    "perfect": "measured",
+    "pastParticiple": "measured",
+    "presentParticiple": "measuring",
+    "thirdPerson": "measures"
+  },
+  "meddle": {
+    "infinitive": "meddle",
+    "perfect": "meddled",
+    "pastParticiple": "meddled",
+    "presentParticiple": "meddling",
+    "thirdPerson": "meddles"
+  },
+  "mediate": {
+    "infinitive": "mediate",
+    "perfect": "mediated",
+    "pastParticiple": "mediated",
+    "presentParticiple": "mediating",
+    "thirdPerson": "mediates"
+  },
+  "meet": {
+    "infinitive": "meet",
+    "perfect": "met",
+    "pastParticiple": "met",
+    "presentParticiple": "meeting",
+    "thirdPerson": "meets"
+  },
+  "melt": {
+    "infinitive": "melt",
+    "perfect": "melted",
+    "pastParticiple": "melted",
+    "presentParticiple": "melting",
+    "thirdPerson": "melts"
+  },
+  "memorize": {
+    "infinitive": "memorize",
+    "perfect": "memorized",
+    "pastParticiple": "memorized",
+    "presentParticiple": "memorizing",
+    "thirdPerson": "memorizes"
+  },
+  "mend": {
+    "infinitive": "mend",
+    "perfect": "mended",
+    "pastParticiple": "mended",
+    "presentParticiple": "mending",
+    "thirdPerson": "mends"
+  },
+  "mentor": {
+    "infinitive": "mentor",
+    "perfect": "mentored",
+    "pastParticiple": "mentored",
+    "presentParticiple": "mentoring",
+    "thirdPerson": "mentors"
+  },
+  "milk": {
+    "infinitive": "milk",
+    "perfect": "milked",
+    "pastParticiple": "milked",
+    "presentParticiple": "milking",
+    "thirdPerson": "milks"
+  },
+  "mine": {
+    "infinitive": "mine",
+    "perfect": "mined",
+    "pastParticiple": "mined",
+    "presentParticiple": "mining",
+    "thirdPerson": "mines"
+  },
+  "mislead": {
+    "infinitive": "mislead",
+    "perfect": "misled",
+    "pastParticiple": "misled",
+    "presentParticiple": "misleading",
+    "thirdPerson": "misleads"
+  },
+  "miss": {
+    "infinitive": "miss",
+    "perfect": "missed",
+    "pastParticiple": "missed",
+    "presentParticiple": "missing",
+    "thirdPerson": "misses"
+  },
+  "misspell": {
+    "infinitive": "misspell",
+    "perfect": "misspelt",
+    "pastParticiple": "misspelt",
+    "presentParticiple": "misspelling",
+    "thirdPerson": "misspells"
+  },
+  "mistake": {
+    "infinitive": "mistake",
+    "perfect": "mistaken",
+    "pastParticiple": "mistook",
+    "presentParticiple": "mistaking",
+    "thirdPerson": "mistakes"
+  },
+  "misunderstand": {
+    "infinitive": "misunderstand",
+    "perfect": "misunderstood",
+    "pastParticiple": "misunderstood",
+    "presentParticiple": "misunderstanding",
+    "thirdPerson": "misunderstands"
+  },
+  "mix": {
+    "infinitive": "mix",
+    "perfect": "mixed",
+    "pastParticiple": "mixed",
+    "presentParticiple": "mixing",
+    "thirdPerson": "mixes"
+  },
+  "moan": {
+    "infinitive": "moan",
+    "perfect": "moaned",
+    "pastParticiple": "moaned",
+    "presentParticiple": "moaning",
+    "thirdPerson": "moans"
+  },
+  "model": {
+    "infinitive": "model",
+    "perfect": "modelled",
+    "pastParticiple": "modelled",
+    "presentParticiple": "modelling",
+    "thirdPerson": "models"
+  },
+  "modify": {
+    "infinitive": "modify",
+    "perfect": "modified",
+    "pastParticiple": "modified",
+    "presentParticiple": "modifying",
+    "thirdPerson": "modifies"
+  },
+  "monitor": {
+    "infinitive": "monitor",
+    "perfect": "monitored",
+    "pastParticiple": "monitored",
+    "presentParticiple": "monitoring",
+    "thirdPerson": "monitors"
+  },
+  "moor": {
+    "infinitive": "moor",
+    "perfect": "moored",
+    "pastParticiple": "moored",
+    "presentParticiple": "mooring",
+    "thirdPerson": "moors"
+  },
+  "motivate": {
+    "infinitive": "motivate",
+    "perfect": "motivated",
+    "pastParticiple": "motivated",
+    "presentParticiple": "motivating",
+    "thirdPerson": "motivates"
+  },
+  "mourn": {
+    "infinitive": "mourn",
+    "perfect": "mourned",
+    "pastParticiple": "mourned",
+    "presentParticiple": "mourning",
+    "thirdPerson": "mourns"
+  },
+  "move": {
+    "infinitive": "move",
+    "perfect": "moved",
+    "pastParticiple": "moved",
+    "presentParticiple": "moving",
+    "thirdPerson": "moves"
+  },
+  "mow": {
+    "infinitive": "mow",
+    "perfect": "mowed",
+    "pastParticiple": "mowed",
+    "presentParticiple": "mowing",
+    "thirdPerson": "mows"
+  },
+  "muddle": {
+    "infinitive": "muddle",
+    "perfect": "muddled",
+    "pastParticiple": "muddled",
+    "presentParticiple": "muddling",
+    "thirdPerson": "muddles"
+  },
+  "mug": {
+    "infinitive": "mug",
+    "perfect": "mugged",
+    "pastParticiple": "mugged",
+    "presentParticiple": "mugging",
+    "thirdPerson": "mugs"
+  },
+  "multiply": {
+    "infinitive": "multiply",
+    "perfect": "multiplied",
+    "pastParticiple": "multiplied",
+    "presentParticiple": "multiplying",
+    "thirdPerson": "multiplies"
+  },
+  "murder": {
+    "infinitive": "murder",
+    "perfect": "murdered",
+    "pastParticiple": "murdered",
+    "presentParticiple": "murdering",
+    "thirdPerson": "murders"
+  },
+  "nail": {
+    "infinitive": "nail",
+    "perfect": "nailed",
+    "pastParticiple": "nailed",
+    "presentParticiple": "nailing",
+    "thirdPerson": "nails"
+  },
+  "name": {
+    "infinitive": "name",
+    "perfect": "named",
+    "pastParticiple": "named",
+    "presentParticiple": "naming",
+    "thirdPerson": "names"
+  },
+  "navigate": {
+    "infinitive": "navigate",
+    "perfect": "navigated",
+    "pastParticiple": "navigated",
+    "presentParticiple": "navigating",
+    "thirdPerson": "navigates"
+  },
+  "need": {
+    "infinitive": "need",
+    "perfect": "needed",
+    "pastParticiple": "needed",
+    "presentParticiple": "needing",
+    "thirdPerson": "needs"
+  },
+  "negotiate": {
+    "infinitive": "negotiate",
+    "perfect": "negotiated",
+    "pastParticiple": "negotiated",
+    "presentParticiple": "negotiating",
+    "thirdPerson": "negotiates"
+  },
+  "nest": {
+    "infinitive": "nest",
+    "perfect": "nested",
+    "pastParticiple": "nested",
+    "presentParticiple": "nesting",
+    "thirdPerson": "nests"
+  },
+  "nod": {
+    "infinitive": "nod",
+    "perfect": "nodd",
+    "pastParticiple": "nodd",
+    "presentParticiple": "nodding",
+    "thirdPerson": "nods"
+  },
+  "nominate": {
+    "infinitive": "nominate",
+    "perfect": "nominated",
+    "pastParticiple": "nominated",
+    "presentParticiple": "nominating",
+    "thirdPerson": "nominates"
+  },
+  "normalize": {
+    "infinitive": "normalize",
+    "perfect": "normalized",
+    "pastParticiple": "normalized",
+    "presentParticiple": "normalizing",
+    "thirdPerson": "normalizes"
+  },
+  "note": {
+    "infinitive": "note",
+    "perfect": "noted",
+    "pastParticiple": "noted",
+    "presentParticiple": "noting",
+    "thirdPerson": "notes"
+  },
+  "notice": {
+    "infinitive": "notice",
+    "perfect": "noticed",
+    "pastParticiple": "noticed",
+    "presentParticiple": "noticing",
+    "thirdPerson": "notices"
+  },
+  "number": {
+    "infinitive": "number",
+    "perfect": "numbered",
+    "pastParticiple": "numbered",
+    "presentParticiple": "numbering",
+    "thirdPerson": "numbers"
+  },
+  "obey": {
+    "infinitive": "obey",
+    "perfect": "obeyed",
+    "pastParticiple": "obeyed",
+    "presentParticiple": "obeying",
+    "thirdPerson": "obeys"
+  },
+  "object": {
+    "infinitive": "object",
+    "perfect": "objected",
+    "pastParticiple": "objected",
+    "presentParticiple": "objecting",
+    "thirdPerson": "objects"
+  },
+  "observe": {
+    "infinitive": "observe",
+    "perfect": "observed",
+    "pastParticiple": "observed",
+    "presentParticiple": "observing",
+    "thirdPerson": "observes"
+  },
+  "obtain": {
+    "infinitive": "obtain",
+    "perfect": "obtained",
+    "pastParticiple": "obtained",
+    "presentParticiple": "obtaining",
+    "thirdPerson": "obtains"
+  },
+  "occur": {
+    "infinitive": "occur",
+    "perfect": "occurred",
+    "pastParticiple": "occurred",
+    "presentParticiple": "occurring",
+    "thirdPerson": "occurs"
+  },
+  "offend": {
+    "infinitive": "offend",
+    "perfect": "offended",
+    "pastParticiple": "offended",
+    "presentParticiple": "offending",
+    "thirdPerson": "offends"
+  },
+  "offer": {
+    "infinitive": "offer",
+    "perfect": "offered",
+    "pastParticiple": "offered",
+    "presentParticiple": "offering",
+    "thirdPerson": "offers"
+  },
+  "officiate": {
+    "infinitive": "officiate",
+    "perfect": "officiated",
+    "pastParticiple": "officiated",
+    "presentParticiple": "officiating",
+    "thirdPerson": "officiates"
+  },
+  "operate": {
+    "infinitive": "operate",
+    "perfect": "operated",
+    "pastParticiple": "operated",
+    "presentParticiple": "operating",
+    "thirdPerson": "operates"
+  },
+  "order": {
+    "infinitive": "order",
+    "perfect": "ordered",
+    "pastParticiple": "ordered",
+    "presentParticiple": "ordering",
+    "thirdPerson": "orders"
+  },
+  "organize": {
+    "infinitive": "organize",
+    "perfect": "organized",
+    "pastParticiple": "organized",
+    "presentParticiple": "organizing",
+    "thirdPerson": "organizes"
+  },
+  "originate": {
+    "infinitive": "originate",
+    "perfect": "originated",
+    "pastParticiple": "originated",
+    "presentParticiple": "originating",
+    "thirdPerson": "originates"
+  },
+  "outline": {
+    "infinitive": "outline",
+    "perfect": "outlined",
+    "pastParticiple": "outlined",
+    "presentParticiple": "outlining",
+    "thirdPerson": "outlines"
+  },
+  "overcome": {
+    "infinitive": "overcome",
+    "perfect": "overcome",
+    "pastParticiple": "overcame",
+    "presentParticiple": "overcoming",
+    "thirdPerson": "overcomes"
+  },
+  "overdo": {
+    "infinitive": "overdo",
+    "perfect": "overdone",
+    "pastParticiple": "overdid",
+    "presentParticiple": "overdoing",
+    "thirdPerson": "overdoes"
+  },
+  "overdraw": {
+    "infinitive": "overdraw",
+    "perfect": "overdrawn",
+    "pastParticiple": "overdrew",
+    "presentParticiple": "overdrawing",
+    "thirdPerson": "overdraws"
+  },
+  "overflow": {
+    "infinitive": "overflow",
+    "perfect": "overflowed",
+    "pastParticiple": "overflowed",
+    "presentParticiple": "overflowing",
+    "thirdPerson": "overflows"
+  },
+  "overhear": {
+    "infinitive": "overhear",
+    "perfect": "overheard",
+    "pastParticiple": "overheard",
+    "presentParticiple": "overhearing",
+    "thirdPerson": "overhears"
+  },
+  "overtake": {
+    "infinitive": "overtake",
+    "perfect": "overtaken",
+    "pastParticiple": "overtook",
+    "presentParticiple": "overtaking",
+    "thirdPerson": "overtakes"
+  },
+  "overthrow": {
+    "infinitive": "overthrow",
+    "perfect": "overthrown",
+    "pastParticiple": "overthrew",
+    "presentParticiple": "overthrowing",
+    "thirdPerson": "overthrows"
+  },
+  "owe": {
+    "infinitive": "owe",
+    "perfect": "owed",
+    "pastParticiple": "owed",
+    "presentParticiple": "owing",
+    "thirdPerson": "owes"
+  },
+  "own": {
+    "infinitive": "own",
+    "perfect": "owned",
+    "pastParticiple": "owned",
+    "presentParticiple": "owning",
+    "thirdPerson": "owns"
+  },
+  "pack": {
+    "infinitive": "pack",
+    "perfect": "packed",
+    "pastParticiple": "packed",
+    "presentParticiple": "packing",
+    "thirdPerson": "packs"
+  },
+  "paddle": {
+    "infinitive": "paddle",
+    "perfect": "paddled",
+    "pastParticiple": "paddled",
+    "presentParticiple": "paddling",
+    "thirdPerson": "paddles"
+  },
+  "paint": {
+    "infinitive": "paint",
+    "perfect": "painted",
+    "pastParticiple": "painted",
+    "presentParticiple": "painting",
+    "thirdPerson": "paints"
+  },
+  "park": {
+    "infinitive": "park",
+    "perfect": "parked",
+    "pastParticiple": "parked",
+    "presentParticiple": "parking",
+    "thirdPerson": "parks"
+  },
+  "part": {
+    "infinitive": "part",
+    "perfect": "parted",
+    "pastParticiple": "parted",
+    "presentParticiple": "parting",
+    "thirdPerson": "parts"
+  },
+  "participate": {
+    "infinitive": "participate",
+    "perfect": "participated",
+    "pastParticiple": "participated",
+    "presentParticiple": "participating",
+    "thirdPerson": "participates"
+  },
+  "pass": {
+    "infinitive": "pass",
+    "perfect": "passed",
+    "pastParticiple": "passed",
+    "presentParticiple": "passing",
+    "thirdPerson": "passes"
+  },
+  "paste": {
+    "infinitive": "paste",
+    "perfect": "pasted",
+    "pastParticiple": "pasted",
+    "presentParticiple": "pasting",
+    "thirdPerson": "pastes"
+  },
+  "pat": {
+    "infinitive": "pat",
+    "perfect": "patted",
+    "pastParticiple": "patted",
+    "presentParticiple": "patting",
+    "thirdPerson": "pats"
+  },
+  "pause": {
+    "infinitive": "pause",
+    "perfect": "paused",
+    "pastParticiple": "paused",
+    "presentParticiple": "pausing",
+    "thirdPerson": "pauses"
+  },
+  "pay": {
+    "infinitive": "pay",
+    "perfect": "paid",
+    "pastParticiple": "paid",
+    "presentParticiple": "paying",
+    "thirdPerson": "pays"
+  },
+  "peck": {
+    "infinitive": "peck",
+    "perfect": "pecked",
+    "pastParticiple": "pecked",
+    "presentParticiple": "pecking",
+    "thirdPerson": "pecks"
+  },
+  "pedal": {
+    "infinitive": "pedal",
+    "perfect": "pedalled",
+    "pastParticiple": "pedalled",
+    "presentParticiple": "pedalling",
+    "thirdPerson": "pedals"
+  },
+  "peel": {
+    "infinitive": "peel",
+    "perfect": "peeled",
+    "pastParticiple": "peeled",
+    "presentParticiple": "peeling",
+    "thirdPerson": "peels"
+  },
+  "peep": {
+    "infinitive": "peep",
+    "perfect": "peeped",
+    "pastParticiple": "peeped",
+    "presentParticiple": "peeping",
+    "thirdPerson": "peeps"
+  },
+  "pen": {
+    "infinitive": "pen",
+    "perfect": "penned",
+    "pastParticiple": "penned",
+    "presentParticiple": "penning",
+    "thirdPerson": "pens"
+  },
+  "perceive": {
+    "infinitive": "perceive",
+    "perfect": "perceived",
+    "pastParticiple": "perceived",
+    "presentParticiple": "perceiving",
+    "thirdPerson": "perceives"
+  },
+  "perfect": {
+    "infinitive": "perfect",
+    "perfect": "perfected",
+    "pastParticiple": "perfected",
+    "presentParticiple": "perfecting",
+    "thirdPerson": "perfects"
+  },
+  "perform": {
+    "infinitive": "perform",
+    "perfect": "performed",
+    "pastParticiple": "performed",
+    "presentParticiple": "performing",
+    "thirdPerson": "performs"
+  },
+  "permit": {
+    "infinitive": "permit",
+    "perfect": "permitted",
+    "pastParticiple": "permitted",
+    "presentParticiple": "permitting",
+    "thirdPerson": "permits"
+  },
+  "persuade": {
+    "infinitive": "persuade",
+    "perfect": "persuaded",
+    "pastParticiple": "persuaded",
+    "presentParticiple": "persuading",
+    "thirdPerson": "persuades"
+  },
+  "phone": {
+    "infinitive": "phone",
+    "perfect": "phoned",
+    "pastParticiple": "phoned",
+    "presentParticiple": "phoning",
+    "thirdPerson": "phones"
+  },
+  "photograph": {
+    "infinitive": "photograph",
+    "perfect": "photographed",
+    "pastParticiple": "photographed",
+    "presentParticiple": "photographing",
+    "thirdPerson": "photographs"
+  },
+  "pick": {
+    "infinitive": "pick",
+    "perfect": "picked",
+    "pastParticiple": "picked",
+    "presentParticiple": "picking",
+    "thirdPerson": "picks"
+  },
+  "pilot": {
+    "infinitive": "pilot",
+    "perfect": "piloted",
+    "pastParticiple": "piloted",
+    "presentParticiple": "piloting",
+    "thirdPerson": "pilots"
+  },
+  "pinch": {
+    "infinitive": "pinch",
+    "perfect": "pinched",
+    "pastParticiple": "pinched",
+    "presentParticiple": "pinching",
+    "thirdPerson": "pinches"
+  },
+  "pine": {
+    "infinitive": "pine",
+    "perfect": "pined",
+    "pastParticiple": "pined",
+    "presentParticiple": "pining",
+    "thirdPerson": "pines"
+  },
+  "pinpoint": {
+    "infinitive": "pinpoint",
+    "perfect": "pinpointed",
+    "pastParticiple": "pinpointed",
+    "presentParticiple": "pinpointing",
+    "thirdPerson": "pinpoints"
+  },
+  "pioneer": {
+    "infinitive": "pioneer",
+    "perfect": "pioneered",
+    "pastParticiple": "pioneered",
+    "presentParticiple": "pioneering",
+    "thirdPerson": "pioneers"
+  },
+  "place": {
+    "infinitive": "place",
+    "perfect": "placed",
+    "pastParticiple": "placed",
+    "presentParticiple": "placing",
+    "thirdPerson": "places"
+  },
+  "plan": {
+    "infinitive": "plan",
+    "perfect": "planned",
+    "pastParticiple": "planned",
+    "presentParticiple": "planning",
+    "thirdPerson": "plans"
+  },
+  "plant": {
+    "infinitive": "plant",
+    "perfect": "planted",
+    "pastParticiple": "planted",
+    "presentParticiple": "planting",
+    "thirdPerson": "plants"
+  },
+  "play": {
+    "infinitive": "play",
+    "perfect": "played",
+    "pastParticiple": "played",
+    "presentParticiple": "playing",
+    "thirdPerson": "plays"
+  },
+  "plead": {
+    "infinitive": "plead",
+    "perfect": "pled",
+    "pastParticiple": "pled",
+    "presentParticiple": "pleading",
+    "thirdPerson": "pleads"
+  },
+  "please": {
+    "infinitive": "please",
+    "perfect": "pleased",
+    "pastParticiple": "pleased",
+    "presentParticiple": "pleasing",
+    "thirdPerson": "pleases"
+  },
+  "plug": {
+    "infinitive": "plug",
+    "perfect": "plugged",
+    "pastParticiple": "plugged",
+    "presentParticiple": "plugging",
+    "thirdPerson": "plugs"
+  },
+  "point": {
+    "infinitive": "point",
+    "perfect": "pointed",
+    "pastParticiple": "pointed",
+    "presentParticiple": "pointing",
+    "thirdPerson": "points"
+  },
+  "poke": {
+    "infinitive": "poke",
+    "perfect": "poked",
+    "pastParticiple": "poked",
+    "presentParticiple": "poking",
+    "thirdPerson": "pokes"
+  },
+  "polish": {
+    "infinitive": "polish",
+    "perfect": "polished",
+    "pastParticiple": "polished",
+    "presentParticiple": "polishing",
+    "thirdPerson": "polishes"
+  },
+  "pop": {
+    "infinitive": "pop",
+    "perfect": "popped",
+    "pastParticiple": "popped",
+    "presentParticiple": "popping",
+    "thirdPerson": "pops"
+  },
+  "possess": {
+    "infinitive": "possess",
+    "perfect": "possessed",
+    "pastParticiple": "possessed",
+    "presentParticiple": "possessing",
+    "thirdPerson": "possesses"
+  },
+  "post": {
+    "infinitive": "post",
+    "perfect": "posted",
+    "pastParticiple": "posted",
+    "presentParticiple": "posting",
+    "thirdPerson": "posts"
+  },
+  "pour": {
+    "infinitive": "pour",
+    "perfect": "poured",
+    "pastParticiple": "poured",
+    "presentParticiple": "pouring",
+    "thirdPerson": "pours"
+  },
+  "practice": {
+    "infinitive": "practice",
+    "perfect": "practiced",
+    "pastParticiple": "practiced",
+    "presentParticiple": "practicing",
+    "thirdPerson": "practices"
+  },
+  "pray": {
+    "infinitive": "pray",
+    "perfect": "prayed",
+    "pastParticiple": "prayed",
+    "presentParticiple": "praying",
+    "thirdPerson": "prays"
+  },
+  "preach": {
+    "infinitive": "preach",
+    "perfect": "preached",
+    "pastParticiple": "preached",
+    "presentParticiple": "preaching",
+    "thirdPerson": "preaches"
+  },
+  "precede": {
+    "infinitive": "precede",
+    "perfect": "preceded",
+    "pastParticiple": "preceded",
+    "presentParticiple": "preceding",
+    "thirdPerson": "precedes"
+  },
+  "predict": {
+    "infinitive": "predict",
+    "perfect": "predicted",
+    "pastParticiple": "predicted",
+    "presentParticiple": "predicting",
+    "thirdPerson": "predicts"
+  },
+  "prefer": {
+    "infinitive": "prefer",
+    "perfect": "preferred",
+    "pastParticiple": "preferred",
+    "presentParticiple": "preferring",
+    "thirdPerson": "prefers"
+  },
+  "prepare": {
+    "infinitive": "prepare",
+    "perfect": "prepared",
+    "pastParticiple": "prepared",
+    "presentParticiple": "preparing",
+    "thirdPerson": "prepares"
+  },
+  "prescribe": {
+    "infinitive": "prescribe",
+    "perfect": "prescribed",
+    "pastParticiple": "prescribed",
+    "presentParticiple": "prescribing",
+    "thirdPerson": "prescribes"
+  },
+  "present": {
+    "infinitive": "present",
+    "perfect": "presented",
+    "pastParticiple": "presented",
+    "presentParticiple": "presenting",
+    "thirdPerson": "presents"
+  },
+  "preserve": {
+    "infinitive": "preserve",
+    "perfect": "preserved",
+    "pastParticiple": "preserved",
+    "presentParticiple": "preserving",
+    "thirdPerson": "preserves"
+  },
+  "preset": {
+    "infinitive": "preset",
+    "perfect": "preset",
+    "pastParticiple": "preset",
+    "presentParticiple": "presetting",
+    "thirdPerson": "presets"
+  },
+  "preside": {
+    "infinitive": "preside",
+    "perfect": "presided",
+    "pastParticiple": "presided",
+    "presentParticiple": "presiding",
+    "thirdPerson": "presides"
+  },
+  "press": {
+    "infinitive": "press",
+    "perfect": "pressed",
+    "pastParticiple": "pressed",
+    "presentParticiple": "pressing",
+    "thirdPerson": "presses"
+  },
+  "pretend": {
+    "infinitive": "pretend",
+    "perfect": "pretended",
+    "pastParticiple": "pretended",
+    "presentParticiple": "pretending",
+    "thirdPerson": "pretends"
+  },
+  "prevent": {
+    "infinitive": "prevent",
+    "perfect": "prevented",
+    "pastParticiple": "prevented",
+    "presentParticiple": "preventing",
+    "thirdPerson": "prevents"
+  },
+  "prick": {
+    "infinitive": "prick",
+    "perfect": "pricked",
+    "pastParticiple": "pricked",
+    "presentParticiple": "pricking",
+    "thirdPerson": "pricks"
+  },
+  "print": {
+    "infinitive": "print",
+    "perfect": "printed",
+    "pastParticiple": "printed",
+    "presentParticiple": "printing",
+    "thirdPerson": "prints"
+  },
+  "process": {
+    "infinitive": "process",
+    "perfect": "processed",
+    "pastParticiple": "processed",
+    "presentParticiple": "processing",
+    "thirdPerson": "processes"
+  },
+  "procure": {
+    "infinitive": "procure",
+    "perfect": "procured",
+    "pastParticiple": "procured",
+    "presentParticiple": "procuring",
+    "thirdPerson": "procures"
+  },
+  "produce": {
+    "infinitive": "produce",
+    "perfect": "produced",
+    "pastParticiple": "produced",
+    "presentParticiple": "producing",
+    "thirdPerson": "produces"
+  },
+  "profess": {
+    "infinitive": "profess",
+    "perfect": "professed",
+    "pastParticiple": "professed",
+    "presentParticiple": "professing",
+    "thirdPerson": "professes"
+  },
+  "program": {
+    "infinitive": "program",
+    "perfect": "programmed",
+    "pastParticiple": "programmed",
+    "presentParticiple": "programming",
+    "thirdPerson": "programs"
+  },
+  "progress": {
+    "infinitive": "progress",
+    "perfect": "progressed",
+    "pastParticiple": "progressed",
+    "presentParticiple": "progressing",
+    "thirdPerson": "progresses"
+  },
+  "project": {
+    "infinitive": "project",
+    "perfect": "projected",
+    "pastParticiple": "projected",
+    "presentParticiple": "projecting",
+    "thirdPerson": "projects"
+  },
+  "promise": {
+    "infinitive": "promise",
+    "perfect": "promised",
+    "pastParticiple": "promised",
+    "presentParticiple": "promising",
+    "thirdPerson": "promises"
+  },
+  "promote": {
+    "infinitive": "promote",
+    "perfect": "promoted",
+    "pastParticiple": "promoted",
+    "presentParticiple": "promoting",
+    "thirdPerson": "promotes"
+  },
+  "proofread": {
+    "infinitive": "proofread",
+    "perfect": "proofread",
+    "pastParticiple": "proofread",
+    "presentParticiple": "proofreading",
+    "thirdPerson": "proofreads"
+  },
+  "propose": {
+    "infinitive": "propose",
+    "perfect": "proposed",
+    "pastParticiple": "proposed",
+    "presentParticiple": "proposing",
+    "thirdPerson": "proposes"
+  },
+  "protect": {
+    "infinitive": "protect",
+    "perfect": "protected",
+    "pastParticiple": "protected",
+    "presentParticiple": "protecting",
+    "thirdPerson": "protects"
+  },
+  "prove": {
+    "infinitive": "prove",
+    "perfect": "proved",
+    "pastParticiple": "proved",
+    "presentParticiple": "proving",
+    "thirdPerson": "proves"
+  },
+  "provide": {
+    "infinitive": "provide",
+    "perfect": "provided",
+    "pastParticiple": "provided",
+    "presentParticiple": "providing",
+    "thirdPerson": "provides"
+  },
+  "publicize": {
+    "infinitive": "publicize",
+    "perfect": "publicized",
+    "pastParticiple": "publicized",
+    "presentParticiple": "publicizing",
+    "thirdPerson": "publicizes"
+  },
+  "pull": {
+    "infinitive": "pull",
+    "perfect": "pulled",
+    "pastParticiple": "pulled",
+    "presentParticiple": "pulling",
+    "thirdPerson": "pulls"
+  },
+  "pump": {
+    "infinitive": "pump",
+    "perfect": "pumped",
+    "pastParticiple": "pumped",
+    "presentParticiple": "pumping",
+    "thirdPerson": "pumps"
+  },
+  "punch": {
+    "infinitive": "punch",
+    "perfect": "punched",
+    "pastParticiple": "punched",
+    "presentParticiple": "punching",
+    "thirdPerson": "punches"
+  },
+  "puncture": {
+    "infinitive": "puncture",
+    "perfect": "punctured",
+    "pastParticiple": "punctured",
+    "presentParticiple": "puncturing",
+    "thirdPerson": "punctures"
+  },
+  "punish": {
+    "infinitive": "punish",
+    "perfect": "punished",
+    "pastParticiple": "punished",
+    "presentParticiple": "punishing",
+    "thirdPerson": "punishes"
+  },
+  "purchase": {
+    "infinitive": "purchase",
+    "perfect": "purchased",
+    "pastParticiple": "purchased",
+    "presentParticiple": "purchasing",
+    "thirdPerson": "purchases"
+  },
+  "push": {
+    "infinitive": "push",
+    "perfect": "pushed",
+    "pastParticiple": "pushed",
+    "presentParticiple": "pushing",
+    "thirdPerson": "pushes"
+  },
+  "put": {
+    "infinitive": "put",
+    "perfect": "put",
+    "pastParticiple": "put",
+    "presentParticiple": "putting",
+    "thirdPerson": "puts"
+  },
+  "qualify": {
+    "infinitive": "qualify",
+    "perfect": "qualified",
+    "pastParticiple": "qualified",
+    "presentParticiple": "qualifying",
+    "thirdPerson": "qualifies"
+  },
+  "question": {
+    "infinitive": "question",
+    "perfect": "questioned",
+    "pastParticiple": "questioned",
+    "presentParticiple": "questioning",
+    "thirdPerson": "questions"
+  },
+  "queue": {
+    "infinitive": "queue",
+    "perfect": "queued",
+    "pastParticiple": "queued",
+    "presentParticiple": "queueing",
+    "thirdPerson": "queues"
+  },
+  "quit": {
+    "infinitive": "quit",
+    "perfect": "quitted",
+    "pastParticiple": "quitted",
+    "presentParticiple": "quitting",
+    "thirdPerson": "quits"
+  },
+  "race": {
+    "infinitive": "race",
+    "perfect": "raced",
+    "pastParticiple": "raced",
+    "presentParticiple": "racing",
+    "thirdPerson": "races"
+  },
+  "radiate": {
+    "infinitive": "radiate",
+    "perfect": "radiated",
+    "pastParticiple": "radiated",
+    "presentParticiple": "radiating",
+    "thirdPerson": "radiates"
+  },
+  "rain": {
+    "infinitive": "rain",
+    "perfect": "rained",
+    "pastParticiple": "rained",
+    "presentParticiple": "raining",
+    "thirdPerson": "rains"
+  },
+  "raise": {
+    "infinitive": "raise",
+    "perfect": "raised",
+    "pastParticiple": "raised",
+    "presentParticiple": "raising",
+    "thirdPerson": "raises"
+  },
+  "rank": {
+    "infinitive": "rank",
+    "perfect": "ranked",
+    "pastParticiple": "ranked",
+    "presentParticiple": "ranking",
+    "thirdPerson": "ranks"
+  },
+  "rate": {
+    "infinitive": "rate",
+    "perfect": "rated",
+    "pastParticiple": "rated",
+    "presentParticiple": "rating",
+    "thirdPerson": "rates"
+  },
+  "ray": {
+    "infinitive": "ray",
+    "perfect": "rayed",
+    "pastParticiple": "rayed",
+    "presentParticiple": "raying",
+    "thirdPerson": "rays"
+  },
+  "reach": {
+    "infinitive": "reach",
+    "perfect": "reached",
+    "pastParticiple": "reached",
+    "presentParticiple": "reaching",
+    "thirdPerson": "reaches"
+  },
+  "read": {
+    "infinitive": "read",
+    "perfect": "read",
+    "pastParticiple": "read",
+    "presentParticiple": "reading",
+    "thirdPerson": "reads"
+  },
+  "realign": {
+    "infinitive": "realign",
+    "perfect": "realigned",
+    "pastParticiple": "realigned",
+    "presentParticiple": "realigning",
+    "thirdPerson": "realigns"
+  },
+  "realize": {
+    "infinitive": "realize",
+    "perfect": "realized",
+    "pastParticiple": "realized",
+    "presentParticiple": "realizing",
+    "thirdPerson": "realizes"
+  },
+  "reason": {
+    "infinitive": "reason",
+    "perfect": "reasoned",
+    "pastParticiple": "reasoned",
+    "presentParticiple": "reasoning",
+    "thirdPerson": "reasons"
+  },
+  "receive": {
+    "infinitive": "receive",
+    "perfect": "received",
+    "pastParticiple": "received",
+    "presentParticiple": "receiving",
+    "thirdPerson": "receives"
+  },
+  "recognize": {
+    "infinitive": "recognize",
+    "perfect": "recognized",
+    "pastParticiple": "recognized",
+    "presentParticiple": "recognizing",
+    "thirdPerson": "recognizes"
+  },
+  "recommend": {
+    "infinitive": "recommend",
+    "perfect": "recommended",
+    "pastParticiple": "recommended",
+    "presentParticiple": "recommending",
+    "thirdPerson": "recommends"
+  },
+  "reconcile": {
+    "infinitive": "reconcile",
+    "perfect": "reconciled",
+    "pastParticiple": "reconciled",
+    "presentParticiple": "reconciling",
+    "thirdPerson": "reconciles"
+  },
+  "record": {
+    "infinitive": "record",
+    "perfect": "recorded",
+    "pastParticiple": "recorded",
+    "presentParticiple": "recording",
+    "thirdPerson": "records"
+  },
+  "recruit": {
+    "infinitive": "recruit",
+    "perfect": "recruited",
+    "pastParticiple": "recruited",
+    "presentParticiple": "recruiting",
+    "thirdPerson": "recruits"
+  },
+  "reduce": {
+    "infinitive": "reduce",
+    "perfect": "reduced",
+    "pastParticiple": "reduced",
+    "presentParticiple": "reducing",
+    "thirdPerson": "reduces"
+  },
+  "refer": {
+    "infinitive": "refer",
+    "perfect": "referred",
+    "pastParticiple": "referred",
+    "presentParticiple": "referring",
+    "thirdPerson": "refers"
+  },
+  "reflect": {
+    "infinitive": "reflect",
+    "perfect": "reflected",
+    "pastParticiple": "reflected",
+    "presentParticiple": "reflecting",
+    "thirdPerson": "reflects"
+  },
+  "refuse": {
+    "infinitive": "refuse",
+    "perfect": "refused",
+    "pastParticiple": "refused",
+    "presentParticiple": "refusing",
+    "thirdPerson": "refuses"
+  },
+  "regret": {
+    "infinitive": "regret",
+    "perfect": "regretted",
+    "pastParticiple": "regretted",
+    "presentParticiple": "regretting",
+    "thirdPerson": "regrets"
+  },
+  "regulate": {
+    "infinitive": "regulate",
+    "perfect": "regulated",
+    "pastParticiple": "regulated",
+    "presentParticiple": "regulating",
+    "thirdPerson": "regulates"
+  },
+  "rehabilitate": {
+    "infinitive": "rehabilitate",
+    "perfect": "rehabilitated",
+    "pastParticiple": "rehabilitated",
+    "presentParticiple": "rehabilitating",
+    "thirdPerson": "rehabilitates"
+  },
+  "reign": {
+    "infinitive": "reign",
+    "perfect": "reigned",
+    "pastParticiple": "reigned",
+    "presentParticiple": "reigning",
+    "thirdPerson": "reigns"
+  },
+  "reinforce": {
+    "infinitive": "reinforce",
+    "perfect": "reinforced",
+    "pastParticiple": "reinforced",
+    "presentParticiple": "reinforcing",
+    "thirdPerson": "reinforces"
+  },
+  "reject": {
+    "infinitive": "reject",
+    "perfect": "rejected",
+    "pastParticiple": "rejected",
+    "presentParticiple": "rejecting",
+    "thirdPerson": "rejects"
+  },
+  "rejoice": {
+    "infinitive": "rejoice",
+    "perfect": "rejoiced",
+    "pastParticiple": "rejoiced",
+    "presentParticiple": "rejoicing",
+    "thirdPerson": "rejoices"
+  },
+  "relate": {
+    "infinitive": "relate",
+    "perfect": "related",
+    "pastParticiple": "related",
+    "presentParticiple": "relating",
+    "thirdPerson": "relates"
+  },
+  "relax": {
+    "infinitive": "relax",
+    "perfect": "relaxed",
+    "pastParticiple": "relaxed",
+    "presentParticiple": "relaxing",
+    "thirdPerson": "relaxes"
+  },
+  "release": {
+    "infinitive": "release",
+    "perfect": "released",
+    "pastParticiple": "released",
+    "presentParticiple": "releasing",
+    "thirdPerson": "releases"
+  },
+  "rely": {
+    "infinitive": "rely",
+    "perfect": "relied",
+    "pastParticiple": "relied",
+    "presentParticiple": "relying",
+    "thirdPerson": "relies"
+  },
+  "remain": {
+    "infinitive": "remain",
+    "perfect": "remained",
+    "pastParticiple": "remained",
+    "presentParticiple": "remaining",
+    "thirdPerson": "remains"
+  },
+  "remember": {
+    "infinitive": "remember",
+    "perfect": "remembered",
+    "pastParticiple": "remembered",
+    "presentParticiple": "remembering",
+    "thirdPerson": "remembers"
+  },
+  "remind": {
+    "infinitive": "remind",
+    "perfect": "reminded",
+    "pastParticiple": "reminded",
+    "presentParticiple": "reminding",
+    "thirdPerson": "reminds"
+  },
+  "remove": {
+    "infinitive": "remove",
+    "perfect": "removed",
+    "pastParticiple": "removed",
+    "presentParticiple": "removing",
+    "thirdPerson": "removes"
+  },
+  "render": {
+    "infinitive": "render",
+    "perfect": "rendered",
+    "pastParticiple": "rendered",
+    "presentParticiple": "rendering",
+    "thirdPerson": "renders"
+  },
+  "reorganize": {
+    "infinitive": "reorganize",
+    "perfect": "reorganized",
+    "pastParticiple": "reorganized",
+    "presentParticiple": "reorganizing",
+    "thirdPerson": "reorganizes"
+  },
+  "repair": {
+    "infinitive": "repair",
+    "perfect": "repaired",
+    "pastParticiple": "repaired",
+    "presentParticiple": "repairing",
+    "thirdPerson": "repairs"
+  },
+  "repeat": {
+    "infinitive": "repeat",
+    "perfect": "repeated",
+    "pastParticiple": "repeated",
+    "presentParticiple": "repeating",
+    "thirdPerson": "repeats"
+  },
+  "replace": {
+    "infinitive": "replace",
+    "perfect": "replaced",
+    "pastParticiple": "replaced",
+    "presentParticiple": "replacing",
+    "thirdPerson": "replaces"
+  },
+  "reply": {
+    "infinitive": "reply",
+    "perfect": "replied",
+    "pastParticiple": "replied",
+    "presentParticiple": "replying",
+    "thirdPerson": "replies"
+  },
+  "report": {
+    "infinitive": "report",
+    "perfect": "reported",
+    "pastParticiple": "reported",
+    "presentParticiple": "reporting",
+    "thirdPerson": "reports"
+  },
+  "represent": {
+    "infinitive": "represent",
+    "perfect": "represented",
+    "pastParticiple": "represented",
+    "presentParticiple": "representing",
+    "thirdPerson": "represents"
+  },
+  "reproduce": {
+    "infinitive": "reproduce",
+    "perfect": "reproduced",
+    "pastParticiple": "reproduced",
+    "presentParticiple": "reproducing",
+    "thirdPerson": "reproduces"
+  },
+  "request": {
+    "infinitive": "request",
+    "perfect": "requested",
+    "pastParticiple": "requested",
+    "presentParticiple": "requesting",
+    "thirdPerson": "requests"
+  },
+  "rescue": {
+    "infinitive": "rescue",
+    "perfect": "rescued",
+    "pastParticiple": "rescued",
+    "presentParticiple": "rescuing",
+    "thirdPerson": "rescues"
+  },
+  "research": {
+    "infinitive": "research",
+    "perfect": "researched",
+    "pastParticiple": "researched",
+    "presentParticiple": "researching",
+    "thirdPerson": "researches"
+  },
+  "resolve": {
+    "infinitive": "resolve",
+    "perfect": "resolved",
+    "pastParticiple": "resolved",
+    "presentParticiple": "resolving",
+    "thirdPerson": "resolves"
+  },
+  "respond": {
+    "infinitive": "respond",
+    "perfect": "responded",
+    "pastParticiple": "responded",
+    "presentParticiple": "responding",
+    "thirdPerson": "responds"
+  },
+  "restructure": {
+    "infinitive": "restructure",
+    "perfect": "restructured",
+    "pastParticiple": "restructured",
+    "presentParticiple": "restructuring",
+    "thirdPerson": "restructures"
+  },
+  "retire": {
+    "infinitive": "retire",
+    "perfect": "retired",
+    "pastParticiple": "retired",
+    "presentParticiple": "retiring",
+    "thirdPerson": "retires"
+  },
+  "retrieve": {
+    "infinitive": "retrieve",
+    "perfect": "retrieved",
+    "pastParticiple": "retrieved",
+    "presentParticiple": "retrieving",
+    "thirdPerson": "retrieves"
+  },
+  "return": {
+    "infinitive": "return",
+    "perfect": "returned",
+    "pastParticiple": "returned",
+    "presentParticiple": "returning",
+    "thirdPerson": "returns"
+  },
+  "review": {
+    "infinitive": "review",
+    "perfect": "reviewed",
+    "pastParticiple": "reviewed",
+    "presentParticiple": "reviewing",
+    "thirdPerson": "reviews"
+  },
+  "revise": {
+    "infinitive": "revise",
+    "perfect": "revised",
+    "pastParticiple": "revised",
+    "presentParticiple": "revising",
+    "thirdPerson": "revises"
+  },
+  "rhyme": {
+    "infinitive": "rhyme",
+    "perfect": "rhymed",
+    "pastParticiple": "rhymed",
+    "presentParticiple": "rhyming",
+    "thirdPerson": "rhymes"
+  },
+  "rid": {
+    "infinitive": "rid",
+    "perfect": "ridded",
+    "pastParticiple": "rid",
+    "presentParticiple": "ridding",
+    "thirdPerson": "rids"
+  },
+  "ride": {
+    "infinitive": "ride",
+    "perfect": "ridden",
+    "pastParticiple": "rode",
+    "presentParticiple": "riding",
+    "thirdPerson": "rides"
+  },
+  "ring": {
+    "infinitive": "ring",
+    "perfect": "ringed",
+    "pastParticiple": "ringed",
+    "presentParticiple": "ringing",
+    "thirdPerson": "rings"
+  },
+  "rinse": {
+    "infinitive": "rinse",
+    "perfect": "rinsed",
+    "pastParticiple": "rinsed",
+    "presentParticiple": "rinsing",
+    "thirdPerson": "rinses"
+  },
+  "rise": {
+    "infinitive": "rise",
+    "perfect": "risen",
+    "pastParticiple": "rose",
+    "presentParticiple": "rising",
+    "thirdPerson": "rises"
+  },
+  "risk": {
+    "infinitive": "risk",
+    "perfect": "risked",
+    "pastParticiple": "risked",
+    "presentParticiple": "risking",
+    "thirdPerson": "risks"
+  },
+  "rob": {
+    "infinitive": "rob",
+    "perfect": "robbed",
+    "pastParticiple": "robbed",
+    "presentParticiple": "robbing",
+    "thirdPerson": "robs"
+  },
+  "rock": {
+    "infinitive": "rock",
+    "perfect": "rocked",
+    "pastParticiple": "rocked",
+    "presentParticiple": "rocking",
+    "thirdPerson": "rocks"
+  },
+  "roll": {
+    "infinitive": "roll",
+    "perfect": "rolled",
+    "pastParticiple": "rolled",
+    "presentParticiple": "rolling",
+    "thirdPerson": "rolls"
+  },
+  "rot": {
+    "infinitive": "rot",
+    "perfect": "rotten",
+    "pastParticiple": "rotted",
+    "presentParticiple": "rotting",
+    "thirdPerson": "rots"
+  },
+  "rub": {
+    "infinitive": "rub",
+    "perfect": "rubbed",
+    "pastParticiple": "rubbed",
+    "presentParticiple": "rubbing",
+    "thirdPerson": "rubs"
+  },
+  "ruin": {
+    "infinitive": "ruin",
+    "perfect": "ruined",
+    "pastParticiple": "ruined",
+    "presentParticiple": "ruining",
+    "thirdPerson": "ruins"
+  },
+  "rule": {
+    "infinitive": "rule",
+    "perfect": "ruled",
+    "pastParticiple": "ruled",
+    "presentParticiple": "ruling",
+    "thirdPerson": "rules"
+  },
+  "run": {
+    "infinitive": "run",
+    "perfect": "run",
+    "pastParticiple": "ran",
+    "presentParticiple": "running",
+    "thirdPerson": "runs"
+  },
+  "rush": {
+    "infinitive": "rush",
+    "perfect": "rushed",
+    "pastParticiple": "rushed",
+    "presentParticiple": "rushing",
+    "thirdPerson": "rushes"
+  },
+  "sack": {
+    "infinitive": "sack",
+    "perfect": "sacked",
+    "pastParticiple": "sacked",
+    "presentParticiple": "sacking",
+    "thirdPerson": "sacks"
+  },
+  "sail": {
+    "infinitive": "sail",
+    "perfect": "sailed",
+    "pastParticiple": "sailed",
+    "presentParticiple": "sailing",
+    "thirdPerson": "sails"
+  },
+  "satisfy": {
+    "infinitive": "satisfy",
+    "perfect": "satisfied",
+    "pastParticiple": "satisfied",
+    "presentParticiple": "satisfying",
+    "thirdPerson": "satisfies"
+  },
+  "save": {
+    "infinitive": "save",
+    "perfect": "saved",
+    "pastParticiple": "saved",
+    "presentParticiple": "saving",
+    "thirdPerson": "saves"
+  },
+  "saw": {
+    "infinitive": "saw",
+    "perfect": "sawed",
+    "pastParticiple": "sawed",
+    "presentParticiple": "sawing",
+    "thirdPerson": "saws"
+  },
+  "say": {
+    "infinitive": "say",
+    "perfect": "said",
+    "pastParticiple": "said",
+    "presentParticiple": "saying",
+    "thirdPerson": "says"
+  },
+  "scare": {
+    "infinitive": "scare",
+    "perfect": "scared",
+    "pastParticiple": "scared",
+    "presentParticiple": "scaring",
+    "thirdPerson": "scares"
+  },
+  "scatter": {
+    "infinitive": "scatter",
+    "perfect": "scattered",
+    "pastParticiple": "scattered",
+    "presentParticiple": "scattering",
+    "thirdPerson": "scatters"
+  },
+  "schedule": {
+    "infinitive": "schedule",
+    "perfect": "scheduled",
+    "pastParticiple": "scheduled",
+    "presentParticiple": "scheduling",
+    "thirdPerson": "schedules"
+  },
+  "scold": {
+    "infinitive": "scold",
+    "perfect": "scolded",
+    "pastParticiple": "scolded",
+    "presentParticiple": "scolding",
+    "thirdPerson": "scolds"
+  },
+  "scorch": {
+    "infinitive": "scorch",
+    "perfect": "scorched",
+    "pastParticiple": "scorched",
+    "presentParticiple": "scorching",
+    "thirdPerson": "scorches"
+  },
+  "scrape": {
+    "infinitive": "scrape",
+    "perfect": "scraped",
+    "pastParticiple": "scraped",
+    "presentParticiple": "scraping",
+    "thirdPerson": "scrapes"
+  },
+  "scratch": {
+    "infinitive": "scratch",
+    "perfect": "scratched",
+    "pastParticiple": "scratched",
+    "presentParticiple": "scratching",
+    "thirdPerson": "scratches"
+  },
+  "scream": {
+    "infinitive": "scream",
+    "perfect": "screamed",
+    "pastParticiple": "screamed",
+    "presentParticiple": "screaming",
+    "thirdPerson": "screams"
+  },
+  "screw": {
+    "infinitive": "screw",
+    "perfect": "screwed",
+    "pastParticiple": "screwed",
+    "presentParticiple": "screwing",
+    "thirdPerson": "screws"
+  },
+  "scribble": {
+    "infinitive": "scribble",
+    "perfect": "scribbled",
+    "pastParticiple": "scribbled",
+    "presentParticiple": "scribbling",
+    "thirdPerson": "scribbles"
+  },
+  "scrub": {
+    "infinitive": "scrub",
+    "perfect": "scrubbed",
+    "pastParticiple": "scrubbed",
+    "presentParticiple": "scrubbing",
+    "thirdPerson": "scrubs"
+  },
+  "seal": {
+    "infinitive": "seal",
+    "perfect": "sealed",
+    "pastParticiple": "sealed",
+    "presentParticiple": "sealing",
+    "thirdPerson": "seals"
+  },
+  "search": {
+    "infinitive": "search",
+    "perfect": "searched",
+    "pastParticiple": "searched",
+    "presentParticiple": "searching",
+    "thirdPerson": "searches"
+  },
+  "secure": {
+    "infinitive": "secure",
+    "perfect": "secured",
+    "pastParticiple": "secured",
+    "presentParticiple": "securing",
+    "thirdPerson": "secures"
+  },
+  "see": {
+    "infinitive": "see",
+    "perfect": "seen",
+    "pastParticiple": "saw",
+    "presentParticiple": "seeing",
+    "thirdPerson": "sees"
+  },
+  "seek": {
+    "infinitive": "seek",
+    "perfect": "sought",
+    "pastParticiple": "sought",
+    "presentParticiple": "seeking",
+    "thirdPerson": "seeks"
+  },
+  "select": {
+    "infinitive": "select",
+    "perfect": "selected",
+    "pastParticiple": "selected",
+    "presentParticiple": "selecting",
+    "thirdPerson": "selects"
+  },
+  "sell": {
+    "infinitive": "sell",
+    "perfect": "sold",
+    "pastParticiple": "sold",
+    "presentParticiple": "selling",
+    "thirdPerson": "sells"
+  },
+  "send": {
+    "infinitive": "send",
+    "perfect": "sent",
+    "pastParticiple": "sent",
+    "presentParticiple": "sending",
+    "thirdPerson": "sends"
+  },
+  "sense": {
+    "infinitive": "sense",
+    "perfect": "sensed",
+    "pastParticiple": "sensed",
+    "presentParticiple": "sensing",
+    "thirdPerson": "senses"
+  },
+  "separate": {
+    "infinitive": "separate",
+    "perfect": "separated",
+    "pastParticiple": "separated",
+    "presentParticiple": "separating",
+    "thirdPerson": "separates"
+  },
+  "serve": {
+    "infinitive": "serve",
+    "perfect": "served",
+    "pastParticiple": "served",
+    "presentParticiple": "serving",
+    "thirdPerson": "serves"
+  },
+  "service": {
+    "infinitive": "service",
+    "perfect": "serviced",
+    "pastParticiple": "serviced",
+    "presentParticiple": "servicing",
+    "thirdPerson": "services"
+  },
+  "set": {
+    "infinitive": "set",
+    "perfect": "set",
+    "pastParticiple": "set",
+    "presentParticiple": "setting",
+    "thirdPerson": "sets"
+  },
+  "settle": {
+    "infinitive": "settle",
+    "perfect": "settled",
+    "pastParticiple": "settled",
+    "presentParticiple": "settling",
+    "thirdPerson": "settles"
+  },
+  "sew": {
+    "infinitive": "sew",
+    "perfect": "sewn",
+    "pastParticiple": "sewed",
+    "presentParticiple": "sewing",
+    "thirdPerson": "sews"
+  },
+  "shade": {
+    "infinitive": "shade",
+    "perfect": "shaded",
+    "pastParticiple": "shaded",
+    "presentParticiple": "shading",
+    "thirdPerson": "shades"
+  },
+  "shake": {
+    "infinitive": "shake",
+    "perfect": "shaken",
+    "pastParticiple": "shook",
+    "presentParticiple": "shaking",
+    "thirdPerson": "shakes"
+  },
+  "shape": {
+    "infinitive": "shape",
+    "perfect": "shaped",
+    "pastParticiple": "shaped",
+    "presentParticiple": "shaping",
+    "thirdPerson": "shapes"
+  },
+  "share": {
+    "infinitive": "share",
+    "perfect": "shared",
+    "pastParticiple": "shared",
+    "presentParticiple": "sharing",
+    "thirdPerson": "shares"
+  },
+  "shave": {
+    "infinitive": "shave",
+    "perfect": "shaven",
+    "pastParticiple": "shove",
+    "presentParticiple": "shaving",
+    "thirdPerson": "shaves"
+  },
+  "shear": {
+    "infinitive": "shear",
+    "perfect": "shorn",
+    "pastParticiple": "sheared",
+    "presentParticiple": "shearing",
+    "thirdPerson": "shears"
+  },
+  "shed": {
+    "infinitive": "shed",
+    "perfect": "shed",
+    "pastParticiple": "shed",
+    "presentParticiple": "shedding",
+    "thirdPerson": "sheds"
+  },
+  "shelter": {
+    "infinitive": "shelter",
+    "perfect": "sheltered",
+    "pastParticiple": "sheltered",
+    "presentParticiple": "sheltering",
+    "thirdPerson": "shelters"
+  },
+  "shine": {
+    "infinitive": "shine",
+    "perfect": "shined",
+    "pastParticiple": "shined",
+    "presentParticiple": "shining",
+    "thirdPerson": "shines"
+  },
+  "shit": {
+    "infinitive": "shit",
+    "perfect": "shit",
+    "pastParticiple": "shit",
+    "presentParticiple": "shitting",
+    "thirdPerson": "shits"
+  },
+  "shiver": {
+    "infinitive": "shiver",
+    "perfect": "shivered",
+    "pastParticiple": "shivered",
+    "presentParticiple": "shivering",
+    "thirdPerson": "shivers"
+  },
+  "shock": {
+    "infinitive": "shock",
+    "perfect": "shocked",
+    "pastParticiple": "shocked",
+    "presentParticiple": "shocking",
+    "thirdPerson": "shocks"
+  },
+  "shoe": {
+    "infinitive": "shoe",
+    "perfect": "shodden",
+    "pastParticiple": "shod",
+    "presentParticiple": "shoeing",
+    "thirdPerson": "shoes"
+  },
+  "shoot": {
+    "infinitive": "shoot",
+    "perfect": "shot",
+    "pastParticiple": "shot",
+    "presentParticiple": "shooting",
+    "thirdPerson": "shoots"
+  },
+  "shop": {
+    "infinitive": "shop",
+    "perfect": "shopped",
+    "pastParticiple": "shopped",
+    "presentParticiple": "shopping",
+    "thirdPerson": "shops"
+  },
+  "show": {
+    "infinitive": "show",
+    "perfect": "shown",
+    "pastParticiple": "showed",
+    "presentParticiple": "showing",
+    "thirdPerson": "shows"
+  },
+  "shred": {
+    "infinitive": "shred",
+    "perfect": "shredd",
+    "pastParticiple": "shredd",
+    "presentParticiple": "shredding",
+    "thirdPerson": "shreds"
+  },
+  "shrink": {
+    "infinitive": "shrink",
+    "perfect": "shrunk",
+    "pastParticiple": "shrank",
+    "presentParticiple": "shrinking",
+    "thirdPerson": "shrinks"
+  },
+  "shrug": {
+    "infinitive": "shrug",
+    "perfect": "shrugged",
+    "pastParticiple": "shrugged",
+    "presentParticiple": "shrugging",
+    "thirdPerson": "shrugs"
+  },
+  "shut": {
+    "infinitive": "shut",
+    "perfect": "shut",
+    "pastParticiple": "shut",
+    "presentParticiple": "shutting",
+    "thirdPerson": "shuts"
+  },
+  "sigh": {
+    "infinitive": "sigh",
+    "perfect": "sighed",
+    "pastParticiple": "sighed",
+    "presentParticiple": "sighing",
+    "thirdPerson": "sighs"
+  },
+  "sign": {
+    "infinitive": "sign",
+    "perfect": "signed",
+    "pastParticiple": "signed",
+    "presentParticiple": "signing",
+    "thirdPerson": "signs"
+  },
+  "signal": {
+    "infinitive": "signal",
+    "perfect": "signalled",
+    "pastParticiple": "signalled",
+    "presentParticiple": "signalling",
+    "thirdPerson": "signals"
+  },
+  "simplify": {
+    "infinitive": "simplify",
+    "perfect": "simplified",
+    "pastParticiple": "simplified",
+    "presentParticiple": "simplifying",
+    "thirdPerson": "simplifies"
+  },
+  "sin": {
+    "infinitive": "sin",
+    "perfect": "sinned",
+    "pastParticiple": "sinned",
+    "presentParticiple": "sinning",
+    "thirdPerson": "sins"
+  },
+  "sing": {
+    "infinitive": "sing",
+    "perfect": "sung",
+    "pastParticiple": "sang",
+    "presentParticiple": "singing",
+    "thirdPerson": "sings"
+  },
+  "sink": {
+    "infinitive": "sink",
+    "perfect": "sunk",
+    "pastParticiple": "sank",
+    "presentParticiple": "sinking",
+    "thirdPerson": "sinks"
+  },
+  "sip": {
+    "infinitive": "sip",
+    "perfect": "sipped",
+    "pastParticiple": "sipped",
+    "presentParticiple": "sipping",
+    "thirdPerson": "sips"
+  },
+  "sit": {
+    "infinitive": "sit",
+    "perfect": "sat",
+    "pastParticiple": "sat",
+    "presentParticiple": "sitting",
+    "thirdPerson": "sits"
+  },
+  "sketch": {
+    "infinitive": "sketch",
+    "perfect": "sketched",
+    "pastParticiple": "sketched",
+    "presentParticiple": "sketching",
+    "thirdPerson": "sketches"
+  },
+  "ski": {
+    "infinitive": "ski",
+    "perfect": "skied",
+    "pastParticiple": "skied",
+    "presentParticiple": "skiing",
+    "thirdPerson": "skis"
+  },
+  "skip": {
+    "infinitive": "skip",
+    "perfect": "skipped",
+    "pastParticiple": "skipped",
+    "presentParticiple": "skipping",
+    "thirdPerson": "skips"
+  },
+  "slap": {
+    "infinitive": "slap",
+    "perfect": "slapped",
+    "pastParticiple": "slapped",
+    "presentParticiple": "slapping",
+    "thirdPerson": "slaps"
+  },
+  "slay": {
+    "infinitive": "slay",
+    "perfect": "slain",
+    "pastParticiple": "slew",
+    "presentParticiple": "slaying",
+    "thirdPerson": "slays"
+  },
+  "sleep": {
+    "infinitive": "sleep",
+    "perfect": "slept",
+    "pastParticiple": "slept",
+    "presentParticiple": "sleeping",
+    "thirdPerson": "sleeps"
+  },
+  "slide": {
+    "infinitive": "slide",
+    "perfect": "slid",
+    "pastParticiple": "slid",
+    "presentParticiple": "sliding",
+    "thirdPerson": "slides"
+  },
+  "sling": {
+    "infinitive": "sling",
+    "perfect": "slung",
+    "pastParticiple": "slung",
+    "presentParticiple": "slinging",
+    "thirdPerson": "slings"
+  },
+  "slink": {
+    "infinitive": "slink",
+    "perfect": "slunk",
+    "pastParticiple": "slunk",
+    "presentParticiple": "slinking",
+    "thirdPerson": "slinks"
+  },
+  "slip": {
+    "infinitive": "slip",
+    "perfect": "slipped",
+    "pastParticiple": "slipped",
+    "presentParticiple": "slipping",
+    "thirdPerson": "slips"
+  },
+  "slit": {
+    "infinitive": "slit",
+    "perfect": "slit",
+    "pastParticiple": "slit",
+    "presentParticiple": "slitting",
+    "thirdPerson": "slits"
+  },
+  "slow": {
+    "infinitive": "slow",
+    "perfect": "slowed",
+    "pastParticiple": "slowed",
+    "presentParticiple": "slowing",
+    "thirdPerson": "slows"
+  },
+  "smash": {
+    "infinitive": "smash",
+    "perfect": "smashed",
+    "pastParticiple": "smashed",
+    "presentParticiple": "smashing",
+    "thirdPerson": "smashes"
+  },
+  "smell": {
+    "infinitive": "smell",
+    "perfect": "smelled",
+    "pastParticiple": "smelled",
+    "presentParticiple": "smelling",
+    "thirdPerson": "smells"
+  },
+  "smile": {
+    "infinitive": "smile",
+    "perfect": "smiled",
+    "pastParticiple": "smiled",
+    "presentParticiple": "smiling",
+    "thirdPerson": "smiles"
+  },
+  "smite": {
+    "infinitive": "smite",
+    "perfect": "smitten",
+    "pastParticiple": "smote",
+    "presentParticiple": "smiting",
+    "thirdPerson": "smites"
+  },
+  "smoke": {
+    "infinitive": "smoke",
+    "perfect": "smoked",
+    "pastParticiple": "smoked",
+    "presentParticiple": "smoking",
+    "thirdPerson": "smokes"
+  },
+  "snatch": {
+    "infinitive": "snatch",
+    "perfect": "snatched",
+    "pastParticiple": "snatched",
+    "presentParticiple": "snatching",
+    "thirdPerson": "snatches"
+  },
+  "sneak": {
+    "infinitive": "sneak",
+    "perfect": "sneaked",
+    "pastParticiple": "sneaked",
+    "presentParticiple": "sneaking",
+    "thirdPerson": "sneaks"
+  },
+  "sneeze": {
+    "infinitive": "sneeze",
+    "perfect": "sneezed",
+    "pastParticiple": "sneezed",
+    "presentParticiple": "sneezing",
+    "thirdPerson": "sneezes"
+  },
+  "sniff": {
+    "infinitive": "sniff",
+    "perfect": "sniffed",
+    "pastParticiple": "sniffed",
+    "presentParticiple": "sniffing",
+    "thirdPerson": "sniffs"
+  },
+  "snore": {
+    "infinitive": "snore",
+    "perfect": "snored",
+    "pastParticiple": "snored",
+    "presentParticiple": "snoring",
+    "thirdPerson": "snores"
+  },
+  "snow": {
+    "infinitive": "snow",
+    "perfect": "snowed",
+    "pastParticiple": "snowed",
+    "presentParticiple": "snowing",
+    "thirdPerson": "snows"
+  },
+  "soak": {
+    "infinitive": "soak",
+    "perfect": "soaked",
+    "pastParticiple": "soaked",
+    "presentParticiple": "soaking",
+    "thirdPerson": "soaks"
+  },
+  "solve": {
+    "infinitive": "solve",
+    "perfect": "solved",
+    "pastParticiple": "solved",
+    "presentParticiple": "solving",
+    "thirdPerson": "solves"
+  },
+  "soothe": {
+    "infinitive": "soothe",
+    "perfect": "soothed",
+    "pastParticiple": "soothed",
+    "presentParticiple": "soothing",
+    "thirdPerson": "soothes"
+  },
+  "sort": {
+    "infinitive": "sort",
+    "perfect": "sorted",
+    "pastParticiple": "sorted",
+    "presentParticiple": "sorting",
+    "thirdPerson": "sorts"
+  },
+  "sound": {
+    "infinitive": "sound",
+    "perfect": "sounded",
+    "pastParticiple": "sounded",
+    "presentParticiple": "sounding",
+    "thirdPerson": "sounds"
+  },
+  "sow": {
+    "infinitive": "sow",
+    "perfect": "sown",
+    "pastParticiple": "sowed",
+    "presentParticiple": "sowing",
+    "thirdPerson": "sows"
+  },
+  "spare": {
+    "infinitive": "spare",
+    "perfect": "spared",
+    "pastParticiple": "spared",
+    "presentParticiple": "sparing",
+    "thirdPerson": "spares"
+  },
+  "spark": {
+    "infinitive": "spark",
+    "perfect": "sparked",
+    "pastParticiple": "sparked",
+    "presentParticiple": "sparking",
+    "thirdPerson": "sparks"
+  },
+  "sparkle": {
+    "infinitive": "sparkle",
+    "perfect": "sparkled",
+    "pastParticiple": "sparkled",
+    "presentParticiple": "sparkling",
+    "thirdPerson": "sparkles"
+  },
+  "speak": {
+    "infinitive": "speak",
+    "perfect": "speaked",
+    "pastParticiple": "speaked",
+    "presentParticiple": "speaking",
+    "thirdPerson": "speaks"
+  },
+  "specify": {
+    "infinitive": "specify",
+    "perfect": "specified",
+    "pastParticiple": "specified",
+    "presentParticiple": "specifying",
+    "thirdPerson": "specifies"
+  },
+  "speed": {
+    "infinitive": "speed",
+    "perfect": "sped",
+    "pastParticiple": "sped",
+    "presentParticiple": "speeding",
+    "thirdPerson": "speeds"
+  },
+  "spell": {
+    "infinitive": "spell",
+    "perfect": "spelled",
+    "pastParticiple": "spelled",
+    "presentParticiple": "spelling",
+    "thirdPerson": "spells"
+  },
+  "spend": {
+    "infinitive": "spend",
+    "perfect": "spent",
+    "pastParticiple": "spent",
+    "presentParticiple": "spending",
+    "thirdPerson": "spends"
+  },
+  "spill": {
+    "infinitive": "spill",
+    "perfect": "spilled",
+    "pastParticiple": "spilled",
+    "presentParticiple": "spilling",
+    "thirdPerson": "spills"
+  },
+  "spin": {
+    "infinitive": "spin",
+    "perfect": "spun",
+    "pastParticiple": "spun",
+    "presentParticiple": "spinning",
+    "thirdPerson": "spins"
+  },
+  "spit": {
+    "infinitive": "spit",
+    "perfect": "spitted",
+    "pastParticiple": "spitted",
+    "presentParticiple": "spitting",
+    "thirdPerson": "spits"
+  },
+  "split": {
+    "infinitive": "split",
+    "perfect": "split",
+    "pastParticiple": "split",
+    "presentParticiple": "splitting",
+    "thirdPerson": "splits"
+  },
+  "spoil": {
+    "infinitive": "spoil",
+    "perfect": "spoiled",
+    "pastParticiple": "spoiled",
+    "presentParticiple": "spoiling",
+    "thirdPerson": "spoils"
+  },
+  "spot": {
+    "infinitive": "spot",
+    "perfect": "spotted",
+    "pastParticiple": "spotted",
+    "presentParticiple": "spotting",
+    "thirdPerson": "spots"
+  },
+  "spray": {
+    "infinitive": "spray",
+    "perfect": "sprayed",
+    "pastParticiple": "sprayed",
+    "presentParticiple": "spraying",
+    "thirdPerson": "sprays"
+  },
+  "spread": {
+    "infinitive": "spread",
+    "perfect": "spread",
+    "pastParticiple": "spread",
+    "presentParticiple": "spreading",
+    "thirdPerson": "spreads"
+  },
+  "spring": {
+    "infinitive": "spring",
+    "perfect": "sprung",
+    "pastParticiple": "sprang",
+    "presentParticiple": "springing",
+    "thirdPerson": "springs"
+  },
+  "sprout": {
+    "infinitive": "sprout",
+    "perfect": "sprouted",
+    "pastParticiple": "sprouted",
+    "presentParticiple": "sprouting",
+    "thirdPerson": "sprouts"
+  },
+  "squash": {
+    "infinitive": "squash",
+    "perfect": "squashed",
+    "pastParticiple": "squashed",
+    "presentParticiple": "squashing",
+    "thirdPerson": "squashes"
+  },
+  "squeak": {
+    "infinitive": "squeak",
+    "perfect": "squeaked",
+    "pastParticiple": "squeaked",
+    "presentParticiple": "squeaking",
+    "thirdPerson": "squeaks"
+  },
+  "squeal": {
+    "infinitive": "squeal",
+    "perfect": "squealed",
+    "pastParticiple": "squealed",
+    "presentParticiple": "squealing",
+    "thirdPerson": "squeals"
+  },
+  "squeeze": {
+    "infinitive": "squeeze",
+    "perfect": "squeezed",
+    "pastParticiple": "squeezed",
+    "presentParticiple": "squeezing",
+    "thirdPerson": "squeezes"
+  },
+  "stain": {
+    "infinitive": "stain",
+    "perfect": "stained",
+    "pastParticiple": "stained",
+    "presentParticiple": "staining",
+    "thirdPerson": "stains"
+  },
+  "stamp": {
+    "infinitive": "stamp",
+    "perfect": "stamped",
+    "pastParticiple": "stamped",
+    "presentParticiple": "stamping",
+    "thirdPerson": "stamps"
+  },
+  "stand": {
+    "infinitive": "stand",
+    "perfect": "stood",
+    "pastParticiple": "stood",
+    "presentParticiple": "standing",
+    "thirdPerson": "stands"
+  },
+  "stare": {
+    "infinitive": "stare",
+    "perfect": "stared",
+    "pastParticiple": "stared",
+    "presentParticiple": "staring",
+    "thirdPerson": "stares"
+  },
+  "start": {
+    "infinitive": "start",
+    "perfect": "started",
+    "pastParticiple": "started",
+    "presentParticiple": "starting",
+    "thirdPerson": "starts"
+  },
+  "stay": {
+    "infinitive": "stay",
+    "perfect": "stayed",
+    "pastParticiple": "stayed",
+    "presentParticiple": "staying",
+    "thirdPerson": "stays"
+  },
+  "steal": {
+    "infinitive": "steal",
+    "perfect": "stolen",
+    "pastParticiple": "stole",
+    "presentParticiple": "stealing",
+    "thirdPerson": "steals"
+  },
+  "steer": {
+    "infinitive": "steer",
+    "perfect": "steered",
+    "pastParticiple": "steered",
+    "presentParticiple": "steering",
+    "thirdPerson": "steers"
+  },
+  "step": {
+    "infinitive": "step",
+    "perfect": "stept",
+    "pastParticiple": "stept",
+    "presentParticiple": "stepping",
+    "thirdPerson": "steps"
+  },
+  "stick": {
+    "infinitive": "stick",
+    "perfect": "sticked",
+    "pastParticiple": "sticked",
+    "presentParticiple": "sticking",
+    "thirdPerson": "sticks"
+  },
+  "stimulate": {
+    "infinitive": "stimulate",
+    "perfect": "stimulated",
+    "pastParticiple": "stimulated",
+    "presentParticiple": "stimulating",
+    "thirdPerson": "stimulates"
+  },
+  "sting": {
+    "infinitive": "sting",
+    "perfect": "stung",
+    "pastParticiple": "stang",
+    "presentParticiple": "stinging",
+    "thirdPerson": "stings"
+  },
+  "stink": {
+    "infinitive": "stink",
+    "perfect": "stunk",
+    "pastParticiple": "stank",
+    "presentParticiple": "stinking",
+    "thirdPerson": "stinks"
+  },
+  "stir": {
+    "infinitive": "stir",
+    "perfect": "stirred",
+    "pastParticiple": "stirred",
+    "presentParticiple": "stirring",
+    "thirdPerson": "stirs"
+  },
+  "stitch": {
+    "infinitive": "stitch",
+    "perfect": "stitched",
+    "pastParticiple": "stitched",
+    "presentParticiple": "stitching",
+    "thirdPerson": "stitches"
+  },
+  "stop": {
+    "infinitive": "stop",
+    "perfect": "stopped",
+    "pastParticiple": "stopped",
+    "presentParticiple": "stopping",
+    "thirdPerson": "stops"
+  },
+  "store": {
+    "infinitive": "store",
+    "perfect": "stored",
+    "pastParticiple": "stored",
+    "presentParticiple": "storing",
+    "thirdPerson": "stores"
+  },
+  "strap": {
+    "infinitive": "strap",
+    "perfect": "strapped",
+    "pastParticiple": "strapped",
+    "presentParticiple": "strapping",
+    "thirdPerson": "straps"
+  },
+  "streamline": {
+    "infinitive": "streamline",
+    "perfect": "streamlined",
+    "pastParticiple": "streamlined",
+    "presentParticiple": "streamlining",
+    "thirdPerson": "streamlines"
+  },
+  "strengthen": {
+    "infinitive": "strengthen",
+    "perfect": "strengthened",
+    "pastParticiple": "strengthened",
+    "presentParticiple": "strengthening",
+    "thirdPerson": "strengthens"
+  },
+  "stretch": {
+    "infinitive": "stretch",
+    "perfect": "straught",
+    "pastParticiple": "obsolete",
+    "presentParticiple": "stretching",
+    "thirdPerson": "stretches"
+  },
+  "stride": {
+    "infinitive": "stride",
+    "perfect": "stridden",
+    "pastParticiple": "strode",
+    "presentParticiple": "striding",
+    "thirdPerson": "strides"
+  },
+  "strike": {
+    "infinitive": "strike",
+    "perfect": "struck",
+    "pastParticiple": "struck",
+    "presentParticiple": "striking",
+    "thirdPerson": "strikes"
+  },
+  "string": {
+    "infinitive": "string",
+    "perfect": "strung",
+    "pastParticiple": "strung",
+    "presentParticiple": "stringing",
+    "thirdPerson": "strings"
+  },
+  "strip": {
+    "infinitive": "strip",
+    "perfect": "stripped",
+    "pastParticiple": "stripped",
+    "presentParticiple": "stripping",
+    "thirdPerson": "strips"
+  },
+  "strive": {
+    "infinitive": "strive",
+    "perfect": "striven",
+    "pastParticiple": "strove",
+    "presentParticiple": "striving",
+    "thirdPerson": "strives"
+  },
+  "stroke": {
+    "infinitive": "stroke",
+    "perfect": "stroked",
+    "pastParticiple": "stroked",
+    "presentParticiple": "stroking",
+    "thirdPerson": "strokes"
+  },
+  "structure": {
+    "infinitive": "structure",
+    "perfect": "structured",
+    "pastParticiple": "structured",
+    "presentParticiple": "structuring",
+    "thirdPerson": "structures"
+  },
+  "study": {
+    "infinitive": "study",
+    "perfect": "studied",
+    "pastParticiple": "studied",
+    "presentParticiple": "studying",
+    "thirdPerson": "studies"
+  },
+  "stuff": {
+    "infinitive": "stuff",
+    "perfect": "stuffed",
+    "pastParticiple": "stuffed",
+    "presentParticiple": "stuffing",
+    "thirdPerson": "stuffs"
+  },
+  "sublet": {
+    "infinitive": "sublet",
+    "perfect": "sublet",
+    "pastParticiple": "sublet",
+    "presentParticiple": "subletting",
+    "thirdPerson": "sublets"
+  },
+  "subtract": {
+    "infinitive": "subtract",
+    "perfect": "subtracted",
+    "pastParticiple": "subtracted",
+    "presentParticiple": "subtracting",
+    "thirdPerson": "subtracts"
+  },
+  "succeed": {
+    "infinitive": "succeed",
+    "perfect": "succeeded",
+    "pastParticiple": "succeeded",
+    "presentParticiple": "succeeding",
+    "thirdPerson": "succeeds"
+  },
+  "suck": {
+    "infinitive": "suck",
+    "perfect": "sucked",
+    "pastParticiple": "sucked",
+    "presentParticiple": "sucking",
+    "thirdPerson": "sucks"
+  },
+  "suffer": {
+    "infinitive": "suffer",
+    "perfect": "suffered",
+    "pastParticiple": "suffered",
+    "presentParticiple": "suffering",
+    "thirdPerson": "suffers"
+  },
+  "suggest": {
+    "infinitive": "suggest",
+    "perfect": "suggested",
+    "pastParticiple": "suggested",
+    "presentParticiple": "suggesting",
+    "thirdPerson": "suggests"
+  },
+  "suit": {
+    "infinitive": "suit",
+    "perfect": "suited",
+    "pastParticiple": "suited",
+    "presentParticiple": "suiting",
+    "thirdPerson": "suits"
+  },
+  "summarize": {
+    "infinitive": "summarize",
+    "perfect": "summarized",
+    "pastParticiple": "summarized",
+    "presentParticiple": "summarizing",
+    "thirdPerson": "summarizes"
+  },
+  "supervise": {
+    "infinitive": "supervise",
+    "perfect": "supervised",
+    "pastParticiple": "supervised",
+    "presentParticiple": "supervising",
+    "thirdPerson": "supervises"
+  },
+  "supply": {
+    "infinitive": "supply",
+    "perfect": "supplied",
+    "pastParticiple": "supplied",
+    "presentParticiple": "supplying",
+    "thirdPerson": "supplies"
+  },
+  "support": {
+    "infinitive": "support",
+    "perfect": "supported",
+    "pastParticiple": "supported",
+    "presentParticiple": "supporting",
+    "thirdPerson": "supports"
+  },
+  "suppose": {
+    "infinitive": "suppose",
+    "perfect": "supposed",
+    "pastParticiple": "supposed",
+    "presentParticiple": "supposing",
+    "thirdPerson": "supposes"
+  },
+  "surprise": {
+    "infinitive": "surprise",
+    "perfect": "surprised",
+    "pastParticiple": "surprised",
+    "presentParticiple": "surprising",
+    "thirdPerson": "surprises"
+  },
+  "surround": {
+    "infinitive": "surround",
+    "perfect": "surrounded",
+    "pastParticiple": "surrounded",
+    "presentParticiple": "surrounding",
+    "thirdPerson": "surrounds"
+  },
+  "suspect": {
+    "infinitive": "suspect",
+    "perfect": "suspected",
+    "pastParticiple": "suspected",
+    "presentParticiple": "suspecting",
+    "thirdPerson": "suspects"
+  },
+  "suspend": {
+    "infinitive": "suspend",
+    "perfect": "suspended",
+    "pastParticiple": "suspended",
+    "presentParticiple": "suspending",
+    "thirdPerson": "suspends"
+  },
+  "swear": {
+    "infinitive": "swear",
+    "perfect": "sworn",
+    "pastParticiple": "swore",
+    "presentParticiple": "swearing",
+    "thirdPerson": "swears"
+  },
+  "sweat": {
+    "infinitive": "sweat",
+    "perfect": "sweated",
+    "pastParticiple": "sweated",
+    "presentParticiple": "sweating",
+    "thirdPerson": "sweats"
+  },
+  "sweep": {
+    "infinitive": "sweep",
+    "perfect": "swept",
+    "pastParticiple": "swept",
+    "presentParticiple": "sweeping",
+    "thirdPerson": "sweeps"
+  },
+  "swell": {
+    "infinitive": "swell",
+    "perfect": "swollen",
+    "pastParticiple": "swelled",
+    "presentParticiple": "swelling",
+    "thirdPerson": "swells"
+  },
+  "swim": {
+    "infinitive": "swim",
+    "perfect": "swum",
+    "pastParticiple": "swam",
+    "presentParticiple": "swimming",
+    "thirdPerson": "swims"
+  },
+  "swing": {
+    "infinitive": "swing",
+    "perfect": "swung",
+    "pastParticiple": "swang",
+    "presentParticiple": "swinging",
+    "thirdPerson": "swings"
+  },
+  "switch": {
+    "infinitive": "switch",
+    "perfect": "switched",
+    "pastParticiple": "switched",
+    "presentParticiple": "switching",
+    "thirdPerson": "switches"
+  },
+  "symbolize": {
+    "infinitive": "symbolize",
+    "perfect": "symbolized",
+    "pastParticiple": "symbolized",
+    "presentParticiple": "symbolizing",
+    "thirdPerson": "symbolizes"
+  },
+  "synthesize": {
+    "infinitive": "synthesize",
+    "perfect": "synthesized",
+    "pastParticiple": "synthesized",
+    "presentParticiple": "synthesizing",
+    "thirdPerson": "synthesizes"
+  },
+  "systemize": {
+    "infinitive": "systemize",
+    "perfect": "systemized",
+    "pastParticiple": "systemized",
+    "presentParticiple": "systemizing",
+    "thirdPerson": "systemizes"
+  },
+  "tabulate": {
+    "infinitive": "tabulate",
+    "perfect": "tabulated",
+    "pastParticiple": "tabulating",
+    "presentParticiple": "tabulates",
+    "thirdPerson": "tabulate"
+  },
+  "take": {
+    "infinitive": "take",
+    "perfect": "taken",
+    "pastParticiple": "took",
+    "presentParticiple": "taking",
+    "thirdPerson": "takes"
+  },
+  "talk": {
+    "infinitive": "talk",
+    "perfect": "talked",
+    "pastParticiple": "talked",
+    "presentParticiple": "talking",
+    "thirdPerson": "talks"
+  },
+  "tame": {
+    "infinitive": "tame",
+    "perfect": "tamed",
+    "pastParticiple": "tamed",
+    "presentParticiple": "taming",
+    "thirdPerson": "tames"
+  },
+  "tap": {
+    "infinitive": "tap",
+    "perfect": "tapped",
+    "pastParticiple": "tapped",
+    "presentParticiple": "tapping",
+    "thirdPerson": "taps"
+  },
+  "target": {
+    "infinitive": "target",
+    "perfect": "targeted",
+    "pastParticiple": "targeted",
+    "presentParticiple": "targeting",
+    "thirdPerson": "targets"
+  },
+  "taste": {
+    "infinitive": "taste",
+    "perfect": "tasted",
+    "pastParticiple": "tasted",
+    "presentParticiple": "tasting",
+    "thirdPerson": "tastes"
+  },
+  "teach": {
+    "infinitive": "teach",
+    "perfect": "taught",
+    "pastParticiple": "taught",
+    "presentParticiple": "teaching",
+    "thirdPerson": "teaches"
+  },
+  "tear": {
+    "infinitive": "tear",
+    "perfect": "torn",
+    "pastParticiple": "tore",
+    "presentParticiple": "tearing",
+    "thirdPerson": "tears"
+  },
+  "tease": {
+    "infinitive": "tease",
+    "perfect": "teased",
+    "pastParticiple": "teased",
+    "presentParticiple": "teasing",
+    "thirdPerson": "teases"
+  },
+  "telecast": {
+    "infinitive": "telecast",
+    "perfect": "telecasted",
+    "pastParticiple": "telecasted",
+    "presentParticiple": "telecasting",
+    "thirdPerson": "telecasts"
+  },
+  "telephone": {
+    "infinitive": "telephone",
+    "perfect": "telephoned",
+    "pastParticiple": "telephoned",
+    "presentParticiple": "telephoning",
+    "thirdPerson": "telephones"
+  },
+  "tell": {
+    "infinitive": "tell",
+    "perfect": "told",
+    "pastParticiple": "told",
+    "presentParticiple": "telling",
+    "thirdPerson": "tells"
+  },
+  "tempt": {
+    "infinitive": "tempt",
+    "perfect": "tempted",
+    "pastParticiple": "tempted",
+    "presentParticiple": "tempting",
+    "thirdPerson": "tempts"
+  },
+  "terrify": {
+    "infinitive": "terrify",
+    "perfect": "terrified",
+    "pastParticiple": "terrified",
+    "presentParticiple": "terrifying",
+    "thirdPerson": "terrifies"
+  },
+  "test": {
+    "infinitive": "test",
+    "perfect": "tested",
+    "pastParticiple": "tested",
+    "presentParticiple": "testing",
+    "thirdPerson": "tests"
+  },
+  "thank": {
+    "infinitive": "thank",
+    "perfect": "thanked",
+    "pastParticiple": "thanked",
+    "presentParticiple": "thanking",
+    "thirdPerson": "thanks"
+  },
+  "thaw": {
+    "infinitive": "thaw",
+    "perfect": "thawed",
+    "pastParticiple": "thawed",
+    "presentParticiple": "thawing",
+    "thirdPerson": "thaws"
+  },
+  "think": {
+    "infinitive": "think",
+    "perfect": "thought",
+    "pastParticiple": "thought",
+    "presentParticiple": "thinking",
+    "thirdPerson": "thinks"
+  },
+  "thrive": {
+    "infinitive": "thrive",
+    "perfect": "thriven",
+    "pastParticiple": "throve",
+    "presentParticiple": "thriving",
+    "thirdPerson": "thrives"
+  },
+  "throw": {
+    "infinitive": "throw",
+    "perfect": "thrown",
+    "pastParticiple": "threw",
+    "presentParticiple": "throwing",
+    "thirdPerson": "throws"
+  },
+  "thrust": {
+    "infinitive": "thrust",
+    "perfect": "thrusted",
+    "pastParticiple": "thrusted",
+    "presentParticiple": "thrusting",
+    "thirdPerson": "thrusts"
+  },
+  "tick": {
+    "infinitive": "tick",
+    "perfect": "ticked",
+    "pastParticiple": "ticked",
+    "presentParticiple": "ticking",
+    "thirdPerson": "ticks"
+  },
+  "tickle": {
+    "infinitive": "tickle",
+    "perfect": "tickled",
+    "pastParticiple": "tickled",
+    "presentParticiple": "tickling",
+    "thirdPerson": "tickles"
+  },
+  "tie": {
+    "infinitive": "tie",
+    "perfect": "tied",
+    "pastParticiple": "tied",
+    "presentParticiple": "tying",
+    "thirdPerson": "ties"
+  },
+  "time": {
+    "infinitive": "time",
+    "perfect": "timed",
+    "pastParticiple": "timed",
+    "presentParticiple": "timing",
+    "thirdPerson": "times"
+  },
+  "tip": {
+    "infinitive": "tip",
+    "perfect": "tipped",
+    "pastParticiple": "tipped",
+    "presentParticiple": "tipping",
+    "thirdPerson": "tips"
+  },
+  "tire": {
+    "infinitive": "tire",
+    "perfect": "tired",
+    "pastParticiple": "tired",
+    "presentParticiple": "tiring",
+    "thirdPerson": "tires"
+  },
+  "touch": {
+    "infinitive": "touch",
+    "perfect": "touched",
+    "pastParticiple": "touched",
+    "presentParticiple": "touching",
+    "thirdPerson": "touches"
+  },
+  "tour": {
+    "infinitive": "tour",
+    "perfect": "toured",
+    "pastParticiple": "toured",
+    "presentParticiple": "touring",
+    "thirdPerson": "tours"
+  },
+  "tow": {
+    "infinitive": "tow",
+    "perfect": "towed",
+    "pastParticiple": "towed",
+    "presentParticiple": "towing",
+    "thirdPerson": "tows"
+  },
+  "trace": {
+    "infinitive": "trace",
+    "perfect": "traced",
+    "pastParticiple": "traced",
+    "presentParticiple": "tracing",
+    "thirdPerson": "traces"
+  },
+  "trade": {
+    "infinitive": "trade",
+    "perfect": "traded",
+    "pastParticiple": "traded",
+    "presentParticiple": "trading",
+    "thirdPerson": "trades"
+  },
+  "train": {
+    "infinitive": "train",
+    "perfect": "trained",
+    "pastParticiple": "trained",
+    "presentParticiple": "training",
+    "thirdPerson": "trains"
+  },
+  "transcribe": {
+    "infinitive": "transcribe",
+    "perfect": "transcribed",
+    "pastParticiple": "transcribed",
+    "presentParticiple": "transcribing",
+    "thirdPerson": "transcribes"
+  },
+  "transfer": {
+    "infinitive": "transfer",
+    "perfect": "transferred",
+    "pastParticiple": "transferred",
+    "presentParticiple": "transferring",
+    "thirdPerson": "transfers"
+  },
+  "transform": {
+    "infinitive": "transform",
+    "perfect": "transformed",
+    "pastParticiple": "transformed",
+    "presentParticiple": "transforming",
+    "thirdPerson": "transforms"
+  },
+  "translate": {
+    "infinitive": "translate",
+    "perfect": "translated",
+    "pastParticiple": "translated",
+    "presentParticiple": "translating",
+    "thirdPerson": "translates"
+  },
+  "transport": {
+    "infinitive": "transport",
+    "perfect": "transported",
+    "pastParticiple": "transported",
+    "presentParticiple": "transporting",
+    "thirdPerson": "transports"
+  },
+  "trap": {
+    "infinitive": "trap",
+    "perfect": "trapped",
+    "pastParticiple": "trapped",
+    "presentParticiple": "trapping",
+    "thirdPerson": "traps"
+  },
+  "travel": {
+    "infinitive": "travel",
+    "perfect": "travelled",
+    "pastParticiple": "travelled",
+    "presentParticiple": "travelling",
+    "thirdPerson": "travels"
+  },
+  "tread": {
+    "infinitive": "tread",
+    "perfect": "trodden",
+    "pastParticiple": "trod",
+    "presentParticiple": "treading",
+    "thirdPerson": "treads"
+  },
+  "treat": {
+    "infinitive": "treat",
+    "perfect": "treated",
+    "pastParticiple": "treated",
+    "presentParticiple": "treating",
+    "thirdPerson": "treats"
+  },
+  "tremble": {
+    "infinitive": "tremble",
+    "perfect": "trembled",
+    "pastParticiple": "trembled",
+    "presentParticiple": "trembling",
+    "thirdPerson": "trembles"
+  },
+  "trick": {
+    "infinitive": "trick",
+    "perfect": "tricked",
+    "pastParticiple": "tricked",
+    "presentParticiple": "tricking",
+    "thirdPerson": "tricks"
+  },
+  "trip": {
+    "infinitive": "trip",
+    "perfect": "tripped",
+    "pastParticiple": "tripped",
+    "presentParticiple": "tripping",
+    "thirdPerson": "trips"
+  },
+  "trot": {
+    "infinitive": "trot",
+    "perfect": "trotted",
+    "pastParticiple": "trotted",
+    "presentParticiple": "trotting",
+    "thirdPerson": "trots"
+  },
+  "trouble": {
+    "infinitive": "trouble",
+    "perfect": "troubled",
+    "pastParticiple": "troubled",
+    "presentParticiple": "troubling",
+    "thirdPerson": "troubles"
+  },
+  "troubleshoot": {
+    "infinitive": "troubleshoot",
+    "perfect": "troubleshot",
+    "pastParticiple": "troubleshot",
+    "presentParticiple": "troubleshooting",
+    "thirdPerson": "troubleshoots"
+  },
+  "trust": {
+    "infinitive": "trust",
+    "perfect": "trusted",
+    "pastParticiple": "trusted",
+    "presentParticiple": "trusting",
+    "thirdPerson": "trusts"
+  },
+  "try": {
+    "infinitive": "try",
+    "perfect": "tried",
+    "pastParticiple": "tried",
+    "presentParticiple": "trying",
+    "thirdPerson": "tries"
+  },
+  "tug": {
+    "infinitive": "tug",
+    "perfect": "tugged",
+    "pastParticiple": "tugged",
+    "presentParticiple": "tugging",
+    "thirdPerson": "tugs"
+  },
+  "tumble": {
+    "infinitive": "tumble",
+    "perfect": "tumbled",
+    "pastParticiple": "tumbled",
+    "presentParticiple": "tumbling",
+    "thirdPerson": "tumbles"
+  },
+  "turn": {
+    "infinitive": "turn",
+    "perfect": "turned",
+    "pastParticiple": "turned",
+    "presentParticiple": "turning",
+    "thirdPerson": "turns"
+  },
+  "tutor": {
+    "infinitive": "tutor",
+    "perfect": "tutored",
+    "pastParticiple": "tutored",
+    "presentParticiple": "tutoring",
+    "thirdPerson": "tutors"
+  },
+  "twist": {
+    "infinitive": "twist",
+    "perfect": "twisted",
+    "pastParticiple": "twisted",
+    "presentParticiple": "twisting",
+    "thirdPerson": "twists"
+  },
+  "undergo": {
+    "infinitive": "undergo",
+    "perfect": "undergone",
+    "pastParticiple": "underwent",
+    "presentParticiple": "undergoing",
+    "thirdPerson": "undergoes"
+  },
+  "understand": {
+    "infinitive": "understand",
+    "perfect": "understood",
+    "pastParticiple": "understood",
+    "presentParticiple": "understanding",
+    "thirdPerson": "understands"
+  },
+  "undertake": {
+    "infinitive": "undertake",
+    "perfect": "undertaken",
+    "pastParticiple": "undertook",
+    "presentParticiple": "undertaking",
+    "thirdPerson": "undertakes"
+  },
+  "undress": {
+    "infinitive": "undress",
+    "perfect": "undressed",
+    "pastParticiple": "undressed",
+    "presentParticiple": "undressing",
+    "thirdPerson": "undresses"
+  },
+  "unfasten": {
+    "infinitive": "unfasten",
+    "perfect": "unfastened",
+    "pastParticiple": "unfastened",
+    "presentParticiple": "unfastening",
+    "thirdPerson": "unfastens"
+  },
+  "unify": {
+    "infinitive": "unify",
+    "perfect": "unified",
+    "pastParticiple": "unified",
+    "presentParticiple": "unifying",
+    "thirdPerson": "unifies"
+  },
+  "unite": {
+    "infinitive": "unite",
+    "perfect": "united",
+    "pastParticiple": "united",
+    "presentParticiple": "uniting",
+    "thirdPerson": "unites"
+  },
+  "unlock": {
+    "infinitive": "unlock",
+    "perfect": "unlocked",
+    "pastParticiple": "unlocked",
+    "presentParticiple": "unlocking",
+    "thirdPerson": "unlocks"
+  },
+  "unpack": {
+    "infinitive": "unpack",
+    "perfect": "unpacked",
+    "pastParticiple": "unpacked",
+    "presentParticiple": "unpacking",
+    "thirdPerson": "unpacks"
+  },
+  "update": {
+    "infinitive": "update",
+    "perfect": "updated",
+    "pastParticiple": "updated",
+    "presentParticiple": "updating",
+    "thirdPerson": "updates"
+  },
+  "upgrade": {
+    "infinitive": "upgrade",
+    "perfect": "upgraded",
+    "pastParticiple": "upgraded",
+    "presentParticiple": "upgrading",
+    "thirdPerson": "upgrades"
+  },
+  "uphold": {
+    "infinitive": "uphold",
+    "perfect": "upheld",
+    "pastParticiple": "upheld",
+    "presentParticiple": "upholding",
+    "thirdPerson": "upholds"
+  },
+  "upset": {
+    "infinitive": "upset",
+    "perfect": "upset",
+    "pastParticiple": "upset",
+    "presentParticiple": "upsetting",
+    "thirdPerson": "upsets"
+  },
+  "use": {
+    "infinitive": "use",
+    "perfect": "used",
+    "pastParticiple": "used",
+    "presentParticiple": "using",
+    "thirdPerson": "uses"
+  },
+  "utilize": {
+    "infinitive": "utilize",
+    "perfect": "utilized",
+    "pastParticiple": "utilized",
+    "presentParticiple": "utilizing",
+    "thirdPerson": "utilizes"
+  },
+  "vanish": {
+    "infinitive": "vanish",
+    "perfect": "vanished",
+    "pastParticiple": "vanished",
+    "presentParticiple": "vanishing",
+    "thirdPerson": "vanishes"
+  },
+  "verbalize": {
+    "infinitive": "verbalize",
+    "perfect": "verbalized",
+    "pastParticiple": "verbalized",
+    "presentParticiple": "verbalizing",
+    "thirdPerson": "verbalizes"
+  },
+  "verify": {
+    "infinitive": "verify",
+    "perfect": "verified",
+    "pastParticiple": "verified",
+    "presentParticiple": "verifying",
+    "thirdPerson": "verifies"
+  },
+  "vex": {
+    "infinitive": "vex",
+    "perfect": "vexed",
+    "pastParticiple": "vexed",
+    "presentParticiple": "vexing",
+    "thirdPerson": "vexes"
+  },
+  "visit": {
+    "infinitive": "visit",
+    "perfect": "visited",
+    "pastParticiple": "visited",
+    "presentParticiple": "visiting",
+    "thirdPerson": "visits"
+  },
+  "wail": {
+    "infinitive": "wail",
+    "perfect": "wailed",
+    "pastParticiple": "wailed",
+    "presentParticiple": "wailing",
+    "thirdPerson": "wails"
+  },
+  "wait": {
+    "infinitive": "wait",
+    "perfect": "waited",
+    "pastParticiple": "waited",
+    "presentParticiple": "waiting",
+    "thirdPerson": "waits"
+  },
+  "wake": {
+    "infinitive": "wake",
+    "perfect": "woken",
+    "pastParticiple": "woke",
+    "presentParticiple": "waking",
+    "thirdPerson": "wakes"
+  },
+  "walk": {
+    "infinitive": "walk",
+    "perfect": "walked",
+    "pastParticiple": "walked",
+    "presentParticiple": "walking",
+    "thirdPerson": "walks"
+  },
+  "wander": {
+    "infinitive": "wander",
+    "perfect": "wandered",
+    "pastParticiple": "wandered",
+    "presentParticiple": "wandering",
+    "thirdPerson": "wanders"
+  },
+  "want": {
+    "infinitive": "want",
+    "perfect": "wanted",
+    "pastParticiple": "wanted",
+    "presentParticiple": "wanting",
+    "thirdPerson": "wants"
+  },
+  "warm": {
+    "infinitive": "warm",
+    "perfect": "warmed",
+    "pastParticiple": "warmed",
+    "presentParticiple": "warming",
+    "thirdPerson": "warms"
+  },
+  "warn": {
+    "infinitive": "warn",
+    "perfect": "warned",
+    "pastParticiple": "warned",
+    "presentParticiple": "warning",
+    "thirdPerson": "warns"
+  },
+  "wash": {
+    "infinitive": "wash",
+    "perfect": "washed",
+    "pastParticiple": "washed",
+    "presentParticiple": "washing",
+    "thirdPerson": "washes"
+  },
+  "waste": {
+    "infinitive": "waste",
+    "perfect": "wasted",
+    "pastParticiple": "wasted",
+    "presentParticiple": "wasting",
+    "thirdPerson": "wastes"
+  },
+  "watch": {
+    "infinitive": "watch",
+    "perfect": "watched",
+    "pastParticiple": "watched",
+    "presentParticiple": "watching",
+    "thirdPerson": "watches"
+  },
+  "water": {
+    "infinitive": "water",
+    "perfect": "watered",
+    "pastParticiple": "watered",
+    "presentParticiple": "watering",
+    "thirdPerson": "waters"
+  },
+  "wave": {
+    "infinitive": "wave",
+    "perfect": "waved",
+    "pastParticiple": "waved",
+    "presentParticiple": "waving",
+    "thirdPerson": "waves"
+  },
+  "wear": {
+    "infinitive": "wear",
+    "perfect": "worn",
+    "pastParticiple": "wore",
+    "presentParticiple": "wearing",
+    "thirdPerson": "wears"
+  },
+  "weave": {
+    "infinitive": "weave",
+    "perfect": "woven",
+    "pastParticiple": "wove",
+    "presentParticiple": "weaving",
+    "thirdPerson": "weaves"
+  },
+  "wed": {
+    "infinitive": "wed",
+    "perfect": "wedded",
+    "pastParticiple": "wedded",
+    "presentParticiple": "wedding",
+    "thirdPerson": "weds"
+  },
+  "weep": {
+    "infinitive": "weep",
+    "perfect": "wept",
+    "pastParticiple": "wept",
+    "presentParticiple": "weeping",
+    "thirdPerson": "weeps"
+  },
+  "weigh": {
+    "infinitive": "weigh",
+    "perfect": "weighed",
+    "pastParticiple": "weighed",
+    "presentParticiple": "weighing",
+    "thirdPerson": "weighs"
+  },
+  "welcome": {
+    "infinitive": "welcome",
+    "perfect": "welcomed",
+    "pastParticiple": "welcomed",
+    "presentParticiple": "welcoming",
+    "thirdPerson": "welcomes"
+  },
+  "wend": {
+    "infinitive": "wend",
+    "perfect": "wended",
+    "pastParticiple": "wended",
+    "presentParticiple": "wending",
+    "thirdPerson": "wends"
+  },
+  "wet": {
+    "infinitive": "wet",
+    "perfect": "wet",
+    "pastParticiple": "wet",
+    "presentParticiple": "wetting",
+    "thirdPerson": "wets"
+  },
+  "whine": {
+    "infinitive": "whine",
+    "perfect": "whined",
+    "pastParticiple": "whined",
+    "presentParticiple": "whining",
+    "thirdPerson": "whines"
+  },
+  "whip": {
+    "infinitive": "whip",
+    "perfect": "whipped",
+    "pastParticiple": "whipped",
+    "presentParticiple": "whipping",
+    "thirdPerson": "whips"
+  },
+  "whirl": {
+    "infinitive": "whirl",
+    "perfect": "whirled",
+    "pastParticiple": "whirled",
+    "presentParticiple": "whirling",
+    "thirdPerson": "whirls"
+  },
+  "whisper": {
+    "infinitive": "whisper",
+    "perfect": "whispered",
+    "pastParticiple": "whispered",
+    "presentParticiple": "whispering",
+    "thirdPerson": "whispers"
+  },
+  "whistle": {
+    "infinitive": "whistle",
+    "perfect": "whistled",
+    "pastParticiple": "whistled",
+    "presentParticiple": "whistling",
+    "thirdPerson": "whistles"
+  },
+  "win": {
+    "infinitive": "win",
+    "perfect": "won",
+    "pastParticiple": "won",
+    "presentParticiple": "winning",
+    "thirdPerson": "wins"
+  },
+  "wind": {
+    "infinitive": "wind",
+    "perfect": "winded",
+    "pastParticiple": "winded",
+    "presentParticiple": "winding",
+    "thirdPerson": "winds"
+  },
+  "wink": {
+    "infinitive": "wink",
+    "perfect": "winked",
+    "pastParticiple": "winked",
+    "presentParticiple": "winking",
+    "thirdPerson": "winks"
+  },
+  "wipe": {
+    "infinitive": "wipe",
+    "perfect": "wiped",
+    "pastParticiple": "wiped",
+    "presentParticiple": "wiping",
+    "thirdPerson": "wipes"
+  },
+  "wish": {
+    "infinitive": "wish",
+    "perfect": "wished",
+    "pastParticiple": "wished",
+    "presentParticiple": "wishing",
+    "thirdPerson": "wishes"
+  },
+  "withdraw": {
+    "infinitive": "withdraw",
+    "perfect": "withdrawn",
+    "pastParticiple": "withdrew",
+    "presentParticiple": "withdrawing",
+    "thirdPerson": "withdraws"
+  },
+  "withhold": {
+    "infinitive": "withhold",
+    "perfect": "withheld",
+    "pastParticiple": "withheld",
+    "presentParticiple": "withholding",
+    "thirdPerson": "withholds"
+  },
+  "withstand": {
+    "infinitive": "withstand",
+    "perfect": "withstood",
+    "pastParticiple": "withstood",
+    "presentParticiple": "withstanding",
+    "thirdPerson": "withstands"
+  },
+  "wobble": {
+    "infinitive": "wobble",
+    "perfect": "wobbled",
+    "pastParticiple": "wobbled",
+    "presentParticiple": "wobbling",
+    "thirdPerson": "wobbles"
+  },
+  "wonder": {
+    "infinitive": "wonder",
+    "perfect": "wondered",
+    "pastParticiple": "wondered",
+    "presentParticiple": "wondering",
+    "thirdPerson": "wonders"
+  },
+  "work": {
+    "infinitive": "work",
+    "perfect": "worked",
+    "pastParticiple": "worked",
+    "presentParticiple": "working",
+    "thirdPerson": "works"
+  },
+  "worry": {
+    "infinitive": "worry",
+    "perfect": "worried",
+    "pastParticiple": "worried",
+    "presentParticiple": "worrying",
+    "thirdPerson": "worries"
+  },
+  "wrap": {
+    "infinitive": "wrap",
+    "perfect": "wrapped",
+    "pastParticiple": "wrapped",
+    "presentParticiple": "wrapping",
+    "thirdPerson": "wraps"
+  },
+  "wreck": {
+    "infinitive": "wreck",
+    "perfect": "wrecked",
+    "pastParticiple": "wrecked",
+    "presentParticiple": "wrecking",
+    "thirdPerson": "wrecks"
+  },
+  "wrestle": {
+    "infinitive": "wrestle",
+    "perfect": "wrestled",
+    "pastParticiple": "wrestled",
+    "presentParticiple": "wrestling",
+    "thirdPerson": "wrestles"
+  },
+  "wriggle": {
+    "infinitive": "wriggle",
+    "perfect": "wriggled",
+    "pastParticiple": "wriggled",
+    "presentParticiple": "wriggling",
+    "thirdPerson": "wriggles"
+  },
+  "wring": {
+    "infinitive": "wring",
+    "perfect": "wrung",
+    "pastParticiple": "wrang",
+    "presentParticiple": "wringing",
+    "thirdPerson": "wrings"
+  },
+  "write": {
+    "infinitive": "write",
+    "perfect": "wrote",
+    "pastParticiple": "written",
+    "presentParticiple": "writing",
+    "thirdPerson": "writes"
+  },
+  "yawn": {
+    "infinitive": "yawn",
+    "perfect": "yawned",
+    "pastParticiple": "yawned",
+    "presentParticiple": "yawning",
+    "thirdPerson": "yawns"
+  },
+  "yell": {
+    "infinitive": "yell",
+    "perfect": "yelled",
+    "pastParticiple": "yelled",
+    "presentParticiple": "yelling",
+    "thirdPerson": "yells"
+  },
+  "zip": {
+    "infinitive": "zip",
+    "perfect": "zipped",
+    "pastParticiple": "zipped",
+    "presentParticiple": "zipping",
+    "thirdPerson": "zips"
+  },
+  "zoom": {
+    "infinitive": "zoom",
+    "perfect": "zoomed",
+    "pastParticiple": "zoomed",
+    "presentParticiple": "zooming",
+    "thirdPerson": "zooms"
+  },
+  "believe": {
+    "infinitive": "believe",
+    "perfect": "believed",
+    "pastParticiple": "believed",
+    "presentParticiple": "believing",
+    "thirdPerson": "believes"
+  },
+  "reckon": {
+    "infinitive": "reckon",
+    "perfect": "reckoned",
+    "pastParticiple": "reckoned",
+    "presentParticiple": "reckoning",
+    "thirdPerson": "reckons"
+  },
+  "construe": {
+    "infinitive": "construe",
+    "perfect": "construed",
+    "pastParticiple": "construed",
+    "presentParticiple": "construing",
+    "thirdPerson": "construes"
+  },
+  "fry": {
+    "infinitive": "fry",
+    "perfect": "fried",
+    "pastParticiple": "fried",
+    "presentParticiple": "frying",
+    "thirdPerson": "fries"
+  },
+  "bash": {
+    "infinitive": "bash",
+    "perfect": "bashed",
+    "pastParticiple": "bashed",
+    "presentParticiple": "bashing",
+    "thirdPerson": "bashes"
+  },
+  "lift": {
+    "infinitive": "lift",
+    "perfect": "lifted",
+    "pastParticiple": "lifted",
+    "presentParticiple": "lifting",
+    "thirdPerson": "lifts"
+  },
+  "guzzle": {
+    "infinitive": "guzzle",
+    "perfect": "guzzled",
+    "pastParticiple": "guzzled",
+    "presentParticiple": "guzzling",
+    "thirdPerson": "guzzles"
+  },
+  "glide": {
+    "infinitive": "glide",
+    "perfect": "glided",
+    "pastParticiple": "glided",
+    "presentParticiple": "gliding",
+    "thirdPerson": "glides"
+  },
+  "seem": {
+    "infinitive": "seem",
+    "perfect": "seemed",
+    "pastParticiple": "seemed",
+    "presentParticiple": "seeming",
+    "thirdPerson": "seems"
+  },
+  "die": {
+    "infinitive": "die",
+    "perfect": "died",
+    "pastParticiple": "died",
+    "presentParticiple": "dying",
+    "thirdPerson": "dies"
+  },
+  "stab": {
+    "infinitive": "stab",
+    "perfect": "stabbed",
+    "pastParticiple": "stabbed",
+    "presentParticiple": "stabbing",
+    "thirdPerson": "stabs"
+  },
+  "jab": {
+    "infinitive": "jab",
+    "perfect": "jabbed",
+    "pastParticiple": "jabbed",
+    "presentParticiple": "jabbing",
+    "thirdPerson": "jabs"
+  },
+  "find": {
+    "infinitive": "find",
+    "perfect": "found",
+    "pastParticiple": "found",
+    "presentParticiple": "finding",
+    "thirdPerson": "finds"
+  },
+  "distill": {
+    "infinitive": "distill",
+    "perfect": "distilled",
+    "pastParticiple": "distilled",
+    "presentParticiple": "distilling",
+    "thirdPerson": "distills"
+  },
+  "picket": {
+    "infinitive": "picket",
+    "perfect": "picketed",
+    "pastParticiple": "picketed",
+    "presentParticiple": "picketing",
+    "thirdPerson": "pickets"
+  },
+  "lack": {
+    "infinitive": "lack",
+    "perfect": "lacked",
+    "pastParticiple": "lacked",
+    "presentParticiple": "lacking",
+    "thirdPerson": "lacks"
+  },
+  "view": {
+    "infinitive": "view",
+    "perfect": "viewed",
+    "pastParticiple": "viewed",
+    "presentParticiple": "viewing",
+    "thirdPerson": "views"
+  },
+  "regard": {
+    "infinitive": "regard",
+    "perfect": "regarded",
+    "pastParticiple": "regarded",
+    "presentParticiple": "regarding",
+    "thirdPerson": "regards"
+  },
+  "collapse": {
+    "infinitive": "collapse",
+    "perfect": "collapsed",
+    "pastParticiple": "collapsed",
+    "presentParticiple": "collapsing",
+    "thirdPerson": "collapses"
+  },
+  "cave": {
+    "infinitive": "cave",
+    "perfect": "caved",
+    "pastParticiple": "caved",
+    "presentParticiple": "caving",
+    "thirdPerson": "caves"
+  },
+  "soar": {
+    "infinitive": "soar",
+    "perfect": "soared",
+    "pastParticiple": "soared",
+    "presentParticiple": "soaring",
+    "thirdPerson": "soars"
+  },
+  "ascend": {
+    "infinitive": "ascend",
+    "perfect": "ascended",
+    "pastParticiple": "ascended",
+    "presentParticiple": "ascending",
+    "thirdPerson": "ascends"
+  },
+  "descend": {
+    "infinitive": "descend",
+    "perfect": "descended",
+    "pastParticiple": "descended",
+    "presentParticiple": "descending",
+    "thirdPerson": "descends"
+  },
+  "dismount": {
+    "infinitive": "dismount",
+    "perfect": "dismounted",
+    "pastParticiple": "dismounted",
+    "presentParticiple": "dismounting",
+    "thirdPerson": "dismounts"
+  },
+  "persist": {
+    "infinitive": "persist",
+    "perfect": "persisted",
+    "pastParticiple": "persisted",
+    "presentParticiple": "persisting",
+    "thirdPerson": "persists"
+  },
+  "insist": {
+    "infinitive": "insist",
+    "perfect": "insisted",
+    "pastParticiple": "insisted",
+    "presentParticiple": "insisting",
+    "thirdPerson": "insists"
+  },
+  "affect": {
+    "infinitive": "affect",
+    "perfect": "affected",
+    "pastParticiple": "affected",
+    "presentParticiple": "affecting",
+    "thirdPerson": "affects"
+  },
+  "constitute": {
+    "infinitive": "constitute",
+    "perfect": "constituted",
+    "pastParticiple": "constituted",
+    "presentParticiple": "constituting",
+    "thirdPerson": "constitutes"
+  },
+  "depict": {
+    "infinitive": "depict",
+    "perfect": "depicted",
+    "pastParticiple": "depicted",
+    "presentParticiple": "depicting",
+    "thirdPerson": "depicts"
+  },
+  "conform": {
+    "infinitive": "conform",
+    "perfect": "conformed",
+    "pastParticiple": "conformed",
+    "presentParticiple": "conforming",
+    "thirdPerson": "conforms"
+  },
+  "emerge": {
+    "infinitive": "emerge",
+    "perfect": "emerged",
+    "pastParticiple": "emerged",
+    "presentParticiple": "emerging",
+    "thirdPerson": "emerges"
+  },
+  "yield": {
+    "infinitive": "yield",
+    "perfect": "yielded",
+    "pastParticiple": "yielded",
+    "presentParticiple": "yielding",
+    "thirdPerson": "yields"
+  },
+  "declare": {
+    "infinitive": "declare",
+    "perfect": "declared",
+    "pastParticiple": "declared",
+    "presentParticiple": "declaring",
+    "thirdPerson": "declares"
+  },
+  "await": {
+    "infinitive": "await",
+    "perfect": "awaited",
+    "pastParticiple": "awaited",
+    "presentParticiple": "awaiting",
+    "thirdPerson": "awaits"
+  },
+  "narrate": {
+    "infinitive": "narrate",
+    "perfect": "narrated",
+    "pastParticiple": "narrated",
+    "presentParticiple": "narrating",
+    "thirdPerson": "narrates"
+  },
+  "deem": {
+    "infinitive": "deem",
+    "perfect": "deemed",
+    "pastParticiple": "deemed",
+    "presentParticiple": "deeming",
+    "thirdPerson": "deems"
+  },
+  "slice": {
+    "infinitive": "slice",
+    "perfect": "sliced",
+    "pastParticiple": "sliced",
+    "presentParticiple": "slicing",
+    "thirdPerson": "slices"
+  },
+  "equal": {
+    "infinitive": "equal",
+    "perfect": "equaled",
+    "pastParticiple": "equaled",
+    "presentParticiple": "equaling",
+    "thirdPerson": "equals"
+  },
+  "contrast": {
+    "infinitive": "contrast",
+    "perfect": "contrasted",
+    "pastParticiple": "contrasted",
+    "presentParticiple": "contrasting",
+    "thirdPerson": "contrasts"
+  },
+  "feature": {
+    "infinitive": "feature",
+    "perfect": "featured",
+    "pastParticiple": "featured",
+    "presentParticiple": "featuring",
+    "thirdPerson": "features"
+  },
+  "link": {
+    "infinitive": "link",
+    "perfect": "linked",
+    "pastParticiple": "linked",
+    "presentParticiple": "linking",
+    "thirdPerson": "links"
+  },
+  "apply": {
+    "infinitive": "apply",
+    "perfect": "applied",
+    "pastParticiple": "applied",
+    "presentParticiple": "applying",
+    "thirdPerson": "applies"
+  },
+  "pertain": {
+    "infinitive": "pertain",
+    "perfect": "pertained",
+    "pastParticiple": "pertained",
+    "presentParticiple": "pertaining",
+    "thirdPerson": "pertains"
+  },
+  "enquire": {
+    "infinitive": "enquire",
+    "perfect": "enquired",
+    "pastParticiple": "enquired",
+    "presentParticiple": "enquiring",
+    "thirdPerson": "enquires"
+  },
+  "inhale": {
+    "infinitive": "inhale",
+    "perfect": "inhaled",
+    "pastParticiple": "inhaled",
+    "presentParticiple": "inhaling",
+    "thirdPerson": "inhales"
+  },
+  "conceal": {
+    "infinitive": "conceal",
+    "perfect": "concealed",
+    "pastParticiple": "concealed",
+    "presentParticiple": "concealing",
+    "thirdPerson": "conceals"
+  },
+  "plunge": {
+    "infinitive": "plunge",
+    "perfect": "plunged",
+    "pastParticiple": "plunged",
+    "presentParticiple": "plunging",
+    "thirdPerson": "plunges"
+  },
+  "crop": {
+    "infinitive": "crop",
+    "perfect": "cropped",
+    "pastParticiple": "cropped",
+    "presentParticiple": "cropping",
+    "thirdPerson": "crops"
+  },
+  "furnish": {
+    "infinitive": "furnish",
+    "perfect": "furnished",
+    "pastParticiple": "furnished",
+    "presentParticiple": "furnishing",
+    "thirdPerson": "furnishes"
+  },
+  "state": {
+    "infinitive": "state",
+    "perfect": "stated",
+    "pastParticiple": "stated",
+    "presentParticiple": "stating",
+    "thirdPerson": "states"
+  },
+  "testify": {
+    "infinitive": "testify",
+    "perfect": "testified",
+    "pastParticiple": "testified",
+    "presentParticiple": "stating",
+    "thirdPerson": "testifies"
+  },
+  "mop": {
+    "infinitive": "mop",
+    "perfect": "mopped",
+    "pastParticiple": "mopped",
+    "presentParticiple": "mopping",
+    "thirdPerson": "mops"
+  },
+  "inhabit": {
+    "infinitive": "inhabit",
+    "perfect": "inhabited",
+    "pastParticiple": "inhabited",
+    "presentParticiple": "inhabiting",
+    "thirdPerson": "inhabits"
+  },
+  "distil": {
+    "infinitive": "distil",
+    "perfect": "distiled",
+    "pastParticiple": "distiled",
+    "presentParticiple": "distiling",
+    "thirdPerson": "distils"
+  },
+  "burgle": {
+    "infinitive": "burgle",
+    "perfect": "burgled",
+    "pastParticiple": "burgled",
+    "presentParticiple": "burgling",
+    "thirdPerson": "burgles"
+  },
+  "evolve": {
+    "infinitive": "evolve",
+    "perfect": "evolved",
+    "pastParticiple": "evolved",
+    "presentParticiple": "evolving",
+    "thirdPerson": "evolves"
+  },
+  "seize": {
+    "infinitive": "seize",
+    "perfect": "seized",
+    "pastParticiple": "seized",
+    "presentParticiple": "seizing",
+    "thirdPerson": "seizes"
+  },
+  "commission": {
+    "infinitive": "commission",
+    "perfect": "commissioned",
+    "pastParticiple": "commissioned",
+    "presentParticiple": "commissioning",
+    "thirdPerson": "commissions"
+  },
+  "relocate": {
+    "infinitive": "relocate",
+    "perfect": "relocated",
+    "pastParticiple": "relocated",
+    "presentParticiple": "relocating",
+    "thirdPerson": "relocates"
+  },
+  "deploy": {
+    "infinitive": "deploy",
+    "perfect": "deployed",
+    "pastParticiple": "deployed",
+    "presentParticiple": "deploying",
+    "thirdPerson": "deploys"
+  },
+  "retort": {
+    "infinitive": "retort",
+    "perfect": "retorted",
+    "pastParticiple": "retorted",
+    "presentParticiple": "retorting",
+    "thirdPerson": "retorts"
+  },
+  "pan": {
+    "infinitive": "pan",
+    "perfect": "panned",
+    "pastParticiple": "panned",
+    "presentParticiple": "panning",
+    "thirdPerson": "pans"
+  },
+  "open": {
+    "infinitive": "open",
+    "perfect": "opened",
+    "pastParticiple": "opened",
+    "presentParticiple": "opening",
+    "thirdPerson": "opens"
+  },
+  "climb": {
+    "infinitive": "climb",
+    "perfect": "climbed",
+    "pastParticiple": "climbed",
+    "presentParticiple": "climbing",
+    "thirdPerson": "climbs"
+  },
+  "comprehend": {
+    "infinitive": "comprehend",
+    "perfect": "comprehended",
+    "pastParticiple": "comprehended",
+    "presentParticiple": "comprehending",
+    "thirdPerson": "comprehends"
+  },
+  "wiggle": {
+    "infinitive": "wiggle",
+    "perfect": "wiggled",
+    "pastParticiple": "wiggled",
+    "presentParticiple": "wiggling",
+    "thirdPerson": "wiggles"
+  },
+  "fathom": {
+    "infinitive": "fathom",
+    "perfect": "fathomed",
+    "pastParticiple": "fathomed",
+    "presentParticiple": "fathoming",
+    "thirdPerson": "fathoms"
+  },
+  "exclaim": {
+    "infinitive": "exclaim",
+    "perfect": "exclaimed",
+    "pastParticiple": "exclaimed",
+    "presentParticiple": "exclaiming",
+    "thirdPerson": "exclaims"
+  },
+  "dip": {
+    "infinitive": "dip",
+    "perfect": "dipped",
+    "pastParticiple": "dipped",
+    "presentParticiple": "dipping",
+    "thirdPerson": "dips"
+  },
+  "vacate": {
+    "infinitive": "vacate",
+    "perfect": "vacated",
+    "pastParticiple": "vacated",
+    "presentParticiple": "vacating",
+    "thirdPerson": "vacates"
+  },
+  "tidy": {
+    "infinitive": "tidy",
+    "perfect": "tidied",
+    "pastParticiple": "tidied",
+    "presentParticiple": "tidying",
+    "thirdPerson": "tidies"
+  },
+  "stash": {
+    "infinitive": "stash",
+    "perfect": "stashed",
+    "pastParticiple": "stashed",
+    "presentParticiple": "stashing",
+    "thirdPerson": "stashes"
+  },
+  "stammer": {
+    "infinitive": "stammer",
+    "perfect": "stammered",
+    "pastParticiple": "stammered",
+    "presentParticiple": "stammering",
+    "thirdPerson": "stammers"
+  },
+  "stutter": {
+    "infinitive": "stutter",
+    "perfect": "stuttered",
+    "pastParticiple": "stuttered",
+    "presentParticiple": "stuttering",
+    "thirdPerson": "stutters"
+  },
+  "deliberate": {
+    "infinitive": "deliberate",
+    "perfect": "deliberated",
+    "pastParticiple": "deliberated",
+    "presentParticiple": "deliberating",
+    "thirdPerson": "deliberates"
+  },
+  "convey": {
+    "infinitive": "convey",
+    "perfect": "conveyed",
+    "pastParticiple": "conveyed",
+    "presentParticiple": "conveying",
+    "thirdPerson": "conveys"
+  },
+  "comprise": {
+    "infinitive": "comprise",
+    "perfect": "comprised",
+    "pastParticiple": "comprised",
+    "presentParticiple": "comprising",
+    "thirdPerson": "comprises"
+  },
+  "depart": {
+    "infinitive": "depart",
+    "perfect": "departed",
+    "pastParticiple": "departed",
+    "presentParticiple": "departing",
+    "thirdPerson": "departs"
+  }
+}

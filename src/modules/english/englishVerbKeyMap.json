@@ -2,569 +2,690 @@
   "have": {
     "language": "en",
     "translations": {
-      "de": ["haben", "müssen"]
+      "de": [
+        "haben",
+        "müssen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "have"
   },
   "be": {
     "language": "en",
     "translations": {
-      "de": ["sein"]
+      "de": [
+        "sein"
+      ]
     },
     "complements": {
       "expected": {
-        "de": ["sollen"]
+        "de": [
+          "sollen"
+        ]
       },
       "authorized": {
-        "de": ["dürfen"]
+        "de": [
+          "dürfen"
+        ]
       },
       "called": {
-        "de": ["heißen"]
+        "de": [
+          "heißen"
+        ]
       }
     },
-    "particles": {},
+    "particle": {},
     "wordBase": "be"
   },
   "become": {
     "language": "en",
     "translations": {
-      "de": ["werden"]
+      "de": [
+        "werden"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "become"
   },
   "grow": {
     "language": "en",
     "translations": {
-      "de": ["werden", "wachsen"]
+      "de": [
+        "werden",
+        "wachsen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "grow"
   },
   "can": {
     "language": "en",
     "translations": {
-      "de": ["können"]
+      "de": [
+        "können"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "can"
   },
   "may": {
     "language": "en",
     "translations": {
-      "de": ["können"]
+      "de": [
+        "können"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "may"
   },
-  "are": {
+  "know": {
     "language": "en",
     "translations": {
-      "de": []
+      "de": [
+        "wissen",
+        "kennen"
+      ]
     },
     "complements": {
-      "able to": {
-        "de": ["können"]
+      "how": {
+        "de": [
+          "können"
+        ]
       }
     },
-    "particles": {},
-    "wordBase": "are"
-  },
-  "to": {
-    "language": "en",
-    "translations": {
-      "de": []
-    },
-    "complements": {
-      "know how": {
-        "de": ["können"]
-      },
-      "occur to": {
-        "de": ["ein|fallen"]
-      }
-    },
-    "particles": {},
-    "wordBase": "to"
+    "particle": {},
+    "wordBase": "know"
   },
   "want": {
     "language": "en",
     "translations": {
-      "de": ["wollen"]
+      "de": [
+        "wollen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "want"
   },
   "must": {
     "language": "en",
     "translations": {
-      "de": ["dürfen"]
+      "de": [
+        "dürfen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "must"
   },
   "like": {
     "language": "en",
     "translations": {
-      "de": ["mögen"]
+      "de": [
+        "mögen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "like"
-  },
-  "know": {
-    "language": "en",
-    "translations": {
-      "de": ["wissen", "kennen"]
-    },
-    "complements": {},
-    "particles": {},
-    "wordBase": "know"
   },
   "let": {
     "language": "en",
     "translations": {
-      "de": ["lassen"]
+      "de": [
+        "lassen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "let"
   },
   "go": {
     "language": "en",
     "translations": {
-      "de": ["gehen"]
+      "de": [
+        "gehen"
+      ]
     },
     "complements": {
       "flying": {
-        "de": ["runter|fallen"]
+        "de": [
+          "runter|fallen"
+        ]
       }
     },
-    "particles": {},
+    "particle": {},
     "wordBase": "go"
   },
   "run": {
     "language": "en",
     "translations": {
-      "de": ["laufen", "rennen"]
+      "de": [
+        "laufen",
+        "rennen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "run"
   },
   "write": {
     "language": "en",
     "translations": {
-      "de": ["schreiben"]
+      "de": [
+        "schreiben"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "write"
   },
   "follow": {
     "language": "en",
     "translations": {
-      "de": ["folgen"]
+      "de": [
+        "folgen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "follow"
   },
   "grasp": {
     "language": "en",
     "translations": {
-      "de": ["greifen", "ergreifen"]
+      "de": [
+        "greifen",
+        "ergreifen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "grasp"
   },
   "grab": {
     "language": "en",
     "translations": {
-      "de": ["greifen", "schnappen"]
+      "de": [
+        "greifen",
+        "schnappen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "grab"
   },
   "whistle": {
     "language": "en",
     "translations": {
-      "de": ["pfeifen"]
+      "de": [
+        "pfeifen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "whistle"
   },
   "scream": {
     "language": "en",
     "translations": {
-      "de": ["schreien"]
+      "de": [
+        "schreien"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "scream"
   },
   "succeed": {
     "language": "en",
     "translations": {
-      "de": ["gelingen"]
+      "de": [
+        "gelingen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "succeed"
   },
   "give": {
     "language": "en",
     "translations": {
-      "de": ["geben"]
+      "de": [
+        "geben"
+      ]
     },
     "complements": {
       "birth": {
-        "de": ["gebären"]
+        "de": [
+          "gebären"
+        ]
       }
     },
-    "particles": {},
+    "particle": {},
     "wordBase": "give"
   },
   "advise": {
     "language": "en",
     "translations": {
-      "de": ["beraten", "raten"]
+      "de": [
+        "beraten",
+        "raten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "advise"
   },
   "discuss": {
     "language": "en",
     "translations": {
-      "de": ["beraten"]
+      "de": [
+        "beraten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "discuss"
   },
   "hang": {
     "language": "en",
     "translations": {
-      "de": ["hängen"]
+      "de": [
+        "hängen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "hang"
   },
   "suffer": {
     "language": "en",
     "translations": {
-      "de": ["leiden"]
+      "de": [
+        "leiden"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "suffer"
   },
   "hold": {
     "language": "en",
     "translations": {
-      "de": ["halten"]
+      "de": [
+        "halten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "hold"
   },
   "keep": {
     "language": "en",
     "translations": {
-      "de": ["halten"]
+      "de": [
+        "halten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "keep"
   },
   "sleep": {
     "language": "en",
     "translations": {
-      "de": ["schlafen"]
+      "de": [
+        "schlafen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "sleep"
   },
   "say": {
     "language": "en",
     "translations": {
-      "de": ["sagen"]
+      "de": [
+        "sagen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "say"
   },
   "play": {
     "language": "en",
     "translations": {
-      "de": ["spielen"]
+      "de": [
+        "spielen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "play"
   },
   "make": {
     "language": "en",
     "translations": {
-      "de": ["machen"]
+      "de": [
+        "machen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "make"
   },
   "ask": {
     "language": "en",
     "translations": {
-      "de": ["fragen", "erkundigen"]
+      "de": [
+        "fragen",
+        "erkundigen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "ask"
   },
   "believe": {
     "language": "en",
     "translations": {
-      "de": ["glauben"]
+      "de": [
+        "glauben"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "believe"
   },
   "reckon": {
     "language": "en",
     "translations": {
-      "de": ["glauben"]
+      "de": [
+        "glauben"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "reckon"
   },
   "live": {
     "language": "en",
     "translations": {
-      "de": ["leben"]
+      "de": [
+        "leben"
+      ]
     },
     "complements": {
       "(somewhere)": {
-        "de": ["wohnen"]
+        "de": [
+          "wohnen"
+        ]
       }
     },
-    "particles": {},
+    "particle": {},
     "wordBase": "live"
   },
   "learn": {
     "language": "en",
     "translations": {
-      "de": ["lernen"]
+      "de": [
+        "lernen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "learn"
   },
   "speak": {
     "language": "en",
     "translations": {
-      "de": ["reden", "sprechen"]
+      "de": [
+        "reden",
+        "sprechen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "speak"
   },
   "mean": {
     "language": "en",
     "translations": {
-      "de": ["bedeuten", "meinen"]
+      "de": [
+        "bedeuten",
+        "meinen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "mean"
   },
   "belong": {
     "language": "en",
     "translations": {
-      "de": ["gehören"]
+      "de": [
+        "gehören"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "belong"
   },
   "buy": {
     "language": "en",
     "translations": {
-      "de": ["kaufen"]
+      "de": [
+        "kaufen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "buy"
   },
   "taste": {
     "language": "en",
     "translations": {
-      "de": ["schmecken"]
+      "de": [
+        "schmecken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "taste"
   },
   "wait": {
     "language": "en",
     "translations": {
-      "de": ["warten"]
+      "de": [
+        "warten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "wait"
   },
   "inhabit": {
     "language": "en",
     "translations": {
-      "de": ["wohnen"]
+      "de": [
+        "wohnen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "inhabit"
   },
   "work": {
     "language": "en",
     "translations": {
-      "de": ["arbeiten"]
+      "de": [
+        "arbeiten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "work"
   },
   "need": {
     "language": "en",
     "translations": {
-      "de": ["brauchen"]
+      "de": [
+        "brauchen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "need"
   },
   "put": {
     "language": "en",
     "translations": {
-      "de": ["setzen", "legen", "stellen", "stecken"]
+      "de": [
+        "setzen",
+        "legen",
+        "stellen",
+        "stecken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "put"
   },
   "set": {
     "language": "en",
     "translations": {
-      "de": ["setzen"]
+      "de": [
+        "setzen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "set"
   },
   "search": {
     "language": "en",
     "translations": {
-      "de": ["suchen"]
+      "de": [
+        "suchen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "search"
   },
   "attempt": {
     "language": "en",
     "translations": {
-      "de": ["versuchen"]
+      "de": [
+        "versuchen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "attempt"
   },
   "try": {
     "language": "en",
     "translations": {
-      "de": ["versuchen"]
+      "de": [
+        "versuchen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "try"
   },
   "build": {
     "language": "en",
     "translations": {
-      "de": ["bauen", "bilden"]
+      "de": [
+        "bauen",
+        "bilden"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "build"
   },
   "meet": {
     "language": "en",
     "translations": {
-      "de": ["tagen", "treffen"]
+      "de": [
+        "tagen",
+        "treffen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "meet"
   },
   "construe": {
     "language": "en",
     "translations": {
-      "de": ["deuten"]
+      "de": [
+        "deuten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "construe"
   },
   "interpret": {
     "language": "en",
     "translations": {
-      "de": ["deuten"]
+      "de": [
+        "deuten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "interpret"
   },
   "hear": {
     "language": "en",
     "translations": {
-      "de": ["hören"]
+      "de": [
+        "hören"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "hear"
   },
   "listen": {
     "language": "en",
     "translations": {
-      "de": ["hören", "zu|hören"]
+      "de": [
+        "hören",
+        "zu|hören"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "listen"
   },
   "fall": {
     "language": "en",
     "translations": {
-      "de": ["fallen"]
+      "de": [
+        "fallen"
+      ]
     },
     "complements": {
       "asleep": {
-        "de": ["ein|schlafen"]
+        "de": [
+          "ein|schlafen"
+        ]
       }
     },
-    "particles": {},
+    "particle": {},
     "wordBase": "fall"
   },
   "fall|to": {
@@ -574,12 +695,16 @@
     },
     "complements": {
       "to pieces": {
-        "de": ["zerfallen"]
+        "de": [
+          "zerfallen"
+        ]
       }
     },
-    "particles": {
+    "particle": {
       "to": {
-        "de": ["zerfallen"]
+        "de": [
+          "zerfallen"
+        ]
       }
     },
     "wordBase": "fall"
@@ -587,895 +712,1118 @@
   "catch": {
     "language": "en",
     "translations": {
-      "de": ["fangen", "erwischen", "fassen"]
+      "de": [
+        "fangen",
+        "erwischen",
+        "fassen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "catch"
   },
   "fry": {
     "language": "en",
     "translations": {
-      "de": ["braten"]
+      "de": [
+        "braten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "fry"
   },
   "guess": {
     "language": "en",
     "translations": {
-      "de": ["raten", "denken"]
+      "de": [
+        "raten",
+        "denken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "guess"
   },
   "drive": {
     "language": "en",
     "translations": {
-      "de": ["fahren"]
+      "de": [
+        "fahren"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "drive"
   },
   "ride": {
     "language": "en",
     "translations": {
-      "de": ["fahren", "reiten"]
+      "de": [
+        "fahren",
+        "reiten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "ride"
   },
   "dig": {
     "language": "en",
     "translations": {
-      "de": ["graben"]
+      "de": [
+        "graben"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "dig"
   },
   "strike": {
     "language": "en",
     "translations": {
-      "de": ["schlagen", "treffen"]
+      "de": [
+        "schlagen",
+        "treffen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "strike"
   },
   "bash": {
     "language": "en",
     "translations": {
-      "de": ["schlagen"]
+      "de": [
+        "schlagen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "bash"
   },
   "hit": {
     "language": "en",
     "translations": {
-      "de": ["schlagen", "treffen"]
+      "de": [
+        "schlagen",
+        "treffen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "hit"
   },
   "beat": {
     "language": "en",
     "translations": {
-      "de": ["schlagen"]
+      "de": [
+        "schlagen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "beat"
   },
   "wash": {
     "language": "en",
     "translations": {
-      "de": ["waschen"]
+      "de": [
+        "waschen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "wash"
   },
   "carry": {
     "language": "en",
     "translations": {
-      "de": ["tragen"]
+      "de": [
+        "tragen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "carry"
   },
   "wear": {
     "language": "en",
     "translations": {
-      "de": ["tragen"]
+      "de": [
+        "tragen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "wear"
   },
   "load": {
     "language": "en",
     "translations": {
-      "de": ["laden"]
+      "de": [
+        "laden"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "load"
   },
   "lie": {
     "language": "en",
     "translations": {
-      "de": ["liegen", "lügen"]
+      "de": [
+        "liegen",
+        "lügen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "lie"
   },
   "sit": {
     "language": "en",
     "translations": {
-      "de": ["sitzen"]
+      "de": [
+        "sitzen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "sit"
   },
   "read": {
     "language": "en",
     "translations": {
-      "de": ["lesen", "vor|lesen"]
+      "de": [
+        "lesen",
+        "vor|lesen"
+      ]
     },
     "complements": {
       "aloud": {
-        "de": ["vor|lesen"]
+        "de": [
+          "vor|lesen"
+        ]
       }
     },
-    "particles": {},
+    "particle": {},
     "wordBase": "read"
   },
   "kick": {
     "language": "en",
     "translations": {
-      "de": ["treten"]
+      "de": [
+        "treten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "kick"
   },
   "eat": {
     "language": "en",
     "translations": {
-      "de": ["essen"]
+      "de": [
+        "essen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "eat"
   },
   "see": {
     "language": "en",
     "translations": {
-      "de": ["sehen", "schauen"]
+      "de": [
+        "sehen",
+        "schauen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "see"
   },
   "happen": {
     "language": "en",
     "translations": {
-      "de": ["geschehen"]
+      "de": [
+        "geschehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "happen"
   },
   "fly": {
     "language": "en",
     "translations": {
-      "de": ["fliegen"]
+      "de": [
+        "fliegen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "fly"
   },
   "flee": {
     "language": "en",
     "translations": {
-      "de": ["fliehen"]
+      "de": [
+        "fliehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "flee"
   },
   "flow": {
     "language": "en",
     "translations": {
-      "de": ["fließen"]
+      "de": [
+        "fließen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "flow"
   },
   "freeze": {
     "language": "en",
     "translations": {
-      "de": ["frieren"]
+      "de": [
+        "frieren"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "freeze"
   },
   "bend": {
     "language": "en",
     "translations": {
-      "de": ["biegen"]
+      "de": [
+        "biegen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "bend"
   },
   "offer": {
     "language": "en",
     "translations": {
-      "de": ["bieten", "an|bieten"]
+      "de": [
+        "bieten",
+        "an|bieten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "offer"
   },
   "pull": {
     "language": "en",
     "translations": {
-      "de": ["ziehen"]
+      "de": [
+        "ziehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "pull"
   },
   "weigh": {
     "language": "en",
     "translations": {
-      "de": ["wiegen"]
+      "de": [
+        "wiegen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "weigh"
   },
   "pour": {
     "language": "en",
     "translations": {
-      "de": ["gießen"]
+      "de": [
+        "gießen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "pour"
   },
   "smell": {
     "language": "en",
     "translations": {
-      "de": ["riechen"]
+      "de": [
+        "riechen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "smell"
   },
   "push": {
     "language": "en",
     "translations": {
-      "de": ["schieben"]
+      "de": [
+        "schieben"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "push"
   },
   "shoot": {
     "language": "en",
     "translations": {
-      "de": ["schießen"]
+      "de": [
+        "schießen"
+      ]
     },
     "complements": {
       "(film)": {
-        "de": ["drehen"]
+        "de": [
+          "drehen"
+        ]
       }
     },
-    "particles": {},
+    "particle": {},
     "wordBase": "shoot"
   },
   "close": {
     "language": "en",
     "translations": {
-      "de": ["schließen"]
+      "de": [
+        "schließen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "close"
   },
   "lift": {
     "language": "en",
     "translations": {
-      "de": ["heben"]
+      "de": [
+        "heben"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "lift"
   },
   "guzzle": {
     "language": "en",
     "translations": {
-      "de": ["saufen"]
+      "de": [
+        "saufen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "guzzle"
   },
   "melt": {
     "language": "en",
     "translations": {
-      "de": ["schmelzen"]
+      "de": [
+        "schmelzen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "melt"
   },
   "enjoy": {
     "language": "en",
     "translations": {
-      "de": ["genießen"]
+      "de": [
+        "genießen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "enjoy"
   },
   "lose": {
     "language": "en",
     "translations": {
-      "de": ["verlieren"]
+      "de": [
+        "verlieren"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "lose"
   },
   "remain": {
     "language": "en",
     "translations": {
-      "de": ["bleiben"]
+      "de": [
+        "bleiben"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "remain"
   },
   "stay": {
     "language": "en",
     "translations": {
-      "de": ["bleiben"]
+      "de": [
+        "bleiben"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "stay"
   },
   "rub": {
     "language": "en",
     "translations": {
-      "de": ["reiben"]
+      "de": [
+        "reiben"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "rub"
   },
   "glide": {
     "language": "en",
     "translations": {
-      "de": ["gleiten"]
+      "de": [
+        "gleiten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "glide"
   },
   "tear": {
     "language": "en",
     "translations": {
-      "de": ["reißen"]
+      "de": [
+        "reißen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "tear"
   },
   "bite": {
     "language": "en",
     "translations": {
-      "de": ["beißen"]
+      "de": [
+        "beißen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "bite"
   },
   "shit": {
     "language": "en",
     "translations": {
-      "de": ["scheißen"]
+      "de": [
+        "scheißen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "shit"
   },
   "lend": {
     "language": "en",
     "translations": {
-      "de": ["leihen"]
+      "de": [
+        "leihen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "lend"
   },
   "borrow": {
     "language": "en",
     "translations": {
-      "de": ["leihen"]
+      "de": [
+        "leihen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "borrow"
   },
   "shine": {
     "language": "en",
     "translations": {
-      "de": ["scheinen", "brennen"]
+      "de": [
+        "scheinen",
+        "brennen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "shine"
   },
   "seem": {
     "language": "en",
     "translations": {
-      "de": ["scheinen", "erscheinen"]
+      "de": [
+        "scheinen",
+        "erscheinen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "seem"
   },
   "avoid": {
     "language": "en",
     "translations": {
-      "de": ["meiden"]
+      "de": [
+        "meiden"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "avoid"
   },
   "rise": {
     "language": "en",
     "translations": {
-      "de": ["steigen", "auf|gehen"]
+      "de": [
+        "steigen",
+        "auf|gehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "rise"
   },
   "forgive": {
     "language": "en",
     "translations": {
-      "de": ["verzeihen"]
+      "de": [
+        "verzeihen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "forgive"
   },
   "begin": {
     "language": "en",
     "translations": {
-      "de": ["beginnen", "an|fangen"]
+      "de": [
+        "beginnen",
+        "an|fangen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "begin"
   },
   "come": {
     "language": "en",
     "translations": {
-      "de": ["kommen"]
+      "de": [
+        "kommen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "come"
   },
   "take": {
     "language": "en",
     "translations": {
-      "de": ["nehmen", "bringen"]
+      "de": [
+        "nehmen",
+        "bringen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "take"
   },
   "die": {
     "language": "en",
     "translations": {
-      "de": ["sterben"]
+      "de": [
+        "sterben"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "die"
   },
   "break": {
     "language": "en",
     "translations": {
-      "de": ["brechen"]
+      "de": [
+        "brechen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "break"
   },
   "help": {
     "language": "en",
     "translations": {
-      "de": ["helfen"]
+      "de": [
+        "helfen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "help"
   },
   "stab": {
     "language": "en",
     "translations": {
-      "de": ["stechen"]
+      "de": [
+        "stechen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "stab"
   },
   "sting": {
     "language": "en",
     "translations": {
-      "de": ["stechen"]
+      "de": [
+        "stechen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "sting"
   },
   "jab": {
     "language": "en",
     "translations": {
-      "de": ["stechen"]
+      "de": [
+        "stechen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "jab"
   },
   "steal": {
     "language": "en",
     "translations": {
-      "de": ["stehlen"]
+      "de": [
+        "stehlen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "steal"
   },
   "throw": {
     "language": "en",
     "translations": {
-      "de": ["werfen"]
+      "de": [
+        "werfen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "throw"
   },
   "swim": {
     "language": "en",
     "translations": {
-      "de": ["schwimmen"]
+      "de": [
+        "schwimmen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "swim"
   },
   "recommend": {
     "language": "en",
     "translations": {
-      "de": ["empfehlen"]
+      "de": [
+        "empfehlen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "recommend"
   },
   "win": {
     "language": "en",
     "translations": {
-      "de": ["gewinnen"]
+      "de": [
+        "gewinnen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "win"
   },
   "bind": {
     "language": "en",
     "translations": {
-      "de": ["binden"]
+      "de": [
+        "binden"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "bind"
   },
   "find": {
     "language": "en",
     "translations": {
-      "de": ["finden"]
+      "de": [
+        "finden"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "find"
   },
   "drink": {
     "language": "en",
     "translations": {
-      "de": ["trinken"]
+      "de": [
+        "trinken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "drink"
   },
   "stink": {
     "language": "en",
     "translations": {
-      "de": ["stinken"]
+      "de": [
+        "stinken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "stink"
   },
   "sink": {
     "language": "en",
     "translations": {
-      "de": ["sinken"]
+      "de": [
+        "sinken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "sink"
   },
   "jump": {
     "language": "en",
     "translations": {
-      "de": ["springen"]
+      "de": [
+        "springen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "jump"
   },
   "sing": {
     "language": "en",
     "translations": {
-      "de": ["singen"]
+      "de": [
+        "singen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "sing"
   },
   "force": {
     "language": "en",
     "translations": {
-      "de": ["zwingen"]
+      "de": [
+        "zwingen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "force"
   },
   "burn": {
     "language": "en",
     "translations": {
-      "de": ["brennen"]
+      "de": [
+        "brennen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "burn"
   },
   "distil": {
     "language": "en",
     "translations": {
-      "de": ["brennen"]
+      "de": [
+        "brennen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "distil"
   },
   "think": {
     "language": "en",
     "translations": {
-      "de": ["denken", "über|legen"]
+      "de": [
+        "denken",
+        "über|legen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "think"
   },
   "bring": {
     "language": "en",
     "translations": {
-      "de": ["bringen", "mit|bringen"]
+      "de": [
+        "bringen",
+        "mit|bringen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "bring"
   },
   "stand": {
     "language": "en",
     "translations": {
-      "de": ["stehen"]
+      "de": [
+        "stehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "stand"
   },
   "do": {
     "language": "en",
     "translations": {
-      "de": ["tun"]
+      "de": [
+        "tun"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "do"
   },
   "race": {
     "language": "en",
     "translations": {
-      "de": ["rennen"]
+      "de": [
+        "rennen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "race"
   },
   "name": {
     "language": "en",
     "translations": {
-      "de": ["nennen"]
+      "de": [
+        "nennen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "name"
   },
   "wake": {
     "language": "en",
     "translations": {
-      "de": ["wachen"]
+      "de": [
+        "wachen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "wake"
   },
   "picket": {
     "language": "en",
     "translations": {
-      "de": ["wachen"]
+      "de": [
+        "wachen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "picket"
   },
   "lack": {
     "language": "en",
     "translations": {
-      "de": ["fehlen"]
+      "de": [
+        "fehlen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "lack"
   },
   "miss": {
     "language": "en",
     "translations": {
-      "de": ["fehlen"]
+      "de": [
+        "fehlen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "miss"
   },
   "slip": {
     "language": "en",
     "translations": {
-      "de": ["rutschen"]
+      "de": [
+        "rutschen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "slip"
   },
   "slide": {
     "language": "en",
     "translations": {
-      "de": ["rutschen", "vergehen"]
+      "de": [
+        "rutschen",
+        "vergehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "slide"
   },
   "provide": {
     "language": "en",
     "translations": {
-      "de": ["an|bieten"]
+      "de": [
+        "an|bieten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "provide"
   },
   "inspect": {
     "language": "en",
     "translations": {
-      "de": ["an|sehen"]
+      "de": [
+        "an|sehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "inspect"
   },
   "view": {
     "language": "en",
     "translations": {
-      "de": ["an|sehen"]
+      "de": [
+        "an|sehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "view"
   },
   "regard": {
     "language": "en",
     "translations": {
-      "de": ["an|sehen"]
+      "de": [
+        "an|sehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "regard"
   },
   "appear": {
     "language": "en",
     "translations": {
-      "de": ["aus|sehen", "erscheinen", "auf|tauchen"]
+      "de": [
+        "aus|sehen",
+        "erscheinen",
+        "auf|tauchen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "appear"
   },
   "get": {
     "language": "en",
     "translations": {
-      "de": ["bekommen"]
+      "de": [
+        "bekommen"
+      ]
     },
     "complements": {
       "hold of": {
-        "de": ["erwischen"]
+        "de": [
+          "erwischen"
+        ]
       }
     },
-    "particles": {},
+    "particle": {},
     "wordBase": "get"
   },
   "crack": {
     "language": "en",
     "translations": {
-      "de": ["ein|brechen"]
+      "de": [
+        "ein|brechen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "crack"
   },
   "burgle": {
     "language": "en",
     "translations": {
-      "de": ["ein|brechen"]
+      "de": [
+        "ein|brechen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "burgle"
   },
   "collapse": {
     "language": "en",
     "translations": {
-      "de": ["ein|brechen", "ein|fallen"]
+      "de": [
+        "ein|brechen",
+        "ein|fallen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "collapse"
   },
   "freeze|to": {
@@ -1485,12 +1833,16 @@
     },
     "complements": {
       "to death": {
-        "de": ["er|frieren"]
+        "de": [
+          "er|frieren"
+        ]
       }
     },
-    "particles": {
+    "particle": {
       "to": {
-        "de": ["er|frieren"]
+        "de": [
+          "er|frieren"
+        ]
       }
     },
     "wordBase": "freeze"
@@ -1498,676 +1850,830 @@
   "soar": {
     "language": "en",
     "translations": {
-      "de": ["auf|steigen"]
+      "de": [
+        "auf|steigen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "soar"
   },
   "ascend": {
     "language": "en",
     "translations": {
-      "de": ["auf|steigen"]
+      "de": [
+        "auf|steigen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "ascend"
   },
   "descend": {
     "language": "en",
     "translations": {
-      "de": ["ab|steigen"]
+      "de": [
+        "ab|steigen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "descend"
   },
   "dismount": {
     "language": "en",
     "translations": {
-      "de": ["ab|steigen"]
+      "de": [
+        "ab|steigen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "dismount"
   },
   "persist": {
     "language": "en",
     "translations": {
-      "de": ["bestehen"]
+      "de": [
+        "bestehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "persist"
   },
   "insist": {
     "language": "en",
     "translations": {
-      "de": ["bestehen"]
+      "de": [
+        "bestehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "insist"
   },
   "concern": {
     "language": "en",
     "translations": {
-      "de": ["betreffen"]
+      "de": [
+        "betreffen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "concern"
   },
   "affect": {
     "language": "en",
     "translations": {
-      "de": ["betreffen"]
+      "de": [
+        "betreffen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "affect"
   },
   "constitute": {
     "language": "en",
     "translations": {
-      "de": ["dar|stellen"]
+      "de": [
+        "dar|stellen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "constitute"
   },
   "depict": {
     "language": "en",
     "translations": {
-      "de": ["dar|stellen"]
+      "de": [
+        "dar|stellen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "depict"
   },
   "match": {
     "language": "en",
     "translations": {
-      "de": ["entsprechen"]
+      "de": [
+        "entsprechen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "match"
   },
   "conform": {
     "language": "en",
     "translations": {
-      "de": ["entsprechen"]
+      "de": [
+        "entsprechen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "conform"
   },
   "emerge": {
     "language": "en",
     "translations": {
-      "de": ["entstehen"]
+      "de": [
+        "entstehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "emerge"
   },
   "arise": {
     "language": "en",
     "translations": {
-      "de": ["entstehen"]
+      "de": [
+        "entstehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "arise"
   },
   "yield": {
     "language": "en",
     "translations": {
-      "de": ["ergeben"]
+      "de": [
+        "ergeben"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "yield"
   },
   "obtain": {
     "language": "en",
     "translations": {
-      "de": ["erhalten"]
+      "de": [
+        "erhalten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "obtain"
   },
   "realize": {
     "language": "en",
     "translations": {
-      "de": ["erkennen"]
+      "de": [
+        "erkennen",
+        "auf|gehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "realize"
   },
   "explain": {
     "language": "en",
     "translations": {
-      "de": ["erklären"]
+      "de": [
+        "erklären"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "explain"
   },
   "declare": {
     "language": "en",
     "translations": {
-      "de": ["erklären"]
+      "de": [
+        "erklären"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "declare"
   },
   "achieve": {
     "language": "en",
     "translations": {
-      "de": ["erreichen"]
+      "de": [
+        "erreichen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "achieve"
   },
   "expect": {
     "language": "en",
     "translations": {
-      "de": ["erwarten"]
+      "de": [
+        "erwarten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "expect"
   },
   "await": {
     "language": "en",
     "translations": {
-      "de": ["erwarten"]
+      "de": [
+        "erwarten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "await"
   },
   "tell": {
     "language": "en",
     "translations": {
-      "de": ["erzählen"]
+      "de": [
+        "erzählen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "tell"
   },
   "narrate": {
     "language": "en",
     "translations": {
-      "de": ["erzählen"]
+      "de": [
+        "erzählen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "narrate"
   },
   "feel": {
     "language": "en",
     "translations": {
-      "de": ["erzählen"]
+      "de": [
+        "erzählen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "feel"
   },
   "sense": {
     "language": "en",
     "translations": {
-      "de": ["erzählen"]
+      "de": [
+        "erzählen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "sense"
   },
   "lead": {
     "language": "en",
     "translations": {
-      "de": ["führen"]
+      "de": [
+        "führen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "lead"
   },
   "guide": {
     "language": "en",
     "translations": {
-      "de": ["führen"]
+      "de": [
+        "führen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "guide"
   },
   "interest": {
     "language": "en",
     "translations": {
-      "de": ["interessieren"]
+      "de": [
+        "interessieren"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "interest"
   },
   "study": {
     "language": "en",
     "translations": {
-      "de": ["studieren"]
+      "de": [
+        "studieren"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "study"
   },
   "lay": {
     "language": "en",
     "translations": {
-      "de": ["legen"]
+      "de": [
+        "legen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "lay"
   },
   "deem": {
     "language": "en",
     "translations": {
-      "de": ["meinen"]
+      "de": [
+        "meinen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "deem"
   },
   "create": {
     "language": "en",
     "translations": {
-      "de": ["schaffen"]
+      "de": [
+        "schaffen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "create"
   },
   "accomplish": {
     "language": "en",
     "translations": {
-      "de": ["schaffen"]
+      "de": [
+        "schaffen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "accomplish"
   },
   "slice": {
     "language": "en",
     "translations": {
-      "de": ["scheiben"]
+      "de": [
+        "scheiben"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "slice"
   },
   "place": {
     "language": "en",
     "translations": {
-      "de": ["stellen"]
+      "de": [
+        "stellen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "place"
   },
   "introduce": {
     "language": "en",
     "translations": {
-      "de": ["vor|stellen"]
+      "de": [
+        "vor|stellen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "introduce"
   },
   "vanish": {
     "language": "en",
     "translations": {
-      "de": ["vergehen"]
+      "de": [
+        "vergehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "vanish"
   },
   "equal": {
     "language": "en",
     "translations": {
-      "de": ["gleichen"]
+      "de": [
+        "gleichen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "equal"
   },
   "compare": {
     "language": "en",
     "translations": {
-      "de": ["vergleichen"]
+      "de": [
+        "vergleichen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "compare"
   },
   "contrast": {
     "language": "en",
     "translations": {
-      "de": ["vergleichen"]
+      "de": [
+        "vergleichen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "contrast"
   },
   "exhibit": {
     "language": "en",
     "translations": {
-      "de": ["zeigen"]
+      "de": [
+        "zeigen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "exhibit"
   },
   "feature": {
     "language": "en",
     "translations": {
-      "de": ["zeigen"]
+      "de": [
+        "zeigen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "feature"
   },
   "understand": {
     "language": "en",
     "translations": {
-      "de": ["verstehen", "fassen", "begreifen"]
+      "de": [
+        "verstehen",
+        "fassen",
+        "begreifen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "understand"
   },
   "misunderstand": {
     "language": "en",
     "translations": {
-      "de": ["mißverstehen"]
+      "de": [
+        "mißverstehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "misunderstand"
   },
   "connect": {
     "language": "en",
     "translations": {
-      "de": ["verbinden"]
+      "de": [
+        "verbinden"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "connect"
   },
   "link": {
     "language": "en",
     "translations": {
-      "de": ["verbinden"]
+      "de": [
+        "verbinden"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "link"
   },
   "apply": {
     "language": "en",
     "translations": {
-      "de": ["gelten"]
+      "de": [
+        "gelten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "apply"
   },
   "pertain": {
     "language": "en",
     "translations": {
-      "de": ["gelten"]
+      "de": [
+        "gelten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "pertain"
   },
   "develop": {
     "language": "en",
     "translations": {
-      "de": ["entwickeln"]
+      "de": [
+        "entwickeln"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "develop"
   },
   "evolve": {
     "language": "en",
     "translations": {
-      "de": ["entwickeln"]
+      "de": [
+        "entwickeln"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "evolve"
   },
   "deal": {
     "language": "en",
     "translations": {
-      "de": ["handeln"]
+      "de": [
+        "handeln"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "deal"
   },
   "negotiate": {
     "language": "en",
     "translations": {
-      "de": ["handeln"]
+      "de": [
+        "handeln"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "negotiate"
   },
   "remember": {
     "language": "en",
     "translations": {
-      "de": ["erinnern"]
+      "de": [
+        "erinnern"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "remember"
   },
   "teach": {
     "language": "en",
     "translations": {
-      "de": ["lehren"]
+      "de": [
+        "lehren"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "teach"
   },
   "cost": {
     "language": "en",
     "translations": {
-      "de": ["kosten"]
+      "de": [
+        "kosten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "cost"
   },
   "pack": {
     "language": "en",
     "translations": {
-      "de": ["packen"]
+      "de": [
+        "packen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "pack"
   },
   "promise": {
     "language": "en",
     "translations": {
-      "de": ["versprechen"]
+      "de": [
+        "versprechen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "promise"
   },
   "inform": {
     "language": "en",
     "translations": {
-      "de": ["mit|teilen"]
+      "de": [
+        "mit|teilen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "inform"
   },
   "communicate": {
     "language": "en",
     "translations": {
-      "de": ["mit|teilen"]
+      "de": [
+        "mit|teilen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "communicate"
   },
   "share": {
     "language": "en",
     "translations": {
-      "de": ["teilen"]
+      "de": [
+        "teilen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "share"
   },
   "divide": {
     "language": "en",
     "translations": {
-      "de": ["teilen"]
+      "de": [
+        "teilen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "divide"
   },
   "enquire": {
     "language": "en",
     "translations": {
-      "de": ["erkundigen"]
+      "de": [
+        "erkundigen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "enquire"
   },
   "hope": {
     "language": "en",
     "translations": {
-      "de": ["hoffen"]
+      "de": [
+        "hoffen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "hope"
   },
   "plan": {
     "language": "en",
     "translations": {
-      "de": ["planen"]
+      "de": [
+        "planen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "plan"
   },
   "inhale": {
     "language": "en",
     "translations": {
-      "de": ["ein|atmen"]
+      "de": [
+        "ein|atmen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "inhale"
   },
   "breathe": {
     "language": "en",
     "translations": {
-      "de": ["atmen"]
+      "de": [
+        "atmen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "breathe"
   },
   "conceal": {
     "language": "en",
     "translations": {
-      "de": ["verheimlichen", "verstecken"]
+      "de": [
+        "verheimlichen",
+        "verstecken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "conceal"
   },
   "spin": {
     "language": "en",
     "translations": {
-      "de": ["drehen"]
+      "de": [
+        "drehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "spin"
   },
   "turn": {
     "language": "en",
     "translations": {
-      "de": ["drehen"]
+      "de": [
+        "drehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "turn"
   },
   "manufacture": {
     "language": "en",
     "translations": {
-      "de": ["her|stellen"]
+      "de": [
+        "her|stellen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "manufacture"
   },
   "produce": {
     "language": "en",
     "translations": {
-      "de": ["her|stellen"]
+      "de": [
+        "her|stellen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "produce"
   },
   "invent": {
     "language": "en",
     "translations": {
-      "de": ["aus|denken"]
+      "de": [
+        "aus|denken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "invent"
   },
   "dive": {
     "language": "en",
     "translations": {
-      "de": ["tauchen"]
+      "de": [
+        "tauchen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "dive"
   },
   "plunge": {
     "language": "en",
     "translations": {
-      "de": ["tauchen"]
+      "de": [
+        "tauchen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "plunge"
   },
   "come|to": {
@@ -2177,12 +2683,16 @@
     },
     "complements": {
       "to light": {
-        "de": ["auf|tauchen"]
+        "de": [
+          "auf|tauchen"
+        ]
       }
     },
-    "particles": {
+    "particle": {
       "to": {
-        "de": ["auf|tauchen"]
+        "de": [
+          "auf|tauchen"
+        ]
       }
     },
     "wordBase": "come"
@@ -2190,307 +2700,365 @@
   "establish": {
     "language": "en",
     "translations": {
-      "de": ["ein|richten"]
+      "de": [
+        "ein|richten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "establish"
   },
   "furnish": {
     "language": "en",
     "translations": {
-      "de": ["ein|richten"]
+      "de": [
+        "ein|richten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "furnish"
   },
   "organize": {
     "language": "en",
     "translations": {
-      "de": ["ein|richten"]
+      "de": [
+        "ein|richten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "organize"
   },
   "state": {
     "language": "en",
     "translations": {
-      "de": ["aus|sagen"]
+      "de": [
+        "aus|sagen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "state"
   },
   "testify": {
     "language": "en",
     "translations": {
-      "de": ["aus|sagen"]
+      "de": [
+        "aus|sagen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "testify"
   },
   "gather": {
     "language": "en",
     "translations": {
-      "de": ["sammeln"]
+      "de": [
+        "sammeln"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "gather"
   },
   "collect": {
     "language": "en",
     "translations": {
-      "de": ["sammeln"]
+      "de": [
+        "sammeln"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "collect"
   },
   "wipe": {
     "language": "en",
     "translations": {
-      "de": ["wischen"]
+      "de": [
+        "wischen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "wipe"
   },
   "mop": {
     "language": "en",
     "translations": {
-      "de": ["wischen"]
+      "de": [
+        "wischen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "mop"
   },
   "seize": {
     "language": "en",
     "translations": {
-      "de": ["erwischen", "ergreifen"]
+      "de": [
+        "erwischen",
+        "ergreifen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "seize"
   },
   "order": {
     "language": "en",
     "translations": {
-      "de": ["bestellen"]
+      "de": [
+        "bestellen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "order"
   },
   "request": {
     "language": "en",
     "translations": {
-      "de": ["bestellen"]
+      "de": [
+        "bestellen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "request"
   },
-  "comission": {
+  "commission": {
     "language": "en",
     "translations": {
-      "de": ["bestellen"]
+      "de": [
+        "bestellen"
+      ]
     },
     "complements": {},
-    "particles": {},
-    "wordBase": "comission"
+    "particle": {},
+    "wordBase": "commission"
   },
   "book": {
     "language": "en",
     "translations": {
-      "de": ["bestellen"]
+      "de": [
+        "bestellen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "book"
   },
   "relocate": {
     "language": "en",
     "translations": {
-      "de": ["versetzen"]
+      "de": [
+        "versetzen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "relocate"
   },
   "transfer": {
     "language": "en",
     "translations": {
-      "de": ["versetzen"]
+      "de": [
+        "versetzen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "transfer"
   },
   "deploy": {
     "language": "en",
     "translations": {
-      "de": ["versetzen"]
+      "de": [
+        "versetzen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "deploy"
   },
   "retort": {
     "language": "en",
     "translations": {
-      "de": ["versetzen"]
+      "de": [
+        "versetzen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "retort"
-  },
-  "realise": {
-    "language": "en",
-    "translations": {
-      "de": ["auf|gehen"]
-    },
-    "complements": {},
-    "particles": {},
-    "wordBase": "realise"
   },
   "open": {
     "language": "en",
     "translations": {
-      "de": ["auf|gehen"]
+      "de": [
+        "auf|gehen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "open"
   },
   "snatch": {
     "language": "en",
     "translations": {
-      "de": ["schnappen"]
+      "de": [
+        "schnappen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "snatch"
   },
   "climb": {
     "language": "en",
     "translations": {
-      "de": ["klettern"]
+      "de": [
+        "klettern"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "climb"
   },
   "wave": {
     "language": "en",
     "translations": {
-      "de": ["winken"]
+      "de": [
+        "winken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "wave"
   },
   "answer": {
     "language": "en",
     "translations": {
-      "de": ["antworten"]
+      "de": [
+        "antworten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "answer"
   },
   "reply": {
     "language": "en",
     "translations": {
-      "de": ["antworten"]
+      "de": [
+        "antworten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "reply"
   },
   "grip": {
     "language": "en",
     "translations": {
-      "de": ["fassen"]
+      "de": [
+        "fassen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "grip"
   },
   "comprehend": {
     "language": "en",
     "translations": {
-      "de": ["fassen"]
+      "de": [
+        "fassen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "comprehend"
   },
   "wobble": {
     "language": "en",
     "translations": {
-      "de": ["wackeln"]
+      "de": [
+        "wackeln"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "wobble"
   },
   "shake": {
     "language": "en",
     "translations": {
-      "de": ["wackeln"]
+      "de": [
+        "wackeln"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "shake"
   },
   "wiggle": {
     "language": "en",
     "translations": {
-      "de": ["wackeln"]
+      "de": [
+        "wackeln"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "wiggle"
   },
   "look": {
     "language": "en",
     "translations": {
-      "de": ["schauen"]
+      "de": [
+        "schauen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "look"
   },
   "fathom": {
     "language": "en",
     "translations": {
-      "de": ["begreifen"]
+      "de": [
+        "begreifen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "fathom"
   },
   "call": {
     "language": "en",
     "translations": {
-      "de": ["rufen"]
+      "de": [
+        "rufen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "call"
   },
   "exclaim": {
     "language": "en",
     "translations": {
-      "de": ["rufen"]
+      "de": [
+        "rufen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "exclaim"
   },
   "tip|over": {
@@ -2500,12 +3068,16 @@
     },
     "complements": {
       "over the edge": {
-        "de": ["runter|fallen"]
+        "de": [
+          "runter|fallen"
+        ]
       }
     },
-    "particles": {
+    "particle": {
       "over": {
-        "de": ["runter|fallen"]
+        "de": [
+          "runter|fallen"
+        ]
       }
     },
     "wordBase": "tip"
@@ -2513,244 +3085,298 @@
   "cry": {
     "language": "en",
     "translations": {
-      "de": ["weinen"]
+      "de": [
+        "weinen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "cry"
   },
   "shrink": {
     "language": "en",
     "translations": {
-      "de": ["ein|fallen"]
+      "de": [
+        "ein|fallen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "shrink"
   },
   "dip": {
     "language": "en",
     "translations": {
-      "de": ["ein|fallen"]
+      "de": [
+        "ein|fallen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "dip"
   },
   "vacate": {
     "language": "en",
     "translations": {
-      "de": ["räumen"]
+      "de": [
+        "räumen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "vacate"
   },
   "clear": {
     "language": "en",
     "translations": {
-      "de": ["räumen"]
+      "de": [
+        "räumen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "clear"
   },
   "tidy": {
     "language": "en",
     "translations": {
-      "de": ["auf|räumen"]
+      "de": [
+        "auf|räumen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "tidy"
   },
   "hide": {
     "language": "en",
     "translations": {
-      "de": ["verstecken"]
+      "de": [
+        "verstecken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "hide"
   },
   "stash": {
     "language": "en",
     "translations": {
-      "de": ["verstecken"]
+      "de": [
+        "verstecken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "stash"
   },
   "stammer": {
     "language": "en",
     "translations": {
-      "de": ["stottern"]
+      "de": [
+        "stottern"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "stammer"
   },
   "stutter": {
     "language": "en",
     "translations": {
-      "de": ["stottern"]
+      "de": [
+        "stottern"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "stutter"
   },
   "consider": {
     "language": "en",
     "translations": {
-      "de": ["über|legen"]
+      "de": [
+        "über|legen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "consider"
   },
   "deliberate": {
     "language": "en",
     "translations": {
-      "de": ["über|legen"]
+      "de": [
+        "über|legen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "deliberate"
   },
   "include": {
     "language": "en",
     "translations": {
-      "de": ["enthalten"]
+      "de": [
+        "enthalten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "include"
   },
   "convey": {
     "language": "en",
     "translations": {
-      "de": ["enthalten"]
+      "de": [
+        "enthalten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "convey"
   },
   "comprise": {
     "language": "en",
     "translations": {
-      "de": ["enthalten"]
+      "de": [
+        "enthalten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "comprise"
   },
   "leave": {
     "language": "en",
     "translations": {
-      "de": ["verlassen"]
+      "de": [
+        "verlassen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "leave"
   },
   "depart": {
     "language": "en",
     "translations": {
-      "de": ["verlassen"]
+      "de": [
+        "verlassen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "depart"
   },
   "forsake": {
     "language": "en",
     "translations": {
-      "de": ["verlassen"]
+      "de": [
+        "verlassen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "forsake"
   },
   "stick": {
     "language": "en",
     "translations": {
-      "de": ["stecken"]
+      "de": [
+        "stecken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "stick"
   },
   "plug": {
     "language": "en",
     "translations": {
-      "de": ["stecken"]
+      "de": [
+        "stecken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "plug"
   },
   "thrust": {
     "language": "en",
     "translations": {
-      "de": ["stecken"]
+      "de": [
+        "stecken"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "thrust"
   },
   "stop": {
     "language": "en",
     "translations": {
-      "de": ["auf|hören"]
+      "de": [
+        "auf|hören"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "stop"
   },
   "end": {
     "language": "en",
     "translations": {
-      "de": ["auf|hören"]
+      "de": [
+        "auf|hören"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "end"
   },
   "test": {
     "language": "en",
     "translations": {
-      "de": ["testen"]
+      "de": [
+        "testen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "test"
   },
   "move": {
     "language": "en",
     "translations": {
-      "de": ["bewegen"]
+      "de": [
+        "bewegen"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "move"
   },
   "use": {
     "language": "en",
     "translations": {
-      "de": ["verwenden"]
+      "de": [
+        "verwenden"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "use"
   },
   "bleed": {
     "language": "en",
     "translations": {
-      "de": ["bluten"]
+      "de": [
+        "bluten"
+      ]
     },
     "complements": {},
-    "particles": {},
+    "particle": {},
     "wordBase": "bleed"
   }
 }

@@ -37,7 +37,7 @@ returns person, tense, translation strings
 export const generateTestObject = () => {
   // get the verb from english key dictionary
   const verbKey =
-    allEnglishKeys[Math.round(allEnglishKeys.length * Math.random())];
+    allEnglishKeys[Math.floor(allEnglishKeys.length * Math.random())];
   const verbSourceObject = keyDictionary[verbKey];
 
   if (!verbSourceObject) throw Error(`No entry found for ${verbKey}`);

@@ -2,7 +2,7 @@ export type auxiliaryVerb = {
   citation: string;
   infinitive: string;
   perfect: string;
-  third_person: string;
+  thirdPerson: string;
   pastParticiple?: string;
   presentParticiple?: string;
 };
@@ -11,7 +11,7 @@ export const Will = {
   citation: "will",
   infinitive: "going to",
   perfect: "would",
-  third_person: "will",
+  thirdPerson: "will",
   pastParticiple: "will have",
 };
 
@@ -19,7 +19,7 @@ export const May = {
   citation: "may",
   infinitive: "may",
   perfect: "might",
-  third_person: "may",
+  thirdPerson: "may",
   pastParticiple: "may have",
 };
 
@@ -29,14 +29,14 @@ export const Can = {
   pastParticiple: "was able",
   presentParticiple: "able",
   perfect: "could have",
-  third_person: "can",
+  thirdPerson: "can",
 };
 
 export const Shall = {
   citation: "shall",
   infinitive: "shall",
   perfect: "should",
-  third_person: "should",
+  thirdPerson: "should",
   pastParticiple: "should have",
 };
 
@@ -44,7 +44,7 @@ export const Must = {
   citation: "must",
   infinitive: "have to",
   perfect: "had to",
-  third_person: "must",
+  thirdPerson: "must",
   pastParticiple: "must have",
 };
 
@@ -52,7 +52,7 @@ export const Ought = {
   citation: "ought",
   infinitive: "have to",
   perfect: "had to",
-  third_person: "ought",
+  thirdPerson: "ought",
   pastParticiple: "ought to have",
 };
 
@@ -60,7 +60,7 @@ export const Do = {
   citation: "do",
   infinitive: "do",
   perfect: "did",
-  third_person: "does",
+  thirdPerson: "does",
 };
 
 export const modalMap: {

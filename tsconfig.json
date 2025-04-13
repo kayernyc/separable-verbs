@@ -7,7 +7,9 @@
     "esModuleInterop": true,
     "target": "ES2018",
     "paths": {
-      "@constants/*": ["./src/constants/*"]
+      "@constants/*": ["./src/constants/*"],
+      "@german/*": ["./src/modules/german/*"],
+      "@english/*": ["./src/modules/english/*"]
     },
     "moduleResolution": "Bundler",
     "types": ["unplugin-vue-router/client"]

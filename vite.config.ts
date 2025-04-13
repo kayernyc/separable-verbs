@@ -17,6 +17,12 @@ export default defineConfig({
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
       "@constants": fileURLToPath(new URL("./src/constants", import.meta.url)),
+      "@german": fileURLToPath(
+        new URL("./src/modules/german", import.meta.url)
+      ),
+      "@english": fileURLToPath(
+        new URL("./src/modules/english", import.meta.url)
+      ),
     },
   },
 });

@@ -1,5 +1,5 @@
-import germanSeparableVerbs from "@constants/germanSeparable.json";
-import { GermanParticleRules } from "@constants/germanConstants";
+import germanSeparableVerbs from "@german/germanKeyDictionary.json";
+import { GermanParticleRules } from "@german/germanConstants";
 import { describe, it, expect } from "vitest";
 
 describe("German Separable Verbs", () => {

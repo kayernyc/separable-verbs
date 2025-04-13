@@ -1,3 +1,5 @@
+import { PersonShorthand, Tense } from "../types";
+
 export type EnglishEntry = {
   infinitive: string;
   pastParticiple: string;
@@ -8,7 +10,147 @@ export type EnglishEntry = {
   thirdPerson: string;
 };
 
+export function isAuxiliaryVerb(
+  conjugation: any
+): conjugation is AuxiliaryVerb {
+  return (conjugation as AuxiliaryVerb).citation !== undefined;
+}
+
+export function isBeVerb(conjugation: any): conjugation is BeVerb {
+  return (conjugation as BeVerb).pastAllOthers !== undefined;
+}
+
+export type AuxiliaryVerb = {
+  citation: string;
+  infinitive: string;
+  perfect: string;
+  thirdPerson: string;
+  pastParticiple?: string;
+  presentParticiple?: string;
+};
+
+export const Will = {
+  citation: "will",
+  infinitive: "going to",
+  perfect: "would",
+  thirdPerson: "will",
+  pastParticiple: "will have",
+};
+
+export const May = {
+  citation: "may",
+  infinitive: "may",
+  perfect: "might",
+  thirdPerson: "may",
+  pastParticiple: "may have",
+};
+
+export const Can = {
+  citation: "can",
+  infinitive: "be able",
+  pastParticiple: "was able",
+  presentParticiple: "able",
+  perfect: "could have",
+  thirdPerson: "can",
+};
+
+export const Shall = {
+  citation: "shall",
+  infinitive: "shall",
+  perfect: "should",
+  thirdPerson: "should",
+  pastParticiple: "should have",
+};
+
+export const Must = {
+  citation: "must",
+  infinitive: "have to",
+  perfect: "had to",
+  thirdPerson: "must",
+  pastParticiple: "must have",
+};
+
+export const Ought = {
+  citation: "ought",
+  infinitive: "have to",
+  perfect: "had to",
+  thirdPerson: "ought",
+  pastParticiple: "ought to have",
+};
+
+export const Do = {
+  citation: "do",
+  infinitive: "do",
+  perfect: "did",
+  thirdPerson: "does",
+  pastParticiple: "done",
+};
+
+export const modalMap: {
+  [key: string]: AuxiliaryVerb;
+} = {
+  will: Will,
+  may: May,
+  can: Can,
+  shall: Shall,
+  must: Must,
+  ought: Ought,
+  do: Do,
+};
+
+export type BeVerb = EnglishEntry & {
+  singularThird: string;
+  pastFirstPersonSingular: string;
+  pastAllOthers: string;
+};
+
+export const beVerb = {
+  infinitive: "be",
+  pastParticiple: "been",
+  presentParticiple: "being",
+  perfect: "been",
+  firstPerson: "am",
+  secondPerson: "are",
+  thirdPerson: "are",
+  singularThird: "is",
+  pastFirstPersonSingular: "was",
+  pastAllOthers: "were",
+};
+
+const BeConjugation = {
+  [Tense.Present]: {
+    [PersonShorthand.First_Singular]: "am",
+    [PersonShorthand.Second_Singular]: "are",
+    [PersonShorthand.Third_Singular]: "is",
+    [PersonShorthand.First_Plural]: "are",
+    [PersonShorthand.Second_Plural]: "are",
+    [PersonShorthand.Third_Plural]: "are",
+  },
+  [Tense.Past]: {
+    [PersonShorthand.First_Singular]: "was",
+    [PersonShorthand.Second_Singular]: "were",
+    [PersonShorthand.Third_Singular]: "were",
+    [PersonShorthand.First_Plural]: "were",
+    [PersonShorthand.Second_Plural]: "were",
+    [PersonShorthand.Third_Plural]: "were",
+  },
+  infinitive: "be",
+  pastParticiple: "been",
+  presentParticiple: "being",
+};
+
 type EnglishDictionary = { [key: string]: EnglishEntry };
+
+export const findEnglishVerbEntry = (
+  key: string
+): AuxiliaryVerb | BeVerb | EnglishEntry => {
+  if (key === "be") return beVerb;
+  const entry = englishVerbDictionary[key] ?? modalMap[key];
+
+  if (entry) return entry;
+
+  throw Error(`No verb conjugation found for ${key}.`);
+};
 
 export const englishVerbDictionary: EnglishDictionary = {
   abide: {

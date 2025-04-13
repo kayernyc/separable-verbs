@@ -1,8 +1,18 @@
-import { PersonShorthand, Tense, type EnglishConjugatedVerb } from "./types";
-import { englishVerbDictionary } from "./data/englishVerbDictionary";
+import { findPersonSubject, PersonShorthand, Tense } from "./types";
+import {
+  englishVerbDictionary,
+  findEnglishVerbEntry,
+} from "./data/englishVerbDictionary";
 import { parseEnglishTranslation } from "./parseEnglishTranslation";
-import englishKeyDictionary from "./englishVerbKeyMap.json";
-import type { KeyDictionary } from "../common/types";
+import englishKeyDictionary from "./data/englishVerbKeyMap.json";
+import {
+  type KeyDictionary,
+  type Pronoun,
+  Gender,
+  Person,
+  Plurality,
+} from "../common/types";
+import { findConjugation } from "./conjugation";
 
 const keyDictionary: KeyDictionary =
   englishKeyDictionary as unknown as KeyDictionary;
@@ -17,7 +27,7 @@ export const findVerb = (sourceString: string) => {
 
 const allEnglishKeys = Object.keys(englishKeyDictionary);
 
-const PersonShorthandArray = [
+const personShorthandArray = [
   PersonShorthand.First_Plural,
   PersonShorthand.Second_Singular,
   PersonShorthand.Third_Singular,
@@ -25,6 +35,15 @@ const PersonShorthandArray = [
   PersonShorthand.Second_Plural,
   PersonShorthand.Third_Plural,
 ];
+
+const tenseArray = [Tense.Past, Tense.Present];
+
+const genderArray = [Gender.Feminine, Gender.Masculine, Gender.Neuter];
+
+const pluralityArray = [Plurality.Plural, Plurality.Singular];
+
+const getRandomArrayValue = <T>(array: T[]): T =>
+  array[Math.floor(array.length * Math.random())];
 
 /*
 
@@ -51,47 +70,30 @@ export const generateTestObject = () => {
   const englishVerbConjugationMap = englishVerbDictionary[wordBase];
   if (!englishVerbConjugationMap) throw Error(`No entry found for ${wordBase}`);
 
-  // get the person
-  const person =
-    PersonShorthandArray[
-      Math.round(PersonShorthandArray.length * Math.random())
-    ];
+  // get the person, gender and tense
 
-  console.log({ englishVerbConjugationMap, person });
-  // get the tense
+  const gender = getRandomArrayValue(genderArray);
+  const tense = getRandomArrayValue(tenseArray);
+  const person = getRandomArrayValue([
+    Person.First,
+    Person.Second,
+    Person.Third,
+  ]);
+  const plurality = getRandomArrayValue(pluralityArray);
 
-  // generate a prompt string
-};
+  console.log({ englishVerbConjugationMap, person, tense, gender });
+  const conjugation = findEnglishVerbEntry(
+    englishVerbConjugationMap.infinitive
+  );
+  console.log({ conjugation });
+  const pronoun: Pronoun = {
+    person,
+    plurality,
+    gender,
+  };
 
-const beVerb = {
-  infinitive: "be",
-  pastParticiple: "been",
-  presentParticiple: "being",
-  perfect: "am",
-  third_person: "are",
-  singular_third: "is",
-  past_first_person_singular: "was",
-  past_all_others: "were",
-};
+  console.log(findConjugation(conjugation, person));
 
-const BeConjugation = {
-  [Tense.Present]: {
-    [PersonShorthand.First_Singular]: "am",
-    [PersonShorthand.Second_Singular]: "are",
-    [PersonShorthand.Third_Singular]: "is",
-    [PersonShorthand.First_Plural]: "are",
-    [PersonShorthand.Second_Plural]: "are",
-    [PersonShorthand.Third_Plural]: "are",
-  },
-  [Tense.Past]: {
-    [PersonShorthand.First_Singular]: "was",
-    [PersonShorthand.Second_Singular]: "were",
-    [PersonShorthand.Third_Singular]: "were",
-    [PersonShorthand.First_Plural]: "were",
-    [PersonShorthand.Second_Plural]: "were",
-    [PersonShorthand.Third_Plural]: "were",
-  },
-  infinitive: "be",
-  pastParticiple: "been",
-  presentParticiple: "being",
+  const pronounString = findPersonSubject(pronoun);
+  console.log(pronounString);
 };

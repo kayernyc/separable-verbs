@@ -2,10 +2,7 @@
   "have": {
     "language": "en",
     "translations": {
-      "de": [
-        "haben",
-        "müssen"
-      ]
+      "de": ["haben", "müssen"]
     },
     "complements": {},
     "particle": {},
@@ -14,25 +11,17 @@
   "be": {
     "language": "en",
     "translations": {
-      "de": [
-        "sein"
-      ]
+      "de": ["sein"]
     },
     "complements": {
       "expected": {
-        "de": [
-          "sollen"
-        ]
+        "de": ["sollen"]
       },
       "authorized": {
-        "de": [
-          "dürfen"
-        ]
+        "de": ["dürfen"]
       },
       "called": {
-        "de": [
-          "heißen"
-        ]
+        "de": ["heißen"]
       }
     },
     "particle": {},
@@ -41,9 +30,7 @@
   "become": {
     "language": "en",
     "translations": {
-      "de": [
-        "werden"
-      ]
+      "de": ["werden"]
     },
     "complements": {},
     "particle": {},
@@ -52,10 +39,7 @@
   "grow": {
     "language": "en",
     "translations": {
-      "de": [
-        "werden",
-        "wachsen"
-      ]
+      "de": ["werden", "wachsen"]
     },
     "complements": {},
     "particle": {},
@@ -64,9 +48,7 @@
   "can": {
     "language": "en",
     "translations": {
-      "de": [
-        "können"
-      ]
+      "de": ["können"]
     },
     "complements": {},
     "particle": {},
@@ -75,9 +57,7 @@
   "may": {
     "language": "en",
     "translations": {
-      "de": [
-        "können"
-      ]
+      "de": ["können"]
     },
     "complements": {},
     "particle": {},
@@ -86,16 +66,11 @@
   "know": {
     "language": "en",
     "translations": {
-      "de": [
-        "wissen",
-        "kennen"
-      ]
+      "de": ["wissen", "kennen"]
     },
     "complements": {
       "how": {
-        "de": [
-          "können"
-        ]
+        "de": ["können"]
       }
     },
     "particle": {},
@@ -104,9 +79,7 @@
   "want": {
     "language": "en",
     "translations": {
-      "de": [
-        "wollen"
-      ]
+      "de": ["wollen"]
     },
     "complements": {},
     "particle": {},
@@ -115,9 +88,7 @@
   "must": {
     "language": "en",
     "translations": {
-      "de": [
-        "dürfen"
-      ]
+      "de": ["dürfen"]
     },
     "complements": {},
     "particle": {},
@@ -126,9 +97,7 @@
   "like": {
     "language": "en",
     "translations": {
-      "de": [
-        "mögen"
-      ]
+      "de": ["mögen"]
     },
     "complements": {},
     "particle": {},
@@ -137,9 +106,7 @@
   "let": {
     "language": "en",
     "translations": {
-      "de": [
-        "lassen"
-      ]
+      "de": ["lassen"]
     },
     "complements": {},
     "particle": {},
@@ -148,15 +115,11 @@
   "go": {
     "language": "en",
     "translations": {
-      "de": [
-        "gehen"
-      ]
+      "de": ["gehen"]
     },
     "complements": {
       "flying": {
-        "de": [
-          "runter|fallen"
-        ]
+        "de": ["runter|fallen"]
       }
     },
     "particle": {},
@@ -165,10 +128,7 @@
   "run": {
     "language": "en",
     "translations": {
-      "de": [
-        "laufen",
-        "rennen"
-      ]
+      "de": ["laufen", "rennen"]
     },
     "complements": {},
     "particle": {},
@@ -177,9 +137,7 @@
   "write": {
     "language": "en",
     "translations": {
-      "de": [
-        "schreiben"
-      ]
+      "de": ["schreiben"]
     },
     "complements": {},
     "particle": {},
@@ -188,9 +146,7 @@
   "follow": {
     "language": "en",
     "translations": {
-      "de": [
-        "folgen"
-      ]
+      "de": ["folgen"]
     },
     "complements": {},
     "particle": {},
@@ -199,10 +155,7 @@
   "grasp": {
     "language": "en",
     "translations": {
-      "de": [
-        "greifen",
-        "ergreifen"
-      ]
+      "de": ["greifen", "ergreifen"]
     },
     "complements": {},
     "particle": {},
@@ -211,10 +164,7 @@
   "grab": {
     "language": "en",
     "translations": {
-      "de": [
-        "greifen",
-        "schnappen"
-      ]
+      "de": ["greifen", "schnappen"]
     },
     "complements": {},
     "particle": {},
@@ -223,9 +173,7 @@
   "whistle": {
     "language": "en",
     "translations": {
-      "de": [
-        "pfeifen"
-      ]
+      "de": ["pfeifen"]
     },
     "complements": {},
     "particle": {},
@@ -234,9 +182,7 @@
   "scream": {
     "language": "en",
     "translations": {
-      "de": [
-        "schreien"
-      ]
+      "de": ["schreien"]
     },
     "complements": {},
     "particle": {},
@@ -245,9 +191,7 @@
   "succeed": {
     "language": "en",
     "translations": {
-      "de": [
-        "gelingen"
-      ]
+      "de": ["gelingen"]
     },
     "complements": {},
     "particle": {},
@@ -256,15 +200,11 @@
   "give": {
     "language": "en",
     "translations": {
-      "de": [
-        "geben"
-      ]
+      "de": ["geben"]
     },
     "complements": {
       "birth": {
-        "de": [
-          "gebären"
-        ]
+        "de": ["gebären"]
       }
     },
     "particle": {},
@@ -273,10 +213,7 @@
   "advise": {
     "language": "en",
     "translations": {
-      "de": [
-        "beraten",
-        "raten"
-      ]
+      "de": ["beraten", "raten"]
     },
     "complements": {},
     "particle": {},
@@ -285,9 +222,7 @@
   "discuss": {
     "language": "en",
     "translations": {
-      "de": [
-        "beraten"
-      ]
+      "de": ["beraten"]
     },
     "complements": {},
     "particle": {},
@@ -296,9 +231,7 @@
   "hang": {
     "language": "en",
     "translations": {
-      "de": [
-        "hängen"
-      ]
+      "de": ["hängen"]
     },
     "complements": {},
     "particle": {},
@@ -307,9 +240,7 @@
   "suffer": {
     "language": "en",
     "translations": {
-      "de": [
-        "leiden"
-      ]
+      "de": ["leiden"]
     },
     "complements": {},
     "particle": {},
@@ -318,9 +249,7 @@
   "hold": {
     "language": "en",
     "translations": {
-      "de": [
-        "halten"
-      ]
+      "de": ["halten"]
     },
     "complements": {},
     "particle": {},
@@ -329,9 +258,7 @@
   "keep": {
     "language": "en",
     "translations": {
-      "de": [
-        "halten"
-      ]
+      "de": ["halten"]
     },
     "complements": {},
     "particle": {},
@@ -340,9 +267,7 @@
   "sleep": {
     "language": "en",
     "translations": {
-      "de": [
-        "schlafen"
-      ]
+      "de": ["schlafen"]
     },
     "complements": {},
     "particle": {},
@@ -351,9 +276,7 @@
   "say": {
     "language": "en",
     "translations": {
-      "de": [
-        "sagen"
-      ]
+      "de": ["sagen"]
     },
     "complements": {},
     "particle": {},
@@ -362,9 +285,7 @@
   "play": {
     "language": "en",
     "translations": {
-      "de": [
-        "spielen"
-      ]
+      "de": ["spielen"]
     },
     "complements": {},
     "particle": {},
@@ -373,9 +294,7 @@
   "make": {
     "language": "en",
     "translations": {
-      "de": [
-        "machen"
-      ]
+      "de": ["machen"]
     },
     "complements": {},
     "particle": {},
@@ -384,10 +303,7 @@
   "ask": {
     "language": "en",
     "translations": {
-      "de": [
-        "fragen",
-        "erkundigen"
-      ]
+      "de": ["fragen", "erkundigen"]
     },
     "complements": {},
     "particle": {},
@@ -396,9 +312,7 @@
   "believe": {
     "language": "en",
     "translations": {
-      "de": [
-        "glauben"
-      ]
+      "de": ["glauben"]
     },
     "complements": {},
     "particle": {},
@@ -407,9 +321,7 @@
   "reckon": {
     "language": "en",
     "translations": {
-      "de": [
-        "glauben"
-      ]
+      "de": ["glauben"]
     },
     "complements": {},
     "particle": {},
@@ -418,15 +330,11 @@
   "live": {
     "language": "en",
     "translations": {
-      "de": [
-        "leben"
-      ]
+      "de": ["leben"]
     },
     "complements": {
       "(somewhere)": {
-        "de": [
-          "wohnen"
-        ]
+        "de": ["wohnen"]
       }
     },
     "particle": {},
@@ -435,9 +343,7 @@
   "learn": {
     "language": "en",
     "translations": {
-      "de": [
-        "lernen"
-      ]
+      "de": ["lernen"]
     },
     "complements": {},
     "particle": {},
@@ -446,10 +352,7 @@
   "speak": {
     "language": "en",
     "translations": {
-      "de": [
-        "reden",
-        "sprechen"
-      ]
+      "de": ["reden", "sprechen"]
     },
     "complements": {},
     "particle": {},
@@ -458,10 +361,7 @@
   "mean": {
     "language": "en",
     "translations": {
-      "de": [
-        "bedeuten",
-        "meinen"
-      ]
+      "de": ["bedeuten", "meinen"]
     },
     "complements": {},
     "particle": {},
@@ -470,9 +370,7 @@
   "belong": {
     "language": "en",
     "translations": {
-      "de": [
-        "gehören"
-      ]
+      "de": ["gehören"]
     },
     "complements": {},
     "particle": {},
@@ -481,9 +379,7 @@
   "buy": {
     "language": "en",
     "translations": {
-      "de": [
-        "kaufen"
-      ]
+      "de": ["kaufen"]
     },
     "complements": {},
     "particle": {},
@@ -492,9 +388,7 @@
   "taste": {
     "language": "en",
     "translations": {
-      "de": [
-        "schmecken"
-      ]
+      "de": ["schmecken"]
     },
     "complements": {},
     "particle": {},
@@ -503,9 +397,7 @@
   "wait": {
     "language": "en",
     "translations": {
-      "de": [
-        "warten"
-      ]
+      "de": ["warten"]
     },
     "complements": {},
     "particle": {},
@@ -514,9 +406,7 @@
   "inhabit": {
     "language": "en",
     "translations": {
-      "de": [
-        "wohnen"
-      ]
+      "de": ["wohnen"]
     },
     "complements": {},
     "particle": {},
@@ -525,9 +415,7 @@
   "work": {
     "language": "en",
     "translations": {
-      "de": [
-        "arbeiten"
-      ]
+      "de": ["arbeiten"]
     },
     "complements": {},
     "particle": {},
@@ -536,9 +424,7 @@
   "need": {
     "language": "en",
     "translations": {
-      "de": [
-        "brauchen"
-      ]
+      "de": ["brauchen"]
     },
     "complements": {},
     "particle": {},
@@ -547,12 +433,7 @@
   "put": {
     "language": "en",
     "translations": {
-      "de": [
-        "setzen",
-        "legen",
-        "stellen",
-        "stecken"
-      ]
+      "de": ["setzen", "legen", "stellen", "stecken"]
     },
     "complements": {},
     "particle": {},
@@ -561,9 +442,7 @@
   "set": {
     "language": "en",
     "translations": {
-      "de": [
-        "setzen"
-      ]
+      "de": ["setzen"]
     },
     "complements": {},
     "particle": {},
@@ -572,9 +451,7 @@
   "search": {
     "language": "en",
     "translations": {
-      "de": [
-        "suchen"
-      ]
+      "de": ["suchen"]
     },
     "complements": {},
     "particle": {},
@@ -583,9 +460,7 @@
   "attempt": {
     "language": "en",
     "translations": {
-      "de": [
-        "versuchen"
-      ]
+      "de": ["versuchen"]
     },
     "complements": {},
     "particle": {},
@@ -594,9 +469,7 @@
   "try": {
     "language": "en",
     "translations": {
-      "de": [
-        "versuchen"
-      ]
+      "de": ["versuchen"]
     },
     "complements": {},
     "particle": {},
@@ -605,10 +478,7 @@
   "build": {
     "language": "en",
     "translations": {
-      "de": [
-        "bauen",
-        "bilden"
-      ]
+      "de": ["bauen", "bilden"]
     },
     "complements": {},
     "particle": {},
@@ -617,10 +487,7 @@
   "meet": {
     "language": "en",
     "translations": {
-      "de": [
-        "tagen",
-        "treffen"
-      ]
+      "de": ["tagen", "treffen"]
     },
     "complements": {},
     "particle": {},
@@ -629,9 +496,7 @@
   "construe": {
     "language": "en",
     "translations": {
-      "de": [
-        "deuten"
-      ]
+      "de": ["deuten"]
     },
     "complements": {},
     "particle": {},
@@ -640,9 +505,7 @@
   "interpret": {
     "language": "en",
     "translations": {
-      "de": [
-        "deuten"
-      ]
+      "de": ["deuten"]
     },
     "complements": {},
     "particle": {},
@@ -651,9 +514,7 @@
   "hear": {
     "language": "en",
     "translations": {
-      "de": [
-        "hören"
-      ]
+      "de": ["hören"]
     },
     "complements": {},
     "particle": {},
@@ -662,10 +523,7 @@
   "listen": {
     "language": "en",
     "translations": {
-      "de": [
-        "hören",
-        "zu|hören"
-      ]
+      "de": ["hören", "zu|hören"]
     },
     "complements": {},
     "particle": {},
@@ -674,37 +532,19 @@
   "fall": {
     "language": "en",
     "translations": {
-      "de": [
-        "fallen"
-      ]
+      "de": ["fallen"]
     },
     "complements": {
       "asleep": {
-        "de": [
-          "ein|schlafen"
-        ]
-      }
-    },
-    "particle": {},
-    "wordBase": "fall"
-  },
-  "fall|to": {
-    "language": "en",
-    "translations": {
-      "de": []
-    },
-    "complements": {
+        "de": ["ein|schlafen"]
+      },
       "to pieces": {
-        "de": [
-          "zerfallen"
-        ]
+        "de": ["zerfallen"]
       }
     },
     "particle": {
       "to": {
-        "de": [
-          "zerfallen"
-        ]
+        "de": ["zerfallen"]
       }
     },
     "wordBase": "fall"
@@ -712,11 +552,7 @@
   "catch": {
     "language": "en",
     "translations": {
-      "de": [
-        "fangen",
-        "erwischen",
-        "fassen"
-      ]
+      "de": ["fangen", "erwischen", "fassen"]
     },
     "complements": {},
     "particle": {},
@@ -725,9 +561,7 @@
   "fry": {
     "language": "en",
     "translations": {
-      "de": [
-        "braten"
-      ]
+      "de": ["braten"]
     },
     "complements": {},
     "particle": {},
@@ -736,10 +570,7 @@
   "guess": {
     "language": "en",
     "translations": {
-      "de": [
-        "raten",
-        "denken"
-      ]
+      "de": ["raten", "denken"]
     },
     "complements": {},
     "particle": {},
@@ -748,9 +579,7 @@
   "drive": {
     "language": "en",
     "translations": {
-      "de": [
-        "fahren"
-      ]
+      "de": ["fahren"]
     },
     "complements": {},
     "particle": {},
@@ -759,10 +588,7 @@
   "ride": {
     "language": "en",
     "translations": {
-      "de": [
-        "fahren",
-        "reiten"
-      ]
+      "de": ["fahren", "reiten"]
     },
     "complements": {},
     "particle": {},
@@ -771,9 +597,7 @@
   "dig": {
     "language": "en",
     "translations": {
-      "de": [
-        "graben"
-      ]
+      "de": ["graben"]
     },
     "complements": {},
     "particle": {},
@@ -782,10 +606,7 @@
   "strike": {
     "language": "en",
     "translations": {
-      "de": [
-        "schlagen",
-        "treffen"
-      ]
+      "de": ["schlagen", "treffen"]
     },
     "complements": {},
     "particle": {},
@@ -794,9 +615,7 @@
   "bash": {
     "language": "en",
     "translations": {
-      "de": [
-        "schlagen"
-      ]
+      "de": ["schlagen"]
     },
     "complements": {},
     "particle": {},
@@ -805,10 +624,7 @@
   "hit": {
     "language": "en",
     "translations": {
-      "de": [
-        "schlagen",
-        "treffen"
-      ]
+      "de": ["schlagen", "treffen"]
     },
     "complements": {},
     "particle": {},
@@ -817,9 +633,7 @@
   "beat": {
     "language": "en",
     "translations": {
-      "de": [
-        "schlagen"
-      ]
+      "de": ["schlagen"]
     },
     "complements": {},
     "particle": {},
@@ -828,9 +642,7 @@
   "wash": {
     "language": "en",
     "translations": {
-      "de": [
-        "waschen"
-      ]
+      "de": ["waschen"]
     },
     "complements": {},
     "particle": {},
@@ -839,9 +651,7 @@
   "carry": {
     "language": "en",
     "translations": {
-      "de": [
-        "tragen"
-      ]
+      "de": ["tragen"]
     },
     "complements": {},
     "particle": {},
@@ -850,9 +660,7 @@
   "wear": {
     "language": "en",
     "translations": {
-      "de": [
-        "tragen"
-      ]
+      "de": ["tragen"]
     },
     "complements": {},
     "particle": {},
@@ -861,9 +669,7 @@
   "load": {
     "language": "en",
     "translations": {
-      "de": [
-        "laden"
-      ]
+      "de": ["laden"]
     },
     "complements": {},
     "particle": {},
@@ -872,10 +678,7 @@
   "lie": {
     "language": "en",
     "translations": {
-      "de": [
-        "liegen",
-        "lügen"
-      ]
+      "de": ["liegen", "lügen"]
     },
     "complements": {},
     "particle": {},
@@ -884,9 +687,7 @@
   "sit": {
     "language": "en",
     "translations": {
-      "de": [
-        "sitzen"
-      ]
+      "de": ["sitzen"]
     },
     "complements": {},
     "particle": {},
@@ -895,16 +696,11 @@
   "read": {
     "language": "en",
     "translations": {
-      "de": [
-        "lesen",
-        "vor|lesen"
-      ]
+      "de": ["lesen", "vor|lesen"]
     },
     "complements": {
       "aloud": {
-        "de": [
-          "vor|lesen"
-        ]
+        "de": ["vor|lesen"]
       }
     },
     "particle": {},
@@ -913,9 +709,7 @@
   "kick": {
     "language": "en",
     "translations": {
-      "de": [
-        "treten"
-      ]
+      "de": ["treten"]
     },
     "complements": {},
     "particle": {},
@@ -924,9 +718,7 @@
   "eat": {
     "language": "en",
     "translations": {
-      "de": [
-        "essen"
-      ]
+      "de": ["essen"]
     },
     "complements": {},
     "particle": {},
@@ -935,10 +727,7 @@
   "see": {
     "language": "en",
     "translations": {
-      "de": [
-        "sehen",
-        "schauen"
-      ]
+      "de": ["sehen", "schauen"]
     },
     "complements": {},
     "particle": {},
@@ -947,9 +736,7 @@
   "happen": {
     "language": "en",
     "translations": {
-      "de": [
-        "geschehen"
-      ]
+      "de": ["geschehen"]
     },
     "complements": {},
     "particle": {},
@@ -958,9 +745,7 @@
   "fly": {
     "language": "en",
     "translations": {
-      "de": [
-        "fliegen"
-      ]
+      "de": ["fliegen"]
     },
     "complements": {},
     "particle": {},
@@ -969,9 +754,7 @@
   "flee": {
     "language": "en",
     "translations": {
-      "de": [
-        "fliehen"
-      ]
+      "de": ["fliehen"]
     },
     "complements": {},
     "particle": {},
@@ -980,9 +763,7 @@
   "flow": {
     "language": "en",
     "translations": {
-      "de": [
-        "fließen"
-      ]
+      "de": ["fließen"]
     },
     "complements": {},
     "particle": {},
@@ -991,20 +772,24 @@
   "freeze": {
     "language": "en",
     "translations": {
-      "de": [
-        "frieren"
-      ]
+      "de": ["frieren"]
     },
-    "complements": {},
-    "particle": {},
+    "complements": {
+      "to death": {
+        "de": ["er|frieren"]
+      }
+    },
+    "particle": {
+      "to": {
+        "de": ["er|frieren"]
+      }
+    },
     "wordBase": "freeze"
   },
   "bend": {
     "language": "en",
     "translations": {
-      "de": [
-        "biegen"
-      ]
+      "de": ["biegen"]
     },
     "complements": {},
     "particle": {},
@@ -1013,10 +798,7 @@
   "offer": {
     "language": "en",
     "translations": {
-      "de": [
-        "bieten",
-        "an|bieten"
-      ]
+      "de": ["bieten", "an|bieten"]
     },
     "complements": {},
     "particle": {},
@@ -1025,9 +807,7 @@
   "pull": {
     "language": "en",
     "translations": {
-      "de": [
-        "ziehen"
-      ]
+      "de": ["ziehen"]
     },
     "complements": {},
     "particle": {},
@@ -1036,9 +816,7 @@
   "weigh": {
     "language": "en",
     "translations": {
-      "de": [
-        "wiegen"
-      ]
+      "de": ["wiegen"]
     },
     "complements": {},
     "particle": {},
@@ -1047,9 +825,7 @@
   "pour": {
     "language": "en",
     "translations": {
-      "de": [
-        "gießen"
-      ]
+      "de": ["gießen"]
     },
     "complements": {},
     "particle": {},
@@ -1058,9 +834,7 @@
   "smell": {
     "language": "en",
     "translations": {
-      "de": [
-        "riechen"
-      ]
+      "de": ["riechen"]
     },
     "complements": {},
     "particle": {},
@@ -1069,9 +843,7 @@
   "push": {
     "language": "en",
     "translations": {
-      "de": [
-        "schieben"
-      ]
+      "de": ["schieben"]
     },
     "complements": {},
     "particle": {},
@@ -1080,15 +852,11 @@
   "shoot": {
     "language": "en",
     "translations": {
-      "de": [
-        "schießen"
-      ]
+      "de": ["schießen"]
     },
     "complements": {
       "(film)": {
-        "de": [
-          "drehen"
-        ]
+        "de": ["drehen"]
       }
     },
     "particle": {},
@@ -1097,9 +865,7 @@
   "close": {
     "language": "en",
     "translations": {
-      "de": [
-        "schließen"
-      ]
+      "de": ["schließen"]
     },
     "complements": {},
     "particle": {},
@@ -1108,9 +874,7 @@
   "lift": {
     "language": "en",
     "translations": {
-      "de": [
-        "heben"
-      ]
+      "de": ["heben"]
     },
     "complements": {},
     "particle": {},
@@ -1119,9 +883,7 @@
   "guzzle": {
     "language": "en",
     "translations": {
-      "de": [
-        "saufen"
-      ]
+      "de": ["saufen"]
     },
     "complements": {},
     "particle": {},
@@ -1130,9 +892,7 @@
   "melt": {
     "language": "en",
     "translations": {
-      "de": [
-        "schmelzen"
-      ]
+      "de": ["schmelzen"]
     },
     "complements": {},
     "particle": {},
@@ -1141,9 +901,7 @@
   "enjoy": {
     "language": "en",
     "translations": {
-      "de": [
-        "genießen"
-      ]
+      "de": ["genießen"]
     },
     "complements": {},
     "particle": {},
@@ -1152,9 +910,7 @@
   "lose": {
     "language": "en",
     "translations": {
-      "de": [
-        "verlieren"
-      ]
+      "de": ["verlieren"]
     },
     "complements": {},
     "particle": {},
@@ -1163,9 +919,7 @@
   "remain": {
     "language": "en",
     "translations": {
-      "de": [
-        "bleiben"
-      ]
+      "de": ["bleiben"]
     },
     "complements": {},
     "particle": {},
@@ -1174,9 +928,7 @@
   "stay": {
     "language": "en",
     "translations": {
-      "de": [
-        "bleiben"
-      ]
+      "de": ["bleiben"]
     },
     "complements": {},
     "particle": {},
@@ -1185,9 +937,7 @@
   "rub": {
     "language": "en",
     "translations": {
-      "de": [
-        "reiben"
-      ]
+      "de": ["reiben"]
     },
     "complements": {},
     "particle": {},
@@ -1196,9 +946,7 @@
   "glide": {
     "language": "en",
     "translations": {
-      "de": [
-        "gleiten"
-      ]
+      "de": ["gleiten"]
     },
     "complements": {},
     "particle": {},
@@ -1207,9 +955,7 @@
   "tear": {
     "language": "en",
     "translations": {
-      "de": [
-        "reißen"
-      ]
+      "de": ["reißen"]
     },
     "complements": {},
     "particle": {},
@@ -1218,9 +964,7 @@
   "bite": {
     "language": "en",
     "translations": {
-      "de": [
-        "beißen"
-      ]
+      "de": ["beißen"]
     },
     "complements": {},
     "particle": {},
@@ -1229,9 +973,7 @@
   "shit": {
     "language": "en",
     "translations": {
-      "de": [
-        "scheißen"
-      ]
+      "de": ["scheißen"]
     },
     "complements": {},
     "particle": {},
@@ -1240,9 +982,7 @@
   "lend": {
     "language": "en",
     "translations": {
-      "de": [
-        "leihen"
-      ]
+      "de": ["leihen"]
     },
     "complements": {},
     "particle": {},
@@ -1251,9 +991,7 @@
   "borrow": {
     "language": "en",
     "translations": {
-      "de": [
-        "leihen"
-      ]
+      "de": ["leihen"]
     },
     "complements": {},
     "particle": {},
@@ -1262,10 +1000,7 @@
   "shine": {
     "language": "en",
     "translations": {
-      "de": [
-        "scheinen",
-        "brennen"
-      ]
+      "de": ["scheinen", "brennen"]
     },
     "complements": {},
     "particle": {},
@@ -1274,10 +1009,7 @@
   "seem": {
     "language": "en",
     "translations": {
-      "de": [
-        "scheinen",
-        "erscheinen"
-      ]
+      "de": ["scheinen", "erscheinen"]
     },
     "complements": {},
     "particle": {},
@@ -1286,9 +1018,7 @@
   "avoid": {
     "language": "en",
     "translations": {
-      "de": [
-        "meiden"
-      ]
+      "de": ["meiden"]
     },
     "complements": {},
     "particle": {},
@@ -1297,10 +1027,7 @@
   "rise": {
     "language": "en",
     "translations": {
-      "de": [
-        "steigen",
-        "auf|gehen"
-      ]
+      "de": ["steigen", "auf|gehen"]
     },
     "complements": {},
     "particle": {},
@@ -1309,9 +1036,7 @@
   "forgive": {
     "language": "en",
     "translations": {
-      "de": [
-        "verzeihen"
-      ]
+      "de": ["verzeihen"]
     },
     "complements": {},
     "particle": {},
@@ -1320,10 +1045,7 @@
   "begin": {
     "language": "en",
     "translations": {
-      "de": [
-        "beginnen",
-        "an|fangen"
-      ]
+      "de": ["beginnen", "an|fangen"]
     },
     "complements": {},
     "particle": {},
@@ -1332,21 +1054,20 @@
   "come": {
     "language": "en",
     "translations": {
-      "de": [
-        "kommen"
-      ]
+      "de": ["kommen"]
     },
     "complements": {},
-    "particle": {},
+    "particle": {
+      "to": {
+        "de": ["auf|tauchen"]
+      }
+    },
     "wordBase": "come"
   },
   "take": {
     "language": "en",
     "translations": {
-      "de": [
-        "nehmen",
-        "bringen"
-      ]
+      "de": ["nehmen", "bringen"]
     },
     "complements": {},
     "particle": {},
@@ -1355,9 +1076,7 @@
   "die": {
     "language": "en",
     "translations": {
-      "de": [
-        "sterben"
-      ]
+      "de": ["sterben"]
     },
     "complements": {},
     "particle": {},
@@ -1366,9 +1085,7 @@
   "break": {
     "language": "en",
     "translations": {
-      "de": [
-        "brechen"
-      ]
+      "de": ["brechen"]
     },
     "complements": {},
     "particle": {},
@@ -1377,9 +1094,7 @@
   "help": {
     "language": "en",
     "translations": {
-      "de": [
-        "helfen"
-      ]
+      "de": ["helfen"]
     },
     "complements": {},
     "particle": {},
@@ -1388,9 +1103,7 @@
   "stab": {
     "language": "en",
     "translations": {
-      "de": [
-        "stechen"
-      ]
+      "de": ["stechen"]
     },
     "complements": {},
     "particle": {},
@@ -1399,9 +1112,7 @@
   "sting": {
     "language": "en",
     "translations": {
-      "de": [
-        "stechen"
-      ]
+      "de": ["stechen"]
     },
     "complements": {},
     "particle": {},
@@ -1410,9 +1121,7 @@
   "jab": {
     "language": "en",
     "translations": {
-      "de": [
-        "stechen"
-      ]
+      "de": ["stechen"]
     },
     "complements": {},
     "particle": {},
@@ -1421,9 +1130,7 @@
   "steal": {
     "language": "en",
     "translations": {
-      "de": [
-        "stehlen"
-      ]
+      "de": ["stehlen"]
     },
     "complements": {},
     "particle": {},
@@ -1432,9 +1139,7 @@
   "throw": {
     "language": "en",
     "translations": {
-      "de": [
-        "werfen"
-      ]
+      "de": ["werfen"]
     },
     "complements": {},
     "particle": {},
@@ -1443,9 +1148,7 @@
   "swim": {
     "language": "en",
     "translations": {
-      "de": [
-        "schwimmen"
-      ]
+      "de": ["schwimmen"]
     },
     "complements": {},
     "particle": {},
@@ -1454,9 +1157,7 @@
   "recommend": {
     "language": "en",
     "translations": {
-      "de": [
-        "empfehlen"
-      ]
+      "de": ["empfehlen"]
     },
     "complements": {},
     "particle": {},
@@ -1465,9 +1166,7 @@
   "win": {
     "language": "en",
     "translations": {
-      "de": [
-        "gewinnen"
-      ]
+      "de": ["gewinnen"]
     },
     "complements": {},
     "particle": {},
@@ -1476,9 +1175,7 @@
   "bind": {
     "language": "en",
     "translations": {
-      "de": [
-        "binden"
-      ]
+      "de": ["binden"]
     },
     "complements": {},
     "particle": {},
@@ -1487,9 +1184,7 @@
   "find": {
     "language": "en",
     "translations": {
-      "de": [
-        "finden"
-      ]
+      "de": ["finden"]
     },
     "complements": {},
     "particle": {},
@@ -1498,9 +1193,7 @@
   "drink": {
     "language": "en",
     "translations": {
-      "de": [
-        "trinken"
-      ]
+      "de": ["trinken"]
     },
     "complements": {},
     "particle": {},
@@ -1509,9 +1202,7 @@
   "stink": {
     "language": "en",
     "translations": {
-      "de": [
-        "stinken"
-      ]
+      "de": ["stinken"]
     },
     "complements": {},
     "particle": {},
@@ -1520,9 +1211,7 @@
   "sink": {
     "language": "en",
     "translations": {
-      "de": [
-        "sinken"
-      ]
+      "de": ["sinken"]
     },
     "complements": {},
     "particle": {},
@@ -1531,9 +1220,7 @@
   "jump": {
     "language": "en",
     "translations": {
-      "de": [
-        "springen"
-      ]
+      "de": ["springen"]
     },
     "complements": {},
     "particle": {},
@@ -1542,9 +1229,7 @@
   "sing": {
     "language": "en",
     "translations": {
-      "de": [
-        "singen"
-      ]
+      "de": ["singen"]
     },
     "complements": {},
     "particle": {},
@@ -1553,9 +1238,7 @@
   "force": {
     "language": "en",
     "translations": {
-      "de": [
-        "zwingen"
-      ]
+      "de": ["zwingen"]
     },
     "complements": {},
     "particle": {},
@@ -1564,32 +1247,25 @@
   "burn": {
     "language": "en",
     "translations": {
-      "de": [
-        "brennen"
-      ]
+      "de": ["brennen"]
     },
     "complements": {},
     "particle": {},
     "wordBase": "burn"
   },
-  "distil": {
+  "distill": {
     "language": "en",
     "translations": {
-      "de": [
-        "brennen"
-      ]
+      "de": ["brennen"]
     },
     "complements": {},
     "particle": {},
-    "wordBase": "distil"
+    "wordBase": "distill"
   },
   "think": {
     "language": "en",
     "translations": {
-      "de": [
-        "denken",
-        "über|legen"
-      ]
+      "de": ["denken", "über|legen"]
     },
     "complements": {},
     "particle": {},
@@ -1598,10 +1274,7 @@
   "bring": {
     "language": "en",
     "translations": {
-      "de": [
-        "bringen",
-        "mit|bringen"
-      ]
+      "de": ["bringen", "mit|bringen"]
     },
     "complements": {},
     "particle": {},
@@ -1610,9 +1283,7 @@
   "stand": {
     "language": "en",
     "translations": {
-      "de": [
-        "stehen"
-      ]
+      "de": ["stehen"]
     },
     "complements": {},
     "particle": {},
@@ -1621,9 +1292,7 @@
   "do": {
     "language": "en",
     "translations": {
-      "de": [
-        "tun"
-      ]
+      "de": ["tun"]
     },
     "complements": {},
     "particle": {},
@@ -1632,9 +1301,7 @@
   "race": {
     "language": "en",
     "translations": {
-      "de": [
-        "rennen"
-      ]
+      "de": ["rennen"]
     },
     "complements": {},
     "particle": {},
@@ -1643,9 +1310,7 @@
   "name": {
     "language": "en",
     "translations": {
-      "de": [
-        "nennen"
-      ]
+      "de": ["nennen"]
     },
     "complements": {},
     "particle": {},
@@ -1654,9 +1319,7 @@
   "wake": {
     "language": "en",
     "translations": {
-      "de": [
-        "wachen"
-      ]
+      "de": ["wachen"]
     },
     "complements": {},
     "particle": {},
@@ -1665,9 +1328,7 @@
   "picket": {
     "language": "en",
     "translations": {
-      "de": [
-        "wachen"
-      ]
+      "de": ["wachen"]
     },
     "complements": {},
     "particle": {},
@@ -1676,9 +1337,7 @@
   "lack": {
     "language": "en",
     "translations": {
-      "de": [
-        "fehlen"
-      ]
+      "de": ["fehlen"]
     },
     "complements": {},
     "particle": {},
@@ -1687,9 +1346,7 @@
   "miss": {
     "language": "en",
     "translations": {
-      "de": [
-        "fehlen"
-      ]
+      "de": ["fehlen"]
     },
     "complements": {},
     "particle": {},
@@ -1698,9 +1355,7 @@
   "slip": {
     "language": "en",
     "translations": {
-      "de": [
-        "rutschen"
-      ]
+      "de": ["rutschen"]
     },
     "complements": {},
     "particle": {},
@@ -1709,10 +1364,7 @@
   "slide": {
     "language": "en",
     "translations": {
-      "de": [
-        "rutschen",
-        "vergehen"
-      ]
+      "de": ["rutschen", "vergehen"]
     },
     "complements": {},
     "particle": {},
@@ -1721,9 +1373,7 @@
   "provide": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|bieten"
-      ]
+      "de": ["an|bieten"]
     },
     "complements": {},
     "particle": {},
@@ -1732,9 +1382,7 @@
   "inspect": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|sehen"
-      ]
+      "de": ["an|sehen"]
     },
     "complements": {},
     "particle": {},
@@ -1743,9 +1391,7 @@
   "view": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|sehen"
-      ]
+      "de": ["an|sehen"]
     },
     "complements": {},
     "particle": {},
@@ -1754,9 +1400,7 @@
   "regard": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|sehen"
-      ]
+      "de": ["an|sehen"]
     },
     "complements": {},
     "particle": {},
@@ -1765,11 +1409,7 @@
   "appear": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|sehen",
-        "erscheinen",
-        "auf|tauchen"
-      ]
+      "de": ["aus|sehen", "erscheinen", "auf|tauchen"]
     },
     "complements": {},
     "particle": {},
@@ -1778,15 +1418,11 @@
   "get": {
     "language": "en",
     "translations": {
-      "de": [
-        "bekommen"
-      ]
+      "de": ["bekommen"]
     },
     "complements": {
       "hold of": {
-        "de": [
-          "erwischen"
-        ]
+        "de": ["erwischen"]
       }
     },
     "particle": {},
@@ -1795,9 +1431,7 @@
   "crack": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|brechen"
-      ]
+      "de": ["ein|brechen"]
     },
     "complements": {},
     "particle": {},
@@ -1806,9 +1440,7 @@
   "burgle": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|brechen"
-      ]
+      "de": ["ein|brechen"]
     },
     "complements": {},
     "particle": {},
@@ -1817,42 +1449,16 @@
   "collapse": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|brechen",
-        "ein|fallen"
-      ]
+      "de": ["ein|brechen", "ein|fallen"]
     },
     "complements": {},
     "particle": {},
     "wordBase": "collapse"
   },
-  "freeze|to": {
-    "language": "en",
-    "translations": {
-      "de": []
-    },
-    "complements": {
-      "to death": {
-        "de": [
-          "er|frieren"
-        ]
-      }
-    },
-    "particle": {
-      "to": {
-        "de": [
-          "er|frieren"
-        ]
-      }
-    },
-    "wordBase": "freeze"
-  },
   "soar": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|steigen"
-      ]
+      "de": ["auf|steigen"]
     },
     "complements": {},
     "particle": {},
@@ -1861,9 +1467,7 @@
   "ascend": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|steigen"
-      ]
+      "de": ["auf|steigen"]
     },
     "complements": {},
     "particle": {},
@@ -1872,9 +1476,7 @@
   "descend": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|steigen"
-      ]
+      "de": ["ab|steigen"]
     },
     "complements": {},
     "particle": {},
@@ -1883,9 +1485,7 @@
   "dismount": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|steigen"
-      ]
+      "de": ["ab|steigen"]
     },
     "complements": {},
     "particle": {},
@@ -1894,9 +1494,7 @@
   "persist": {
     "language": "en",
     "translations": {
-      "de": [
-        "bestehen"
-      ]
+      "de": ["bestehen"]
     },
     "complements": {},
     "particle": {},
@@ -1905,9 +1503,7 @@
   "insist": {
     "language": "en",
     "translations": {
-      "de": [
-        "bestehen"
-      ]
+      "de": ["bestehen"]
     },
     "complements": {},
     "particle": {},
@@ -1916,9 +1512,7 @@
   "concern": {
     "language": "en",
     "translations": {
-      "de": [
-        "betreffen"
-      ]
+      "de": ["betreffen"]
     },
     "complements": {},
     "particle": {},
@@ -1927,9 +1521,7 @@
   "affect": {
     "language": "en",
     "translations": {
-      "de": [
-        "betreffen"
-      ]
+      "de": ["betreffen"]
     },
     "complements": {},
     "particle": {},
@@ -1938,9 +1530,7 @@
   "constitute": {
     "language": "en",
     "translations": {
-      "de": [
-        "dar|stellen"
-      ]
+      "de": ["dar|stellen"]
     },
     "complements": {},
     "particle": {},
@@ -1949,9 +1539,7 @@
   "depict": {
     "language": "en",
     "translations": {
-      "de": [
-        "dar|stellen"
-      ]
+      "de": ["dar|stellen"]
     },
     "complements": {},
     "particle": {},
@@ -1960,9 +1548,7 @@
   "match": {
     "language": "en",
     "translations": {
-      "de": [
-        "entsprechen"
-      ]
+      "de": ["entsprechen"]
     },
     "complements": {},
     "particle": {},
@@ -1971,9 +1557,7 @@
   "conform": {
     "language": "en",
     "translations": {
-      "de": [
-        "entsprechen"
-      ]
+      "de": ["entsprechen"]
     },
     "complements": {},
     "particle": {},
@@ -1982,9 +1566,7 @@
   "emerge": {
     "language": "en",
     "translations": {
-      "de": [
-        "entstehen"
-      ]
+      "de": ["entstehen"]
     },
     "complements": {},
     "particle": {},
@@ -1993,9 +1575,7 @@
   "arise": {
     "language": "en",
     "translations": {
-      "de": [
-        "entstehen"
-      ]
+      "de": ["entstehen"]
     },
     "complements": {},
     "particle": {},
@@ -2004,9 +1584,7 @@
   "yield": {
     "language": "en",
     "translations": {
-      "de": [
-        "ergeben"
-      ]
+      "de": ["ergeben"]
     },
     "complements": {},
     "particle": {},
@@ -2015,9 +1593,7 @@
   "obtain": {
     "language": "en",
     "translations": {
-      "de": [
-        "erhalten"
-      ]
+      "de": ["erhalten"]
     },
     "complements": {},
     "particle": {},
@@ -2026,10 +1602,7 @@
   "realize": {
     "language": "en",
     "translations": {
-      "de": [
-        "erkennen",
-        "auf|gehen"
-      ]
+      "de": ["erkennen", "auf|gehen"]
     },
     "complements": {},
     "particle": {},
@@ -2038,9 +1611,7 @@
   "explain": {
     "language": "en",
     "translations": {
-      "de": [
-        "erklären"
-      ]
+      "de": ["erklären"]
     },
     "complements": {},
     "particle": {},
@@ -2049,9 +1620,7 @@
   "declare": {
     "language": "en",
     "translations": {
-      "de": [
-        "erklären"
-      ]
+      "de": ["erklären"]
     },
     "complements": {},
     "particle": {},
@@ -2060,9 +1629,7 @@
   "achieve": {
     "language": "en",
     "translations": {
-      "de": [
-        "erreichen"
-      ]
+      "de": ["erreichen"]
     },
     "complements": {},
     "particle": {},
@@ -2071,9 +1638,7 @@
   "expect": {
     "language": "en",
     "translations": {
-      "de": [
-        "erwarten"
-      ]
+      "de": ["erwarten"]
     },
     "complements": {},
     "particle": {},
@@ -2082,9 +1647,7 @@
   "await": {
     "language": "en",
     "translations": {
-      "de": [
-        "erwarten"
-      ]
+      "de": ["erwarten"]
     },
     "complements": {},
     "particle": {},
@@ -2093,9 +1656,7 @@
   "tell": {
     "language": "en",
     "translations": {
-      "de": [
-        "erzählen"
-      ]
+      "de": ["erzählen"]
     },
     "complements": {},
     "particle": {},
@@ -2104,9 +1665,7 @@
   "narrate": {
     "language": "en",
     "translations": {
-      "de": [
-        "erzählen"
-      ]
+      "de": ["erzählen"]
     },
     "complements": {},
     "particle": {},
@@ -2115,9 +1674,7 @@
   "feel": {
     "language": "en",
     "translations": {
-      "de": [
-        "erzählen"
-      ]
+      "de": ["erzählen"]
     },
     "complements": {},
     "particle": {},
@@ -2126,9 +1683,7 @@
   "sense": {
     "language": "en",
     "translations": {
-      "de": [
-        "erzählen"
-      ]
+      "de": ["erzählen"]
     },
     "complements": {},
     "particle": {},
@@ -2137,9 +1692,7 @@
   "lead": {
     "language": "en",
     "translations": {
-      "de": [
-        "führen"
-      ]
+      "de": ["führen"]
     },
     "complements": {},
     "particle": {},
@@ -2148,9 +1701,7 @@
   "guide": {
     "language": "en",
     "translations": {
-      "de": [
-        "führen"
-      ]
+      "de": ["führen"]
     },
     "complements": {},
     "particle": {},
@@ -2159,9 +1710,7 @@
   "interest": {
     "language": "en",
     "translations": {
-      "de": [
-        "interessieren"
-      ]
+      "de": ["interessieren"]
     },
     "complements": {},
     "particle": {},
@@ -2170,9 +1719,7 @@
   "study": {
     "language": "en",
     "translations": {
-      "de": [
-        "studieren"
-      ]
+      "de": ["studieren"]
     },
     "complements": {},
     "particle": {},
@@ -2181,9 +1728,7 @@
   "lay": {
     "language": "en",
     "translations": {
-      "de": [
-        "legen"
-      ]
+      "de": ["legen"]
     },
     "complements": {},
     "particle": {},
@@ -2192,9 +1737,7 @@
   "deem": {
     "language": "en",
     "translations": {
-      "de": [
-        "meinen"
-      ]
+      "de": ["meinen"]
     },
     "complements": {},
     "particle": {},
@@ -2203,9 +1746,7 @@
   "create": {
     "language": "en",
     "translations": {
-      "de": [
-        "schaffen"
-      ]
+      "de": ["schaffen"]
     },
     "complements": {},
     "particle": {},
@@ -2214,9 +1755,7 @@
   "accomplish": {
     "language": "en",
     "translations": {
-      "de": [
-        "schaffen"
-      ]
+      "de": ["schaffen"]
     },
     "complements": {},
     "particle": {},
@@ -2225,9 +1764,7 @@
   "slice": {
     "language": "en",
     "translations": {
-      "de": [
-        "scheiben"
-      ]
+      "de": ["scheiben"]
     },
     "complements": {},
     "particle": {},
@@ -2236,9 +1773,7 @@
   "place": {
     "language": "en",
     "translations": {
-      "de": [
-        "stellen"
-      ]
+      "de": ["stellen"]
     },
     "complements": {},
     "particle": {},
@@ -2247,9 +1782,7 @@
   "introduce": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|stellen"
-      ]
+      "de": ["vor|stellen"]
     },
     "complements": {},
     "particle": {},
@@ -2258,9 +1791,7 @@
   "vanish": {
     "language": "en",
     "translations": {
-      "de": [
-        "vergehen"
-      ]
+      "de": ["vergehen"]
     },
     "complements": {},
     "particle": {},
@@ -2269,9 +1800,7 @@
   "equal": {
     "language": "en",
     "translations": {
-      "de": [
-        "gleichen"
-      ]
+      "de": ["gleichen"]
     },
     "complements": {},
     "particle": {},
@@ -2280,9 +1809,7 @@
   "compare": {
     "language": "en",
     "translations": {
-      "de": [
-        "vergleichen"
-      ]
+      "de": ["vergleichen"]
     },
     "complements": {},
     "particle": {},
@@ -2291,9 +1818,7 @@
   "contrast": {
     "language": "en",
     "translations": {
-      "de": [
-        "vergleichen"
-      ]
+      "de": ["vergleichen"]
     },
     "complements": {},
     "particle": {},
@@ -2302,9 +1827,7 @@
   "exhibit": {
     "language": "en",
     "translations": {
-      "de": [
-        "zeigen"
-      ]
+      "de": ["zeigen"]
     },
     "complements": {},
     "particle": {},
@@ -2313,9 +1836,7 @@
   "feature": {
     "language": "en",
     "translations": {
-      "de": [
-        "zeigen"
-      ]
+      "de": ["zeigen"]
     },
     "complements": {},
     "particle": {},
@@ -2324,11 +1845,7 @@
   "understand": {
     "language": "en",
     "translations": {
-      "de": [
-        "verstehen",
-        "fassen",
-        "begreifen"
-      ]
+      "de": ["verstehen", "fassen", "begreifen"]
     },
     "complements": {},
     "particle": {},
@@ -2337,9 +1854,7 @@
   "misunderstand": {
     "language": "en",
     "translations": {
-      "de": [
-        "mißverstehen"
-      ]
+      "de": ["mißverstehen"]
     },
     "complements": {},
     "particle": {},
@@ -2348,9 +1863,7 @@
   "connect": {
     "language": "en",
     "translations": {
-      "de": [
-        "verbinden"
-      ]
+      "de": ["verbinden"]
     },
     "complements": {},
     "particle": {},
@@ -2359,9 +1872,7 @@
   "link": {
     "language": "en",
     "translations": {
-      "de": [
-        "verbinden"
-      ]
+      "de": ["verbinden"]
     },
     "complements": {},
     "particle": {},
@@ -2370,9 +1881,7 @@
   "apply": {
     "language": "en",
     "translations": {
-      "de": [
-        "gelten"
-      ]
+      "de": ["gelten"]
     },
     "complements": {},
     "particle": {},
@@ -2381,9 +1890,7 @@
   "pertain": {
     "language": "en",
     "translations": {
-      "de": [
-        "gelten"
-      ]
+      "de": ["gelten"]
     },
     "complements": {},
     "particle": {},
@@ -2392,9 +1899,7 @@
   "develop": {
     "language": "en",
     "translations": {
-      "de": [
-        "entwickeln"
-      ]
+      "de": ["entwickeln"]
     },
     "complements": {},
     "particle": {},
@@ -2403,9 +1908,7 @@
   "evolve": {
     "language": "en",
     "translations": {
-      "de": [
-        "entwickeln"
-      ]
+      "de": ["entwickeln"]
     },
     "complements": {},
     "particle": {},
@@ -2414,9 +1917,7 @@
   "deal": {
     "language": "en",
     "translations": {
-      "de": [
-        "handeln"
-      ]
+      "de": ["handeln"]
     },
     "complements": {},
     "particle": {},
@@ -2425,9 +1926,7 @@
   "negotiate": {
     "language": "en",
     "translations": {
-      "de": [
-        "handeln"
-      ]
+      "de": ["handeln"]
     },
     "complements": {},
     "particle": {},
@@ -2436,9 +1935,7 @@
   "remember": {
     "language": "en",
     "translations": {
-      "de": [
-        "erinnern"
-      ]
+      "de": ["erinnern"]
     },
     "complements": {},
     "particle": {},
@@ -2447,9 +1944,7 @@
   "teach": {
     "language": "en",
     "translations": {
-      "de": [
-        "lehren"
-      ]
+      "de": ["lehren"]
     },
     "complements": {},
     "particle": {},
@@ -2458,9 +1953,7 @@
   "cost": {
     "language": "en",
     "translations": {
-      "de": [
-        "kosten"
-      ]
+      "de": ["kosten"]
     },
     "complements": {},
     "particle": {},
@@ -2469,9 +1962,7 @@
   "pack": {
     "language": "en",
     "translations": {
-      "de": [
-        "packen"
-      ]
+      "de": ["packen"]
     },
     "complements": {},
     "particle": {},
@@ -2480,9 +1971,7 @@
   "promise": {
     "language": "en",
     "translations": {
-      "de": [
-        "versprechen"
-      ]
+      "de": ["versprechen"]
     },
     "complements": {},
     "particle": {},
@@ -2491,9 +1980,7 @@
   "inform": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|teilen"
-      ]
+      "de": ["mit|teilen"]
     },
     "complements": {},
     "particle": {},
@@ -2502,9 +1989,7 @@
   "communicate": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|teilen"
-      ]
+      "de": ["mit|teilen"]
     },
     "complements": {},
     "particle": {},
@@ -2513,9 +1998,7 @@
   "share": {
     "language": "en",
     "translations": {
-      "de": [
-        "teilen"
-      ]
+      "de": ["teilen"]
     },
     "complements": {},
     "particle": {},
@@ -2524,9 +2007,7 @@
   "divide": {
     "language": "en",
     "translations": {
-      "de": [
-        "teilen"
-      ]
+      "de": ["teilen"]
     },
     "complements": {},
     "particle": {},
@@ -2535,9 +2016,7 @@
   "enquire": {
     "language": "en",
     "translations": {
-      "de": [
-        "erkundigen"
-      ]
+      "de": ["erkundigen"]
     },
     "complements": {},
     "particle": {},
@@ -2546,9 +2025,7 @@
   "hope": {
     "language": "en",
     "translations": {
-      "de": [
-        "hoffen"
-      ]
+      "de": ["hoffen"]
     },
     "complements": {},
     "particle": {},
@@ -2557,9 +2034,7 @@
   "plan": {
     "language": "en",
     "translations": {
-      "de": [
-        "planen"
-      ]
+      "de": ["planen"]
     },
     "complements": {},
     "particle": {},
@@ -2568,9 +2043,7 @@
   "inhale": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|atmen"
-      ]
+      "de": ["ein|atmen"]
     },
     "complements": {},
     "particle": {},
@@ -2579,9 +2052,7 @@
   "breathe": {
     "language": "en",
     "translations": {
-      "de": [
-        "atmen"
-      ]
+      "de": ["atmen"]
     },
     "complements": {},
     "particle": {},
@@ -2590,10 +2061,7 @@
   "conceal": {
     "language": "en",
     "translations": {
-      "de": [
-        "verheimlichen",
-        "verstecken"
-      ]
+      "de": ["verheimlichen", "verstecken"]
     },
     "complements": {},
     "particle": {},
@@ -2602,9 +2070,7 @@
   "spin": {
     "language": "en",
     "translations": {
-      "de": [
-        "drehen"
-      ]
+      "de": ["drehen"]
     },
     "complements": {},
     "particle": {},
@@ -2613,9 +2079,7 @@
   "turn": {
     "language": "en",
     "translations": {
-      "de": [
-        "drehen"
-      ]
+      "de": ["drehen"]
     },
     "complements": {},
     "particle": {},
@@ -2624,9 +2088,7 @@
   "manufacture": {
     "language": "en",
     "translations": {
-      "de": [
-        "her|stellen"
-      ]
+      "de": ["her|stellen"]
     },
     "complements": {},
     "particle": {},
@@ -2635,9 +2097,7 @@
   "produce": {
     "language": "en",
     "translations": {
-      "de": [
-        "her|stellen"
-      ]
+      "de": ["her|stellen"]
     },
     "complements": {},
     "particle": {},
@@ -2646,9 +2106,7 @@
   "invent": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|denken"
-      ]
+      "de": ["aus|denken"]
     },
     "complements": {},
     "particle": {},
@@ -2657,9 +2115,7 @@
   "dive": {
     "language": "en",
     "translations": {
-      "de": [
-        "tauchen"
-      ]
+      "de": ["tauchen"]
     },
     "complements": {},
     "particle": {},
@@ -2668,41 +2124,16 @@
   "plunge": {
     "language": "en",
     "translations": {
-      "de": [
-        "tauchen"
-      ]
+      "de": ["tauchen"]
     },
     "complements": {},
     "particle": {},
     "wordBase": "plunge"
   },
-  "come|to": {
-    "language": "en",
-    "translations": {
-      "de": []
-    },
-    "complements": {
-      "to light": {
-        "de": [
-          "auf|tauchen"
-        ]
-      }
-    },
-    "particle": {
-      "to": {
-        "de": [
-          "auf|tauchen"
-        ]
-      }
-    },
-    "wordBase": "come"
-  },
   "establish": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|richten"
-      ]
+      "de": ["ein|richten"]
     },
     "complements": {},
     "particle": {},
@@ -2711,9 +2142,7 @@
   "furnish": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|richten"
-      ]
+      "de": ["ein|richten"]
     },
     "complements": {},
     "particle": {},
@@ -2722,9 +2151,7 @@
   "organize": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|richten"
-      ]
+      "de": ["ein|richten"]
     },
     "complements": {},
     "particle": {},
@@ -2733,9 +2160,7 @@
   "state": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|sagen"
-      ]
+      "de": ["aus|sagen"]
     },
     "complements": {},
     "particle": {},
@@ -2744,9 +2169,7 @@
   "testify": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|sagen"
-      ]
+      "de": ["aus|sagen"]
     },
     "complements": {},
     "particle": {},
@@ -2755,9 +2178,7 @@
   "gather": {
     "language": "en",
     "translations": {
-      "de": [
-        "sammeln"
-      ]
+      "de": ["sammeln"]
     },
     "complements": {},
     "particle": {},
@@ -2766,9 +2187,7 @@
   "collect": {
     "language": "en",
     "translations": {
-      "de": [
-        "sammeln"
-      ]
+      "de": ["sammeln"]
     },
     "complements": {},
     "particle": {},
@@ -2777,9 +2196,7 @@
   "wipe": {
     "language": "en",
     "translations": {
-      "de": [
-        "wischen"
-      ]
+      "de": ["wischen"]
     },
     "complements": {},
     "particle": {},
@@ -2788,9 +2205,7 @@
   "mop": {
     "language": "en",
     "translations": {
-      "de": [
-        "wischen"
-      ]
+      "de": ["wischen"]
     },
     "complements": {},
     "particle": {},
@@ -2799,10 +2214,7 @@
   "seize": {
     "language": "en",
     "translations": {
-      "de": [
-        "erwischen",
-        "ergreifen"
-      ]
+      "de": ["erwischen", "ergreifen"]
     },
     "complements": {},
     "particle": {},
@@ -2811,9 +2223,7 @@
   "order": {
     "language": "en",
     "translations": {
-      "de": [
-        "bestellen"
-      ]
+      "de": ["bestellen"]
     },
     "complements": {},
     "particle": {},
@@ -2822,9 +2232,7 @@
   "request": {
     "language": "en",
     "translations": {
-      "de": [
-        "bestellen"
-      ]
+      "de": ["bestellen"]
     },
     "complements": {},
     "particle": {},
@@ -2833,9 +2241,7 @@
   "commission": {
     "language": "en",
     "translations": {
-      "de": [
-        "bestellen"
-      ]
+      "de": ["bestellen"]
     },
     "complements": {},
     "particle": {},
@@ -2844,9 +2250,7 @@
   "book": {
     "language": "en",
     "translations": {
-      "de": [
-        "bestellen"
-      ]
+      "de": ["bestellen"]
     },
     "complements": {},
     "particle": {},
@@ -2855,9 +2259,7 @@
   "relocate": {
     "language": "en",
     "translations": {
-      "de": [
-        "versetzen"
-      ]
+      "de": ["versetzen"]
     },
     "complements": {},
     "particle": {},
@@ -2866,9 +2268,7 @@
   "transfer": {
     "language": "en",
     "translations": {
-      "de": [
-        "versetzen"
-      ]
+      "de": ["versetzen"]
     },
     "complements": {},
     "particle": {},
@@ -2877,9 +2277,7 @@
   "deploy": {
     "language": "en",
     "translations": {
-      "de": [
-        "versetzen"
-      ]
+      "de": ["versetzen"]
     },
     "complements": {},
     "particle": {},
@@ -2888,9 +2286,7 @@
   "retort": {
     "language": "en",
     "translations": {
-      "de": [
-        "versetzen"
-      ]
+      "de": ["versetzen"]
     },
     "complements": {},
     "particle": {},
@@ -2899,9 +2295,7 @@
   "open": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|gehen"
-      ]
+      "de": ["auf|gehen"]
     },
     "complements": {},
     "particle": {},
@@ -2910,9 +2304,7 @@
   "snatch": {
     "language": "en",
     "translations": {
-      "de": [
-        "schnappen"
-      ]
+      "de": ["schnappen"]
     },
     "complements": {},
     "particle": {},
@@ -2921,9 +2313,7 @@
   "climb": {
     "language": "en",
     "translations": {
-      "de": [
-        "klettern"
-      ]
+      "de": ["klettern"]
     },
     "complements": {},
     "particle": {},
@@ -2932,9 +2322,7 @@
   "wave": {
     "language": "en",
     "translations": {
-      "de": [
-        "winken"
-      ]
+      "de": ["winken"]
     },
     "complements": {},
     "particle": {},
@@ -2943,9 +2331,7 @@
   "answer": {
     "language": "en",
     "translations": {
-      "de": [
-        "antworten"
-      ]
+      "de": ["antworten"]
     },
     "complements": {},
     "particle": {},
@@ -2954,9 +2340,7 @@
   "reply": {
     "language": "en",
     "translations": {
-      "de": [
-        "antworten"
-      ]
+      "de": ["antworten"]
     },
     "complements": {},
     "particle": {},
@@ -2965,9 +2349,7 @@
   "grip": {
     "language": "en",
     "translations": {
-      "de": [
-        "fassen"
-      ]
+      "de": ["fassen"]
     },
     "complements": {},
     "particle": {},
@@ -2976,9 +2358,7 @@
   "comprehend": {
     "language": "en",
     "translations": {
-      "de": [
-        "fassen"
-      ]
+      "de": ["fassen"]
     },
     "complements": {},
     "particle": {},
@@ -2987,9 +2367,7 @@
   "wobble": {
     "language": "en",
     "translations": {
-      "de": [
-        "wackeln"
-      ]
+      "de": ["wackeln"]
     },
     "complements": {},
     "particle": {},
@@ -2998,9 +2376,7 @@
   "shake": {
     "language": "en",
     "translations": {
-      "de": [
-        "wackeln"
-      ]
+      "de": ["wackeln"]
     },
     "complements": {},
     "particle": {},
@@ -3009,9 +2385,7 @@
   "wiggle": {
     "language": "en",
     "translations": {
-      "de": [
-        "wackeln"
-      ]
+      "de": ["wackeln"]
     },
     "complements": {},
     "particle": {},
@@ -3020,9 +2394,7 @@
   "look": {
     "language": "en",
     "translations": {
-      "de": [
-        "schauen"
-      ]
+      "de": ["schauen"]
     },
     "complements": {},
     "particle": {},
@@ -3031,9 +2403,7 @@
   "fathom": {
     "language": "en",
     "translations": {
-      "de": [
-        "begreifen"
-      ]
+      "de": ["begreifen"]
     },
     "complements": {},
     "particle": {},
@@ -3042,9 +2412,7 @@
   "call": {
     "language": "en",
     "translations": {
-      "de": [
-        "rufen"
-      ]
+      "de": ["rufen"]
     },
     "complements": {},
     "particle": {},
@@ -3053,31 +2421,25 @@
   "exclaim": {
     "language": "en",
     "translations": {
-      "de": [
-        "rufen"
-      ]
+      "de": ["rufen"]
     },
     "complements": {},
     "particle": {},
     "wordBase": "exclaim"
   },
-  "tip|over": {
+  "tip": {
     "language": "en",
     "translations": {
       "de": []
     },
     "complements": {
       "over the edge": {
-        "de": [
-          "runter|fallen"
-        ]
+        "de": ["runter|fallen"]
       }
     },
     "particle": {
       "over": {
-        "de": [
-          "runter|fallen"
-        ]
+        "de": ["runter|fallen"]
       }
     },
     "wordBase": "tip"
@@ -3085,9 +2447,7 @@
   "cry": {
     "language": "en",
     "translations": {
-      "de": [
-        "weinen"
-      ]
+      "de": ["weinen"]
     },
     "complements": {},
     "particle": {},
@@ -3096,9 +2456,7 @@
   "shrink": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|fallen"
-      ]
+      "de": ["ein|fallen"]
     },
     "complements": {},
     "particle": {},
@@ -3107,9 +2465,7 @@
   "dip": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|fallen"
-      ]
+      "de": ["ein|fallen"]
     },
     "complements": {},
     "particle": {},
@@ -3118,9 +2474,7 @@
   "vacate": {
     "language": "en",
     "translations": {
-      "de": [
-        "räumen"
-      ]
+      "de": ["räumen"]
     },
     "complements": {},
     "particle": {},
@@ -3129,9 +2483,7 @@
   "clear": {
     "language": "en",
     "translations": {
-      "de": [
-        "räumen"
-      ]
+      "de": ["räumen"]
     },
     "complements": {},
     "particle": {},
@@ -3140,9 +2492,7 @@
   "tidy": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|räumen"
-      ]
+      "de": ["auf|räumen"]
     },
     "complements": {},
     "particle": {},
@@ -3151,9 +2501,7 @@
   "hide": {
     "language": "en",
     "translations": {
-      "de": [
-        "verstecken"
-      ]
+      "de": ["verstecken"]
     },
     "complements": {},
     "particle": {},
@@ -3162,9 +2510,7 @@
   "stash": {
     "language": "en",
     "translations": {
-      "de": [
-        "verstecken"
-      ]
+      "de": ["verstecken"]
     },
     "complements": {},
     "particle": {},
@@ -3173,9 +2519,7 @@
   "stammer": {
     "language": "en",
     "translations": {
-      "de": [
-        "stottern"
-      ]
+      "de": ["stottern"]
     },
     "complements": {},
     "particle": {},
@@ -3184,9 +2528,7 @@
   "stutter": {
     "language": "en",
     "translations": {
-      "de": [
-        "stottern"
-      ]
+      "de": ["stottern"]
     },
     "complements": {},
     "particle": {},
@@ -3195,9 +2537,7 @@
   "consider": {
     "language": "en",
     "translations": {
-      "de": [
-        "über|legen"
-      ]
+      "de": ["über|legen"]
     },
     "complements": {},
     "particle": {},
@@ -3206,9 +2546,7 @@
   "deliberate": {
     "language": "en",
     "translations": {
-      "de": [
-        "über|legen"
-      ]
+      "de": ["über|legen"]
     },
     "complements": {},
     "particle": {},
@@ -3217,9 +2555,7 @@
   "include": {
     "language": "en",
     "translations": {
-      "de": [
-        "enthalten"
-      ]
+      "de": ["enthalten"]
     },
     "complements": {},
     "particle": {},
@@ -3228,9 +2564,7 @@
   "convey": {
     "language": "en",
     "translations": {
-      "de": [
-        "enthalten"
-      ]
+      "de": ["enthalten"]
     },
     "complements": {},
     "particle": {},
@@ -3239,9 +2573,7 @@
   "comprise": {
     "language": "en",
     "translations": {
-      "de": [
-        "enthalten"
-      ]
+      "de": ["enthalten"]
     },
     "complements": {},
     "particle": {},
@@ -3250,9 +2582,7 @@
   "leave": {
     "language": "en",
     "translations": {
-      "de": [
-        "verlassen"
-      ]
+      "de": ["verlassen"]
     },
     "complements": {},
     "particle": {},
@@ -3261,9 +2591,7 @@
   "depart": {
     "language": "en",
     "translations": {
-      "de": [
-        "verlassen"
-      ]
+      "de": ["verlassen"]
     },
     "complements": {},
     "particle": {},
@@ -3272,9 +2600,7 @@
   "forsake": {
     "language": "en",
     "translations": {
-      "de": [
-        "verlassen"
-      ]
+      "de": ["verlassen"]
     },
     "complements": {},
     "particle": {},
@@ -3283,9 +2609,7 @@
   "stick": {
     "language": "en",
     "translations": {
-      "de": [
-        "stecken"
-      ]
+      "de": ["stecken"]
     },
     "complements": {},
     "particle": {},
@@ -3294,9 +2618,7 @@
   "plug": {
     "language": "en",
     "translations": {
-      "de": [
-        "stecken"
-      ]
+      "de": ["stecken"]
     },
     "complements": {},
     "particle": {},
@@ -3305,9 +2627,7 @@
   "thrust": {
     "language": "en",
     "translations": {
-      "de": [
-        "stecken"
-      ]
+      "de": ["stecken"]
     },
     "complements": {},
     "particle": {},
@@ -3316,9 +2636,7 @@
   "stop": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|hören"
-      ]
+      "de": ["auf|hören"]
     },
     "complements": {},
     "particle": {},
@@ -3327,9 +2645,7 @@
   "end": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|hören"
-      ]
+      "de": ["auf|hören"]
     },
     "complements": {},
     "particle": {},
@@ -3338,9 +2654,7 @@
   "test": {
     "language": "en",
     "translations": {
-      "de": [
-        "testen"
-      ]
+      "de": ["testen"]
     },
     "complements": {},
     "particle": {},
@@ -3349,9 +2663,7 @@
   "move": {
     "language": "en",
     "translations": {
-      "de": [
-        "bewegen"
-      ]
+      "de": ["bewegen"]
     },
     "complements": {},
     "particle": {},
@@ -3360,9 +2672,7 @@
   "use": {
     "language": "en",
     "translations": {
-      "de": [
-        "verwenden"
-      ]
+      "de": ["verwenden"]
     },
     "complements": {},
     "particle": {},
@@ -3371,9 +2681,7 @@
   "bleed": {
     "language": "en",
     "translations": {
-      "de": [
-        "bluten"
-      ]
+      "de": ["bluten"]
     },
     "complements": {},
     "particle": {},

@@ -1,5 +1,5 @@
 import { PersonShorthand, Tense, type EnglishConjugatedVerb } from "./types";
-import { englishVerbDictionary } from "./englishVerbDictionary";
+import { englishVerbDictionary } from "./data/englishVerbDictionary";
 import { parseEnglishTranslation } from "./parseEnglishTranslation";
 import englishKeyDictionary from "./englishVerbKeyMap.json";
 import type { KeyDictionary } from "../common/types";

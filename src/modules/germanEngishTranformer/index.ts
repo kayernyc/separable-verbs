@@ -1,5 +1,5 @@
 import { type Pronoun } from "../common/types";
-import type { EnglishEntry } from "../english/englishVerbDictionary";
+import type { EnglishEntry } from "../english/data/englishVerbDictionary";
 import {
   PersonShorthand as EnglishPerson,
   findPronoun as findEnglishPronoun,

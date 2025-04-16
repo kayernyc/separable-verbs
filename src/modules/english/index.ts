@@ -92,7 +92,7 @@ export const generateTestObject = () => {
     gender,
   };
 
-  console.log(findConjugation(conjugation, person));
+  console.log(findConjugation(conjugation, person, tense, plurality));
 
   const pronounString = findPersonSubject(pronoun);
   console.log(pronounString);

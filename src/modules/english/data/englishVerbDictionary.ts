@@ -1,3 +1,4 @@
+import { Person, Plurality } from "@/modules/common/types";
 import { PersonShorthand, Tense } from "../types";
 
 export type EnglishEntry = {
@@ -5,8 +6,6 @@ export type EnglishEntry = {
   pastParticiple: string;
   presentParticiple: string;
   perfect: string;
-  firstPerson?: string;
-  secondPerson?: string;
   thirdPerson: string;
 };
 
@@ -20,70 +19,104 @@ export function isBeVerb(conjugation: any): conjugation is BeVerb {
   return (conjugation as BeVerb).pastAllOthers !== undefined;
 }
 
+type PresentTenseFunction = (person: Person, plurality: Plurality) => string;
+
 export type AuxiliaryVerb = {
   citation: string;
   infinitive: string;
   perfect: string;
   thirdPerson: string;
+  presentTenseFunction: PresentTenseFunction;
   pastParticiple?: string;
   presentParticiple?: string;
 };
 
-export const Will = {
+export const Will: AuxiliaryVerb = {
   citation: "will",
   infinitive: "going to",
   perfect: "would",
   thirdPerson: "will",
   pastParticiple: "will have",
+  presentTenseFunction: (person: Person, plurality: Plurality) => {
+    return person === Person.Third && plurality === Plurality.Singular
+      ? "is going to"
+      : "are going to";
+  },
 };
 
-export const May = {
+export const May: AuxiliaryVerb = {
   citation: "may",
   infinitive: "may",
   perfect: "might",
   thirdPerson: "may",
   pastParticiple: "may have",
+  presentTenseFunction: (person: Person, plurality: Plurality) => {
+    return "may";
+  },
 };
 
-export const Can = {
+export const Can: AuxiliaryVerb = {
   citation: "can",
   infinitive: "be able",
   pastParticiple: "was able",
   presentParticiple: "able",
   perfect: "could have",
   thirdPerson: "can",
+  presentTenseFunction: (person: Person, plurality: Plurality) => {
+    return person === Person.Third && plurality === Plurality.Singular
+      ? "is able"
+      : "are able";
+  },
 };
 
-export const Shall = {
+export const Shall: AuxiliaryVerb = {
   citation: "shall",
   infinitive: "shall",
   perfect: "should",
   thirdPerson: "should",
   pastParticiple: "should have",
+  presentTenseFunction: (person: Person, plurality: Plurality) => {
+    return "shall";
+  },
 };
 
-export const Must = {
+export const Must: AuxiliaryVerb = {
   citation: "must",
   infinitive: "have to",
   perfect: "had to",
   thirdPerson: "must",
   pastParticiple: "must have",
+  presentTenseFunction: (person: Person, plurality: Plurality) => {
+    return person === Person.Third && plurality === Plurality.Singular
+      ? "has to"
+      : "have to";
+  },
 };
 
-export const Ought = {
+export const Ought: AuxiliaryVerb = {
   citation: "ought",
   infinitive: "have to",
   perfect: "had to",
   thirdPerson: "ought",
   pastParticiple: "ought to have",
+  presentTenseFunction: (person: Person, plurality: Plurality) => {
+    return person === Person.Third && plurality === Plurality.Singular
+      ? "has to"
+      : "have to";
+  },
 };
 
-export const Do = {
+export const Do: AuxiliaryVerb = {
   citation: "do",
   infinitive: "do",
   perfect: "did",
   thirdPerson: "does",
   pastParticiple: "done",
+  presentTenseFunction: (person: Person, plurality: Plurality) => {
+    return person === Person.Third && plurality === Plurality.Singular
+      ? "does"
+      : "do";
+  },
 };
 
 export const modalMap: {
@@ -102,9 +135,13 @@ export type BeVerb = EnglishEntry & {
   singularThird: string;
   pastFirstPersonSingular: string;
   pastAllOthers: string;
+  firstPerson: string;
+  secondPerson: string;
+  presentTenseFunction: (person: Person, plural: Plurality) => string;
+  pastTenseFunction: (person: Person, plural: Plurality) => string;
 };
 
-export const beVerb = {
+export const beVerb: BeVerb = {
   infinitive: "be",
   pastParticiple: "been",
   presentParticiple: "being",
@@ -115,6 +152,23 @@ export const beVerb = {
   singularThird: "is",
   pastFirstPersonSingular: "was",
   pastAllOthers: "were",
+  presentTenseFunction: (person: Person, plurality: Plurality) => {
+    switch (person) {
+      case Person.First:
+        return beVerb.firstPerson;
+      case Person.Second:
+        return beVerb.secondPerson;
+      default:
+        return plurality === Plurality.Singular
+          ? beVerb.singularThird
+          : beVerb.thirdPerson;
+    }
+  },
+  pastTenseFunction: (person: Person, plurality: Plurality) => {
+    return person !== Person.Second && plurality === Plurality.Singular
+      ? beVerb.pastFirstPersonSingular
+      : beVerb.pastAllOthers;
+  },
 };
 
 const BeConjugation = {

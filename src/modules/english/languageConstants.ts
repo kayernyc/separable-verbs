@@ -6,7 +6,6 @@ export const particles = [
   "above",
   "after",
   "again",
-  "aground",
   "along",
   "alongside",
   "apart",

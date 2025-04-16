@@ -1,7 +1,5 @@
 import { PersonShorthand, Tense, type GermanConjugatedVerb } from "./types";
 
-export const conjugate = (infinitive: string) => {};
-
 const seinConjugation: GermanConjugatedVerb = {
   [Tense.PRASENS]: {
     [PersonShorthand.First_Singular]: "bin",

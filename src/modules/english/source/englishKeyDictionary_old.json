@@ -2,26 +2,62 @@
   "fade|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|blenden"
-      ]
+      "de": ["ab|blenden"]
     },
     "complements": {},
     "particle": "out",
     "wordBase": "fade"
   },
+  "will": {
+    "language": "en",
+    "translations": {
+      "de": ["werden"]
+    },
+    "wordBase": "will"
+  },
+  "can": {
+    "language": "en",
+    "translations": {
+      "de": ["können"]
+    },
+    "wordBase": "can"
+  },
+  "shall": {
+    "language": "en",
+    "translations": {
+      "de": ["sollen"]
+    },
+    "wordBase": "shall"
+  },
+  "ought": {
+    "language": "en",
+    "translations": {
+      "de": ["sollen"]
+    },
+    "wordBase": "ought"
+  },
+  "must": {
+    "language": "en",
+    "translations": {
+      "de": ["müssen"]
+    },
+    "wordBase": "must"
+  },
+  "may": {
+    "language": "en",
+    "translations": {
+      "de": ["dürfen"]
+    },
+    "wordBase": "fade"
+  },
   "dim": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|blenden"
-      ]
+      "de": ["ab|blenden"]
     },
     "complements": {
       "(lights)": {
-        "de": [
-          "ab|blenden"
-        ]
+        "de": ["ab|blenden"]
       }
     },
     "wordBase": "dim"
@@ -29,9 +65,7 @@
   "break|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|brechen"
-      ]
+      "de": ["ab|brechen"]
     },
     "complements": {},
     "particle": "off",
@@ -40,10 +74,7 @@
   "burn|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|brennen",
-        "nieder|brennen"
-      ]
+      "de": ["ab|brennen", "nieder|brennen"]
     },
     "complements": {},
     "particle": "down",
@@ -52,9 +83,7 @@
   "abdicate": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|danken"
-      ]
+      "de": ["ab|danken"]
     },
     "complements": {},
     "wordBase": "abdicate"
@@ -62,9 +91,7 @@
   "resign": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|danken"
-      ]
+      "de": ["ab|danken"]
     },
     "complements": {},
     "wordBase": "resign"
@@ -72,15 +99,11 @@
   "pull": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|drücken"
-      ]
+      "de": ["ab|drücken"]
     },
     "complements": {
       "the trigger": {
-        "de": [
-          "ab|drücken"
-        ]
+        "de": ["ab|drücken"]
       }
     },
     "wordBase": "pull"
@@ -88,9 +111,7 @@
   "shoot": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|drücken"
-      ]
+      "de": ["ab|drücken"]
     },
     "complements": {},
     "wordBase": "shoot"
@@ -98,11 +119,7 @@
   "drive|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|fahren",
-        "los|fahren",
-        "weg|fahren"
-      ]
+      "de": ["ab|fahren", "los|fahren", "weg|fahren"]
     },
     "complements": {},
     "particle": "off",
@@ -111,15 +128,11 @@
   "depart": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|fahren"
-      ]
+      "de": ["ab|fahren"]
     },
     "complements": {
       "(by car)": {
-        "de": [
-          "ab|fahren"
-        ]
+        "de": ["ab|fahren"]
       }
     },
     "wordBase": "depart"
@@ -127,9 +140,7 @@
   "brush|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|fegen"
-      ]
+      "de": ["ab|fegen"]
     },
     "complements": {},
     "particle": "off",
@@ -138,9 +149,7 @@
   "chop|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|hacken"
-      ]
+      "de": ["ab|hacken"]
     },
     "complements": {},
     "particle": "off",
@@ -174,109 +183,67 @@
     },
     "complements": {
       "dependent on": {
-        "de": [
-          "ab|hängen von"
-        ]
+        "de": ["ab|hängen von"]
       },
       "noticeable": {
-        "de": [
-          "auf|fallen"
-        ]
+        "de": ["auf|fallen"]
       },
       "canceled": {
-        "de": [
-          "aus|fallen"
-        ]
+        "de": ["aus|fallen"]
       },
       "sufficient": {
-        "de": [
-          "aus|reichen"
-        ]
+        "de": ["aus|reichen"]
       },
       "enclosed [along with]": {
-        "de": [
-          "bei|liegen"
-        ]
+        "de": ["bei|liegen"]
       },
       "present at": {
-        "de": [
-          "bei|wohnen"
-        ]
+        "de": ["bei|wohnen"]
       },
       "present at, take part in": {
-        "de": [
-          "dabei|sein"
-        ]
+        "de": ["dabei|sein"]
       },
       "glued on": {
-        "de": [
-          "fest|kleben"
-        ]
+        "de": ["fest|kleben"]
       },
       "stuck": {
-        "de": [
-          "fest|sitzen"
-        ]
+        "de": ["fest|sitzen"]
       },
       "confronted with": {
-        "de": [
-          "gegenüber|stehen"
-        ]
+        "de": ["gegenüber|stehen"]
       },
       "tantamount to": {
-        "de": [
-          "gleich|kommen"
-        ]
+        "de": ["gleich|kommen"]
       },
       "duped": {
-        "de": [
-          "herein|fallen"
-        ]
+        "de": ["herein|fallen"]
       },
       "able to eat": {
-        "de": [
-          "herunter|bekommen"
-        ]
+        "de": ["herunter|bekommen"]
       },
       "allowed in": {
-        "de": [
-          "hinein|dürfen"
-        ]
+        "de": ["hinein|dürfen"]
       },
       "added to": {
-        "de": [
-          "hinzu|kommen"
-        ]
+        "de": ["hinzu|kommen"]
       },
       "allowed to go along": {
-        "de": [
-          "mit|dürfen"
-        ]
+        "de": ["mit|dürfen"]
       },
       "involved": {
-        "de": [
-          "mit|wirken"
-        ]
+        "de": ["mit|wirken"]
       },
       "able to get away": {
-        "de": [
-          "weg|können"
-        ]
+        "de": ["weg|können"]
       },
       "able to leave": {
-        "de": [
-          "weg|können"
-        ]
+        "de": ["weg|können"]
       },
       "given back": {
-        "de": [
-          "zurück|erhalten"
-        ]
+        "de": ["zurück|erhalten"]
       },
       "suited for each other": {
-        "de": [
-          "zusammen|passen"
-        ]
+        "de": ["zusammen|passen"]
       }
     },
     "wordBase": "be"
@@ -284,9 +251,7 @@
   "wiretap": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|hören"
-      ]
+      "de": ["ab|hören"]
     },
     "complements": {},
     "wordBase": "wiretap"
@@ -294,12 +259,7 @@
   "get|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|kommen",
-        "frei|kommen",
-        "los|kommen",
-        "weg|kommen"
-      ]
+      "de": ["ab|kommen", "frei|kommen", "los|kommen", "weg|kommen"]
     },
     "complements": {},
     "particle": "away",
@@ -308,9 +268,7 @@
   "divert": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|lenken"
-      ]
+      "de": ["ab|lenken"]
     },
     "complements": {},
     "wordBase": "divert"
@@ -318,9 +276,7 @@
   "remove": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|nehmen"
-      ]
+      "de": ["ab|nehmen"]
     },
     "complements": {},
     "wordBase": "remove"
@@ -328,17 +284,11 @@
   "take|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|nehmen",
-        "fort|bringen",
-        "weg|bringen"
-      ]
+      "de": ["ab|nehmen", "fort|bringen", "weg|bringen"]
     },
     "complements": {
       "away (for repair)": {
-        "de": [
-          "fort|bringen"
-        ]
+        "de": ["fort|bringen"]
       }
     },
     "particle": "away",
@@ -347,9 +297,7 @@
   "wear|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|nutzen"
-      ]
+      "de": ["ab|nutzen"]
     },
     "complements": {},
     "particle": "out",
@@ -358,15 +306,11 @@
   "bolt": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|riegeln"
-      ]
+      "de": ["ab|riegeln"]
     },
     "complements": {
       "(a door)": {
-        "de": [
-          "ab|riegeln"
-        ]
+        "de": ["ab|riegeln"]
       }
     },
     "wordBase": "bolt"
@@ -374,9 +318,7 @@
   "close|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|riegeln"
-      ]
+      "de": ["ab|riegeln"]
     },
     "complements": {},
     "particle": "off",
@@ -385,15 +327,11 @@
   "do|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|schaffen"
-      ]
+      "de": ["ab|schaffen"]
     },
     "complements": {
       "away with": {
-        "de": [
-          "ab|schaffen"
-        ]
+        "de": ["ab|schaffen"]
       }
     },
     "particle": "away",
@@ -402,16 +340,11 @@
   "send|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|schicken",
-        "vorweg|schicken"
-      ]
+      "de": ["ab|schicken", "vorweg|schicken"]
     },
     "complements": {
       "off in anticipation": {
-        "de": [
-          "vorweg|schicken"
-        ]
+        "de": ["vorweg|schicken"]
       }
     },
     "particle": "off",
@@ -420,9 +353,7 @@
   "secure": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|sichern"
-      ]
+      "de": ["ab|sichern"]
     },
     "complements": {},
     "wordBase": "secure"
@@ -430,9 +361,7 @@
   "vote": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|stimmen"
-      ]
+      "de": ["ab|stimmen"]
     },
     "complements": {},
     "wordBase": "vote"
@@ -440,9 +369,7 @@
   "abort": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|treiben"
-      ]
+      "de": ["ab|treiben"]
     },
     "complements": {},
     "wordBase": "abort"
@@ -450,9 +377,7 @@
   "repulse": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|wehren"
-      ]
+      "de": ["ab|wehren"]
     },
     "complements": {},
     "wordBase": "repulse"
@@ -460,9 +385,7 @@
   "fend|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|wehren"
-      ]
+      "de": ["ab|wehren"]
     },
     "complements": {},
     "particle": "off",
@@ -471,9 +394,7 @@
   "deduct": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|ziehen"
-      ]
+      "de": ["ab|ziehen"]
     },
     "complements": {},
     "wordBase": "deduct"
@@ -481,9 +402,7 @@
   "withdraw": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|ziehen"
-      ]
+      "de": ["ab|ziehen"]
     },
     "complements": {},
     "wordBase": "withdraw"
@@ -491,9 +410,7 @@
   "branch|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|zweigen"
-      ]
+      "de": ["ab|zweigen"]
     },
     "complements": {},
     "particle": "off",
@@ -502,9 +419,7 @@
   "build|on": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|bauen"
-      ]
+      "de": ["an|bauen"]
     },
     "complements": {},
     "particle": "on",
@@ -513,18 +428,11 @@
   "add": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|bauen",
-        "bei|mischen",
-        "hinzu|fügen",
-        "hinzu|setzen"
-      ]
+      "de": ["an|bauen", "bei|mischen", "hinzu|fügen", "hinzu|setzen"]
     },
     "complements": {
       "[to a mixture]": {
-        "de": [
-          "bei|mischen"
-        ]
+        "de": ["bei|mischen"]
       }
     },
     "wordBase": "add"
@@ -532,15 +440,11 @@
   "cultivate": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|bauen"
-      ]
+      "de": ["an|bauen"]
     },
     "complements": {
       "(a crop)": {
-        "de": [
-          "an|bauen"
-        ]
+        "de": ["an|bauen"]
       }
     },
     "wordBase": "cultivate"
@@ -560,34 +464,22 @@
     },
     "complements": {
       "a bite of": {
-        "de": [
-          "an|beißen"
-        ]
+        "de": ["an|beißen"]
       },
       "hold of": {
-        "de": [
-          "an|fassen"
-        ]
+        "de": ["an|fassen"]
       },
       "notes": {
-        "de": [
-          "mit|schreiben"
-        ]
+        "de": ["mit|schreiben"]
       },
       "part in the game": {
-        "de": [
-          "mit|spielen"
-        ]
+        "de": ["mit|spielen"]
       },
       "place": {
-        "de": [
-          "statt|finden"
-        ]
+        "de": ["statt|finden"]
       },
       "hold": {
-        "de": [
-          "zu|greifen"
-        ]
+        "de": ["zu|greifen"]
       }
     },
     "wordBase": "take"
@@ -595,11 +487,7 @@
   "attach": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|binden",
-        "an|hängen",
-        "an|machen"
-      ]
+      "de": ["an|binden", "an|hängen", "an|machen"]
     },
     "complements": {},
     "wordBase": "attach"
@@ -607,16 +495,11 @@
   "fasten": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|bringen",
-        "fest|machen"
-      ]
+      "de": ["an|bringen", "fest|machen"]
     },
     "complements": {
       "firmly": {
-        "de": [
-          "fest|machen"
-        ]
+        "de": ["fest|machen"]
       }
     },
     "wordBase": "fasten"
@@ -624,9 +507,7 @@
   "install": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|bringen"
-      ]
+      "de": ["an|bringen"]
     },
     "complements": {},
     "wordBase": "install"
@@ -634,9 +515,7 @@
   "last": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|dauern"
-      ]
+      "de": ["an|dauern"]
     },
     "complements": {},
     "wordBase": "last"
@@ -659,24 +538,16 @@
     },
     "complements": {
       "(one's) education": {
-        "de": [
-          "fort|bilden"
-        ]
+        "de": ["fort|bilden"]
       },
       "talking": {
-        "de": [
-          "fort|reden"
-        ]
+        "de": ["fort|reden"]
       },
       "a narration": {
-        "de": [
-          "weiter|erzählen"
-        ]
+        "de": ["weiter|erzählen"]
       },
       "living": {
-        "de": [
-          "weiter|leben"
-        ]
+        "de": ["weiter|leben"]
       }
     },
     "wordBase": "continue"
@@ -684,9 +555,7 @@
   "drive|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|fahren"
-      ]
+      "de": ["an|fahren"]
     },
     "complements": {},
     "particle": "up",
@@ -695,16 +564,11 @@
   "arrive": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|fahren",
-        "an|kommen"
-      ]
+      "de": ["an|fahren", "an|kommen"]
     },
     "complements": {
       "(by car)": {
-        "de": [
-          "an|fahren"
-        ]
+        "de": ["an|fahren"]
       }
     },
     "wordBase": "arrive"
@@ -712,9 +576,7 @@
   "attack": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|greifen"
-      ]
+      "de": ["an|greifen"]
     },
     "complements": {},
     "wordBase": "attack"
@@ -722,9 +584,7 @@
   "have|on": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|haben"
-      ]
+      "de": ["an|haben"]
     },
     "complements": {},
     "particle": "on",
@@ -733,9 +593,7 @@
   "wear": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|haben"
-      ]
+      "de": ["an|haben"]
     },
     "complements": {},
     "wordBase": "wear"
@@ -743,15 +601,11 @@
   "cause|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|halten"
-      ]
+      "de": ["an|halten"]
     },
     "complements": {
       "to stop": {
-        "de": [
-          "an|halten"
-        ]
+        "de": ["an|halten"]
       }
     },
     "particle": "to",
@@ -760,9 +614,7 @@
   "smile|at": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|lächeln"
-      ]
+      "de": ["an|lächeln"]
     },
     "complements": {},
     "particle": "at",
@@ -771,9 +623,7 @@
   "lean": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|lehnen"
-      ]
+      "de": ["an|lehnen"]
     },
     "complements": {},
     "wordBase": "lean"
@@ -797,59 +647,37 @@
     },
     "complements": {
       "a pass at": {
-        "de": [
-          "an|machen"
-        ]
+        "de": ["an|machen"]
       },
       "a difference": {
-        "de": [
-          "aus|machen"
-        ]
+        "de": ["aus|machen"]
       },
       "a cut in": {
-        "de": [
-          "ein|schneiden"
-        ]
+        "de": ["ein|schneiden"]
       },
       "a false start": {
-        "de": [
-          "fehl|starten"
-        ]
+        "de": ["fehl|starten"]
       },
       "equal": {
-        "de": [
-          "gleich|machen"
-        ]
+        "de": ["gleich|machen"]
       },
       "known": {
-        "de": [
-          "heraus|bringen"
-        ]
+        "de": ["heraus|bringen"]
       },
       "(something) function": {
-        "de": [
-          "hin|kriegen"
-        ]
+        "de": ["hin|kriegen"]
       },
       "despondent": {
-        "de": [
-          "nieder|schlagen"
-        ]
+        "de": ["nieder|schlagen"]
       },
       "provision": {
-        "de": [
-          "vor|bauen"
-        ]
+        "de": ["vor|bauen"]
       },
       "provisions": {
-        "de": [
-          "vor|sorge"
-        ]
+        "de": ["vor|sorge"]
       },
       "progress": {
-        "de": [
-          "weiter|kommen"
-        ]
+        "de": ["weiter|kommen"]
       }
     },
     "wordBase": "make"
@@ -857,9 +685,7 @@
   "notice": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|merken"
-      ]
+      "de": ["an|merken"]
     },
     "complements": {},
     "wordBase": "notice"
@@ -867,9 +693,7 @@
   "note": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|merken"
-      ]
+      "de": ["an|merken"]
     },
     "complements": {},
     "wordBase": "note"
@@ -877,15 +701,11 @@
   "whistle|for": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|pfeifen"
-      ]
+      "de": ["an|pfeifen"]
     },
     "complements": {
       "for play to start": {
-        "de": [
-          "an|pfeifen"
-        ]
+        "de": ["an|pfeifen"]
       }
     },
     "particle": "for",
@@ -894,16 +714,11 @@
   "take|into": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|rechnen",
-        "ein|kalkulieren"
-      ]
+      "de": ["an|rechnen", "ein|kalkulieren"]
     },
     "complements": {
       "into account": {
-        "de": [
-          "an|rechnen"
-        ]
+        "de": ["an|rechnen"]
       }
     },
     "particle": "into",
@@ -912,15 +727,11 @@
   "shoot|at": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|schießen"
-      ]
+      "de": ["an|schießen"]
     },
     "complements": {
       "at and wound": {
-        "de": [
-          "an|schießen"
-        ]
+        "de": ["an|schießen"]
       }
     },
     "particle": "at",
@@ -929,9 +740,7 @@
   "look|at": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|schauen"
-      ]
+      "de": ["an|schauen"]
     },
     "complements": {},
     "particle": "at",
@@ -940,16 +749,11 @@
   "cut|into": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|schneiden",
-        "hinein|schneiden"
-      ]
+      "de": ["an|schneiden", "hinein|schneiden"]
     },
     "complements": {
       "into (cut the first piece of)": {
-        "de": [
-          "an|schneiden"
-        ]
+        "de": ["an|schneiden"]
       }
     },
     "particle": "into",
@@ -958,9 +762,7 @@
   "speak|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|sprechen"
-      ]
+      "de": ["an|sprechen"]
     },
     "complements": {},
     "particle": "to",
@@ -969,15 +771,11 @@
   "initiate": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|sprechen"
-      ]
+      "de": ["an|sprechen"]
     },
     "complements": {
       "a conversation with": {
-        "de": [
-          "an|sprechen"
-        ]
+        "de": ["an|sprechen"]
       }
     },
     "wordBase": "initiate"
@@ -985,10 +783,7 @@
   "aspire": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|streben",
-        "empor|streben"
-      ]
+      "de": ["an|streben", "empor|streben"]
     },
     "complements": {},
     "wordBase": "aspire"
@@ -996,9 +791,7 @@
   "strain": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|strengen"
-      ]
+      "de": ["an|strengen"]
     },
     "complements": {},
     "wordBase": "strain"
@@ -1006,21 +799,14 @@
   "give": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|tippen",
-        "etwas mit|geben"
-      ]
+      "de": ["an|tippen", "etwas mit|geben"]
     },
     "complements": {
       "a light tap to": {
-        "de": [
-          "an|tippen"
-        ]
+        "de": ["an|tippen"]
       },
       "something [for the purpose of taking it along]": {
-        "de": [
-          "etwas mit|geben"
-        ]
+        "de": ["etwas mit|geben"]
       }
     },
     "wordBase": "give"
@@ -1028,15 +814,11 @@
   "report|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|zeigen"
-      ]
+      "de": ["an|zeigen"]
     },
     "complements": {
       "to the authorities, show": {
-        "de": [
-          "an|zeigen"
-        ]
+        "de": ["an|zeigen"]
       }
     },
     "particle": "to",
@@ -1045,9 +827,7 @@
   "attract": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|ziehen"
-      ]
+      "de": ["an|ziehen"]
     },
     "complements": {},
     "wordBase": "attract"
@@ -1055,9 +835,7 @@
   "put|on": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|ziehen"
-      ]
+      "de": ["an|ziehen"]
     },
     "complements": {},
     "particle": "on",
@@ -1066,9 +844,7 @@
   "ignite": {
     "language": "en",
     "translations": {
-      "de": [
-        "an|zünden"
-      ]
+      "de": ["an|zünden"]
     },
     "complements": {},
     "wordBase": "ignite"
@@ -1076,9 +852,7 @@
   "finish|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|arbeiten"
-      ]
+      "de": ["auf|arbeiten"]
     },
     "complements": {},
     "particle": "off",
@@ -1087,9 +861,7 @@
   "reuse": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|arbeiten"
-      ]
+      "de": ["auf|arbeiten"]
     },
     "complements": {},
     "wordBase": "reuse"
@@ -1097,21 +869,14 @@
   "breathe": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|atmen",
-        "durch|atmen"
-      ]
+      "de": ["auf|atmen", "durch|atmen"]
     },
     "complements": {
       "a sigh of relief": {
-        "de": [
-          "auf|atmen"
-        ]
+        "de": ["auf|atmen"]
       },
       "deeply": {
-        "de": [
-          "durch|atmen"
-        ]
+        "de": ["durch|atmen"]
       }
     },
     "wordBase": "breathe"
@@ -1119,9 +884,7 @@
   "build|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|bauen"
-      ]
+      "de": ["auf|bauen"]
     },
     "complements": {},
     "particle": "up",
@@ -1130,10 +893,7 @@
   "improve": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|bessern",
-        "aus|bauen"
-      ]
+      "de": ["auf|bessern", "aus|bauen"]
     },
     "complements": {},
     "wordBase": "improve"
@@ -1141,22 +901,14 @@
   "keep": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|bewahren",
-        "frei|halten",
-        "sich um|hören"
-      ]
+      "de": ["auf|bewahren", "frei|halten", "sich um|hören"]
     },
     "complements": {
       "clear (not block)": {
-        "de": [
-          "frei|halten"
-        ]
+        "de": ["frei|halten"]
       },
       "one's ears open": {
-        "de": [
-          "sich um|hören"
-        ]
+        "de": ["sich um|hören"]
       }
     },
     "wordBase": "keep"
@@ -1164,9 +916,7 @@
   "store": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|bewahren"
-      ]
+      "de": ["auf|bewahren"]
     },
     "complements": {},
     "wordBase": "store"
@@ -1174,10 +924,7 @@
   "untie": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|binden",
-        "los|binden"
-      ]
+      "de": ["auf|binden", "los|binden"]
     },
     "complements": {},
     "wordBase": "untie"
@@ -1185,9 +932,7 @@
   "undo": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|binden"
-      ]
+      "de": ["auf|binden"]
     },
     "complements": {},
     "wordBase": "undo"
@@ -1195,9 +940,7 @@
   "blossom|forth": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|blühen"
-      ]
+      "de": ["auf|blühen"]
     },
     "complements": {},
     "particle": "forth",
@@ -1206,9 +949,7 @@
   "use|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|brauchen"
-      ]
+      "de": ["auf|brauchen"]
     },
     "complements": {},
     "particle": "up",
@@ -1217,9 +958,7 @@
   "break|open": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|brechen"
-      ]
+      "de": ["auf|brechen"]
     },
     "complements": {},
     "particle": "open",
@@ -1228,10 +967,7 @@
   "uncover": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|decken",
-        "frei|legen"
-      ]
+      "de": ["auf|decken", "frei|legen"]
     },
     "complements": {},
     "wordBase": "uncover"
@@ -1239,9 +975,7 @@
   "unscrew": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|drehen"
-      ]
+      "de": ["auf|drehen"]
     },
     "complements": {},
     "wordBase": "unscrew"
@@ -1249,9 +983,7 @@
   "turn|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|drehen"
-      ]
+      "de": ["auf|drehen"]
     },
     "complements": {},
     "particle": "up",
@@ -1260,9 +992,7 @@
   "wind|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|drehen"
-      ]
+      "de": ["auf|drehen"]
     },
     "complements": {},
     "particle": "up",
@@ -1271,9 +1001,7 @@
   "eat|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|essen"
-      ]
+      "de": ["auf|essen"]
     },
     "complements": {},
     "particle": "up",
@@ -1282,10 +1010,7 @@
   "stand|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|fallen",
-        "hervor|ragen"
-      ]
+      "de": ["auf|fallen", "hervor|ragen"]
     },
     "complements": {},
     "particle": "out",
@@ -1294,10 +1019,7 @@
   "grasp": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|fassen",
-        "um|fassen"
-      ]
+      "de": ["auf|fassen", "um|fassen"]
     },
     "complements": {},
     "wordBase": "grasp"
@@ -1305,9 +1027,7 @@
   "understand": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|fassen"
-      ]
+      "de": ["auf|fassen"]
     },
     "complements": {},
     "wordBase": "understand"
@@ -1315,9 +1035,7 @@
   "fly|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|fliegen"
-      ]
+      "de": ["auf|fliegen"]
     },
     "complements": {},
     "particle": "up",
@@ -1326,9 +1044,7 @@
   "give|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|geben"
-      ]
+      "de": ["auf|geben"]
     },
     "complements": {},
     "particle": "up",
@@ -1337,9 +1053,7 @@
   "enlighten": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|klären"
-      ]
+      "de": ["auf|klären"]
     },
     "complements": {},
     "wordBase": "enlighten"
@@ -1347,9 +1061,7 @@
   "arise": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|kommen"
-      ]
+      "de": ["auf|kommen"]
     },
     "complements": {},
     "wordBase": "arise"
@@ -1357,15 +1069,11 @@
   "spring|for": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|kommen"
-      ]
+      "de": ["auf|kommen"]
     },
     "complements": {
       "for [costs]": {
-        "de": [
-          "auf|kommen"
-        ]
+        "de": ["auf|kommen"]
       }
     },
     "particle": "for",
@@ -1374,16 +1082,11 @@
   "open": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|machen",
-        "auf|schlagen"
-      ]
+      "de": ["auf|machen", "auf|schlagen"]
     },
     "complements": {
       "[a book]": {
-        "de": [
-          "auf|schlagen"
-        ]
+        "de": ["auf|schlagen"]
       }
     },
     "wordBase": "open"
@@ -1391,9 +1094,7 @@
   "look": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|passen"
-      ]
+      "de": ["auf|passen"]
     },
     "complements": {},
     "wordBase": "look"
@@ -1401,9 +1102,7 @@
   "watch|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|passen"
-      ]
+      "de": ["auf|passen"]
     },
     "complements": {},
     "particle": "out",
@@ -1412,9 +1111,7 @@
   "inflate": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|pumpen"
-      ]
+      "de": ["auf|pumpen"]
     },
     "complements": {},
     "wordBase": "inflate"
@@ -1422,9 +1119,7 @@
   "erect": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|richten"
-      ]
+      "de": ["auf|richten"]
     },
     "complements": {},
     "wordBase": "erect"
@@ -1432,9 +1127,7 @@
   "unlock": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|schließen"
-      ]
+      "de": ["auf|schließen"]
     },
     "complements": {},
     "wordBase": "unlock"
@@ -1442,9 +1135,7 @@
   "open|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|schließen"
-      ]
+      "de": ["auf|schließen"]
     },
     "complements": {},
     "particle": "up",
@@ -1453,9 +1144,7 @@
   "cut|open": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|schneiden"
-      ]
+      "de": ["auf|schneiden"]
     },
     "complements": {},
     "particle": "open",
@@ -1464,9 +1153,7 @@
   "write|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|schreiben"
-      ]
+      "de": ["auf|schreiben"]
     },
     "complements": {},
     "particle": "down",
@@ -1475,9 +1162,7 @@
   "be|open": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|sein"
-      ]
+      "de": ["auf|sein"]
     },
     "complements": {},
     "particle": "open",
@@ -1486,9 +1171,7 @@
   "be|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|sein"
-      ]
+      "de": ["auf|sein"]
     },
     "complements": {},
     "particle": "up",
@@ -1497,9 +1180,7 @@
   "serve|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|tischen"
-      ]
+      "de": ["auf|tischen"]
     },
     "complements": {},
     "particle": "up",
@@ -1508,9 +1189,7 @@
   "soften|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|weichen"
-      ]
+      "de": ["auf|weichen"]
     },
     "complements": {},
     "particle": "up",
@@ -1519,15 +1198,11 @@
   "wind|up,": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|ziehen"
-      ]
+      "de": ["auf|ziehen"]
     },
     "complements": {
       "up, raise [children]": {
-        "de": [
-          "auf|ziehen"
-        ]
+        "de": ["auf|ziehen"]
       }
     },
     "particle": "up,",
@@ -1536,9 +1211,7 @@
   "force|upon": {
     "language": "en",
     "translations": {
-      "de": [
-        "auf|zwingen"
-      ]
+      "de": ["auf|zwingen"]
     },
     "complements": {},
     "particle": "upon",
@@ -1547,10 +1220,7 @@
   "extend": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|bauen",
-        "aus|dehnen"
-      ]
+      "de": ["aus|bauen", "aus|dehnen"]
     },
     "complements": {},
     "wordBase": "extend"
@@ -1558,10 +1228,7 @@
   "expand": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|bauen",
-        "aus|dehnen"
-      ]
+      "de": ["aus|bauen", "aus|dehnen"]
     },
     "complements": {},
     "wordBase": "expand"
@@ -1569,9 +1236,7 @@
   "fix": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|bessern"
-      ]
+      "de": ["aus|bessern"]
     },
     "complements": {},
     "wordBase": "fix"
@@ -1579,10 +1244,7 @@
   "touch|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|bessern",
-        "nach|bessern"
-      ]
+      "de": ["aus|bessern", "nach|bessern"]
     },
     "complements": {},
     "particle": "up",
@@ -1591,9 +1253,7 @@
   "exploit": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|beuten"
-      ]
+      "de": ["aus|beuten"]
     },
     "complements": {},
     "wordBase": "exploit"
@@ -1601,9 +1261,7 @@
   "train": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|bilden"
-      ]
+      "de": ["aus|bilden"]
     },
     "complements": {},
     "wordBase": "train"
@@ -1611,10 +1269,7 @@
   "stay|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|bleiben",
-        "weg|bleiben"
-      ]
+      "de": ["aus|bleiben", "weg|bleiben"]
     },
     "complements": {},
     "particle": "away",
@@ -1623,15 +1278,11 @@
   "fail|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|bleiben"
-      ]
+      "de": ["aus|bleiben"]
     },
     "complements": {
       "to show up": {
-        "de": [
-          "aus|bleiben"
-        ]
+        "de": ["aus|bleiben"]
       }
     },
     "particle": "to",
@@ -1640,9 +1291,7 @@
   "spread|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|breiten"
-      ]
+      "de": ["aus|breiten"]
     },
     "complements": {},
     "particle": "out",
@@ -1651,9 +1300,7 @@
   "burn|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|brennen"
-      ]
+      "de": ["aus|brennen"]
     },
     "complements": {},
     "particle": "out",
@@ -1662,15 +1309,11 @@
   "discuss": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|diskutieren"
-      ]
+      "de": ["aus|diskutieren"]
     },
     "complements": {
       "thoroughly": {
-        "de": [
-          "aus|diskutieren"
-        ]
+        "de": ["aus|diskutieren"]
       }
     },
     "wordBase": "discuss"
@@ -1678,15 +1321,11 @@
   "go|for": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|fahren"
-      ]
+      "de": ["aus|fahren"]
     },
     "complements": {
       "for a drive, take for a drive": {
-        "de": [
-          "aus|fahren"
-        ]
+        "de": ["aus|fahren"]
       }
     },
     "particle": "for",
@@ -1695,9 +1334,7 @@
   "fail": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|fallen"
-      ]
+      "de": ["aus|fallen"]
     },
     "complements": {},
     "wordBase": "fail"
@@ -1705,9 +1342,7 @@
   "drop|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|fallen"
-      ]
+      "de": ["aus|fallen"]
     },
     "complements": {},
     "particle": "out",
@@ -1716,15 +1351,11 @@
   "take|for": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|führen"
-      ]
+      "de": ["aus|führen"]
     },
     "complements": {
       "for a walk": {
-        "de": [
-          "aus|führen"
-        ]
+        "de": ["aus|führen"]
       }
     },
     "particle": "for",
@@ -1733,21 +1364,14 @@
   "carry|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|führen",
-        "durch|führen"
-      ]
+      "de": ["aus|führen", "durch|führen"]
     },
     "complements": {
       "out [work]": {
-        "de": [
-          "aus|führen"
-        ]
+        "de": ["aus|führen"]
       },
       "out [a task]": {
-        "de": [
-          "durch|führen"
-        ]
+        "de": ["durch|führen"]
       }
     },
     "particle": "out",
@@ -1756,21 +1380,14 @@
   "put|into": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|führen",
-        "ein|ordnen"
-      ]
+      "de": ["aus|führen", "ein|ordnen"]
     },
     "complements": {
       "into practice": {
-        "de": [
-          "aus|führen"
-        ]
+        "de": ["aus|führen"]
       },
       "into order": {
-        "de": [
-          "ein|ordnen"
-        ]
+        "de": ["ein|ordnen"]
       }
     },
     "particle": "into",
@@ -1779,15 +1396,11 @@
   "fill|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|füllen"
-      ]
+      "de": ["aus|füllen"]
     },
     "complements": {
       "out [a form]": {
-        "de": [
-          "aus|füllen"
-        ]
+        "de": ["aus|füllen"]
       }
     },
     "particle": "out",
@@ -1796,10 +1409,7 @@
   "go|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|gehen",
-        "hinaus|gehen"
-      ]
+      "de": ["aus|gehen", "hinaus|gehen"]
     },
     "complements": {},
     "particle": "out",
@@ -1808,9 +1418,7 @@
   "even|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|gleichen"
-      ]
+      "de": ["aus|gleichen"]
     },
     "complements": {},
     "particle": "out",
@@ -1819,10 +1427,7 @@
   "endure": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|halten",
-        "durch|halten"
-      ]
+      "de": ["aus|halten", "durch|halten"]
     },
     "complements": {},
     "wordBase": "endure"
@@ -1830,17 +1435,11 @@
   "withstand": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|halten",
-        "durch|halten",
-        "weg|stecken"
-      ]
+      "de": ["aus|halten", "durch|halten", "weg|stecken"]
     },
     "complements": {
       "(a blow)": {
-        "de": [
-          "weg|stecken"
-        ]
+        "de": ["weg|stecken"]
       }
     },
     "wordBase": "withstand"
@@ -1848,10 +1447,7 @@
   "help|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|helfen",
-        "mit|helfen"
-      ]
+      "de": ["aus|helfen", "mit|helfen"]
     },
     "complements": {},
     "particle": "out",
@@ -1860,9 +1456,7 @@
   "bracket|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|klammern"
-      ]
+      "de": ["aus|klammern"]
     },
     "complements": {},
     "particle": "out",
@@ -1871,15 +1465,11 @@
   "fade|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|klingen"
-      ]
+      "de": ["aus|klingen"]
     },
     "complements": {
       "away [music]": {
-        "de": [
-          "aus|klingen"
-        ]
+        "de": ["aus|klingen"]
       }
     },
     "particle": "away",
@@ -1888,9 +1478,7 @@
   "laugh|at": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|lachen"
-      ]
+      "de": ["aus|lachen"]
     },
     "complements": {},
     "particle": "at",
@@ -1899,9 +1487,7 @@
   "lend": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|leihen"
-      ]
+      "de": ["aus|leihen"]
     },
     "complements": {},
     "wordBase": "lend"
@@ -1909,9 +1495,7 @@
   "turn|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|machen"
-      ]
+      "de": ["aus|machen"]
     },
     "complements": {},
     "particle": "off",
@@ -1920,9 +1504,7 @@
   "extinguish": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|machen"
-      ]
+      "de": ["aus|machen"]
     },
     "complements": {},
     "wordBase": "extinguish"
@@ -1930,16 +1512,11 @@
   "add|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|machen",
-        "zusammen|zählen"
-      ]
+      "de": ["aus|machen", "zusammen|zählen"]
     },
     "complements": {
       "up to": {
-        "de": [
-          "aus|machen"
-        ]
+        "de": ["aus|machen"]
       }
     },
     "particle": "up",
@@ -1948,10 +1525,7 @@
   "press|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|pressen",
-        "aus|quetschen"
-      ]
+      "de": ["aus|pressen", "aus|quetschen"]
     },
     "complements": {},
     "particle": "out",
@@ -1960,10 +1534,7 @@
   "squeeze|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|pressen",
-        "aus|quetschen"
-      ]
+      "de": ["aus|pressen", "aus|quetschen"]
     },
     "complements": {},
     "particle": "out",
@@ -1972,10 +1543,7 @@
   "erase": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|radieren",
-        "weg|wischen"
-      ]
+      "de": ["aus|radieren", "weg|wischen"]
     },
     "complements": {},
     "wordBase": "erase"
@@ -1983,15 +1551,11 @@
   "pass|on": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|richten"
-      ]
+      "de": ["aus|richten"]
     },
     "complements": {
       "on [a message]": {
-        "de": [
-          "aus|richten"
-        ]
+        "de": ["aus|richten"]
       }
     },
     "particle": "on",
@@ -2000,9 +1564,7 @@
   "eradicate": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|rotten"
-      ]
+      "de": ["aus|rotten"]
     },
     "complements": {},
     "wordBase": "eradicate"
@@ -2010,9 +1572,7 @@
   "equip": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|rüsten"
-      ]
+      "de": ["aus|rüsten"]
     },
     "complements": {},
     "wordBase": "equip"
@@ -2036,54 +1596,34 @@
     },
     "complements": {
       "a good sleep": {
-        "de": [
-          "sich aus|schlafen"
-        ]
+        "de": ["sich aus|schlafen"]
       },
       "hold of, deal with": {
-        "de": [
-          "bei|kommen"
-        ]
+        "de": ["bei|kommen"]
       },
       "time off": {
-        "de": [
-          "frei|bekommen"
-        ]
+        "de": ["frei|bekommen"]
       },
       "rid of": {
-        "de": [
-          "los|kriegen"
-        ]
+        "de": ["los|kriegen"]
       },
       "started  let it rip": {
-        "de": [
-          "los|legen"
-        ]
+        "de": ["los|legen"]
       },
       "rid of something": {
-        "de": [
-          "etwas los|werden"
-        ]
+        "de": ["etwas los|werden"]
       },
       "killed": {
-        "de": [
-          "um|kommen"
-        ]
+        "de": ["um|kommen"]
       },
       "further": {
-        "de": [
-          "weiter|kommen"
-        ]
+        "de": ["weiter|kommen"]
       },
       "one's bearings": {
-        "de": [
-          "sich zurecht|finden"
-        ]
+        "de": ["sich zurecht|finden"]
       },
       "(something) ready": {
-        "de": [
-          "zurecht|machen"
-        ]
+        "de": ["zurecht|machen"]
       }
     },
     "wordBase": "get"
@@ -2091,9 +1631,7 @@
   "exclude": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|schließen"
-      ]
+      "de": ["aus|schließen"]
     },
     "complements": {},
     "wordBase": "exclude"
@@ -2101,9 +1639,7 @@
   "lock|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|schließen"
-      ]
+      "de": ["aus|schließen"]
     },
     "complements": {},
     "particle": "out",
@@ -2112,9 +1648,7 @@
   "spill|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|schütten"
-      ]
+      "de": ["aus|schütten"]
     },
     "complements": {},
     "particle": "out",
@@ -2123,9 +1657,7 @@
   "tip|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|schütten"
-      ]
+      "de": ["aus|schütten"]
     },
     "complements": {},
     "particle": "out",
@@ -2134,21 +1666,14 @@
   "get|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|steigen",
-        "heraus|kriegen"
-      ]
+      "de": ["aus|steigen", "heraus|kriegen"]
     },
     "complements": {
       "out of [a car": {
-        "de": [
-          "aus|steigen"
-        ]
+        "de": ["aus|steigen"]
       },
       "out of": {
-        "de": [
-          "heraus|kriegen"
-        ]
+        "de": ["heraus|kriegen"]
       }
     },
     "particle": "out",
@@ -2157,9 +1682,7 @@
   "train]": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|steigen"
-      ]
+      "de": ["aus|steigen"]
     },
     "complements": {},
     "wordBase": "train]"
@@ -2167,16 +1690,11 @@
   "switch": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|wechseln",
-        "um|schalten"
-      ]
+      "de": ["aus|wechseln", "um|schalten"]
     },
     "complements": {
       "(gears, channels)": {
-        "de": [
-          "um|schalten"
-        ]
+        "de": ["um|schalten"]
       }
     },
     "wordBase": "switch"
@@ -2184,9 +1702,7 @@
   "replace": {
     "language": "en",
     "translations": {
-      "de": [
-        "aus|wechseln"
-      ]
+      "de": ["aus|wechseln"]
     },
     "complements": {},
     "wordBase": "replace"
@@ -2194,9 +1710,7 @@
   "manage": {
     "language": "en",
     "translations": {
-      "de": [
-        "auseinander|bekommen"
-      ]
+      "de": ["auseinander|bekommen"]
     },
     "complements": {},
     "wordBase": "manage"
@@ -2204,9 +1718,7 @@
   "get|apart": {
     "language": "en",
     "translations": {
-      "de": [
-        "auseinander|bekommen"
-      ]
+      "de": ["auseinander|bekommen"]
     },
     "complements": {},
     "particle": "apart",
@@ -2215,15 +1727,11 @@
   "break|up,": {
     "language": "en",
     "translations": {
-      "de": [
-        "auseinander|brechen"
-      ]
+      "de": ["auseinander|brechen"]
     },
     "complements": {
       "up, break apart": {
-        "de": [
-          "auseinander|brechen"
-        ]
+        "de": ["auseinander|brechen"]
       }
     },
     "particle": "up,",
@@ -2232,9 +1740,7 @@
   "fall|apart": {
     "language": "en",
     "translations": {
-      "de": [
-        "auseinander|fallen"
-      ]
+      "de": ["auseinander|fallen"]
     },
     "complements": {},
     "particle": "apart",
@@ -2243,9 +1749,7 @@
   "part": {
     "language": "en",
     "translations": {
-      "de": [
-        "auseinander|gehen"
-      ]
+      "de": ["auseinander|gehen"]
     },
     "complements": {},
     "wordBase": "part"
@@ -2253,9 +1757,7 @@
   "disperse": {
     "language": "en",
     "translations": {
-      "de": [
-        "auseinander|gehen"
-      ]
+      "de": ["auseinander|gehen"]
     },
     "complements": {},
     "wordBase": "disperse"
@@ -2263,9 +1765,7 @@
   "distinguish": {
     "language": "en",
     "translations": {
-      "de": [
-        "auseinander|haltem"
-      ]
+      "de": ["auseinander|haltem"]
     },
     "complements": {},
     "wordBase": "distinguish"
@@ -2273,9 +1773,7 @@
   "keep|apart": {
     "language": "en",
     "translations": {
-      "de": [
-        "auseinander|haltem"
-      ]
+      "de": ["auseinander|haltem"]
     },
     "complements": {},
     "particle": "apart",
@@ -2284,15 +1782,11 @@
   "come|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich mit etwas auseinander|setzen"
-      ]
+      "de": ["sich mit etwas auseinander|setzen"]
     },
     "complements": {
       "to terms with something": {
-        "de": [
-          "sich mit etwas auseinander|setzen"
-        ]
+        "de": ["sich mit etwas auseinander|setzen"]
       }
     },
     "particle": "to",
@@ -2301,27 +1795,17 @@
   "have": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich mit jemandem auseinander|setzen",
-        "mit|reden",
-        "nach|wirken"
-      ]
+      "de": ["sich mit jemandem auseinander|setzen", "mit|reden", "nach|wirken"]
     },
     "complements": {
       "it out with someone": {
-        "de": [
-          "sich mit jemandem auseinander|setzen"
-        ]
+        "de": ["sich mit jemandem auseinander|setzen"]
       },
       "a say": {
-        "de": [
-          "mit|reden"
-        ]
+        "de": ["mit|reden"]
       },
       "a lasting effect": {
-        "de": [
-          "nach|wirken"
-        ]
+        "de": ["nach|wirken"]
       }
     },
     "wordBase": "have"
@@ -2329,9 +1813,7 @@
   "retain": {
     "language": "en",
     "translations": {
-      "de": [
-        "bei|behalten"
-      ]
+      "de": ["bei|behalten"]
     },
     "complements": {},
     "wordBase": "retain"
@@ -2339,9 +1821,7 @@
   "teach": {
     "language": "en",
     "translations": {
-      "de": [
-        "bei|bringen"
-      ]
+      "de": ["bei|bringen"]
     },
     "complements": {},
     "wordBase": "teach"
@@ -2349,15 +1829,11 @@
   "enclose": {
     "language": "en",
     "translations": {
-      "de": [
-        "bei|fügen"
-      ]
+      "de": ["bei|fügen"]
     },
     "complements": {
       "[along with]": {
-        "de": [
-          "bei|fügen"
-        ]
+        "de": ["bei|fügen"]
       }
     },
     "wordBase": "enclose"
@@ -2365,9 +1841,7 @@
   "bury": {
     "language": "en",
     "translations": {
-      "de": [
-        "bei|setzen"
-      ]
+      "de": ["bei|setzen"]
     },
     "complements": {},
     "wordBase": "bury"
@@ -2375,15 +1849,11 @@
   "contribute": {
     "language": "en",
     "translations": {
-      "de": [
-        "bei|tragen"
-      ]
+      "de": ["bei|tragen"]
     },
     "complements": {
       "[to]": {
-        "de": [
-          "bei|tragen"
-        ]
+        "de": ["bei|tragen"]
       }
     },
     "wordBase": "contribute"
@@ -2391,10 +1861,7 @@
   "join": {
     "language": "en",
     "translations": {
-      "de": [
-        "bei|treten",
-        "hinzu|gesellen"
-      ]
+      "de": ["bei|treten", "hinzu|gesellen"]
     },
     "complements": {},
     "wordBase": "join"
@@ -2402,10 +1869,7 @@
   "stay|there": {
     "language": "en",
     "translations": {
-      "de": [
-        "dabei|bleiben",
-        "da|bleiben"
-      ]
+      "de": ["dabei|bleiben", "da|bleiben"]
     },
     "complements": {},
     "particle": "there",
@@ -2414,11 +1878,7 @@
   "stick|with": {
     "language": "en",
     "translations": {
-      "de": [
-        "dabei|bleiben",
-        "dabei|sitzen",
-        "dabei|stehen"
-      ]
+      "de": ["dabei|bleiben", "dabei|sitzen", "dabei|stehen"]
     },
     "complements": {},
     "particle": "with",
@@ -2427,10 +1887,7 @@
   "sit|there": {
     "language": "en",
     "translations": {
-      "de": [
-        "dabei|sitzen",
-        "dabei|stehen"
-      ]
+      "de": ["dabei|sitzen", "dabei|stehen"]
     },
     "complements": {},
     "particle": "there",
@@ -2439,10 +1896,7 @@
   "stand|there": {
     "language": "en",
     "translations": {
-      "de": [
-        "dabei|sitzen",
-        "dabei|stehen"
-      ]
+      "de": ["dabei|sitzen", "dabei|stehen"]
     },
     "complements": {},
     "particle": "there",
@@ -2451,9 +1905,7 @@
   "leave|there": {
     "language": "en",
     "translations": {
-      "de": [
-        "da|lassen"
-      ]
+      "de": ["da|lassen"]
     },
     "complements": {},
     "particle": "there",
@@ -2462,15 +1914,11 @@
   "set|about": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich dar|anmachen"
-      ]
+      "de": ["sich dar|anmachen"]
     },
     "complements": {
       "about it, get down to it": {
-        "de": [
-          "sich dar|anmachen"
-        ]
+        "de": ["sich dar|anmachen"]
       }
     },
     "particle": "about",
@@ -2479,10 +1927,7 @@
   "find|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "dahinter|kommen",
-        "heraus|kriegen"
-      ]
+      "de": ["dahinter|kommen", "heraus|kriegen"]
     },
     "complements": {},
     "particle": "out",
@@ -2491,9 +1936,7 @@
   "interrupt": {
     "language": "en",
     "translations": {
-      "de": [
-        "dazwischen|reden"
-      ]
+      "de": ["dazwischen|reden"]
     },
     "complements": {},
     "wordBase": "interrupt"
@@ -2501,9 +1944,7 @@
   "work|through": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|arbeiten"
-      ]
+      "de": ["durch|arbeiten"]
     },
     "complements": {},
     "particle": "through",
@@ -2512,9 +1953,7 @@
   "break|through": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|brechen"
-      ]
+      "de": ["durch|brechen"]
     },
     "complements": {},
     "particle": "through",
@@ -2523,15 +1962,11 @@
   "cook": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|braten"
-      ]
+      "de": ["durch|braten"]
     },
     "complements": {
       "or roast all the way through": {
-        "de": [
-          "durch|braten"
-        ]
+        "de": ["durch|braten"]
       }
     },
     "wordBase": "cook"
@@ -2539,15 +1974,11 @@
   "put|through": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|drehen"
-      ]
+      "de": ["durch|drehen"]
     },
     "complements": {
       "through a grinder": {
-        "de": [
-          "durch|drehen"
-        ]
+        "de": ["durch|drehen"]
       }
     },
     "particle": "through",
@@ -2556,9 +1987,7 @@
   "walk|through": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|gehen"
-      ]
+      "de": ["durch|gehen"]
     },
     "complements": {},
     "particle": "through",
@@ -2576,24 +2005,16 @@
     },
     "complements": {
       "one's way through": {
-        "de": [
-          "sich durch|finden"
-        ]
+        "de": ["sich durch|finden"]
       },
       "one's way home": {
-        "de": [
-          "heim|finden"
-        ]
+        "de": ["heim|finden"]
       },
       "one's way to": {
-        "de": [
-          "hin|finden"
-        ]
+        "de": ["hin|finden"]
       },
       "one's way": {
-        "de": [
-          "sich zurecht|finden"
-        ]
+        "de": ["sich zurecht|finden"]
       }
     },
     "wordBase": "find"
@@ -2601,15 +2022,11 @@
   "drive": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|fahren"
-      ]
+      "de": ["durch|fahren"]
     },
     "complements": {
       "straight through": {
-        "de": [
-          "durch|fahren"
-        ]
+        "de": ["durch|fahren"]
       }
     },
     "wordBase": "drive"
@@ -2617,10 +2034,7 @@
   "implement": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|führen",
-        "um|setzen"
-      ]
+      "de": ["durch|führen", "um|setzen"]
     },
     "complements": {},
     "wordBase": "implement"
@@ -2628,15 +2042,11 @@
   "comb|through": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|kämmen"
-      ]
+      "de": ["durch|kämmen"]
     },
     "complements": {
       "through [hair]": {
-        "de": [
-          "durch|kämmen"
-        ]
+        "de": ["durch|kämmen"]
       }
     },
     "particle": "through",
@@ -2645,9 +2055,7 @@
   "allow|through": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|lassen"
-      ]
+      "de": ["durch|lassen"]
     },
     "complements": {},
     "particle": "through",
@@ -2656,9 +2064,7 @@
   "slip|through": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|schlüpfen"
-      ]
+      "de": ["durch|schlüpfen"]
     },
     "complements": {},
     "particle": "through",
@@ -2667,9 +2073,7 @@
   "cut|through": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|schneiden"
-      ]
+      "de": ["durch|schneiden"]
     },
     "complements": {},
     "particle": "through",
@@ -2678,9 +2082,7 @@
   "talk|through": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|sprechen"
-      ]
+      "de": ["durch|sprechen"]
     },
     "complements": {},
     "particle": "through",
@@ -2689,9 +2091,7 @@
   "talk|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|sprechen"
-      ]
+      "de": ["durch|sprechen"]
     },
     "complements": {},
     "particle": "over",
@@ -2700,9 +2100,7 @@
   "talk|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|sprechen"
-      ]
+      "de": ["durch|sprechen"]
     },
     "complements": {},
     "particle": "out",
@@ -2711,15 +2109,11 @@
   "argue": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|sprechen"
-      ]
+      "de": ["durch|sprechen"]
     },
     "complements": {
       "something out": {
-        "de": [
-          "durch|sprechen"
-        ]
+        "de": ["durch|sprechen"]
       }
     },
     "wordBase": "argue"
@@ -2727,15 +2121,11 @@
   "knock": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|stoßen"
-      ]
+      "de": ["durch|stoßen"]
     },
     "complements": {
       "a hole through": {
-        "de": [
-          "durch|stoßen"
-        ]
+        "de": ["durch|stoßen"]
       }
     },
     "wordBase": "knock"
@@ -2743,15 +2133,11 @@
   "dial": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|wählen"
-      ]
+      "de": ["durch|wählen"]
     },
     "complements": {
       "directly": {
-        "de": [
-          "durch|wählen"
-        ]
+        "de": ["durch|wählen"]
       }
     },
     "wordBase": "dial"
@@ -2759,15 +2145,11 @@
   "pull|through": {
     "language": "en",
     "translations": {
-      "de": [
-        "durch|ziehen"
-      ]
+      "de": ["durch|ziehen"]
     },
     "complements": {
       "through [an opening]": {
-        "de": [
-          "durch|ziehen"
-        ]
+        "de": ["durch|ziehen"]
       }
     },
     "particle": "through",
@@ -2776,9 +2158,7 @@
   "conscript": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|berufen"
-      ]
+      "de": ["ein|berufen"]
     },
     "complements": {},
     "wordBase": "conscript"
@@ -2786,9 +2166,7 @@
   "convene": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|berufen"
-      ]
+      "de": ["ein|berufen"]
     },
     "complements": {},
     "wordBase": "convene"
@@ -2796,9 +2174,7 @@
   "turn|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|biegen"
-      ]
+      "de": ["ein|biegen"]
     },
     "complements": {},
     "particle": "in",
@@ -2807,21 +2183,14 @@
   "put": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|cremen",
-        "sich hinein|eversetzen"
-      ]
+      "de": ["ein|cremen", "sich hinein|eversetzen"]
     },
     "complements": {
       "lotion on": {
-        "de": [
-          "ein|cremen"
-        ]
+        "de": ["ein|cremen"]
       },
       "oneself into (someone's situation)": {
-        "de": [
-          "sich hinein|eversetzen"
-        ]
+        "de": ["sich hinein|eversetzen"]
       }
     },
     "wordBase": "put"
@@ -2839,14 +2208,10 @@
     },
     "complements": {
       "forcibly into": {
-        "de": [
-          "ein|dringen"
-        ]
+        "de": ["ein|dringen"]
       },
       "[a vehicle]": {
-        "de": [
-          "ein|steigen"
-        ]
+        "de": ["ein|steigen"]
       }
     },
     "wordBase": "enter"
@@ -2854,9 +2219,7 @@
   "drive|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|fahren"
-      ]
+      "de": ["ein|fahren"]
     },
     "complements": {},
     "particle": "in",
@@ -2865,9 +2228,7 @@
   "sink|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|gehen"
-      ]
+      "de": ["ein|gehen"]
     },
     "complements": {},
     "particle": "in",
@@ -2876,9 +2237,7 @@
   "shrink": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|gehen"
-      ]
+      "de": ["ein|gehen"]
     },
     "complements": {},
     "wordBase": "shrink"
@@ -2886,9 +2245,7 @@
   "shop": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|kaufen"
-      ]
+      "de": ["ein|kaufen"]
     },
     "complements": {},
     "wordBase": "shop"
@@ -2896,15 +2253,11 @@
   "store|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|kellern"
-      ]
+      "de": ["ein|kellern"]
     },
     "complements": {
       "in the cellar": {
-        "de": [
-          "ein|kellern"
-        ]
+        "de": ["ein|kellern"]
       }
     },
     "particle": "in",
@@ -2913,15 +2266,11 @@
   "put|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|klammern"
-      ]
+      "de": ["ein|klammern"]
     },
     "complements": {
       "in brackets": {
-        "de": [
-          "ein|klammern"
-        ]
+        "de": ["ein|klammern"]
       }
     },
     "particle": "in",
@@ -2930,9 +2279,7 @@
   "invite": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|laden"
-      ]
+      "de": ["ein|laden"]
     },
     "complements": {},
     "wordBase": "invite"
@@ -2940,15 +2287,11 @@
   "allow|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|lassen"
-      ]
+      "de": ["ein|lassen"]
     },
     "complements": {
       "to enter": {
-        "de": [
-          "ein|lassen"
-        ]
+        "de": ["ein|lassen"]
       }
     },
     "particle": "to",
@@ -2957,9 +2300,7 @@
   "introduce": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|leiten"
-      ]
+      "de": ["ein|leiten"]
     },
     "complements": {},
     "wordBase": "introduce"
@@ -2967,9 +2308,7 @@
   "begin": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|leiten"
-      ]
+      "de": ["ein|leiten"]
     },
     "complements": {},
     "wordBase": "begin"
@@ -2977,9 +2316,7 @@
   "march|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|marschieren"
-      ]
+      "de": ["ein|marschieren"]
     },
     "complements": {},
     "particle": "in",
@@ -2988,35 +2325,19 @@
   "park": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|parken"
-      ]
+      "de": ["ein|parken"]
     },
     "complements": {
       "[in a parking space]": {
-        "de": [
-          "ein|parken"
-        ]
+        "de": ["ein|parken"]
       }
     },
     "wordBase": "park"
   },
-  "pursuade": {
-    "language": "en",
-    "translations": {
-      "de": [
-        "ein|reden"
-      ]
-    },
-    "complements": {},
-    "wordBase": "pursuade"
-  },
   "pocket": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|sacken"
-      ]
+      "de": ["ein|sacken"]
     },
     "complements": {},
     "wordBase": "pocket"
@@ -3024,9 +2345,7 @@
   "hammer|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|schlagen"
-      ]
+      "de": ["ein|schlagen"]
     },
     "complements": {},
     "particle": "in",
@@ -3035,9 +2354,7 @@
   "knock|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|schlagen"
-      ]
+      "de": ["ein|schlagen"]
     },
     "complements": {},
     "particle": "in",
@@ -3046,9 +2363,7 @@
   "enroll": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|schreiben"
-      ]
+      "de": ["ein|schreiben"]
     },
     "complements": {},
     "wordBase": "enroll"
@@ -3056,9 +2371,7 @@
   "intervene": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|schreiten"
-      ]
+      "de": ["ein|schreiten"]
     },
     "complements": {},
     "wordBase": "intervene"
@@ -3066,21 +2379,14 @@
   "jump|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|springen",
-        "jemandem vor|greifen"
-      ]
+      "de": ["ein|springen", "jemandem vor|greifen"]
     },
     "complements": {
       "in [to help out]": {
-        "de": [
-          "ein|springen"
-        ]
+        "de": ["ein|springen"]
       },
       "in ahead of someone": {
-        "de": [
-          "jemandem vor|greifen"
-        ]
+        "de": ["jemandem vor|greifen"]
       }
     },
     "particle": "in",
@@ -3089,9 +2395,7 @@
   "rehearse": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|studieren"
-      ]
+      "de": ["ein|studieren"]
     },
     "complements": {},
     "wordBase": "rehearse"
@@ -3099,9 +2403,7 @@
   "immerse": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|tauchen"
-      ]
+      "de": ["ein|tauchen"]
     },
     "complements": {},
     "wordBase": "immerse"
@@ -3109,9 +2411,7 @@
   "dive|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|tauchen"
-      ]
+      "de": ["ein|tauchen"]
     },
     "complements": {},
     "particle": "in",
@@ -3120,9 +2420,7 @@
   "throw|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|werfen"
-      ]
+      "de": ["ein|werfen"]
     },
     "complements": {},
     "particle": "in",
@@ -3131,15 +2429,11 @@
   "drop": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|werfen"
-      ]
+      "de": ["ein|werfen"]
     },
     "complements": {
       "[a coin or letter]": {
-        "de": [
-          "ein|werfen"
-        ]
+        "de": ["ein|werfen"]
       }
     },
     "wordBase": "drop"
@@ -3147,15 +2441,11 @@
   "agree": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|willigen"
-      ]
+      "de": ["ein|willigen"]
     },
     "complements": {
       "(to)": {
-        "de": [
-          "ein|willigen"
-        ]
+        "de": ["ein|willigen"]
       }
     },
     "wordBase": "agree"
@@ -3163,9 +2453,7 @@
   "consent": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|willigen"
-      ]
+      "de": ["ein|willigen"]
     },
     "complements": {},
     "wordBase": "consent"
@@ -3173,9 +2461,7 @@
   "pay|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|zahlen"
-      ]
+      "de": ["ein|zahlen"]
     },
     "complements": {},
     "particle": "in",
@@ -3184,15 +2470,11 @@
   "pay": {
     "language": "en",
     "translations": {
-      "de": [
-        "ein|zahlen"
-      ]
+      "de": ["ein|zahlen"]
     },
     "complements": {
       "a deposit)": {
-        "de": [
-          "ein|zahlen"
-        ]
+        "de": ["ein|zahlen"]
       }
     },
     "wordBase": "pay"
@@ -3200,22 +2482,14 @@
   "work": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich empor|arbeiten",
-        "herauf|arbeiten",
-        "sich vor|arbeiten"
-      ]
+      "de": ["sich empor|arbeiten", "herauf|arbeiten", "sich vor|arbeiten"]
     },
     "complements": {
       "one's way up": {
-        "de": [
-          "sich empor|arbeiten"
-        ]
+        "de": ["sich empor|arbeiten"]
       },
       "one's way forward": {
-        "de": [
-          "sich vor|arbeiten"
-        ]
+        "de": ["sich vor|arbeiten"]
       }
     },
     "wordBase": "work"
@@ -3223,15 +2497,11 @@
   "raise": {
     "language": "en",
     "translations": {
-      "de": [
-        "empor|blicken"
-      ]
+      "de": ["empor|blicken"]
     },
     "complements": {
       "one's eyes": {
-        "de": [
-          "empor|blicken"
-        ]
+        "de": ["empor|blicken"]
       }
     },
     "wordBase": "raise"
@@ -3239,9 +2509,7 @@
   "lift|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "empor|heben"
-      ]
+      "de": ["empor|heben"]
     },
     "complements": {},
     "particle": "up",
@@ -3250,9 +2518,7 @@
   "tower|above": {
     "language": "en",
     "translations": {
-      "de": [
-        "empor|ragen"
-      ]
+      "de": ["empor|ragen"]
     },
     "complements": {},
     "particle": "above",
@@ -3261,15 +2527,11 @@
   "shoot|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "empor|schießen"
-      ]
+      "de": ["empor|schießen"]
     },
     "complements": {
       "up [grow suddenly]": {
-        "de": [
-          "empor|schießen"
-        ]
+        "de": ["empor|schießen"]
       }
     },
     "particle": "up",
@@ -3278,9 +2540,7 @@
   "climb|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "empor|steigen"
-      ]
+      "de": ["empor|steigen"]
     },
     "complements": {},
     "particle": "up",
@@ -3289,9 +2549,7 @@
   "work|against": {
     "language": "en",
     "translations": {
-      "de": [
-        "entgegen|arbeiten"
-      ]
+      "de": ["entgegen|arbeiten"]
     },
     "complements": {},
     "particle": "against",
@@ -3300,11 +2558,7 @@
   "approach": {
     "language": "en",
     "translations": {
-      "de": [
-        "entgegen|kommen",
-        "herauf|ziehen",
-        "zu|kommen"
-      ]
+      "de": ["entgegen|kommen", "herauf|ziehen", "zu|kommen"]
     },
     "complements": {},
     "wordBase": "approach"
@@ -3312,9 +2566,7 @@
   "accommodate": {
     "language": "en",
     "translations": {
-      "de": [
-        "entgegen|kommen"
-      ]
+      "de": ["entgegen|kommen"]
     },
     "complements": {},
     "wordBase": "accommodate"
@@ -3322,9 +2574,7 @@
   "meet|halfway": {
     "language": "en",
     "translations": {
-      "de": [
-        "entgegen|kommen"
-      ]
+      "de": ["entgegen|kommen"]
     },
     "complements": {},
     "particle": "halfway",
@@ -3333,10 +2583,7 @@
   "accept": {
     "language": "en",
     "translations": {
-      "de": [
-        "entgegen|nehmen",
-        "hin|nehmen"
-      ]
+      "de": ["entgegen|nehmen", "hin|nehmen"]
     },
     "complements": {},
     "wordBase": "accept"
@@ -3344,9 +2591,7 @@
   "receive": {
     "language": "en",
     "translations": {
-      "de": [
-        "entgegen|nehmen"
-      ]
+      "de": ["entgegen|nehmen"]
     },
     "complements": {},
     "wordBase": "receive"
@@ -3354,9 +2599,7 @@
   "contrast": {
     "language": "en",
     "translations": {
-      "de": [
-        "entgegen|setzen"
-      ]
+      "de": ["entgegen|setzen"]
     },
     "complements": {},
     "wordBase": "contrast"
@@ -3364,9 +2607,7 @@
   "oppose": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich entgegen|stellen"
-      ]
+      "de": ["sich entgegen|stellen"]
     },
     "complements": {},
     "wordBase": "oppose"
@@ -3374,10 +2615,7 @@
   "confront": {
     "language": "en",
     "translations": {
-      "de": [
-        "entgegen|treten",
-        "gegenüber|stellen"
-      ]
+      "de": ["entgegen|treten", "gegenüber|stellen"]
     },
     "complements": {},
     "wordBase": "confront"
@@ -3385,9 +2623,7 @@
   "counteract": {
     "language": "en",
     "translations": {
-      "de": [
-        "entgegen|wirken"
-      ]
+      "de": ["entgegen|wirken"]
     },
     "complements": {},
     "wordBase": "counteract"
@@ -3395,10 +2631,7 @@
   "go|along": {
     "language": "en",
     "translations": {
-      "de": [
-        "entlang|gehen",
-        "entlang|laufen"
-      ]
+      "de": ["entlang|gehen", "entlang|laufen"]
     },
     "complements": {},
     "particle": "along",
@@ -3407,10 +2640,7 @@
   "walk|along": {
     "language": "en",
     "translations": {
-      "de": [
-        "entlang|gehen",
-        "entlang|laufen"
-      ]
+      "de": ["entlang|gehen", "entlang|laufen"]
     },
     "complements": {},
     "particle": "along",
@@ -3419,15 +2649,11 @@
   "break|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "entzwei|brechen"
-      ]
+      "de": ["entzwei|brechen"]
     },
     "complements": {
       "in two": {
-        "de": [
-          "entzwei|brechen"
-        ]
+        "de": ["entzwei|brechen"]
       }
     },
     "particle": "in",
@@ -3436,9 +2662,7 @@
   "come|apart": {
     "language": "en",
     "translations": {
-      "de": [
-        "entzwei|gehen"
-      ]
+      "de": ["entzwei|gehen"]
     },
     "complements": {},
     "particle": "apart",
@@ -3447,15 +2671,11 @@
   "rip|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "entzwei|reißen"
-      ]
+      "de": ["entzwei|reißen"]
     },
     "complements": {
       "in two": {
-        "de": [
-          "entzwei|reißen"
-        ]
+        "de": ["entzwei|reißen"]
       }
     },
     "particle": "in",
@@ -3464,15 +2684,11 @@
   "smash|into": {
     "language": "en",
     "translations": {
-      "de": [
-        "entzwei|schlagen"
-      ]
+      "de": ["entzwei|schlagen"]
     },
     "complements": {
       "into two pieces": {
-        "de": [
-          "entzwei|schlagen"
-        ]
+        "de": ["entzwei|schlagen"]
       }
     },
     "particle": "into",
@@ -3481,15 +2697,11 @@
   "miscast": {
     "language": "en",
     "translations": {
-      "de": [
-        "fehl|besetzen"
-      ]
+      "de": ["fehl|besetzen"]
     },
     "complements": {
       "[in film or theater]": {
-        "de": [
-          "fehl|besetzen"
-        ]
+        "de": ["fehl|besetzen"]
       }
     },
     "wordBase": "miscast"
@@ -3497,21 +2709,14 @@
   "go": {
     "language": "en",
     "translations": {
-      "de": [
-        "fehl|gehen",
-        "vor|gehen"
-      ]
+      "de": ["fehl|gehen", "vor|gehen"]
     },
     "complements": {
       "wrong": {
-        "de": [
-          "fehl|gehen"
-        ]
+        "de": ["fehl|gehen"]
       },
       "first": {
-        "de": [
-          "vor|gehen"
-        ]
+        "de": ["vor|gehen"]
       }
     },
     "wordBase": "go"
@@ -3519,15 +2724,11 @@
   "operate|by": {
     "language": "en",
     "translations": {
-      "de": [
-        "fern|bedienen"
-      ]
+      "de": ["fern|bedienen"]
     },
     "complements": {
       "by remote control": {
-        "de": [
-          "fern|bedienen"
-        ]
+        "de": ["fern|bedienen"]
       }
     },
     "particle": "by",
@@ -3536,15 +2737,11 @@
   "steer|by": {
     "language": "en",
     "translations": {
-      "de": [
-        "fern|lenken"
-      ]
+      "de": ["fern|lenken"]
     },
     "complements": {
       "by remote control": {
-        "de": [
-          "fern|lenken"
-        ]
+        "de": ["fern|lenken"]
       }
     },
     "particle": "by",
@@ -3553,15 +2750,11 @@
   "that": {
     "language": "en",
     "translations": {
-      "de": [
-        "das würde mir fern|liegen"
-      ]
+      "de": ["das würde mir fern|liegen"]
     },
     "complements": {
       "would be the last thing I would do": {
-        "de": [
-          "das würde mir fern|liegen"
-        ]
+        "de": ["das würde mir fern|liegen"]
       }
     },
     "wordBase": "that"
@@ -3569,15 +2762,11 @@
   "watch": {
     "language": "en",
     "translations": {
-      "de": [
-        "fern|sehen"
-      ]
+      "de": ["fern|sehen"]
     },
     "complements": {
       "television": {
-        "de": [
-          "fern|sehen"
-        ]
+        "de": ["fern|sehen"]
       }
     },
     "wordBase": "watch"
@@ -3585,15 +2774,11 @@
   "bite|into": {
     "language": "en",
     "translations": {
-      "de": [
-        "fest|beißen"
-      ]
+      "de": ["fest|beißen"]
     },
     "complements": {
       "into firmly": {
-        "de": [
-          "fest|beißen"
-        ]
+        "de": ["fest|beißen"]
       }
     },
     "particle": "into",
@@ -3602,9 +2787,7 @@
   "ice|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "fest|frieren"
-      ]
+      "de": ["fest|frieren"]
     },
     "complements": {},
     "particle": "over",
@@ -3613,15 +2796,11 @@
   "hold|on": {
     "language": "en",
     "translations": {
-      "de": [
-        "fest|halten"
-      ]
+      "de": ["fest|halten"]
     },
     "complements": {
       "on firmly": {
-        "de": [
-          "fest|halten"
-        ]
+        "de": ["fest|halten"]
       }
     },
     "particle": "on",
@@ -3630,9 +2809,7 @@
   "glue|on": {
     "language": "en",
     "translations": {
-      "de": [
-        "fest|kleben"
-      ]
+      "de": ["fest|kleben"]
     },
     "complements": {},
     "particle": "on",
@@ -3641,9 +2818,7 @@
   "run|aground": {
     "language": "en",
     "translations": {
-      "de": [
-        "fest|laufen"
-      ]
+      "de": ["fest|laufen"]
     },
     "complements": {},
     "particle": "aground",
@@ -3652,9 +2827,7 @@
   "establish": {
     "language": "en",
     "translations": {
-      "de": [
-        "fest|legen"
-      ]
+      "de": ["fest|legen"]
     },
     "complements": {},
     "wordBase": "establish"
@@ -3662,9 +2835,7 @@
   "nail|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "fest|nageln"
-      ]
+      "de": ["fest|nageln"]
     },
     "complements": {},
     "particle": "down",
@@ -3673,9 +2844,7 @@
   "arrest": {
     "language": "en",
     "translations": {
-      "de": [
-        "fest|nehmen"
-      ]
+      "de": ["fest|nehmen"]
     },
     "complements": {},
     "wordBase": "arrest"
@@ -3683,11 +2852,7 @@
   "move|along": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich fort|bewegen",
-        "weiter|gehen",
-        "weiter|ziehen"
-      ]
+      "de": ["sich fort|bewegen", "weiter|gehen", "weiter|ziehen"]
     },
     "complements": {},
     "particle": "along",
@@ -3696,9 +2861,7 @@
   "move|on": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich fort|bewegen"
-      ]
+      "de": ["sich fort|bewegen"]
     },
     "complements": {},
     "particle": "on",
@@ -3707,21 +2870,14 @@
   "continue|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich fort|entwickeln",
-        "weiter|bestehen"
-      ]
+      "de": ["sich fort|entwickeln", "weiter|bestehen"]
     },
     "complements": {
       "to develop": {
-        "de": [
-          "sich fort|entwickeln"
-        ]
+        "de": ["sich fort|entwickeln"]
       },
       "to exist": {
-        "de": [
-          "weiter|bestehen"
-        ]
+        "de": ["weiter|bestehen"]
       }
     },
     "particle": "to",
@@ -3730,10 +2886,7 @@
   "run|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "fort|laufen",
-        "weg|laufen"
-      ]
+      "de": ["fort|laufen", "weg|laufen"]
     },
     "complements": {},
     "particle": "away",
@@ -3742,9 +2895,7 @@
   "propagate": {
     "language": "en",
     "translations": {
-      "de": [
-        "fort|pflanzen"
-      ]
+      "de": ["fort|pflanzen"]
     },
     "complements": {},
     "wordBase": "propagate"
@@ -3752,16 +2903,11 @@
   "carry|on": {
     "language": "en",
     "translations": {
-      "de": [
-        "fort|setzen",
-        "weiter|machen"
-      ]
+      "de": ["fort|setzen", "weiter|machen"]
     },
     "complements": {
       "on with": {
-        "de": [
-          "fort|setzen"
-        ]
+        "de": ["fort|setzen"]
       }
     },
     "particle": "on",
@@ -3770,9 +2916,7 @@
   "resume": {
     "language": "en",
     "translations": {
-      "de": [
-        "fort|setzen"
-      ]
+      "de": ["fort|setzen"]
     },
     "complements": {},
     "wordBase": "resume"
@@ -3780,9 +2924,7 @@
   "drive|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "fort|treiben"
-      ]
+      "de": ["fort|treiben"]
     },
     "complements": {},
     "particle": "away",
@@ -3791,9 +2933,7 @@
   "drift|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "fort|treiben"
-      ]
+      "de": ["fort|treiben"]
     },
     "complements": {},
     "particle": "away",
@@ -3802,15 +2942,11 @@
   "continue|on": {
     "language": "en",
     "translations": {
-      "de": [
-        "fort|treiben"
-      ]
+      "de": ["fort|treiben"]
     },
     "complements": {
       "on with": {
-        "de": [
-          "fort|treiben"
-        ]
+        "de": ["fort|treiben"]
       }
     },
     "particle": "on",
@@ -3819,16 +2955,11 @@
   "release": {
     "language": "en",
     "translations": {
-      "de": [
-        "frei|geben",
-        "frei|setzen"
-      ]
+      "de": ["frei|geben", "frei|setzen"]
     },
     "complements": {
       "(a prisoner)": {
-        "de": [
-          "frei|geben"
-        ]
+        "de": ["frei|geben"]
       }
     },
     "wordBase": "release"
@@ -3836,17 +2967,11 @@
   "allow": {
     "language": "en",
     "translations": {
-      "de": [
-        "frei|geben",
-        "statt|geben",
-        "zu|billigen"
-      ]
+      "de": ["frei|geben", "statt|geben", "zu|billigen"]
     },
     "complements": {
       "(a currency) to float": {
-        "de": [
-          "frei|geben"
-        ]
+        "de": ["frei|geben"]
       }
     },
     "wordBase": "allow"
@@ -3854,9 +2979,7 @@
   "liberate": {
     "language": "en",
     "translations": {
-      "de": [
-        "frei|kämpfen"
-      ]
+      "de": ["frei|kämpfen"]
     },
     "complements": {},
     "wordBase": "liberate"
@@ -3864,9 +2987,7 @@
   "ransom": {
     "language": "en",
     "translations": {
-      "de": [
-        "frei|kaufen"
-      ]
+      "de": ["frei|kaufen"]
     },
     "complements": {},
     "wordBase": "ransom"
@@ -3874,15 +2995,11 @@
   "buy": {
     "language": "en",
     "translations": {
-      "de": [
-        "frei|kaufen"
-      ]
+      "de": ["frei|kaufen"]
     },
     "complements": {
       "someone's freedom": {
-        "de": [
-          "frei|kaufen"
-        ]
+        "de": ["frei|kaufen"]
       }
     },
     "wordBase": "buy"
@@ -3890,9 +3007,7 @@
   "escape": {
     "language": "en",
     "translations": {
-      "de": [
-        "frei|kommen"
-      ]
+      "de": ["frei|kommen"]
     },
     "complements": {},
     "wordBase": "escape"
@@ -3900,9 +3015,7 @@
   "face": {
     "language": "en",
     "translations": {
-      "de": [
-        "gegenüber|liegen"
-      ]
+      "de": ["gegenüber|liegen"]
     },
     "complements": {},
     "wordBase": "face"
@@ -3910,15 +3023,11 @@
   "be|across": {
     "language": "en",
     "translations": {
-      "de": [
-        "gegenüber|liegen"
-      ]
+      "de": ["gegenüber|liegen"]
     },
     "complements": {
       "across from": {
-        "de": [
-          "gegenüber|liegen"
-        ]
+        "de": ["gegenüber|liegen"]
       }
     },
     "particle": "across",
@@ -3927,15 +3036,11 @@
   "sit": {
     "language": "en",
     "translations": {
-      "de": [
-        "gegenüber|sitzen"
-      ]
+      "de": ["gegenüber|sitzen"]
     },
     "complements": {
       "facing": {
-        "de": [
-          "gegenüber|sitzen"
-        ]
+        "de": ["gegenüber|sitzen"]
       }
     },
     "wordBase": "sit"
@@ -3943,15 +3048,11 @@
   "sit|across": {
     "language": "en",
     "translations": {
-      "de": [
-        "gegenüber|sitzen"
-      ]
+      "de": ["gegenüber|sitzen"]
     },
     "complements": {
       "across from": {
-        "de": [
-          "gegenüber|sitzen"
-        ]
+        "de": ["gegenüber|sitzen"]
       }
     },
     "particle": "across",
@@ -3960,15 +3061,11 @@
   "stand": {
     "language": "en",
     "translations": {
-      "de": [
-        "gegenüber|stehen"
-      ]
+      "de": ["gegenüber|stehen"]
     },
     "complements": {
       "facing": {
-        "de": [
-          "gegenüber|stehen"
-        ]
+        "de": ["gegenüber|stehen"]
       }
     },
     "wordBase": "stand"
@@ -3976,9 +3073,7 @@
   "compare": {
     "language": "en",
     "translations": {
-      "de": [
-        "gegenüber|stellen"
-      ]
+      "de": ["gegenüber|stellen"]
     },
     "complements": {},
     "wordBase": "compare"
@@ -3986,15 +3081,11 @@
   "stay": {
     "language": "en",
     "translations": {
-      "de": [
-        "gleich|bleiben"
-      ]
+      "de": ["gleich|bleiben"]
     },
     "complements": {
       "the same": {
-        "de": [
-          "gleich|bleiben"
-        ]
+        "de": ["gleich|bleiben"]
       }
     },
     "wordBase": "stay"
@@ -4002,9 +3093,7 @@
   "equal": {
     "language": "en",
     "translations": {
-      "de": [
-        "gleich|kommen"
-      ]
+      "de": ["gleich|kommen"]
     },
     "complements": {},
     "wordBase": "equal"
@@ -4012,9 +3101,7 @@
   "equate": {
     "language": "en",
     "translations": {
-      "de": [
-        "gleich|setzen"
-      ]
+      "de": ["gleich|setzen"]
     },
     "complements": {},
     "wordBase": "equate"
@@ -4022,9 +3109,7 @@
   "accompany|home": {
     "language": "en",
     "translations": {
-      "de": [
-        "heim|begleiten"
-      ]
+      "de": ["heim|begleiten"]
     },
     "complements": {},
     "particle": "home",
@@ -4033,9 +3118,7 @@
   "drive|home": {
     "language": "en",
     "translations": {
-      "de": [
-        "heim|fahren"
-      ]
+      "de": ["heim|fahren"]
     },
     "complements": {},
     "particle": "home",
@@ -4044,9 +3127,7 @@
   "go|home": {
     "language": "en",
     "translations": {
-      "de": [
-        "heim|gehen"
-      ]
+      "de": ["heim|gehen"]
     },
     "complements": {},
     "particle": "home",
@@ -4055,9 +3136,7 @@
   "walk|home": {
     "language": "en",
     "translations": {
-      "de": [
-        "heim|gehen"
-      ]
+      "de": ["heim|gehen"]
     },
     "complements": {},
     "particle": "home",
@@ -4066,9 +3145,7 @@
   "return|home": {
     "language": "en",
     "translations": {
-      "de": [
-        "heim|kehren"
-      ]
+      "de": ["heim|kehren"]
     },
     "complements": {},
     "particle": "home",
@@ -4077,9 +3154,7 @@
   "come|home": {
     "language": "en",
     "translations": {
-      "de": [
-        "heim|kommen"
-      ]
+      "de": ["heim|kommen"]
     },
     "complements": {},
     "particle": "home",
@@ -4088,9 +3163,7 @@
   "afflict": {
     "language": "en",
     "translations": {
-      "de": [
-        "heim|suchen"
-      ]
+      "de": ["heim|suchen"]
     },
     "complements": {},
     "wordBase": "afflict"
@@ -4098,9 +3171,7 @@
   "pay|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "heim|zahlen"
-      ]
+      "de": ["heim|zahlen"]
     },
     "complements": {},
     "particle": "back",
@@ -4109,15 +3180,11 @@
   "get|even": {
     "language": "en",
     "translations": {
-      "de": [
-        "heim|zahlen"
-      ]
+      "de": ["heim|zahlen"]
     },
     "complements": {
       "even with": {
-        "de": [
-          "heim|zahlen"
-        ]
+        "de": ["heim|zahlen"]
       }
     },
     "particle": "even",
@@ -4126,10 +3193,7 @@
   "summon": {
     "language": "en",
     "translations": {
-      "de": [
-        "her|bestellen",
-        "vor|laden"
-      ]
+      "de": ["her|bestellen", "vor|laden"]
     },
     "complements": {},
     "wordBase": "summon"
@@ -4137,9 +3201,7 @@
   "travel|here": {
     "language": "en",
     "translations": {
-      "de": [
-        "her|fahren"
-      ]
+      "de": ["her|fahren"]
     },
     "complements": {},
     "particle": "here",
@@ -4148,9 +3210,7 @@
   "drive|here": {
     "language": "en",
     "translations": {
-      "de": [
-        "her|fahren"
-      ]
+      "de": ["her|fahren"]
     },
     "complements": {},
     "particle": "here",
@@ -4159,9 +3219,7 @@
   "bring|here": {
     "language": "en",
     "translations": {
-      "de": [
-        "her|führen"
-      ]
+      "de": ["her|führen"]
     },
     "complements": {},
     "particle": "here",
@@ -4170,10 +3228,7 @@
   "lead|here": {
     "language": "en",
     "translations": {
-      "de": [
-        "her|führen",
-        "heran|führen"
-      ]
+      "de": ["her|führen", "heran|führen"]
     },
     "complements": {},
     "particle": "here",
@@ -4182,9 +3237,7 @@
   "come|here": {
     "language": "en",
     "translations": {
-      "de": [
-        "her|kommen"
-      ]
+      "de": ["her|kommen"]
     },
     "complements": {},
     "particle": "here",
@@ -4193,9 +3246,7 @@
   "come|from": {
     "language": "en",
     "translations": {
-      "de": [
-        "her|kommen"
-      ]
+      "de": ["her|kommen"]
     },
     "complements": {},
     "particle": "from",
@@ -4204,15 +3255,11 @@
   "carry": {
     "language": "en",
     "translations": {
-      "de": [
-        "her|tragen"
-      ]
+      "de": ["her|tragen"]
     },
     "complements": {
       "(to) here (in this direction)": {
-        "de": [
-          "her|tragen"
-        ]
+        "de": ["her|tragen"]
       }
     },
     "wordBase": "carry"
@@ -4220,9 +3267,7 @@
   "fall|from": {
     "language": "en",
     "translations": {
-      "de": [
-        "herab|fallen"
-      ]
+      "de": ["herab|fallen"]
     },
     "complements": {},
     "particle": "from",
@@ -4231,9 +3276,7 @@
   "flow|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "herab|fließen"
-      ]
+      "de": ["herab|fließen"]
     },
     "complements": {},
     "particle": "down",
@@ -4242,9 +3285,7 @@
   "hang|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "herab|hängen"
-      ]
+      "de": ["herab|hängen"]
     },
     "complements": {},
     "particle": "down",
@@ -4253,10 +3294,7 @@
   "reduce": {
     "language": "en",
     "translations": {
-      "de": [
-        "herab|setzen",
-        "herab|mindern"
-      ]
+      "de": ["herab|setzen", "herab|mindern"]
     },
     "complements": {},
     "wordBase": "reduce"
@@ -4264,10 +3302,7 @@
   "disparage": {
     "language": "en",
     "translations": {
-      "de": [
-        "herab|setzen",
-        "herab|mindern"
-      ]
+      "de": ["herab|setzen", "herab|mindern"]
     },
     "complements": {},
     "wordBase": "disparage"
@@ -4275,17 +3310,11 @@
   "look|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "herab|sehen [auf]",
-        "hinunter|blicken",
-        "hinab|blicken"
-      ]
+      "de": ["herab|sehen [auf]", "hinunter|blicken", "hinab|blicken"]
     },
     "complements": {
       "down (on)": {
-        "de": [
-          "herab|sehen [auf]"
-        ]
+        "de": ["herab|sehen [auf]"]
       }
     },
     "particle": "down",
@@ -4294,9 +3323,7 @@
   "sink|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "herab|sinken"
-      ]
+      "de": ["herab|sinken"]
     },
     "complements": {},
     "particle": "down",
@@ -4305,10 +3332,7 @@
   "descend": {
     "language": "en",
     "translations": {
-      "de": [
-        "herab|sinken",
-        "herab|steigen"
-      ]
+      "de": ["herab|sinken", "herab|steigen"]
     },
     "complements": {},
     "wordBase": "descend"
@@ -4316,10 +3340,7 @@
   "climb|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "herab|steigen",
-        "herunter|steigen"
-      ]
+      "de": ["herab|steigen", "herunter|steigen"]
     },
     "complements": {},
     "particle": "down",
@@ -4328,9 +3349,7 @@
   "plummet|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "herab|stürzen"
-      ]
+      "de": ["herab|stürzen"]
     },
     "complements": {},
     "particle": "down",
@@ -4339,9 +3358,7 @@
   "bring|toward": {
     "language": "en",
     "translations": {
-      "de": [
-        "heran|bringen"
-      ]
+      "de": ["heran|bringen"]
     },
     "complements": {},
     "particle": "toward",
@@ -4350,27 +3367,17 @@
   "bring|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "heran|bringen",
-        "heran|führen",
-        "herauf|führen"
-      ]
+      "de": ["heran|bringen", "heran|führen", "herauf|führen"]
     },
     "complements": {
       "up to (a certain point)": {
-        "de": [
-          "heran|bringen"
-        ]
+        "de": ["heran|bringen"]
       },
       "up (to a place)": {
-        "de": [
-          "heran|führen"
-        ]
+        "de": ["heran|führen"]
       },
       "up here": {
-        "de": [
-          "herauf|führen"
-        ]
+        "de": ["herauf|führen"]
       }
     },
     "particle": "up",
@@ -4379,15 +3386,11 @@
   "go|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "heran|gehen"
-      ]
+      "de": ["heran|gehen"]
     },
     "complements": {
       "up closer": {
-        "de": [
-          "heran|gehen"
-        ]
+        "de": ["heran|gehen"]
       }
     },
     "particle": "up",
@@ -4396,9 +3399,7 @@
   "draw|near": {
     "language": "en",
     "translations": {
-      "de": [
-        "heran|kommen"
-      ]
+      "de": ["heran|kommen"]
     },
     "complements": {},
     "particle": "near",
@@ -4407,9 +3408,7 @@
   "mature": {
     "language": "en",
     "translations": {
-      "de": [
-        "heran|reifen"
-      ]
+      "de": ["heran|reifen"]
     },
     "complements": {},
     "wordBase": "mature"
@@ -4417,9 +3416,7 @@
   "cause": {
     "language": "en",
     "translations": {
-      "de": [
-        "herauf|beschwören"
-      ]
+      "de": ["herauf|beschwören"]
     },
     "complements": {},
     "wordBase": "cause"
@@ -4427,9 +3424,7 @@
   "bring|about": {
     "language": "en",
     "translations": {
-      "de": [
-        "herauf|beschwören"
-      ]
+      "de": ["herauf|beschwören"]
     },
     "complements": {},
     "particle": "about",
@@ -4438,9 +3433,7 @@
   "evoke": {
     "language": "en",
     "translations": {
-      "de": [
-        "herauf|beschwören"
-      ]
+      "de": ["herauf|beschwören"]
     },
     "complements": {},
     "wordBase": "evoke"
@@ -4448,15 +3441,11 @@
   "lead|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "herauf|führen"
-      ]
+      "de": ["herauf|führen"]
     },
     "complements": {
       "up here": {
-        "de": [
-          "herauf|führen"
-        ]
+        "de": ["herauf|führen"]
       }
     },
     "particle": "up",
@@ -4465,15 +3454,11 @@
   "carry|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "herauf|tragen"
-      ]
+      "de": ["herauf|tragen"]
     },
     "complements": {
       "up here": {
-        "de": [
-          "herauf|tragen"
-        ]
+        "de": ["herauf|tragen"]
       }
     },
     "particle": "up",
@@ -4482,9 +3467,7 @@
   "pull|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "herauf|ziehen"
-      ]
+      "de": ["herauf|ziehen"]
     },
     "complements": {},
     "particle": "up",
@@ -4493,21 +3476,14 @@
   "ask": {
     "language": "en",
     "translations": {
-      "de": [
-        "heraus|bitten",
-        "nach|haken"
-      ]
+      "de": ["heraus|bitten", "nach|haken"]
     },
     "complements": {
       "(someone) to come outside": {
-        "de": [
-          "heraus|bitten"
-        ]
+        "de": ["heraus|bitten"]
       },
       "further about": {
-        "de": [
-          "nach|haken"
-        ]
+        "de": ["nach|haken"]
       }
     },
     "wordBase": "ask"
@@ -4515,9 +3491,7 @@
   "bring|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "heraus|bringen"
-      ]
+      "de": ["heraus|bringen"]
     },
     "complements": {},
     "particle": "out",
@@ -4526,9 +3500,7 @@
   "publish": {
     "language": "en",
     "translations": {
-      "de": [
-        "heraus|bringen"
-      ]
+      "de": ["heraus|bringen"]
     },
     "complements": {},
     "wordBase": "publish"
@@ -4536,9 +3508,7 @@
   "launch": {
     "language": "en",
     "translations": {
-      "de": [
-        "heraus|bringen"
-      ]
+      "de": ["heraus|bringen"]
     },
     "complements": {},
     "wordBase": "launch"
@@ -4546,21 +3516,14 @@
   "drive|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "heraus|fahren",
-        "hinaus|ekeln"
-      ]
+      "de": ["heraus|fahren", "hinaus|ekeln"]
     },
     "complements": {
       "out of": {
-        "de": [
-          "heraus|fahren"
-        ]
+        "de": ["heraus|fahren"]
       },
       "out in disgust": {
-        "de": [
-          "hinaus|ekeln"
-        ]
+        "de": ["hinaus|ekeln"]
       }
     },
     "particle": "out",
@@ -4569,9 +3532,7 @@
   "hand|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "heraus|geben"
-      ]
+      "de": ["heraus|geben"]
     },
     "complements": {},
     "particle": "over",
@@ -4580,9 +3541,7 @@
   "hand|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "heraus|geben"
-      ]
+      "de": ["heraus|geben"]
     },
     "complements": {},
     "particle": "out",
@@ -4591,9 +3550,7 @@
   "hang|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "heraus|hängen"
-      ]
+      "de": ["heraus|hängen"]
     },
     "complements": {},
     "particle": "out",
@@ -4602,9 +3559,7 @@
   "challenge": {
     "language": "en",
     "translations": {
-      "de": [
-        "heraus|fordern"
-      ]
+      "de": ["heraus|fordern"]
     },
     "complements": {},
     "wordBase": "challenge"
@@ -4612,9 +3567,7 @@
   "provoke": {
     "language": "en",
     "translations": {
-      "de": [
-        "heraus|fordern"
-      ]
+      "de": ["heraus|fordern"]
     },
     "complements": {},
     "wordBase": "provoke"
@@ -4622,15 +3575,11 @@
   "turn|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich heraus|stellen"
-      ]
+      "de": ["sich heraus|stellen"]
     },
     "complements": {
       "out (to be)": {
-        "de": [
-          "sich heraus|stellen"
-        ]
+        "de": ["sich heraus|stellen"]
       }
     },
     "particle": "out",
@@ -4639,9 +3588,7 @@
   "pull|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "heraus|ziehen"
-      ]
+      "de": ["heraus|ziehen"]
     },
     "complements": {},
     "particle": "out",
@@ -4650,9 +3597,7 @@
   "bring|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "herbei|bringen"
-      ]
+      "de": ["herbei|bringen"]
     },
     "complements": {},
     "particle": "over",
@@ -4661,9 +3606,7 @@
   "fetch": {
     "language": "en",
     "translations": {
-      "de": [
-        "herbei|holen"
-      ]
+      "de": ["herbei|holen"]
     },
     "complements": {},
     "wordBase": "fetch"
@@ -4671,15 +3614,11 @@
   "to": {
     "language": "en",
     "translations": {
-      "de": [
-        "herbei|laufen"
-      ]
+      "de": ["herbei|laufen"]
     },
     "complements": {
       "come running up": {
-        "de": [
-          "herbei|laufen"
-        ]
+        "de": ["herbei|laufen"]
       }
     },
     "wordBase": "to"
@@ -4687,9 +3626,7 @@
   "call|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "herbei|rufen"
-      ]
+      "de": ["herbei|rufen"]
     },
     "complements": {},
     "particle": "over",
@@ -4698,9 +3635,7 @@
   "long|for": {
     "language": "en",
     "translations": {
-      "de": [
-        "herbei|sehnen"
-      ]
+      "de": ["herbei|sehnen"]
     },
     "complements": {},
     "particle": "for",
@@ -4709,9 +3644,7 @@
   "invite|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "herein|bitten"
-      ]
+      "de": ["herein|bitten"]
     },
     "complements": {},
     "particle": "in",
@@ -4720,10 +3653,7 @@
   "bring|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "herein|bringen",
-        "herein|holen"
-      ]
+      "de": ["herein|bringen", "herein|holen"]
     },
     "complements": {},
     "particle": "in",
@@ -4732,11 +3662,7 @@
   "fall|into": {
     "language": "en",
     "translations": {
-      "de": [
-        "herein|fallen",
-        "hinein|drängen",
-        "hinein|fallen"
-      ]
+      "de": ["herein|fallen", "hinein|drängen", "hinein|fallen"]
     },
     "complements": {},
     "particle": "into",
@@ -4745,9 +3671,7 @@
   "come|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "herein|kommen"
-      ]
+      "de": ["herein|kommen"]
     },
     "complements": {},
     "particle": "in",
@@ -4756,9 +3680,7 @@
   "snow|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "herein|schneien"
-      ]
+      "de": ["herein|schneien"]
     },
     "complements": {},
     "particle": "in",
@@ -4767,15 +3689,11 @@
   "appear|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "herein|schneien"
-      ]
+      "de": ["herein|schneien"]
     },
     "complements": {
       "out of the blue": {
-        "de": [
-          "herein|schneien"
-        ]
+        "de": ["herein|schneien"]
       }
     },
     "particle": "out",
@@ -4784,9 +3702,7 @@
   "stroll|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "herein|spazieren"
-      ]
+      "de": ["herein|spazieren"]
     },
     "complements": {},
     "particle": "in",
@@ -4795,15 +3711,11 @@
   "drive|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "herüber|fahren"
-      ]
+      "de": ["herüber|fahren"]
     },
     "complements": {
       "over here": {
-        "de": [
-          "herüber|fahren"
-        ]
+        "de": ["herüber|fahren"]
       }
     },
     "particle": "over",
@@ -4812,15 +3724,11 @@
   "come|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "herüber|kommen"
-      ]
+      "de": ["herüber|kommen"]
     },
     "complements": {
       "over here": {
-        "de": [
-          "herüber|kommen"
-        ]
+        "de": ["herüber|kommen"]
       }
     },
     "particle": "over",
@@ -4829,15 +3737,11 @@
   "look|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "herüber|schauen"
-      ]
+      "de": ["herüber|schauen"]
     },
     "complements": {
       "over here": {
-        "de": [
-          "herüber|schauen"
-        ]
+        "de": ["herüber|schauen"]
       }
     },
     "particle": "over",
@@ -4846,15 +3750,11 @@
   "send|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "herüber|schicken"
-      ]
+      "de": ["herüber|schicken"]
     },
     "complements": {
       "over here": {
-        "de": [
-          "herüber|schicken"
-        ]
+        "de": ["herüber|schicken"]
       }
     },
     "particle": "over",
@@ -4863,27 +3763,17 @@
   "manage|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "herunter|bekommen",
-        "hin|bekommen",
-        "hin|kriegen"
-      ]
+      "de": ["herunter|bekommen", "hin|bekommen", "hin|kriegen"]
     },
     "complements": {
       "to get down": {
-        "de": [
-          "herunter|bekommen"
-        ]
+        "de": ["herunter|bekommen"]
       },
       "to do": {
-        "de": [
-          "hin|bekommen"
-        ]
+        "de": ["hin|bekommen"]
       },
       "to take care of": {
-        "de": [
-          "hin|kriegen"
-        ]
+        "de": ["hin|kriegen"]
       }
     },
     "particle": "to",
@@ -4907,9 +3797,7 @@
   "bargain|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "herunter|handeln"
-      ]
+      "de": ["herunter|handeln"]
     },
     "complements": {},
     "particle": "down",
@@ -4918,9 +3806,7 @@
   "fetch|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "herunter|holen"
-      ]
+      "de": ["herunter|holen"]
     },
     "complements": {},
     "particle": "down",
@@ -4929,15 +3815,11 @@
   "come|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "herunter|kommen"
-      ]
+      "de": ["herunter|kommen"]
     },
     "complements": {
       "down (go to the dogs)": {
-        "de": [
-          "herunter|kommen"
-        ]
+        "de": ["herunter|kommen"]
       }
     },
     "particle": "down",
@@ -4946,9 +3828,7 @@
   "swallow": {
     "language": "en",
     "translations": {
-      "de": [
-        "herunter|schlucken"
-      ]
+      "de": ["herunter|schlucken"]
     },
     "complements": {},
     "wordBase": "swallow"
@@ -4956,9 +3836,7 @@
   "ratchet|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "herunter|schrauben"
-      ]
+      "de": ["herunter|schrauben"]
     },
     "complements": {},
     "particle": "down",
@@ -4967,9 +3845,7 @@
   "dumb|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "herunter|schrauben"
-      ]
+      "de": ["herunter|schrauben"]
     },
     "complements": {},
     "particle": "down",
@@ -4978,10 +3854,7 @@
   "emerge": {
     "language": "en",
     "translations": {
-      "de": [
-        "hervor|gehen",
-        "hervor|treten"
-      ]
+      "de": ["hervor|gehen", "hervor|treten"]
     },
     "complements": {},
     "wordBase": "emerge"
@@ -4989,9 +3862,7 @@
   "lure|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "hervor|gehen"
-      ]
+      "de": ["hervor|gehen"]
     },
     "complements": {},
     "particle": "out",
@@ -5000,9 +3871,7 @@
   "emphasize": {
     "language": "en",
     "translations": {
-      "de": [
-        "hervor|heben"
-      ]
+      "de": ["hervor|heben"]
     },
     "complements": {},
     "wordBase": "emphasize"
@@ -5010,9 +3879,7 @@
   "project": {
     "language": "en",
     "translations": {
-      "de": [
-        "hervor|ragen"
-      ]
+      "de": ["hervor|ragen"]
     },
     "complements": {},
     "wordBase": "project"
@@ -5020,9 +3887,7 @@
   "jut|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "hervor|ragen"
-      ]
+      "de": ["hervor|ragen"]
     },
     "complements": {},
     "particle": "out",
@@ -5031,15 +3896,11 @@
   "call|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "hervor|rufen"
-      ]
+      "de": ["hervor|rufen"]
     },
     "complements": {
       "to come out": {
-        "de": [
-          "hervor|rufen"
-        ]
+        "de": ["hervor|rufen"]
       }
     },
     "particle": "to",
@@ -5048,9 +3909,7 @@
   "stick|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "hervor|stecken"
-      ]
+      "de": ["hervor|stecken"]
     },
     "complements": {},
     "particle": "out",
@@ -5059,9 +3918,7 @@
   "step|forth": {
     "language": "en",
     "translations": {
-      "de": [
-        "hervor|treten"
-      ]
+      "de": ["hervor|treten"]
     },
     "complements": {},
     "particle": "forth",
@@ -5070,9 +3927,7 @@
   "excel": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich hervor|tun"
-      ]
+      "de": ["sich hervor|tun"]
     },
     "complements": {},
     "wordBase": "excel"
@@ -5080,15 +3935,11 @@
   "dare|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich hervor|wagen"
-      ]
+      "de": ["sich hervor|wagen"]
     },
     "complements": {
       "to come out": {
-        "de": [
-          "sich hervor|wagen"
-        ]
+        "de": ["sich hervor|wagen"]
       }
     },
     "particle": "to",
@@ -5097,9 +3948,7 @@
   "work|towards": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|arbeiten"
-      ]
+      "de": ["hin|arbeiten"]
     },
     "complements": {},
     "particle": "towards",
@@ -5108,9 +3957,7 @@
   "wangle": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|bekommen"
-      ]
+      "de": ["hin|bekommen"]
     },
     "complements": {},
     "wordBase": "wangle"
@@ -5118,9 +3965,7 @@
   "accompany|thither": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|begleiten"
-      ]
+      "de": ["hin|begleiten"]
     },
     "complements": {},
     "particle": "thither",
@@ -5129,9 +3974,7 @@
   "move|toward": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|bewegen"
-      ]
+      "de": ["hin|bewegen"]
     },
     "complements": {},
     "particle": "toward",
@@ -5140,9 +3983,7 @@
   "arrange": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|biegen"
-      ]
+      "de": ["hin|biegen"]
     },
     "complements": {},
     "wordBase": "arrange"
@@ -5150,9 +3991,7 @@
   "shell|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|blättern"
-      ]
+      "de": ["hin|blättern"]
     },
     "complements": {},
     "particle": "out",
@@ -5161,9 +4000,7 @@
   "take|there": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|bringen"
-      ]
+      "de": ["hin|bringen"]
     },
     "complements": {},
     "particle": "there",
@@ -5172,9 +4009,7 @@
   "point|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|deuten"
-      ]
+      "de": ["hin|deuten"]
     },
     "complements": {},
     "particle": "to",
@@ -5183,9 +4018,7 @@
   "go|there": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|fahren"
-      ]
+      "de": ["hin|fahren"]
     },
     "complements": {},
     "particle": "there",
@@ -5194,9 +4027,7 @@
   "drive|there": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|fahren"
-      ]
+      "de": ["hin|fahren"]
     },
     "complements": {},
     "particle": "there",
@@ -5205,16 +4036,11 @@
   "lead|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|führen",
-        "auf etwas hinaus|laufen"
-      ]
+      "de": ["hin|führen", "auf etwas hinaus|laufen"]
     },
     "complements": {
       "to something": {
-        "de": [
-          "auf etwas hinaus|laufen"
-        ]
+        "de": ["auf etwas hinaus|laufen"]
       }
     },
     "particle": "to",
@@ -5223,9 +4049,7 @@
   "devote": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|geben"
-      ]
+      "de": ["hin|geben"]
     },
     "complements": {},
     "wordBase": "devote"
@@ -5233,9 +4057,7 @@
   "sacrifice": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|geben"
-      ]
+      "de": ["hin|geben"]
     },
     "complements": {},
     "wordBase": "sacrifice"
@@ -5243,10 +4065,7 @@
   "get|there": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|geraten",
-        "hin|kommen"
-      ]
+      "de": ["hin|geraten", "hin|kommen"]
     },
     "complements": {},
     "particle": "there",
@@ -5255,9 +4074,7 @@
   "hold|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|halten"
-      ]
+      "de": ["hin|halten"]
     },
     "complements": {},
     "particle": "out",
@@ -5266,10 +4083,7 @@
   "delay": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|halten",
-        "hinaus|zögern"
-      ]
+      "de": ["hin|halten", "hinaus|zögern"]
     },
     "complements": {},
     "wordBase": "delay"
@@ -5277,15 +4091,11 @@
   "listen": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|horchen"
-      ]
+      "de": ["hin|horchen"]
     },
     "complements": {
       "closely": {
-        "de": [
-          "hin|horchen"
-        ]
+        "de": ["hin|horchen"]
       }
     },
     "wordBase": "listen"
@@ -5293,10 +4103,7 @@
   "kneel|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|knien",
-        "nieder|knien"
-      ]
+      "de": ["hin|knien", "nieder|knien"]
     },
     "complements": {},
     "particle": "down",
@@ -5305,15 +4112,11 @@
   "live": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor sich hin|leben"
-      ]
+      "de": ["vor sich hin|leben"]
     },
     "complements": {
       "passively": {
-        "de": [
-          "vor sich hin|leben"
-        ]
+        "de": ["vor sich hin|leben"]
       }
     },
     "wordBase": "live"
@@ -5321,15 +4124,11 @@
   "without": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor sich hin|leben"
-      ]
+      "de": ["vor sich hin|leben"]
     },
     "complements": {
       "purpose": {
-        "de": [
-          "vor sich hin|leben"
-        ]
+        "de": ["vor sich hin|leben"]
       }
     },
     "wordBase": "without"
@@ -5337,9 +4136,7 @@
   "lay|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|legen"
-      ]
+      "de": ["hin|legen"]
     },
     "complements": {},
     "particle": "down",
@@ -5348,9 +4145,7 @@
   "steer|toward": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|lenken"
-      ]
+      "de": ["hin|lenken"]
     },
     "complements": {},
     "particle": "toward",
@@ -5359,15 +4154,11 @@
   "put|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|nehmen"
-      ]
+      "de": ["hin|nehmen"]
     },
     "complements": {
       "up with": {
-        "de": [
-          "hin|nehmen"
-        ]
+        "de": ["hin|nehmen"]
       }
     },
     "particle": "up",
@@ -5376,9 +4167,7 @@
   "suffice": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|reichen"
-      ]
+      "de": ["hin|reichen"]
     },
     "complements": {},
     "wordBase": "suffice"
@@ -5386,9 +4175,7 @@
   "delight": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|reißen"
-      ]
+      "de": ["hin|reißen"]
     },
     "complements": {},
     "wordBase": "delight"
@@ -5396,9 +4183,7 @@
   "fascinate": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|reißen"
-      ]
+      "de": ["hin|reißen"]
     },
     "complements": {},
     "wordBase": "fascinate"
@@ -5406,9 +4191,7 @@
   "execute": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|richten"
-      ]
+      "de": ["hin|richten"]
     },
     "complements": {},
     "wordBase": "execute"
@@ -5416,15 +4199,11 @@
   "put|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|richten"
-      ]
+      "de": ["hin|richten"]
     },
     "complements": {
       "to death": {
-        "de": [
-          "hin|richten"
-        ]
+        "de": ["hin|richten"]
       }
     },
     "particle": "to",
@@ -5433,9 +4212,7 @@
   "send|there": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|schicken"
-      ]
+      "de": ["hin|schicken"]
     },
     "complements": {},
     "particle": "there",
@@ -5444,9 +4221,7 @@
   "drag|there": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|schleppen"
-      ]
+      "de": ["hin|schleppen"]
     },
     "complements": {},
     "particle": "there",
@@ -5455,9 +4230,7 @@
   "sit|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich hin|setzen"
-      ]
+      "de": ["sich hin|setzen"]
     },
     "complements": {},
     "particle": "down",
@@ -5466,9 +4239,7 @@
   "carry|there": {
     "language": "en",
     "translations": {
-      "de": [
-        "hin|tragen"
-      ]
+      "de": ["hin|tragen"]
     },
     "complements": {},
     "particle": "there",
@@ -5477,9 +4248,7 @@
   "move|upwards": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich hin|bewegen"
-      ]
+      "de": ["sich hin|bewegen"]
     },
     "complements": {},
     "particle": "upwards",
@@ -5488,16 +4257,11 @@
   "lower|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinab|lassen",
-        "hinunter|lassen"
-      ]
+      "de": ["hinab|lassen", "hinunter|lassen"]
     },
     "complements": {
       "down (e.g. with a rope)": {
-        "de": [
-          "hinab|lassen"
-        ]
+        "de": ["hinab|lassen"]
       }
     },
     "particle": "down",
@@ -5506,9 +4270,7 @@
   "wash|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinunter|spülen"
-      ]
+      "de": ["hinunter|spülen"]
     },
     "complements": {},
     "particle": "down",
@@ -5517,15 +4279,11 @@
   "walk|up,": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinauf|gehen"
-      ]
+      "de": ["hinauf|gehen"]
     },
     "complements": {
       "up, walk upstairs, go upwards": {
-        "de": [
-          "hinauf|gehen"
-        ]
+        "de": ["hinauf|gehen"]
       }
     },
     "particle": "up,",
@@ -5534,17 +4292,11 @@
   "look|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinauf|schauen",
-        "nach|schauen",
-        "nach|nachsehen"
-      ]
+      "de": ["hinauf|schauen", "nach|schauen", "nach|nachsehen"]
     },
     "complements": {
       "up etc": {
-        "de": [
-          "hinauf|schauen"
-        ]
+        "de": ["hinauf|schauen"]
       }
     },
     "particle": "up",
@@ -5553,9 +4305,7 @@
   "take|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinaus|bringen"
-      ]
+      "de": ["hinaus|bringen"]
     },
     "complements": {},
     "particle": "out",
@@ -5564,9 +4314,7 @@
   "project|beyond": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinaus|ragen"
-      ]
+      "de": ["hinaus|ragen"]
     },
     "complements": {},
     "particle": "beyond",
@@ -5575,9 +4323,7 @@
   "postpone": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinaus|schieben"
-      ]
+      "de": ["hinaus|schieben"]
     },
     "complements": {},
     "wordBase": "postpone"
@@ -5585,15 +4331,11 @@
   "grow": {
     "language": "en",
     "translations": {
-      "de": [
-        "über etwas hinaus|wachsen"
-      ]
+      "de": ["über etwas hinaus|wachsen"]
     },
     "complements": {
       "beyond/outgrow something": {
-        "de": [
-          "über etwas hinaus|wachsen"
-        ]
+        "de": ["über etwas hinaus|wachsen"]
       }
     },
     "wordBase": "grow"
@@ -5601,9 +4343,7 @@
   "throw|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinaus|werfen"
-      ]
+      "de": ["hinaus|werfen"]
     },
     "complements": {},
     "particle": "out",
@@ -5612,27 +4352,17 @@
   "want|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinaus|wollen",
-        "hinein|wollen",
-        "los|wollen"
-      ]
+      "de": ["hinaus|wollen", "hinein|wollen", "los|wollen"]
     },
     "complements": {
       "to go out": {
-        "de": [
-          "hinaus|wollen"
-        ]
+        "de": ["hinaus|wollen"]
       },
       "to go in": {
-        "de": [
-          "hinein|wollen"
-        ]
+        "de": ["hinein|wollen"]
       },
       "to be off": {
-        "de": [
-          "los|wollen"
-        ]
+        "de": ["los|wollen"]
       }
     },
     "particle": "to",
@@ -5641,9 +4371,7 @@
   "draw|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinaus|zögern"
-      ]
+      "de": ["hinaus|zögern"]
     },
     "complements": {},
     "particle": "out",
@@ -5652,9 +4380,7 @@
   "flow|into": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinein|fließen"
-      ]
+      "de": ["hinein|fließen"]
     },
     "complements": {},
     "particle": "into",
@@ -5663,9 +4389,7 @@
   "reach|into": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinein|reichen"
-      ]
+      "de": ["hinein|reichen"]
     },
     "complements": {},
     "particle": "into",
@@ -5674,15 +4398,11 @@
   "ride|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinein|reiten"
-      ]
+      "de": ["hinein|reiten"]
     },
     "complements": {
       "in (on horseback)": {
-        "de": [
-          "hinein|reiten"
-        ]
+        "de": ["hinein|reiten"]
       }
     },
     "particle": "in",
@@ -5699,19 +4419,13 @@
     },
     "complements": {
       "someone to get over something": {
-        "de": [
-          "jemandem über etwas hinweg|helfen"
-        ]
+        "de": ["jemandem über etwas hinweg|helfen"]
       },
       "someone up": {
-        "de": [
-          "jemanden hoch|bringen"
-        ]
+        "de": ["jemanden hoch|bringen"]
       },
       "oneself (to something)": {
-        "de": [
-          "zu|greifen"
-        ]
+        "de": ["zu|greifen"]
       }
     },
     "wordBase": "help"
@@ -5719,15 +4433,11 @@
   "get|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "über etwas hinweg|kommen"
-      ]
+      "de": ["über etwas hinweg|kommen"]
     },
     "complements": {
       "over something": {
-        "de": [
-          "über etwas hinweg|kommen"
-        ]
+        "de": ["über etwas hinweg|kommen"]
       }
     },
     "particle": "over",
@@ -5736,15 +4446,11 @@
   "disregard": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich über etwas hinweg|setzen"
-      ]
+      "de": ["sich über etwas hinweg|setzen"]
     },
     "complements": {
       "something": {
-        "de": [
-          "sich über etwas hinweg|setzen"
-        ]
+        "de": ["sich über etwas hinweg|setzen"]
       }
     },
     "wordBase": "disregard"
@@ -5752,15 +4458,11 @@
   "limp|along": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinterher|hinken"
-      ]
+      "de": ["hinterher|hinken"]
     },
     "complements": {
       "along behind": {
-        "de": [
-          "hinterher|hinken"
-        ]
+        "de": ["hinterher|hinken"]
       }
     },
     "particle": "along",
@@ -5769,10 +4471,7 @@
   "follow|after": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinterher|kommen",
-        "nach|gehen"
-      ]
+      "de": ["hinterher|kommen", "nach|gehen"]
     },
     "complements": {},
     "particle": "after",
@@ -5781,9 +4480,7 @@
   "run|after": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinterher|laufen"
-      ]
+      "de": ["hinterher|laufen"]
     },
     "complements": {},
     "particle": "after",
@@ -5792,9 +4489,7 @@
   "send|after": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinterher|schicken"
-      ]
+      "de": ["hinterher|schicken"]
     },
     "complements": {},
     "particle": "after",
@@ -5803,9 +4498,7 @@
   "send|on": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinterher|schicken"
-      ]
+      "de": ["hinterher|schicken"]
     },
     "complements": {},
     "particle": "on",
@@ -5814,10 +4507,7 @@
   "append": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinzu|fügen",
-        "hinzu|setzen"
-      ]
+      "de": ["hinzu|fügen", "hinzu|setzen"]
     },
     "complements": {},
     "wordBase": "append"
@@ -5825,15 +4515,11 @@
   "earn": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinzu|verdienen"
-      ]
+      "de": ["hinzu|verdienen"]
     },
     "complements": {
       "(something) extra": {
-        "de": [
-          "hinzu|verdienen"
-        ]
+        "de": ["hinzu|verdienen"]
       }
     },
     "wordBase": "earn"
@@ -5841,9 +4527,7 @@
   "consult": {
     "language": "en",
     "translations": {
-      "de": [
-        "hinzu|ziehen"
-      ]
+      "de": ["hinzu|ziehen"]
     },
     "complements": {},
     "wordBase": "consult"
@@ -5851,15 +4535,11 @@
   "hold|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "hoch|halten"
-      ]
+      "de": ["hoch|halten"]
     },
     "complements": {
       "up [in a raised position]": {
-        "de": [
-          "hoch|halten"
-        ]
+        "de": ["hoch|halten"]
       }
     },
     "particle": "up",
@@ -5868,15 +4548,11 @@
   "roll|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "hoch|krempeln"
-      ]
+      "de": ["hoch|krempeln"]
     },
     "complements": {
       "up [a sleeve]": {
-        "de": [
-          "hoch|krempeln"
-        ]
+        "de": ["hoch|krempeln"]
       }
     },
     "particle": "up",
@@ -5885,15 +4561,11 @@
   "support|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "hoch|legen"
-      ]
+      "de": ["hoch|legen"]
     },
     "complements": {
       "in a raised position": {
-        "de": [
-          "hoch|legen"
-        ]
+        "de": ["hoch|legen"]
       }
     },
     "particle": "in",
@@ -5902,15 +4574,11 @@
   "extrapolate|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "hoch|rechnen"
-      ]
+      "de": ["hoch|rechnen"]
     },
     "complements": {
       "to project [a forecast]": {
-        "de": [
-          "hoch|rechnen"
-        ]
+        "de": ["hoch|rechnen"]
       }
     },
     "particle": "to",
@@ -5919,9 +4587,7 @@
   "shoot|upwards": {
     "language": "en",
     "translations": {
-      "de": [
-        "hoch|schießen"
-      ]
+      "de": ["hoch|schießen"]
     },
     "complements": {},
     "particle": "upwards",
@@ -5930,9 +4596,7 @@
   "commence": {
     "language": "en",
     "translations": {
-      "de": [
-        "los|gehen"
-      ]
+      "de": ["los|gehen"]
     },
     "complements": {},
     "wordBase": "commence"
@@ -5940,15 +4604,11 @@
   "let": {
     "language": "en",
     "translations": {
-      "de": [
-        "los|lassen"
-      ]
+      "de": ["los|lassen"]
     },
     "complements": {
       "go of": {
-        "de": [
-          "los|lassen"
-        ]
+        "de": ["los|lassen"]
       }
     },
     "wordBase": "let"
@@ -5956,15 +4616,11 @@
   "break": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich los|reißen"
-      ]
+      "de": ["sich los|reißen"]
     },
     "complements": {
       "free of": {
-        "de": [
-          "sich los|reißen"
-        ]
+        "de": ["sich los|reißen"]
       }
     },
     "wordBase": "break"
@@ -5972,9 +4628,7 @@
   "collaborate": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|arbeiten"
-      ]
+      "de": ["mit|arbeiten"]
     },
     "complements": {},
     "wordBase": "collaborate"
@@ -5982,15 +4636,11 @@
   "work|along": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|arbeiten"
-      ]
+      "de": ["mit|arbeiten"]
     },
     "complements": {
       "along with": {
-        "de": [
-          "mit|arbeiten"
-        ]
+        "de": ["mit|arbeiten"]
       }
     },
     "particle": "along",
@@ -5999,9 +4649,7 @@
   "ride|with": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|fahren"
-      ]
+      "de": ["mit|fahren"]
     },
     "complements": {},
     "particle": "with",
@@ -6010,15 +4658,11 @@
   "keep|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|halten"
-      ]
+      "de": ["mit|halten"]
     },
     "complements": {
       "up with": {
-        "de": [
-          "mit|halten"
-        ]
+        "de": ["mit|halten"]
       }
     },
     "particle": "up",
@@ -6027,9 +4671,7 @@
   "listen|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|hören"
-      ]
+      "de": ["mit|hören"]
     },
     "complements": {},
     "particle": "in",
@@ -6038,9 +4680,7 @@
   "eavesdrop": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|hören"
-      ]
+      "de": ["mit|hören"]
     },
     "complements": {},
     "wordBase": "eavesdrop"
@@ -6048,9 +4688,7 @@
   "come|along": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|kommen"
-      ]
+      "de": ["mit|kommen"]
     },
     "complements": {},
     "particle": "along",
@@ -6059,9 +4697,7 @@
   "participate": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|machen"
-      ]
+      "de": ["mit|machen"]
     },
     "complements": {},
     "wordBase": "participate"
@@ -6069,9 +4705,7 @@
   "take|along": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|nehmen"
-      ]
+      "de": ["mit|nehmen"]
     },
     "complements": {},
     "particle": "along",
@@ -6080,15 +4714,11 @@
   "participate|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|reden"
-      ]
+      "de": ["mit|reden"]
     },
     "complements": {
       "in the conversation": {
-        "de": [
-          "mit|reden"
-        ]
+        "de": ["mit|reden"]
       }
     },
     "particle": "in",
@@ -6097,9 +4727,7 @@
   "sing|along": {
     "language": "en",
     "translations": {
-      "de": [
-        "mit|singen"
-      ]
+      "de": ["mit|singen"]
     },
     "complements": {},
     "particle": "along",
@@ -6108,9 +4736,7 @@
   "mimic": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|affen"
-      ]
+      "de": ["nach|affen"]
     },
     "complements": {},
     "wordBase": "mimic"
@@ -6118,9 +4744,7 @@
   "ape": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|affen"
-      ]
+      "de": ["nach|affen"]
     },
     "complements": {},
     "wordBase": "ape"
@@ -6128,10 +4752,7 @@
   "imitate": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|ahmen",
-        "nach|machen"
-      ]
+      "de": ["nach|ahmen", "nach|machen"]
     },
     "complements": {},
     "wordBase": "imitate"
@@ -6139,15 +4760,11 @@
   "do": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|arbeiten"
-      ]
+      "de": ["nach|arbeiten"]
     },
     "complements": {
       "make-up work": {
-        "de": [
-          "nach|arbeiten"
-        ]
+        "de": ["nach|arbeiten"]
       }
     },
     "wordBase": "do"
@@ -6155,15 +4772,11 @@
   "improve|by": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|bessern"
-      ]
+      "de": ["nach|bessern"]
     },
     "complements": {
       "by making adjustments": {
-        "de": [
-          "nach|bessern"
-        ]
+        "de": ["nach|bessern"]
       }
     },
     "particle": "by",
@@ -6172,15 +4785,11 @@
   "order": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|bestellen"
-      ]
+      "de": ["nach|bestellen"]
     },
     "complements": {
       "more (of something)": {
-        "de": [
-          "nach|bestellen"
-        ]
+        "de": ["nach|bestellen"]
       }
     },
     "wordBase": "order"
@@ -6188,9 +4797,7 @@
   "reprint": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|drucken"
-      ]
+      "de": ["nach|drucken"]
     },
     "complements": {},
     "wordBase": "reprint"
@@ -6198,10 +4805,7 @@
   "empathize": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|empfinden",
-        "nach|fühlen"
-      ]
+      "de": ["nach|empfinden", "nach|fühlen"]
     },
     "complements": {},
     "wordBase": "empathize"
@@ -6209,9 +4813,7 @@
   "retell": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|erzählen"
-      ]
+      "de": ["nach|erzählen"]
     },
     "complements": {},
     "wordBase": "retell"
@@ -6219,15 +4821,11 @@
   "celebrate|at": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|feiern"
-      ]
+      "de": ["nach|feiern"]
     },
     "complements": {
       "at a later date": {
-        "de": [
-          "nach|feiern"
-        ]
+        "de": ["nach|feiern"]
       }
     },
     "particle": "at",
@@ -6236,9 +4834,7 @@
   "succeed": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|folgen"
-      ]
+      "de": ["nach|folgen"]
     },
     "complements": {},
     "wordBase": "succeed"
@@ -6246,9 +4842,7 @@
   "follow": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|folgen"
-      ]
+      "de": ["nach|folgen"]
     },
     "complements": {},
     "wordBase": "follow"
@@ -6256,9 +4850,7 @@
   "investigate": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|forschen"
-      ]
+      "de": ["nach|forschen"]
     },
     "complements": {},
     "wordBase": "investigate"
@@ -6266,9 +4858,7 @@
   "refill": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|füllen"
-      ]
+      "de": ["nach|füllen"]
     },
     "complements": {},
     "wordBase": "refill"
@@ -6276,9 +4866,7 @@
   "top|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|füllen"
-      ]
+      "de": ["nach|füllen"]
     },
     "complements": {},
     "particle": "off",
@@ -6287,9 +4875,7 @@
   "give|way": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|geben"
-      ]
+      "de": ["nach|geben"]
     },
     "complements": {},
     "particle": "way",
@@ -6298,9 +4884,7 @@
   "give|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|geben"
-      ]
+      "de": ["nach|geben"]
     },
     "complements": {},
     "particle": "in",
@@ -6309,15 +4893,11 @@
   "look|into": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|gehen"
-      ]
+      "de": ["nach|gehen"]
     },
     "complements": {
       "into (an issue)": {
-        "de": [
-          "nach|gehen"
-        ]
+        "de": ["nach|gehen"]
       }
     },
     "particle": "into",
@@ -6326,15 +4906,11 @@
   "run": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|gehen"
-      ]
+      "de": ["nach|gehen"]
     },
     "complements": {
       "slow (clock)": {
-        "de": [
-          "nach|gehen"
-        ]
+        "de": ["nach|gehen"]
       }
     },
     "wordBase": "run"
@@ -6342,15 +4918,11 @@
   "dig": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|haken"
-      ]
+      "de": ["nach|haken"]
     },
     "complements": {
       "deeper": {
-        "de": [
-          "nach|haken"
-        ]
+        "de": ["nach|haken"]
       }
     },
     "wordBase": "dig"
@@ -6358,15 +4930,11 @@
   "catch|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|holen"
-      ]
+      "de": ["nach|holen"]
     },
     "complements": {
       "up on": {
-        "de": [
-          "nach|holen"
-        ]
+        "de": ["nach|holen"]
       }
     },
     "particle": "up",
@@ -6375,15 +4943,11 @@
   "make|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|holen"
-      ]
+      "de": ["nach|holen"]
     },
     "complements": {
       "up for": {
-        "de": [
-          "nach|holen"
-        ]
+        "de": ["nach|holen"]
       }
     },
     "particle": "up",
@@ -6392,9 +4956,7 @@
   "fetch|later": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|holen"
-      ]
+      "de": ["nach|holen"]
     },
     "complements": {},
     "particle": "later",
@@ -6403,9 +4965,7 @@
   "come|later": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|kommen"
-      ]
+      "de": ["nach|kommen"]
     },
     "complements": {},
     "particle": "later",
@@ -6414,9 +4974,7 @@
   "diminish": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|lassen"
-      ]
+      "de": ["nach|lassen"]
     },
     "complements": {},
     "wordBase": "diminish"
@@ -6424,9 +4982,7 @@
   "loosen": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|lassen"
-      ]
+      "de": ["nach|lassen"]
     },
     "complements": {},
     "wordBase": "loosen"
@@ -6434,9 +4990,7 @@
   "counterfeit": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|machen"
-      ]
+      "de": ["nach|machen"]
     },
     "complements": {},
     "wordBase": "counterfeit"
@@ -6444,15 +4998,11 @@
   "hand|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|reichen"
-      ]
+      "de": ["nach|reichen"]
     },
     "complements": {
       "in later": {
-        "de": [
-          "nach|reichen"
-        ]
+        "de": ["nach|reichen"]
       }
     },
     "particle": "in",
@@ -6461,15 +5011,11 @@
   "move|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|rücken"
-      ]
+      "de": ["nach|rücken"]
     },
     "complements": {
       "up (to the next position after it has become vacant)": {
-        "de": [
-          "nach|rücken"
-        ]
+        "de": ["nach|rücken"]
       }
     },
     "particle": "up",
@@ -6478,10 +5024,7 @@
   "check|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|schauen",
-        "nach|nachsehen"
-      ]
+      "de": ["nach|schauen", "nach|nachsehen"]
     },
     "complements": {},
     "particle": "up",
@@ -6490,15 +5033,11 @@
   "play|during": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|spielen"
-      ]
+      "de": ["nach|spielen"]
     },
     "complements": {
       "during time that has been added on (injury time in soccer)": {
-        "de": [
-          "nach|spielen"
-        ]
+        "de": ["nach|spielen"]
       }
     },
     "particle": "during",
@@ -6507,9 +5046,7 @@
   "repeat|after": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|sprechen"
-      ]
+      "de": ["nach|sprechen"]
     },
     "complements": {},
     "particle": "after",
@@ -6518,9 +5055,7 @@
   "readjust": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|stellen"
-      ]
+      "de": ["nach|stellen"]
     },
     "complements": {},
     "wordBase": "readjust"
@@ -6528,16 +5063,11 @@
   "mourn": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|trauern",
-        "nach|weinen"
-      ]
+      "de": ["nach|trauern", "nach|weinen"]
     },
     "complements": {
       "or bemoan the passing of": {
-        "de": [
-          "nach|trauern"
-        ]
+        "de": ["nach|trauern"]
       }
     },
     "wordBase": "mourn"
@@ -6545,9 +5075,7 @@
   "comprehend": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|vollziehen"
-      ]
+      "de": ["nach|vollziehen"]
     },
     "complements": {},
     "wordBase": "comprehend"
@@ -6555,15 +5083,11 @@
   "provide": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|weisen"
-      ]
+      "de": ["nach|weisen"]
     },
     "complements": {
       "proof of something that has been committed": {
-        "de": [
-          "nach|weisen"
-        ]
+        "de": ["nach|weisen"]
       }
     },
     "wordBase": "provide"
@@ -6571,15 +5095,11 @@
   "recount": {
     "language": "en",
     "translations": {
-      "de": [
-        "nach|zählen"
-      ]
+      "de": ["nach|zählen"]
     },
     "complements": {
       "(count again)": {
-        "de": [
-          "nach|zählen"
-        ]
+        "de": ["nach|zählen"]
       }
     },
     "wordBase": "recount"
@@ -6587,9 +5107,7 @@
   "drive|alongside": {
     "language": "en",
     "translations": {
-      "de": [
-        "nebenher|fahren"
-      ]
+      "de": ["nebenher|fahren"]
     },
     "complements": {},
     "particle": "alongside",
@@ -6598,9 +5116,7 @@
   "walk|alongside": {
     "language": "en",
     "translations": {
-      "de": [
-        "nebenher|gehen"
-      ]
+      "de": ["nebenher|gehen"]
     },
     "complements": {},
     "particle": "alongside",
@@ -6609,9 +5125,7 @@
   "run|alongside": {
     "language": "en",
     "translations": {
-      "de": [
-        "nebenher|laufen"
-      ]
+      "de": ["nebenher|laufen"]
     },
     "complements": {},
     "particle": "alongside",
@@ -6620,15 +5134,11 @@
   "proceed|at": {
     "language": "en",
     "translations": {
-      "de": [
-        "nebenher|laufen"
-      ]
+      "de": ["nebenher|laufen"]
     },
     "complements": {
       "at the same time": {
-        "de": [
-          "nebenher|laufen"
-        ]
+        "de": ["nebenher|laufen"]
       }
     },
     "particle": "at",
@@ -6637,9 +5147,7 @@
   "shout|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "nieder|brüllen"
-      ]
+      "de": ["nieder|brüllen"]
     },
     "complements": {},
     "particle": "down",
@@ -6648,9 +5156,7 @@
   "drop|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "nieder|gehen"
-      ]
+      "de": ["nieder|gehen"]
     },
     "complements": {},
     "particle": "down",
@@ -6659,9 +5165,7 @@
   "go|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "nieder|gehen"
-      ]
+      "de": ["nieder|gehen"]
     },
     "complements": {},
     "particle": "down",
@@ -6670,9 +5174,7 @@
   "land": {
     "language": "en",
     "translations": {
-      "de": [
-        "nieder|gehen"
-      ]
+      "de": ["nieder|gehen"]
     },
     "complements": {},
     "wordBase": "land"
@@ -6680,9 +5182,7 @@
   "oppress": {
     "language": "en",
     "translations": {
-      "de": [
-        "nieder|halten"
-      ]
+      "de": ["nieder|halten"]
     },
     "complements": {},
     "wordBase": "oppress"
@@ -6690,9 +5190,7 @@
   "lower": {
     "language": "en",
     "translations": {
-      "de": [
-        "nieder|lassen"
-      ]
+      "de": ["nieder|lassen"]
     },
     "complements": {},
     "wordBase": "lower"
@@ -6700,15 +5198,11 @@
   "ensconce": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich nieder|lassen"
-      ]
+      "de": ["sich nieder|lassen"]
     },
     "complements": {
       "oneself": {
-        "de": [
-          "sich nieder|lassen"
-        ]
+        "de": ["sich nieder|lassen"]
       }
     },
     "wordBase": "ensconce"
@@ -6716,9 +5210,7 @@
   "tear|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "nieder|reißen"
-      ]
+      "de": ["nieder|reißen"]
     },
     "complements": {},
     "particle": "down",
@@ -6727,9 +5219,7 @@
   "gun|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "nieder|schießen"
-      ]
+      "de": ["nieder|schießen"]
     },
     "complements": {},
     "particle": "down",
@@ -6738,10 +5228,7 @@
   "knock|down": {
     "language": "en",
     "translations": {
-      "de": [
-        "nieder|schlagen",
-        "um|hauen"
-      ]
+      "de": ["nieder|schlagen", "um|hauen"]
     },
     "complements": {},
     "particle": "down",
@@ -6750,9 +5237,7 @@
   "suppress": {
     "language": "en",
     "translations": {
-      "de": [
-        "nieder|schlagen"
-      ]
+      "de": ["nieder|schlagen"]
     },
     "complements": {},
     "wordBase": "suppress"
@@ -6760,9 +5245,7 @@
   "overcome": {
     "language": "en",
     "translations": {
-      "de": [
-        "nieder|werfen"
-      ]
+      "de": ["nieder|werfen"]
     },
     "complements": {},
     "wordBase": "overcome"
@@ -6770,9 +5253,7 @@
   "defeat": {
     "language": "en",
     "translations": {
-      "de": [
-        "nieder|werfen"
-      ]
+      "de": ["nieder|werfen"]
     },
     "complements": {},
     "wordBase": "defeat"
@@ -6780,15 +5261,11 @@
   "prostrate": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich nieder|werfen"
-      ]
+      "de": ["sich nieder|werfen"]
     },
     "complements": {
       "oneself": {
-        "de": [
-          "sich nieder|werfen"
-        ]
+        "de": ["sich nieder|werfen"]
       }
     },
     "wordBase": "prostrate"
@@ -6796,9 +5273,7 @@
   "accede|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "statt|geben"
-      ]
+      "de": ["statt|geben"]
     },
     "complements": {},
     "particle": "to",
@@ -6807,10 +5282,7 @@
   "grant": {
     "language": "en",
     "translations": {
-      "de": [
-        "statt|geben",
-        "zu|billigen"
-      ]
+      "de": ["statt|geben", "zu|billigen"]
     },
     "complements": {},
     "wordBase": "grant"
@@ -6818,23 +5290,14 @@
   "change": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|ändern",
-        "um|funktionieren",
-        "um|schalten",
-        "sich um|ziehen"
-      ]
+      "de": ["um|ändern", "um|funktionieren", "um|schalten", "sich um|ziehen"]
     },
     "complements": {
       "the function of": {
-        "de": [
-          "um|funktionieren"
-        ]
+        "de": ["um|funktionieren"]
       },
       "clothes": {
-        "de": [
-          "sich um|ziehen"
-        ]
+        "de": ["sich um|ziehen"]
       }
     },
     "wordBase": "change"
@@ -6842,9 +5305,7 @@
   "change|around": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|ändern"
-      ]
+      "de": ["um|ändern"]
     },
     "complements": {},
     "particle": "around",
@@ -6853,9 +5314,7 @@
   "rework": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|arbeiten"
-      ]
+      "de": ["um|arbeiten"]
     },
     "complements": {},
     "wordBase": "rework"
@@ -6863,9 +5322,7 @@
   "rename": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|benennen"
-      ]
+      "de": ["um|benennen"]
     },
     "complements": {},
     "wordBase": "rename"
@@ -6873,11 +5330,7 @@
   "look|around": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|blicken",
-        "sich um|sehen",
-        "sich um|schauen"
-      ]
+      "de": ["um|blicken", "sich um|sehen", "sich um|schauen"]
     },
     "complements": {},
     "particle": "around",
@@ -6886,9 +5339,7 @@
   "kill": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|bringen"
-      ]
+      "de": ["um|bringen"]
     },
     "complements": {},
     "wordBase": "kill"
@@ -6896,15 +5347,11 @@
   "re-book": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|buchen"
-      ]
+      "de": ["um|buchen"]
     },
     "complements": {
       "(travel plans)": {
-        "de": [
-          "um|buchen"
-        ]
+        "de": ["um|buchen"]
       }
     },
     "wordBase": "re-book"
@@ -6912,9 +5359,7 @@
   "rethink": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|denken"
-      ]
+      "de": ["um|denken"]
     },
     "complements": {},
     "wordBase": "rethink"
@@ -6922,15 +5367,11 @@
   "revise": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|denken"
-      ]
+      "de": ["um|denken"]
     },
     "complements": {
       "one's opinion": {
-        "de": [
-          "um|denken"
-        ]
+        "de": ["um|denken"]
       }
     },
     "wordBase": "revise"
@@ -6938,10 +5379,7 @@
   "turn|around": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|drehen",
-        "um|kehren"
-      ]
+      "de": ["um|drehen", "um|kehren"]
     },
     "complements": {},
     "particle": "around",
@@ -6950,9 +5388,7 @@
   "fall|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|fallen"
-      ]
+      "de": ["um|fallen"]
     },
     "complements": {},
     "particle": "over",
@@ -6961,9 +5397,7 @@
   "include": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|fassen"
-      ]
+      "de": ["um|fassen"]
     },
     "complements": {},
     "wordBase": "include"
@@ -6971,9 +5405,7 @@
   "embrace": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|fassen"
-      ]
+      "de": ["um|fassen"]
     },
     "complements": {},
     "wordBase": "embrace"
@@ -6981,9 +5413,7 @@
   "recast": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|formen"
-      ]
+      "de": ["um|formen"]
     },
     "complements": {},
     "wordBase": "recast"
@@ -6991,28 +5421,17 @@
   "transfer": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|füllen",
-        "um|laden",
-        "um|setzen",
-        "um|steigen"
-      ]
+      "de": ["um|füllen", "um|laden", "um|setzen", "um|steigen"]
     },
     "complements": {
       "(something) into (another container)": {
-        "de": [
-          "um|füllen"
-        ]
+        "de": ["um|füllen"]
       },
       "(a load)": {
-        "de": [
-          "um|laden"
-        ]
+        "de": ["um|laden"]
       },
       "[change buses, trains, planes]": {
-        "de": [
-          "um|steigen"
-        ]
+        "de": ["um|steigen"]
       }
     },
     "wordBase": "transfer"
@@ -7020,15 +5439,11 @@
   "dig|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|graben"
-      ]
+      "de": ["um|graben"]
     },
     "complements": {
       "over to turn over (dirt)": {
-        "de": [
-          "um|graben"
-        ]
+        "de": ["um|graben"]
       }
     },
     "particle": "over",
@@ -7037,15 +5452,11 @@
   "re-hang": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|hängen"
-      ]
+      "de": ["um|hängen"]
     },
     "complements": {
       "(curtains), drape around": {
-        "de": [
-          "um|hängen"
-        ]
+        "de": ["um|hängen"]
       }
     },
     "wordBase": "re-hang"
@@ -7053,10 +5464,7 @@
   "knock|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|hauen",
-        "um|werfen"
-      ]
+      "de": ["um|hauen", "um|werfen"]
     },
     "complements": {},
     "particle": "over",
@@ -7065,9 +5473,7 @@
   "tip|over": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|kippen"
-      ]
+      "de": ["um|kippen"]
     },
     "complements": {},
     "particle": "over",
@@ -7076,9 +5482,7 @@
   "clutch": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|klammern"
-      ]
+      "de": ["um|klammern"]
     },
     "complements": {},
     "wordBase": "clutch"
@@ -7086,9 +5490,7 @@
   "orbit": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|kreisen"
-      ]
+      "de": ["um|kreisen"]
     },
     "complements": {},
     "wordBase": "orbit"
@@ -7096,15 +5498,11 @@
   "learn|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|lernen"
-      ]
+      "de": ["um|lernen"]
     },
     "complements": {
       "to think differently": {
-        "de": [
-          "um|lernen"
-        ]
+        "de": ["um|lernen"]
       }
     },
     "particle": "to",
@@ -7113,9 +5511,7 @@
   "frame": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|rahmen"
-      ]
+      "de": ["um|rahmen"]
     },
     "complements": {},
     "wordBase": "frame"
@@ -7123,15 +5519,11 @@
   "convert": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|rechnen"
-      ]
+      "de": ["um|rechnen"]
     },
     "complements": {
       "(e.g. into different units)": {
-        "de": [
-          "um|rechnen"
-        ]
+        "de": ["um|rechnen"]
       }
     },
     "wordBase": "convert"
@@ -7139,9 +5531,7 @@
   "stir": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|rühren"
-      ]
+      "de": ["um|rühren"]
     },
     "complements": {},
     "wordBase": "stir"
@@ -7149,9 +5539,7 @@
   "transpose": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|setzen"
-      ]
+      "de": ["um|setzen"]
     },
     "complements": {},
     "wordBase": "transpose"
@@ -7159,9 +5547,7 @@
   "transact": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|setzen"
-      ]
+      "de": ["um|setzen"]
     },
     "complements": {},
     "wordBase": "transact"
@@ -7169,9 +5555,7 @@
   "transform": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|setzen"
-      ]
+      "de": ["um|setzen"]
     },
     "complements": {},
     "wordBase": "transform"
@@ -7179,15 +5563,11 @@
   "persuade": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|stimmen"
-      ]
+      "de": ["um|stimmen", "ein|reden"]
     },
     "complements": {
       "[to change one's mind]": {
-        "de": [
-          "um|stimmen"
-        ]
+        "de": ["um|stimmen"]
       }
     },
     "wordBase": "persuade"
@@ -7195,9 +5575,7 @@
   "retrain": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|schulen"
-      ]
+      "de": ["um|schulen"]
     },
     "complements": {},
     "wordBase": "retrain"
@@ -7205,15 +5583,11 @@
   "switch|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|schulen"
-      ]
+      "de": ["um|schulen"]
     },
     "complements": {
       "to another school": {
-        "de": [
-          "um|schulen"
-        ]
+        "de": ["um|schulen"]
       }
     },
     "particle": "to",
@@ -7222,9 +5596,7 @@
   "rewind": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|spulen"
-      ]
+      "de": ["um|spulen"]
     },
     "complements": {},
     "wordBase": "rewind"
@@ -7232,9 +5604,7 @@
   "rearrange": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|stellen"
-      ]
+      "de": ["um|stellen"]
     },
     "complements": {},
     "wordBase": "rearrange"
@@ -7242,9 +5612,7 @@
   "exchange": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|tauschen"
-      ]
+      "de": ["um|tauschen"]
     },
     "complements": {},
     "wordBase": "exchange"
@@ -7252,15 +5620,11 @@
   "move": {
     "language": "en",
     "translations": {
-      "de": [
-        "um|ziehen"
-      ]
+      "de": ["um|ziehen"]
     },
     "complements": {
       "(to change address)": {
-        "de": [
-          "um|ziehen"
-        ]
+        "de": ["um|ziehen"]
       }
     },
     "wordBase": "move"
@@ -7268,9 +5632,7 @@
   "ask|around": {
     "language": "en",
     "translations": {
-      "de": [
-        "sich um|fragen"
-      ]
+      "de": ["sich um|fragen"]
     },
     "complements": {},
     "particle": "around",
@@ -7279,9 +5641,7 @@
   "reserve": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|behalten"
-      ]
+      "de": ["vor|behalten"]
     },
     "complements": {},
     "wordBase": "reserve"
@@ -7289,9 +5649,7 @@
   "prepare": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|bereiten"
-      ]
+      "de": ["vor|bereiten"]
     },
     "complements": {},
     "wordBase": "prepare"
@@ -7299,9 +5657,7 @@
   "prevent": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|beugen"
-      ]
+      "de": ["vor|beugen"]
     },
     "complements": {},
     "wordBase": "prevent"
@@ -7309,9 +5665,7 @@
   "bend|forward": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|beugen"
-      ]
+      "de": ["vor|beugen"]
     },
     "complements": {},
     "particle": "forward",
@@ -7320,10 +5674,7 @@
   "propose": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|bringen",
-        "vor|schlagen"
-      ]
+      "de": ["vor|bringen", "vor|schlagen"]
     },
     "complements": {},
     "wordBase": "propose"
@@ -7331,10 +5682,7 @@
   "bring|forward": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|bringen",
-        "vor|führen"
-      ]
+      "de": ["vor|bringen", "vor|führen"]
     },
     "complements": {},
     "particle": "forward",
@@ -7343,9 +5691,7 @@
   "produce": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|bringen"
-      ]
+      "de": ["vor|bringen"]
     },
     "complements": {},
     "wordBase": "produce"
@@ -7353,9 +5699,7 @@
   "push|forward": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|drängen"
-      ]
+      "de": ["vor|drängen"]
     },
     "complements": {},
     "particle": "forward",
@@ -7364,15 +5708,11 @@
   "drive|on": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|fahren"
-      ]
+      "de": ["vor|fahren"]
     },
     "complements": {
       "on ahead, drive up in front (of a building)": {
-        "de": [
-          "vor|fahren"
-        ]
+        "de": ["vor|fahren"]
       }
     },
     "particle": "on",
@@ -7381,10 +5721,7 @@
   "happen": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|fallen",
-        "vor|kommen"
-      ]
+      "de": ["vor|fallen", "vor|kommen"]
     },
     "complements": {},
     "wordBase": "happen"
@@ -7392,10 +5729,7 @@
   "perform": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|führen",
-        "vor|tragen"
-      ]
+      "de": ["vor|führen", "vor|tragen"]
     },
     "complements": {},
     "wordBase": "perform"
@@ -7403,9 +5737,7 @@
   "pretend": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|geben"
-      ]
+      "de": ["vor|geben"]
     },
     "complements": {},
     "wordBase": "pretend"
@@ -7413,9 +5745,7 @@
   "proceed": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|gehen"
-      ]
+      "de": ["vor|gehen"]
     },
     "complements": {},
     "wordBase": "proceed"
@@ -7423,16 +5753,11 @@
   "present": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|legen",
-        "vor|tragen"
-      ]
+      "de": ["vor|legen", "vor|tragen"]
     },
     "complements": {
       "(a speech, song, etc.)": {
-        "de": [
-          "vor|tragen"
-        ]
+        "de": ["vor|tragen"]
       }
     },
     "wordBase": "present"
@@ -7440,9 +5765,7 @@
   "intend": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|haben"
-      ]
+      "de": ["vor|haben"]
     },
     "complements": {},
     "wordBase": "intend"
@@ -7450,9 +5773,7 @@
   "predominate": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|herrschen"
-      ]
+      "de": ["vor|herrschen"]
     },
     "complements": {},
     "wordBase": "predominate"
@@ -7460,9 +5781,7 @@
   "seem": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|kommen"
-      ]
+      "de": ["vor|kommen"]
     },
     "complements": {},
     "wordBase": "seem"
@@ -7470,9 +5789,7 @@
   "lean|forward": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|neigen"
-      ]
+      "de": ["vor|neigen"]
     },
     "complements": {},
     "particle": "forward",
@@ -7481,9 +5798,7 @@
   "pre-program": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|programmieren"
-      ]
+      "de": ["vor|programmieren"]
     },
     "complements": {},
     "wordBase": "pre-program"
@@ -7491,9 +5806,7 @@
   "move|forward": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|rücken"
-      ]
+      "de": ["vor|rücken"]
     },
     "complements": {},
     "particle": "forward",
@@ -7502,9 +5815,7 @@
   "suggest": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|schlagen"
-      ]
+      "de": ["vor|schlagen"]
     },
     "complements": {},
     "wordBase": "suggest"
@@ -7512,9 +5823,7 @@
   "put|before": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|setzen"
-      ]
+      "de": ["vor|setzen"]
     },
     "complements": {},
     "particle": "before",
@@ -7523,15 +5832,11 @@
   "sing": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|singen"
-      ]
+      "de": ["vor|singen"]
     },
     "complements": {
       "(in front of people)": {
-        "de": [
-          "vor|singen"
-        ]
+        "de": ["vor|singen"]
       }
     },
     "wordBase": "sing"
@@ -7539,15 +5844,11 @@
   "play": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|spielen"
-      ]
+      "de": ["vor|spielen"]
     },
     "complements": {
       "(music in front of people)": {
-        "de": [
-          "vor|spielen"
-        ]
+        "de": ["vor|spielen"]
       }
     },
     "wordBase": "play"
@@ -7555,9 +5856,7 @@
   "prefer": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|ziehen"
-      ]
+      "de": ["vor|ziehen"]
     },
     "complements": {},
     "wordBase": "prefer"
@@ -7565,9 +5864,7 @@
   "pull|forward": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|ziehen"
-      ]
+      "de": ["vor|ziehen"]
     },
     "complements": {},
     "particle": "forward",
@@ -7576,15 +5873,11 @@
   "draw": {
     "language": "en",
     "translations": {
-      "de": [
-        "vor|ziehen"
-      ]
+      "de": ["vor|ziehen"]
     },
     "complements": {
       "[a curtain]": {
-        "de": [
-          "vor|ziehen"
-        ]
+        "de": ["vor|ziehen"]
       }
     },
     "wordBase": "draw"
@@ -7592,15 +5885,11 @@
   "calculate|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "voraus|berechnen"
-      ]
+      "de": ["voraus|berechnen"]
     },
     "complements": {
       "in advance": {
-        "de": [
-          "voraus|berechnen"
-        ]
+        "de": ["voraus|berechnen"]
       }
     },
     "particle": "in",
@@ -7609,15 +5898,11 @@
   "go|on": {
     "language": "en",
     "translations": {
-      "de": [
-        "voraus|gehen"
-      ]
+      "de": ["voraus|gehen"]
     },
     "complements": {
       "on ahead": {
-        "de": [
-          "voraus|gehen"
-        ]
+        "de": ["voraus|gehen"]
       }
     },
     "particle": "on",
@@ -7626,9 +5911,7 @@
   "predict": {
     "language": "en",
     "translations": {
-      "de": [
-        "voraus|sagen"
-      ]
+      "de": ["voraus|sagen"]
     },
     "complements": {},
     "wordBase": "predict"
@@ -7636,9 +5919,7 @@
   "foresee": {
     "language": "en",
     "translations": {
-      "de": [
-        "voraus|sehen"
-      ]
+      "de": ["voraus|sehen"]
     },
     "complements": {},
     "wordBase": "foresee"
@@ -7646,15 +5927,11 @@
   "be|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "voraus|sein"
-      ]
+      "de": ["voraus|sein"]
     },
     "complements": {
       "in advance, be ahead": {
-        "de": [
-          "voraus|sein"
-        ]
+        "de": ["voraus|sein"]
       }
     },
     "particle": "in",
@@ -7663,9 +5940,7 @@
   "assume": {
     "language": "en",
     "translations": {
-      "de": [
-        "voraus|setzen"
-      ]
+      "de": ["voraus|setzen"]
     },
     "complements": {},
     "wordBase": "assume"
@@ -7673,9 +5948,7 @@
   "drive|past": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorbei|fahren"
-      ]
+      "de": ["vorbei|fahren"]
     },
     "complements": {},
     "particle": "past",
@@ -7684,9 +5957,7 @@
   "walk|past": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorbei|gehen"
-      ]
+      "de": ["vorbei|gehen"]
     },
     "complements": {},
     "particle": "past",
@@ -7695,9 +5966,7 @@
   "drop|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorbei|kommen"
-      ]
+      "de": ["vorbei|kommen"]
     },
     "complements": {},
     "particle": "in",
@@ -7706,9 +5975,7 @@
   "let|by": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorbei|lassen"
-      ]
+      "de": ["vorbei|lassen"]
     },
     "complements": {},
     "particle": "by",
@@ -7717,9 +5984,7 @@
   "talk|past": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorbei|reden"
-      ]
+      "de": ["vorbei|reden"]
     },
     "complements": {},
     "particle": "past",
@@ -7728,15 +5993,11 @@
   "miss": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorbei|schießen"
-      ]
+      "de": ["vorbei|schießen"]
     },
     "complements": {
       "(the target)": {
-        "de": [
-          "vorbei|schießen"
-        ]
+        "de": ["vorbei|schießen"]
       }
     },
     "wordBase": "miss"
@@ -7744,9 +6005,7 @@
   "hurry|past": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorüber|eilen"
-      ]
+      "de": ["vorüber|eilen"]
     },
     "complements": {},
     "particle": "past",
@@ -7755,9 +6014,7 @@
   "drive|by": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorüber|fahren"
-      ]
+      "de": ["vorüber|fahren"]
     },
     "complements": {},
     "particle": "by",
@@ -7766,9 +6023,7 @@
   "fly|by": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorüber|fliegen"
-      ]
+      "de": ["vorüber|fliegen"]
     },
     "complements": {},
     "particle": "by",
@@ -7777,9 +6032,7 @@
   "go|by": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorüber|gehen"
-      ]
+      "de": ["vorüber|gehen"]
     },
     "complements": {},
     "particle": "by",
@@ -7788,9 +6041,7 @@
   "pass|by": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorüber|ziehen"
-      ]
+      "de": ["vorüber|ziehen"]
     },
     "complements": {},
     "particle": "by",
@@ -7799,9 +6050,7 @@
   "anticipate": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorweg|nehmen"
-      ]
+      "de": ["vorweg|nehmen"]
     },
     "complements": {},
     "wordBase": "anticipate"
@@ -7809,9 +6058,7 @@
   "pre-empt": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorweg|nehmen"
-      ]
+      "de": ["vorweg|nehmen"]
     },
     "complements": {},
     "wordBase": "pre-empt"
@@ -7819,9 +6066,7 @@
   "forestall": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorweg|nehmen"
-      ]
+      "de": ["vorweg|nehmen"]
     },
     "complements": {},
     "wordBase": "forestall"
@@ -7829,15 +6074,11 @@
   "say|in": {
     "language": "en",
     "translations": {
-      "de": [
-        "vorweg|sagen"
-      ]
+      "de": ["vorweg|sagen"]
     },
     "complements": {
       "in anticipation": {
-        "de": [
-          "vorweg|sagen"
-        ]
+        "de": ["vorweg|sagen"]
       }
     },
     "particle": "in",
@@ -7846,9 +6087,7 @@
   "blow|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|blasen"
-      ]
+      "de": ["weg|blasen"]
     },
     "complements": {},
     "particle": "away",
@@ -7857,15 +6096,11 @@
   "imagine": {
     "language": "en",
     "translations": {
-      "de": [
-        "etwas weg|denken"
-      ]
+      "de": ["etwas weg|denken"]
     },
     "complements": {
       "that something is not there": {
-        "de": [
-          "etwas weg|denken"
-        ]
+        "de": ["etwas weg|denken"]
       }
     },
     "wordBase": "imagine"
@@ -7873,9 +6108,7 @@
   "sweep|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|fegen"
-      ]
+      "de": ["weg|fegen"]
     },
     "complements": {},
     "particle": "away",
@@ -7884,9 +6117,7 @@
   "lead|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|führen"
-      ]
+      "de": ["weg|führen"]
     },
     "complements": {},
     "particle": "off",
@@ -7895,9 +6126,7 @@
   "give|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|geben"
-      ]
+      "de": ["weg|geben"]
     },
     "complements": {},
     "particle": "away",
@@ -7906,9 +6135,7 @@
   "go|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|gehen"
-      ]
+      "de": ["weg|gehen"]
     },
     "complements": {},
     "particle": "away",
@@ -7917,9 +6144,7 @@
   "chase|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|jagen"
-      ]
+      "de": ["weg|jagen"]
     },
     "complements": {},
     "particle": "away",
@@ -7928,21 +6153,14 @@
   "have|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|müssen",
-        "zurück|gehen"
-      ]
+      "de": ["weg|müssen", "zurück|gehen"]
     },
     "complements": {
       "to leave": {
-        "de": [
-          "weg|müssen"
-        ]
+        "de": ["weg|müssen"]
       },
       "to go back": {
-        "de": [
-          "zurück|gehen"
-        ]
+        "de": ["zurück|gehen"]
       }
     },
     "particle": "to",
@@ -7951,9 +6169,7 @@
   "clear|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|räumen"
-      ]
+      "de": ["weg|räumen"]
     },
     "complements": {},
     "particle": "away",
@@ -7962,9 +6178,7 @@
   "look|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|sehen"
-      ]
+      "de": ["weg|sehen"]
     },
     "complements": {},
     "particle": "away",
@@ -7973,9 +6187,7 @@
   "put|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|stecken"
-      ]
+      "de": ["weg|stecken"]
     },
     "complements": {},
     "particle": "away",
@@ -7984,9 +6196,7 @@
   "throw|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|werfen"
-      ]
+      "de": ["weg|werfen"]
     },
     "complements": {},
     "particle": "away",
@@ -7995,9 +6205,7 @@
   "wipe|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|wischen"
-      ]
+      "de": ["weg|wischen"]
     },
     "complements": {},
     "particle": "away",
@@ -8006,9 +6214,7 @@
   "move|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|ziehen"
-      ]
+      "de": ["weg|ziehen"]
     },
     "complements": {},
     "particle": "away",
@@ -8017,9 +6223,7 @@
   "pull|away": {
     "language": "en",
     "translations": {
-      "de": [
-        "weg|ziehen"
-      ]
+      "de": ["weg|ziehen"]
     },
     "complements": {},
     "particle": "away",
@@ -8028,15 +6232,11 @@
   "develop": {
     "language": "en",
     "translations": {
-      "de": [
-        "weiter|entwickeln"
-      ]
+      "de": ["weiter|entwickeln"]
     },
     "complements": {
       "further": {
-        "de": [
-          "weiter|entwickeln"
-        ]
+        "de": ["weiter|entwickeln"]
       }
     },
     "wordBase": "develop"
@@ -8044,15 +6244,11 @@
   "tell": {
     "language": "en",
     "translations": {
-      "de": [
-        "weiter|erzählen"
-      ]
+      "de": ["weiter|erzählen"]
     },
     "complements": {
       "further": {
-        "de": [
-          "weiter|erzählen"
-        ]
+        "de": ["weiter|erzählen"]
       }
     },
     "wordBase": "tell"
@@ -8060,15 +6256,11 @@
   "pass": {
     "language": "en",
     "translations": {
-      "de": [
-        "weiter|sagen"
-      ]
+      "de": ["weiter|sagen"]
     },
     "complements": {
       "(the word) on": {
-        "de": [
-          "weiter|sagen"
-        ]
+        "de": ["weiter|sagen"]
       }
     },
     "wordBase": "pass"
@@ -8076,10 +6268,7 @@
   "get|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "wieder|bekommen",
-        "zurück|erhalten"
-      ]
+      "de": ["wieder|bekommen", "zurück|erhalten"]
     },
     "complements": {},
     "particle": "back",
@@ -8088,9 +6277,7 @@
   "resuscitate": {
     "language": "en",
     "translations": {
-      "de": [
-        "wieder|beleben"
-      ]
+      "de": ["wieder|beleben"]
     },
     "complements": {},
     "wordBase": "resuscitate"
@@ -8098,9 +6285,7 @@
   "bring|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "wieder|bringen"
-      ]
+      "de": ["wieder|bringen"]
     },
     "complements": {},
     "particle": "back",
@@ -8109,9 +6294,7 @@
   "rediscover": {
     "language": "en",
     "translations": {
-      "de": [
-        "wieder|entdecken"
-      ]
+      "de": ["wieder|entdecken"]
     },
     "complements": {},
     "wordBase": "rediscover"
@@ -8119,10 +6302,7 @@
   "give|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "wieder|geben",
-        "zurück|geben"
-      ]
+      "de": ["wieder|geben", "zurück|geben"]
     },
     "complements": {},
     "particle": "back",
@@ -8131,10 +6311,7 @@
   "repeat": {
     "language": "en",
     "translations": {
-      "de": [
-        "wieder|geben",
-        "wieder|holen"
-      ]
+      "de": ["wieder|geben", "wieder|holen"]
     },
     "complements": {},
     "wordBase": "repeat"
@@ -8142,9 +6319,7 @@
   "restore": {
     "language": "en",
     "translations": {
-      "de": [
-        "wieder|herstellen"
-      ]
+      "de": ["wieder|herstellen"]
     },
     "complements": {},
     "wordBase": "restore"
@@ -8152,9 +6327,7 @@
   "reestablish": {
     "language": "en",
     "translations": {
-      "de": [
-        "wieder|herstellen"
-      ]
+      "de": ["wieder|herstellen"]
     },
     "complements": {},
     "wordBase": "reestablish"
@@ -8162,9 +6335,7 @@
   "ruminate": {
     "language": "en",
     "translations": {
-      "de": [
-        "wieder|käuen"
-      ]
+      "de": ["wieder|käuen"]
     },
     "complements": {},
     "wordBase": "ruminate"
@@ -8172,11 +6343,7 @@
   "return": {
     "language": "en",
     "translations": {
-      "de": [
-        "wieder|kehren",
-        "zurück|geben",
-        "zurück|müssen"
-      ]
+      "de": ["wieder|kehren", "zurück|geben", "zurück|müssen"]
     },
     "complements": {},
     "wordBase": "return"
@@ -8184,9 +6351,7 @@
   "see|again": {
     "language": "en",
     "translations": {
-      "de": [
-        "wieder|sehen"
-      ]
+      "de": ["wieder|sehen"]
     },
     "complements": {},
     "particle": "again",
@@ -8195,9 +6360,7 @@
   "reunite": {
     "language": "en",
     "translations": {
-      "de": [
-        "wieder|vereinigen"
-      ]
+      "de": ["wieder|vereinigen"]
     },
     "complements": {},
     "wordBase": "reunite"
@@ -8205,9 +6368,7 @@
   "block|off": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|bauen"
-      ]
+      "de": ["zu|bauen"]
     },
     "complements": {},
     "particle": "off",
@@ -8216,9 +6377,7 @@
   "tie": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|binden"
-      ]
+      "de": ["zu|binden"]
     },
     "complements": {},
     "wordBase": "tie"
@@ -8226,9 +6385,7 @@
   "tie|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|binden"
-      ]
+      "de": ["zu|binden"]
     },
     "complements": {},
     "particle": "up",
@@ -8237,9 +6394,7 @@
   "bring": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|bringen"
-      ]
+      "de": ["zu|bringen"]
     },
     "complements": {},
     "wordBase": "bring"
@@ -8247,15 +6402,11 @@
   "cover|up,": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|decken"
-      ]
+      "de": ["zu|decken"]
     },
     "complements": {
       "up, tuck in": {
-        "de": [
-          "zu|decken"
-        ]
+        "de": ["zu|decken"]
       }
     },
     "particle": "up,",
@@ -8264,9 +6415,7 @@
   "press|shut": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|drücken"
-      ]
+      "de": ["zu|drücken"]
     },
     "complements": {},
     "particle": "shut",
@@ -8275,9 +6424,7 @@
   "bestow": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|erkennen"
-      ]
+      "de": ["zu|erkennen"]
     },
     "complements": {},
     "wordBase": "bestow"
@@ -8285,15 +6432,11 @@
   "confer": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|erkennen"
-      ]
+      "de": ["zu|erkennen"]
     },
     "complements": {
       "(on)": {
-        "de": [
-          "zu|erkennen"
-        ]
+        "de": ["zu|erkennen"]
       }
     },
     "wordBase": "confer"
@@ -8301,9 +6444,7 @@
   "drive|towards": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|fahren"
-      ]
+      "de": ["zu|fahren"]
     },
     "complements": {},
     "particle": "towards",
@@ -8312,9 +6453,7 @@
   "ride|towards": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|fahren"
-      ]
+      "de": ["zu|fahren"]
     },
     "complements": {},
     "particle": "towards",
@@ -8323,9 +6462,7 @@
   "grab|at": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|fassen"
-      ]
+      "de": ["zu|fassen"]
     },
     "complements": {},
     "particle": "at",
@@ -8334,9 +6471,7 @@
   "flow|toward": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|fließen"
-      ]
+      "de": ["zu|fließen"]
     },
     "complements": {},
     "particle": "toward",
@@ -8345,9 +6480,7 @@
   "belong|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|gehören"
-      ]
+      "de": ["zu|gehören"]
     },
     "complements": {},
     "particle": "to",
@@ -8356,9 +6489,7 @@
   "admit|to": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|geben"
-      ]
+      "de": ["zu|geben"]
     },
     "complements": {},
     "particle": "to",
@@ -8367,9 +6498,7 @@
   "confess": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|geben"
-      ]
+      "de": ["zu|geben"]
     },
     "complements": {},
     "wordBase": "confess"
@@ -8377,9 +6506,7 @@
   "authorize": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|lassen"
-      ]
+      "de": ["zu|lassen"]
     },
     "complements": {},
     "wordBase": "authorize"
@@ -8387,9 +6514,7 @@
   "close": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|machen"
-      ]
+      "de": ["zu|machen"]
     },
     "complements": {},
     "wordBase": "close"
@@ -8397,9 +6522,7 @@
   "increase": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|nehmen"
-      ]
+      "de": ["zu|nehmen"]
     },
     "complements": {},
     "wordBase": "increase"
@@ -8407,15 +6530,11 @@
   "gain": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|nehmen"
-      ]
+      "de": ["zu|nehmen"]
     },
     "complements": {
       "weight": {
-        "de": [
-          "zu|nehmen"
-        ]
+        "de": ["zu|nehmen"]
       }
     },
     "wordBase": "gain"
@@ -8423,9 +6542,7 @@
   "pull|shut": {
     "language": "en",
     "translations": {
-      "de": [
-        "zu|ziehen"
-      ]
+      "de": ["zu|ziehen"]
     },
     "complements": {},
     "particle": "shut",
@@ -8434,9 +6551,7 @@
   "cope|with": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurecht|kommen mit"
-      ]
+      "de": ["zurecht|kommen mit"]
     },
     "complements": {},
     "particle": "with",
@@ -8445,15 +6560,11 @@
   "lay|out": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurecht|legen"
-      ]
+      "de": ["zurecht|legen"]
     },
     "complements": {
       "out in readiness": {
-        "de": [
-          "zurecht|legen"
-        ]
+        "de": ["zurecht|legen"]
       }
     },
     "particle": "out",
@@ -8462,9 +6573,7 @@
   "rebuke": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurecht|weisen"
-      ]
+      "de": ["zurecht|weisen"]
     },
     "complements": {},
     "wordBase": "rebuke"
@@ -8472,9 +6581,7 @@
   "reprimand": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurecht|weisen"
-      ]
+      "de": ["zurecht|weisen"]
     },
     "complements": {},
     "wordBase": "reprimand"
@@ -8482,9 +6589,7 @@
   "stay|behind": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|bleiben"
-      ]
+      "de": ["zurück|bleiben"]
     },
     "complements": {},
     "particle": "behind",
@@ -8493,15 +6598,11 @@
   "flash|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|blenden"
-      ]
+      "de": ["zurück|blenden"]
     },
     "complements": {
       "back (film)": {
-        "de": [
-          "zurück|blenden"
-        ]
+        "de": ["zurück|blenden"]
       }
     },
     "particle": "back",
@@ -8510,9 +6611,7 @@
   "turn|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|drehen"
-      ]
+      "de": ["zurück|drehen"]
     },
     "complements": {},
     "particle": "back",
@@ -8521,9 +6620,7 @@
   "recapture": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|erobern"
-      ]
+      "de": ["zurück|erobern"]
     },
     "complements": {},
     "wordBase": "recapture"
@@ -8531,9 +6628,7 @@
   "trace|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|führen"
-      ]
+      "de": ["zurück|führen"]
     },
     "complements": {},
     "particle": "back",
@@ -8542,9 +6637,7 @@
   "go|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|müssen"
-      ]
+      "de": ["zurück|müssen"]
     },
     "complements": {},
     "particle": "back",
@@ -8553,9 +6646,7 @@
   "lean|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|lehnen"
-      ]
+      "de": ["zurück|lehnen"]
     },
     "complements": {},
     "particle": "back",
@@ -8564,9 +6655,7 @@
   "hit|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|schlagen"
-      ]
+      "de": ["zurück|schlagen"]
     },
     "complements": {},
     "particle": "back",
@@ -8575,9 +6664,7 @@
   "strike|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|schlagen"
-      ]
+      "de": ["zurück|schlagen"]
     },
     "complements": {},
     "particle": "back",
@@ -8586,9 +6673,7 @@
   "shrink|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|schrecken"
-      ]
+      "de": ["zurück|schrecken"]
     },
     "complements": {},
     "particle": "back",
@@ -8597,9 +6682,7 @@
   "shrink|from": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|schrecken"
-      ]
+      "de": ["zurück|schrecken"]
     },
     "complements": {},
     "particle": "from",
@@ -8608,9 +6691,7 @@
   "recoil": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|schrecken"
-      ]
+      "de": ["zurück|schrecken"]
     },
     "complements": {},
     "wordBase": "recoil"
@@ -8618,9 +6699,7 @@
   "reverse": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|setzen"
-      ]
+      "de": ["zurück|setzen"]
     },
     "complements": {},
     "wordBase": "reverse"
@@ -8628,9 +6707,7 @@
   "put|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|setzen"
-      ]
+      "de": ["zurück|setzen"]
     },
     "complements": {},
     "particle": "back",
@@ -8639,9 +6716,7 @@
   "refuse": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|weisen"
-      ]
+      "de": ["zurück|weisen"]
     },
     "complements": {},
     "wordBase": "refuse"
@@ -8649,9 +6724,7 @@
   "send|back": {
     "language": "en",
     "translations": {
-      "de": [
-        "zurück|weisen"
-      ]
+      "de": ["zurück|weisen"]
     },
     "complements": {},
     "particle": "back",
@@ -8660,9 +6733,7 @@
   "work|together": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|arbeiten"
-      ]
+      "de": ["zusammen|arbeiten"]
     },
     "complements": {},
     "particle": "together",
@@ -8671,9 +6742,7 @@
   "bite|together": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|beißen"
-      ]
+      "de": ["zusammen|beißen"]
     },
     "complements": {},
     "particle": "together",
@@ -8682,9 +6751,7 @@
   "assemble": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|bauen"
-      ]
+      "de": ["zusammen|bauen"]
     },
     "complements": {},
     "wordBase": "assemble"
@@ -8692,9 +6759,7 @@
   "summarize": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|fassen"
-      ]
+      "de": ["zusammen|fassen"]
     },
     "complements": {},
     "wordBase": "summarize"
@@ -8702,9 +6767,7 @@
   "bring|together": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|führen"
-      ]
+      "de": ["zusammen|führen"]
     },
     "complements": {},
     "particle": "together",
@@ -8713,9 +6776,7 @@
   "belong|together": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|gehören"
-      ]
+      "de": ["zusammen|gehören"]
     },
     "complements": {},
     "particle": "together",
@@ -8724,9 +6785,7 @@
   "fold|up": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|klappen"
-      ]
+      "de": ["zusammen|klappen"]
     },
     "complements": {},
     "particle": "up",
@@ -8735,9 +6794,7 @@
   "shut": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|klappen"
-      ]
+      "de": ["zusammen|klappen"]
     },
     "complements": {},
     "wordBase": "shut"
@@ -8745,9 +6802,7 @@
   "meet": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|kommen"
-      ]
+      "de": ["zusammen|kommen"]
     },
     "complements": {},
     "wordBase": "meet"
@@ -8755,9 +6810,7 @@
   "come|together": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|kommen"
-      ]
+      "de": ["zusammen|kommen"]
     },
     "complements": {},
     "particle": "together",
@@ -8766,9 +6819,7 @@
   "seat|together": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|setzen"
-      ]
+      "de": ["zusammen|setzen"]
     },
     "complements": {},
     "particle": "together",
@@ -8777,9 +6828,7 @@
   "put|together": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|setzen"
-      ]
+      "de": ["zusammen|setzen"]
     },
     "complements": {},
     "particle": "together",
@@ -8788,9 +6837,7 @@
   "collide": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|stoßen"
-      ]
+      "de": ["zusammen|stoßen"]
     },
     "complements": {},
     "wordBase": "collide"
@@ -8798,9 +6845,7 @@
   "clash": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|stoßen"
-      ]
+      "de": ["zusammen|stoßen"]
     },
     "complements": {},
     "wordBase": "clash"
@@ -8808,9 +6853,7 @@
   "pull|together": {
     "language": "en",
     "translations": {
-      "de": [
-        "zusammen|ziehen"
-      ]
+      "de": ["zusammen|ziehen"]
     },
     "complements": {},
     "particle": "together",
@@ -8819,9 +6862,7 @@
   "bide": {
     "language": "en",
     "translations": {
-      "de": [
-        "ab|warten"
-      ]
+      "de": ["ab|warten"]
     },
     "complements": {},
     "wordBase": "bide"

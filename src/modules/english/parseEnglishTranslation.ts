@@ -1,4 +1,4 @@
-import { particles } from "./constants";
+import { particles } from "./languageConstants";
 import type { ParsedTranslation } from "./types";
 
 export const parseEnglishTranslation = (entry: string): ParsedTranslation => {

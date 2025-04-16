@@ -4,7 +4,7 @@
     "translations": {
       "en": ["fade out", "dim (lights)"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "blenden"
   },
   "ab|brechen": {
@@ -12,7 +12,7 @@
     "translations": {
       "en": ["break off"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "brechen"
   },
   "ab|brennen": {
@@ -20,7 +20,7 @@
     "translations": {
       "en": ["burn down"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "brennen"
   },
   "ab|danken": {
@@ -28,7 +28,7 @@
     "translations": {
       "en": ["abdicate", "resign"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "danken"
   },
   "ab|drücken": {
@@ -36,7 +36,7 @@
     "translations": {
       "en": ["pull the trigger", "shoot"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "drücken"
   },
   "ab|fahren": {
@@ -44,7 +44,7 @@
     "translations": {
       "en": ["drive off", "depart (by car)"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "fahren"
   },
   "ab|fegen": {
@@ -52,7 +52,7 @@
     "translations": {
       "en": ["brush off"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "fegen"
   },
   "ab|hacken": {
@@ -60,7 +60,7 @@
     "translations": {
       "en": ["chop off"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "hacken"
   },
   "ab|hängen von": {
@@ -68,7 +68,7 @@
     "translations": {
       "en": ["be dependent on"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "hängen von"
   },
   "ab|hören": {
@@ -76,7 +76,7 @@
     "translations": {
       "en": ["wiretap"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "hören"
   },
   "ab|kommen": {
@@ -84,7 +84,7 @@
     "translations": {
       "en": ["get away"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "kommen"
   },
   "ab|lenken": {
@@ -92,7 +92,7 @@
     "translations": {
       "en": ["divert"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "lenken"
   },
   "ab|nehmen": {
@@ -100,7 +100,7 @@
     "translations": {
       "en": ["remove", "take away"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "nehmen"
   },
   "ab|nutzen": {
@@ -108,7 +108,7 @@
     "translations": {
       "en": ["wear out"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "nutzen"
   },
   "ab|riegeln": {
@@ -116,7 +116,7 @@
     "translations": {
       "en": ["bolt (a door)", "close off"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "riegeln"
   },
   "ab|schaffen": {
@@ -124,7 +124,7 @@
     "translations": {
       "en": ["do away with"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "schaffen"
   },
   "ab|schicken": {
@@ -132,7 +132,7 @@
     "translations": {
       "en": ["send off"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "schicken"
   },
   "ab|sichern": {
@@ -140,7 +140,7 @@
     "translations": {
       "en": ["secure"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "sichern"
   },
   "ab|stimmen": {
@@ -148,7 +148,7 @@
     "translations": {
       "en": ["vote"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "stimmen"
   },
   "ab|treiben": {
@@ -156,7 +156,7 @@
     "translations": {
       "en": ["abort"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "treiben"
   },
   "ab|wehren": {
@@ -164,7 +164,7 @@
     "translations": {
       "en": ["repulse", "fend off"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "wehren"
   },
   "ab|ziehen": {
@@ -172,7 +172,7 @@
     "translations": {
       "en": ["deduct, withdraw"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "ziehen"
   },
   "ab|zweigen": {
@@ -180,7 +180,7 @@
     "translations": {
       "en": ["branch off"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "zweigen"
   },
   "an|bauen": {
@@ -188,7 +188,7 @@
     "translations": {
       "en": ["build on", "add", "cultivate (a crop)"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "bauen"
   },
   "an|beißen": {
@@ -196,7 +196,7 @@
     "translations": {
       "en": ["take a bite of"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "beißen"
   },
   "an|binden": {
@@ -204,7 +204,7 @@
     "translations": {
       "en": ["attach"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "binden"
   },
   "an|bringen": {
@@ -212,7 +212,7 @@
     "translations": {
       "en": ["fasten", "install"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "bringen"
   },
   "an|dauern": {
@@ -220,7 +220,7 @@
     "translations": {
       "en": ["last, continue"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "dauern"
   },
   "an|fahren": {
@@ -228,7 +228,7 @@
     "translations": {
       "en": ["drive up", "arrive (by car)"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "fahren"
   },
   "an|fassen": {
@@ -236,7 +236,7 @@
     "translations": {
       "en": ["take hold of"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "fassen"
   },
   "an|hängen": {
@@ -244,7 +244,7 @@
     "translations": {
       "en": ["attach"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "hängen"
   },
   "an|greifen": {
@@ -252,7 +252,7 @@
     "translations": {
       "en": ["attack"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "greifen"
   },
   "an|haben": {
@@ -260,7 +260,7 @@
     "translations": {
       "en": ["have on", "wear"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "haben"
   },
   "an|halten": {
@@ -268,7 +268,7 @@
     "translations": {
       "en": ["cause to stop"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "halten"
   },
   "an|kommen": {
@@ -276,7 +276,7 @@
     "translations": {
       "en": ["arrive"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "kommen"
   },
   "an|lächeln": {
@@ -284,7 +284,7 @@
     "translations": {
       "en": ["smile at"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "lächeln"
   },
   "an|lehnen": {
@@ -292,7 +292,7 @@
     "translations": {
       "en": ["lean"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "lehnen"
   },
   "an|machen": {
@@ -300,7 +300,7 @@
     "translations": {
       "en": ["attach", "make a pass at"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "machen"
   },
   "an|merken": {
@@ -308,7 +308,7 @@
     "translations": {
       "en": ["notice", "note"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "merken"
   },
   "an|packen": {
@@ -316,7 +316,7 @@
     "translations": {
       "en": ["take hold of"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "packen"
   },
   "an|pfeifen": {
@@ -324,7 +324,7 @@
     "translations": {
       "en": ["whistle for play to start"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "pfeifen"
   },
   "an|rechnen": {
@@ -332,7 +332,7 @@
     "translations": {
       "en": ["take into account"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "rechnen"
   },
   "an|schießen": {
@@ -340,7 +340,7 @@
     "translations": {
       "en": ["shoot at and wound"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "schießen"
   },
   "an|schauen": {
@@ -348,7 +348,7 @@
     "translations": {
       "en": ["look at"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "schauen"
   },
   "an|schneiden": {
@@ -356,7 +356,7 @@
     "translations": {
       "en": ["cut into (cut the first piece of)"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "schneiden"
   },
   "an|sprechen": {
@@ -364,7 +364,7 @@
     "translations": {
       "en": ["speak to", "initiate a conversation with"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "sprechen"
   },
   "an|streben": {
@@ -372,7 +372,7 @@
     "translations": {
       "en": ["aspire"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "streben"
   },
   "an|strengen": {
@@ -380,7 +380,7 @@
     "translations": {
       "en": ["strain"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "strengen"
   },
   "an|tippen": {
@@ -388,7 +388,7 @@
     "translations": {
       "en": ["give a light tap to"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "tippen"
   },
   "an|zeigen": {
@@ -396,7 +396,7 @@
     "translations": {
       "en": ["report to the authorities, show"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "zeigen"
   },
   "an|ziehen": {
@@ -404,7 +404,7 @@
     "translations": {
       "en": ["attract, put on"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "ziehen"
   },
   "an|zünden": {
@@ -412,7 +412,7 @@
     "translations": {
       "en": ["ignite"]
     },
-    "particle": "an",
+    "particles": "an",
     "wordBase": "zünden"
   },
   "auf|arbeiten": {
@@ -420,7 +420,7 @@
     "translations": {
       "en": ["finish off, reuse"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "arbeiten"
   },
   "auf|atmen": {
@@ -428,7 +428,7 @@
     "translations": {
       "en": ["breathe a sigh of relief"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "atmen"
   },
   "auf|bauen": {
@@ -436,7 +436,7 @@
     "translations": {
       "en": ["build up"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "bauen"
   },
   "auf|bessern": {
@@ -444,7 +444,7 @@
     "translations": {
       "en": ["improve"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "bessern"
   },
   "auf|bewahren": {
@@ -452,7 +452,7 @@
     "translations": {
       "en": ["keep, store"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "bewahren"
   },
   "auf|binden": {
@@ -460,7 +460,7 @@
     "translations": {
       "en": ["untie, undo"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "binden"
   },
   "auf|blühen": {
@@ -468,7 +468,7 @@
     "translations": {
       "en": ["blossom forth"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "blühen"
   },
   "auf|brauchen": {
@@ -476,7 +476,7 @@
     "translations": {
       "en": ["use up"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "brauchen"
   },
   "auf|brechen": {
@@ -484,7 +484,7 @@
     "translations": {
       "en": ["break open"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "brechen"
   },
   "auf|decken": {
@@ -492,7 +492,7 @@
     "translations": {
       "en": ["uncover"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "decken"
   },
   "auf|drehen": {
@@ -500,7 +500,7 @@
     "translations": {
       "en": ["unscrew, turn up, wind up"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "drehen"
   },
   "auf|essen": {
@@ -508,7 +508,7 @@
     "translations": {
       "en": ["eat up"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "essen"
   },
   "auf|fallen": {
@@ -516,7 +516,7 @@
     "translations": {
       "en": ["stand out, be noticeable"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "fallen"
   },
   "auf|fassen": {
@@ -524,7 +524,7 @@
     "translations": {
       "en": ["grasp, undertsand"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "fassen"
   },
   "auf|fliegen": {
@@ -532,7 +532,7 @@
     "translations": {
       "en": ["fly up"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "fliegen"
   },
   "auf|geben": {
@@ -540,7 +540,7 @@
     "translations": {
       "en": ["give up"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "geben"
   },
   "auf|klären": {
@@ -548,7 +548,7 @@
     "translations": {
       "en": ["enlighten"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "klären"
   },
   "auf|kommen": {
@@ -556,7 +556,7 @@
     "translations": {
       "en": ["arise, spring for [costs]"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "kommen"
   },
   "auf|machen": {
@@ -564,7 +564,7 @@
     "translations": {
       "en": ["open"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "machen"
   },
   "auf|passen": {
@@ -572,7 +572,7 @@
     "translations": {
       "en": ["look, watch out"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "passen"
   },
   "auf|pumpen": {
@@ -580,7 +580,7 @@
     "translations": {
       "en": ["inflate"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "pumpen"
   },
   "auf|richten": {
@@ -588,7 +588,7 @@
     "translations": {
       "en": ["erect"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "richten"
   },
   "auf|schlagen": {
@@ -596,7 +596,7 @@
     "translations": {
       "en": ["open [a book]"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "schlagen"
   },
   "auf|schließen": {
@@ -604,7 +604,7 @@
     "translations": {
       "en": ["unlock, open up"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "schließen"
   },
   "auf|schneiden": {
@@ -612,7 +612,7 @@
     "translations": {
       "en": ["cut open"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "schneiden"
   },
   "auf|schreiben": {
@@ -620,7 +620,7 @@
     "translations": {
       "en": ["write down"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "schreiben"
   },
   "auf|sein": {
@@ -628,7 +628,7 @@
     "translations": {
       "en": ["be open, be up"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "sein"
   },
   "auf|tischen": {
@@ -636,7 +636,7 @@
     "translations": {
       "en": ["serve up"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "tischen"
   },
   "auf|weichen": {
@@ -644,7 +644,7 @@
     "translations": {
       "en": ["soften up"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "weichen"
   },
   "auf|ziehen": {
@@ -652,7 +652,7 @@
     "translations": {
       "en": ["wind up, raise [children]"]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "ziehen"
   },
   "auf|zwingen": {
@@ -660,7 +660,7 @@
     "translations": {
       "en": ["force upon)."]
     },
-    "particle": "auf",
+    "particles": "auf",
     "wordBase": "zwingen"
   },
   "aus|bauen": {
@@ -668,7 +668,7 @@
     "translations": {
       "en": ["extend, improve, expand"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "bauen"
   },
   "aus|bessern": {
@@ -676,7 +676,7 @@
     "translations": {
       "en": ["fix, touch up"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "bessern"
   },
   "aus|beuten": {
@@ -684,7 +684,7 @@
     "translations": {
       "en": ["exploit"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "beuten"
   },
   "aus|bilden": {
@@ -692,7 +692,7 @@
     "translations": {
       "en": ["train"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "bilden"
   },
   "aus|bleiben": {
@@ -700,7 +700,7 @@
     "translations": {
       "en": ["stay away, fail to show up"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "bleiben"
   },
   "aus|breiten": {
@@ -708,7 +708,7 @@
     "translations": {
       "en": ["spread out"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "breiten"
   },
   "aus|brennen": {
@@ -716,7 +716,7 @@
     "translations": {
       "en": ["burn out"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "brennen"
   },
   "aus|dehnen": {
@@ -724,7 +724,7 @@
     "translations": {
       "en": ["extend, expand"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "dehnen"
   },
   "aus|diskutieren": {
@@ -732,7 +732,7 @@
     "translations": {
       "en": ["discuss thoroughly"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "diskutieren"
   },
   "aus|fahren": {
@@ -740,7 +740,7 @@
     "translations": {
       "en": ["go for a drive, take for a drive"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "fahren"
   },
   "aus|fallen": {
@@ -748,7 +748,7 @@
     "translations": {
       "en": ["fail, drop out, be canceled"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "fallen"
   },
   "aus|führen": {
@@ -756,7 +756,7 @@
     "translations": {
       "en": ["take for a walk, carry out [work], put into practice"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "führen"
   },
   "aus|füllen": {
@@ -764,7 +764,7 @@
     "translations": {
       "en": ["fill out [a form]"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "füllen"
   },
   "aus|gehen": {
@@ -772,7 +772,7 @@
     "translations": {
       "en": ["go out"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "gehen"
   },
   "aus|gleichen": {
@@ -780,7 +780,7 @@
     "translations": {
       "en": ["even out"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "gleichen"
   },
   "aus|halten": {
@@ -788,7 +788,7 @@
     "translations": {
       "en": ["endure, withstand"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "halten"
   },
   "aus|helfen": {
@@ -796,7 +796,7 @@
     "translations": {
       "en": ["help out"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "helfen"
   },
   "aus|klammern": {
@@ -804,7 +804,7 @@
     "translations": {
       "en": ["bracket out"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "klammern"
   },
   "aus|klingen": {
@@ -812,7 +812,7 @@
     "translations": {
       "en": ["fade away [music]"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "klingen"
   },
   "aus|lachen": {
@@ -820,7 +820,7 @@
     "translations": {
       "en": ["laugh at"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "lachen"
   },
   "aus|leihen": {
@@ -828,7 +828,7 @@
     "translations": {
       "en": ["lend"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "leihen"
   },
   "aus|machen": {
@@ -836,7 +836,7 @@
     "translations": {
       "en": ["turn off, extinguish, make a difference, add up to"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "machen"
   },
   "aus|pressen": {
@@ -844,7 +844,7 @@
     "translations": {
       "en": ["press or squeeze out"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "pressen"
   },
   "aus|quetschen": {
@@ -852,7 +852,7 @@
     "translations": {
       "en": ["press or squeeze out"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "quetschen"
   },
   "aus|radieren": {
@@ -860,7 +860,7 @@
     "translations": {
       "en": ["erase"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "radieren"
   },
   "aus|reichen": {
@@ -868,7 +868,7 @@
     "translations": {
       "en": ["be sufficient"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "reichen"
   },
   "aus|richten": {
@@ -876,7 +876,7 @@
     "translations": {
       "en": ["pass on [a message]"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "richten"
   },
   "aus|rotten": {
@@ -884,7 +884,7 @@
     "translations": {
       "en": ["eradicate"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "rotten"
   },
   "aus|rüsten": {
@@ -892,7 +892,7 @@
     "translations": {
       "en": ["equip"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "rüsten"
   },
   "sich aus|schlafen": {
@@ -901,7 +901,7 @@
       "en": ["get a good sleep"]
     },
     "prefix": "sich aus",
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "schlafen"
   },
   "aus|schließen": {
@@ -909,7 +909,7 @@
     "translations": {
       "en": ["exclude, lock out"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "schließen"
   },
   "aus|schütten": {
@@ -917,7 +917,7 @@
     "translations": {
       "en": ["spill out, tip out"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "schütten"
   },
   "aus|steigen": {
@@ -925,7 +925,7 @@
     "translations": {
       "en": ["get out of [a car, train]"]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "steigen"
   },
   "aus|wechseln": {
@@ -933,7 +933,7 @@
     "translations": {
       "en": ["switch, replace."]
     },
-    "particle": "aus",
+    "particles": "aus",
     "wordBase": "wechseln"
   },
   "auseinander|bekommen": {
@@ -941,7 +941,7 @@
     "translations": {
       "en": ["manage, get apart"]
     },
-    "particle": "auseinander",
+    "particles": "auseinander",
     "wordBase": "bekommen"
   },
   "auseinander|brechen": {
@@ -949,7 +949,7 @@
     "translations": {
       "en": ["break up, break apart"]
     },
-    "particle": "auseinander",
+    "particles": "auseinander",
     "wordBase": "brechen"
   },
   "auseinander|fallen": {
@@ -957,7 +957,7 @@
     "translations": {
       "en": ["fall apart"]
     },
-    "particle": "auseinander",
+    "particles": "auseinander",
     "wordBase": "fallen"
   },
   "auseinander|gehen": {
@@ -965,7 +965,7 @@
     "translations": {
       "en": ["part, disperse"]
     },
-    "particle": "auseinander",
+    "particles": "auseinander",
     "wordBase": "gehen"
   },
   "auseinander|haltem": {
@@ -973,7 +973,7 @@
     "translations": {
       "en": ["distinguish, keep apart"]
     },
-    "particle": "auseinander",
+    "particles": "auseinander",
     "wordBase": "haltem"
   },
   "sich mit etwas auseinander|setzen": {
@@ -982,7 +982,7 @@
       "en": ["come to terms with something"]
     },
     "prefix": "sich mit etwas auseinander",
-    "particle": "auseinander",
+    "particles": "auseinander",
     "wordBase": "setzen"
   },
   "sich mit jemandem auseinander|setzen": {
@@ -991,7 +991,7 @@
       "en": ["have it out with someone"]
     },
     "prefix": "sich mit etwas auseinander",
-    "particle": "auseinander",
+    "particles": "auseinander",
     "wordBase": "setzen"
   },
   "bei|behalten": {
@@ -999,7 +999,7 @@
     "translations": {
       "en": ["retain"]
     },
-    "particle": "bei",
+    "particles": "bei",
     "wordBase": "behalten"
   },
   "bei|bringen": {
@@ -1007,7 +1007,7 @@
     "translations": {
       "en": ["teach"]
     },
-    "particle": "bei",
+    "particles": "bei",
     "wordBase": "bringen"
   },
   "bei|fügen": {
@@ -1015,7 +1015,7 @@
     "translations": {
       "en": ["enclose [along with]"]
     },
-    "particle": "bei",
+    "particles": "bei",
     "wordBase": "fügen"
   },
   "bei|kommen": {
@@ -1023,7 +1023,7 @@
     "translations": {
       "en": ["get hold of, deal with"]
     },
-    "particle": "bei",
+    "particles": "bei",
     "wordBase": "kommen"
   },
   "bei|liegen": {
@@ -1031,7 +1031,7 @@
     "translations": {
       "en": ["be enclosed [along with]"]
     },
-    "particle": "bei",
+    "particles": "bei",
     "wordBase": "liegen"
   },
   "bei|mischen": {
@@ -1039,7 +1039,7 @@
     "translations": {
       "en": ["add [to a mixture]"]
     },
-    "particle": "bei",
+    "particles": "bei",
     "wordBase": "mischen"
   },
   "bei|setzen": {
@@ -1047,7 +1047,7 @@
     "translations": {
       "en": ["bury"]
     },
-    "particle": "bei",
+    "particles": "bei",
     "wordBase": "setzen"
   },
   "bei|tragen": {
@@ -1055,7 +1055,7 @@
     "translations": {
       "en": ["contribute [to]"]
     },
-    "particle": "bei",
+    "particles": "bei",
     "wordBase": "tragen"
   },
   "bei|treten": {
@@ -1063,7 +1063,7 @@
     "translations": {
       "en": ["join"]
     },
-    "particle": "bei",
+    "particles": "bei",
     "wordBase": "treten"
   },
   "bei|wohnen": {
@@ -1071,7 +1071,7 @@
     "translations": {
       "en": ["be present at"]
     },
-    "particle": "bei",
+    "particles": "bei",
     "wordBase": "wohnen"
   },
   "dabei|bleiben": {
@@ -1079,7 +1079,7 @@
     "translations": {
       "en": ["stay there, stick with"]
     },
-    "particle": "dabei",
+    "particles": "dabei",
     "wordBase": "bleiben"
   },
   "dabei|sein": {
@@ -1087,7 +1087,7 @@
     "translations": {
       "en": ["be present at, take part in"]
     },
-    "particle": "dabei",
+    "particles": "dabei",
     "wordBase": "sein"
   },
   "dabei|sitzen": {
@@ -1095,7 +1095,7 @@
     "translations": {
       "en": ["sit/stand there, stick with"]
     },
-    "particle": "dabei",
+    "particles": "dabei",
     "wordBase": "sitzen"
   },
   "dabei|stehen": {
@@ -1103,7 +1103,7 @@
     "translations": {
       "en": ["sit/stand there, stick with"]
     },
-    "particle": "dabei",
+    "particles": "dabei",
     "wordBase": "stehen"
   },
   "da|bleiben": {
@@ -1111,7 +1111,7 @@
     "translations": {
       "en": ["stay there"]
     },
-    "particle": "da",
+    "particles": "da",
     "wordBase": "bleiben"
   },
   "da|lassen": {
@@ -1119,7 +1119,7 @@
     "translations": {
       "en": ["leave there"]
     },
-    "particle": "da",
+    "particles": "da",
     "wordBase": "lassen"
   },
   "sich dar|anmachen": {
@@ -1128,7 +1128,7 @@
       "en": ["set about it, get down to it"]
     },
     "prefix": "sich dar",
-    "particle": "dar",
+    "particles": "dar",
     "wordBase": "anmachen"
   },
   "dahinter|kommen": {
@@ -1136,7 +1136,7 @@
     "translations": {
       "en": ["find out"]
     },
-    "particle": "dahinter",
+    "particles": "dahinter",
     "wordBase": "kommen"
   },
   "dazwischen|reden": {
@@ -1144,7 +1144,7 @@
     "translations": {
       "en": ["interrupt"]
     },
-    "particle": "dazwischen",
+    "particles": "dazwischen",
     "wordBase": "reden"
   },
   "durch|arbeiten": {
@@ -1152,7 +1152,7 @@
     "translations": {
       "en": ["work through"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "arbeiten"
   },
   "durch|brechen": {
@@ -1160,7 +1160,7 @@
     "translations": {
       "en": ["break through"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "brechen"
   },
   "durch|atmen": {
@@ -1168,7 +1168,7 @@
     "translations": {
       "en": ["breathe deeply"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "atmen"
   },
   "durch|braten": {
@@ -1176,7 +1176,7 @@
     "translations": {
       "en": ["cook or roast all the way through"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "braten"
   },
   "durch|drehen": {
@@ -1184,7 +1184,7 @@
     "translations": {
       "en": ["put through a grinder"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "drehen"
   },
   "durch|gehen": {
@@ -1192,7 +1192,7 @@
     "translations": {
       "en": ["walk through"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "gehen"
   },
   "sich durch|finden": {
@@ -1201,7 +1201,7 @@
       "en": ["find one's way through"]
     },
     "prefix": "sich durch",
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "finden"
   },
   "durch|halten": {
@@ -1209,7 +1209,7 @@
     "translations": {
       "en": ["withstand, endure"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "halten"
   },
   "durch|fahren": {
@@ -1217,7 +1217,7 @@
     "translations": {
       "en": ["drive straight through"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "fahren"
   },
   "durch|führen": {
@@ -1225,7 +1225,7 @@
     "translations": {
       "en": ["implement, carry out [a task]"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "führen"
   },
   "durch|kämmen": {
@@ -1233,7 +1233,7 @@
     "translations": {
       "en": ["comb through [hair]"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "kämmen"
   },
   "durch|lassen": {
@@ -1241,7 +1241,7 @@
     "translations": {
       "en": ["allow through"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "lassen"
   },
   "durch|schlüpfen": {
@@ -1249,7 +1249,7 @@
     "translations": {
       "en": ["slip through"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "schlüpfen"
   },
   "durch|schneiden": {
@@ -1257,7 +1257,7 @@
     "translations": {
       "en": ["cut through"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "schneiden"
   },
   "durch|sprechen": {
@@ -1265,7 +1265,7 @@
     "translations": {
       "en": ["talk through, talk over, talk out, argue something out"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "sprechen"
   },
   "durch|stoßen": {
@@ -1273,7 +1273,7 @@
     "translations": {
       "en": ["knock a hole through"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "stoßen"
   },
   "durch|wählen": {
@@ -1281,7 +1281,7 @@
     "translations": {
       "en": ["dial directly"]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "wählen"
   },
   "durch|ziehen": {
@@ -1289,7 +1289,7 @@
     "translations": {
       "en": ["pull through [an opening])."]
     },
-    "particle": "durch",
+    "particles": "durch",
     "wordBase": "ziehen"
   },
   "ein|berufen": {
@@ -1297,7 +1297,7 @@
     "translations": {
       "en": ["conscript, convene"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "berufen"
   },
   "ein|biegen": {
@@ -1305,7 +1305,7 @@
     "translations": {
       "en": ["turn in"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "biegen"
   },
   "ein|cremen": {
@@ -1313,7 +1313,7 @@
     "translations": {
       "en": ["put lotion on"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "cremen"
   },
   "ein|dringen": {
@@ -1321,7 +1321,7 @@
     "translations": {
       "en": ["enter forcibly into"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "dringen"
   },
   "ein|fahren": {
@@ -1329,7 +1329,7 @@
     "translations": {
       "en": ["drive in"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "fahren"
   },
   "ein|gehen": {
@@ -1337,7 +1337,7 @@
     "translations": {
       "en": ["enter, sink in, shrink"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "gehen"
   },
   "ein|kalkulieren": {
@@ -1345,7 +1345,7 @@
     "translations": {
       "en": ["take into account"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "kalkulieren"
   },
   "ein|kaufen": {
@@ -1353,7 +1353,7 @@
     "translations": {
       "en": ["shop"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "kaufen"
   },
   "ein|kellern": {
@@ -1361,7 +1361,7 @@
     "translations": {
       "en": ["store in the cellar"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "kellern"
   },
   "ein|klammern": {
@@ -1369,7 +1369,7 @@
     "translations": {
       "en": ["put in brackets"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "klammern"
   },
   "ein|laden": {
@@ -1377,7 +1377,7 @@
     "translations": {
       "en": ["invite"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "laden"
   },
   "ein|lassen": {
@@ -1385,7 +1385,7 @@
     "translations": {
       "en": ["allow to enter"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "lassen"
   },
   "ein|leiten": {
@@ -1393,7 +1393,7 @@
     "translations": {
       "en": ["introduce, begin"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "leiten"
   },
   "ein|marschieren": {
@@ -1401,7 +1401,7 @@
     "translations": {
       "en": ["march in"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "marschieren"
   },
   "ein|ordnen": {
@@ -1409,7 +1409,7 @@
     "translations": {
       "en": ["put into order"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "ordnen"
   },
   "ein|parken": {
@@ -1417,7 +1417,7 @@
     "translations": {
       "en": ["park [in a parking space]"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "parken"
   },
   "ein|reden": {
@@ -1425,7 +1425,7 @@
     "translations": {
       "en": ["pursuade"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "reden"
   },
   "ein|sacken": {
@@ -1433,7 +1433,7 @@
     "translations": {
       "en": ["pocket"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "sacken"
   },
   "ein|schlagen": {
@@ -1441,7 +1441,7 @@
     "translations": {
       "en": ["hammer in, knock in"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "schlagen"
   },
   "ein|schneiden": {
@@ -1449,7 +1449,7 @@
     "translations": {
       "en": ["make a cut in"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "schneiden"
   },
   "ein|schreiben": {
@@ -1457,7 +1457,7 @@
     "translations": {
       "en": ["enroll"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "schreiben"
   },
   "ein|schreiten": {
@@ -1465,7 +1465,7 @@
     "translations": {
       "en": ["intervene"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "schreiten"
   },
   "ein|springen": {
@@ -1473,7 +1473,7 @@
     "translations": {
       "en": ["jump in [to help out]"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "springen"
   },
   "ein|steigen": {
@@ -1481,7 +1481,7 @@
     "translations": {
       "en": ["enter [a vehicle]"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "steigen"
   },
   "ein|studieren": {
@@ -1489,7 +1489,7 @@
     "translations": {
       "en": ["rehearse"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "studieren"
   },
   "ein|tauchen": {
@@ -1497,7 +1497,7 @@
     "translations": {
       "en": ["immerse, dive in"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "tauchen"
   },
   "ein|treten": {
@@ -1505,7 +1505,7 @@
     "translations": {
       "en": ["enter"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "treten"
   },
   "ein|werfen": {
@@ -1513,7 +1513,7 @@
     "translations": {
       "en": ["throw in, drop [a coin or letter]"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "werfen"
   },
   "ein|willigen": {
@@ -1521,7 +1521,7 @@
     "translations": {
       "en": ["agree [to], consent"]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "willigen"
   },
   "ein|zahlen": {
@@ -1529,7 +1529,7 @@
     "translations": {
       "en": ["pay in, pay a deposit)."]
     },
-    "particle": "ein",
+    "particles": "ein",
     "wordBase": "zahlen"
   },
   "sich empor|arbeiten": {
@@ -1538,7 +1538,7 @@
       "en": ["work one's way up"]
     },
     "prefix": "sich empor",
-    "particle": "empor",
+    "particles": "empor",
     "wordBase": "arbeiten"
   },
   "empor|blicken": {
@@ -1546,7 +1546,7 @@
     "translations": {
       "en": ["raise one's eyes"]
     },
-    "particle": "empor",
+    "particles": "empor",
     "wordBase": "blicken"
   },
   "empor|heben": {
@@ -1554,7 +1554,7 @@
     "translations": {
       "en": ["lift up"]
     },
-    "particle": "empor",
+    "particles": "empor",
     "wordBase": "heben"
   },
   "empor|ragen": {
@@ -1562,7 +1562,7 @@
     "translations": {
       "en": ["tower above"]
     },
-    "particle": "empor",
+    "particles": "empor",
     "wordBase": "ragen"
   },
   "empor|schießen": {
@@ -1570,7 +1570,7 @@
     "translations": {
       "en": ["shoot up [grow suddenly]"]
     },
-    "particle": "empor",
+    "particles": "empor",
     "wordBase": "schießen"
   },
   "empor|steigen": {
@@ -1578,7 +1578,7 @@
     "translations": {
       "en": ["climb up"]
     },
-    "particle": "empor",
+    "particles": "empor",
     "wordBase": "steigen"
   },
   "empor|streben": {
@@ -1586,7 +1586,7 @@
     "translations": {
       "en": ["aspire"]
     },
-    "particle": "empor",
+    "particles": "empor",
     "wordBase": "streben"
   },
   "entgegen|arbeiten": {
@@ -1594,7 +1594,7 @@
     "translations": {
       "en": ["work against"]
     },
-    "particle": "entgegen",
+    "particles": "entgegen",
     "wordBase": "arbeiten"
   },
   "entgegen|kommen": {
@@ -1602,7 +1602,7 @@
     "translations": {
       "en": ["approach", "accommodate", "meet halfway"]
     },
-    "particle": "entgegen",
+    "particles": "entgegen",
     "wordBase": "kommen"
   },
   "entgegen|nehmen": {
@@ -1610,7 +1610,7 @@
     "translations": {
       "en": ["accept", "receive"]
     },
-    "particle": "entgegen",
+    "particles": "entgegen",
     "wordBase": "nehmen"
   },
   "entgegen|setzen": {
@@ -1618,7 +1618,7 @@
     "translations": {
       "en": ["contrast"]
     },
-    "particle": "entgegen",
+    "particles": "entgegen",
     "wordBase": "setzen"
   },
   "sich entgegen|stellen": {
@@ -1627,7 +1627,7 @@
       "en": ["oppose"]
     },
     "prefix": "sich entgegen",
-    "particle": "entgegen",
+    "particles": "entgegen",
     "wordBase": "stellen"
   },
   "entgegen|treten": {
@@ -1635,7 +1635,7 @@
     "translations": {
       "en": ["confront"]
     },
-    "particle": "entgegen",
+    "particles": "entgegen",
     "wordBase": "treten"
   },
   "entgegen|wirken": {
@@ -1643,7 +1643,7 @@
     "translations": {
       "en": ["counteract"]
     },
-    "particle": "entgegen",
+    "particles": "entgegen",
     "wordBase": "wirken"
   },
   "entlang|gehen": {
@@ -1651,7 +1651,7 @@
     "translations": {
       "en": ["go along", "walk along"]
     },
-    "particle": "entlang",
+    "particles": "entlang",
     "wordBase": "gehen"
   },
   "entlang|laufen": {
@@ -1659,7 +1659,7 @@
     "translations": {
       "en": ["go along", "walk along"]
     },
-    "particle": "entlang",
+    "particles": "entlang",
     "wordBase": "laufen"
   },
   "entzwei|brechen": {
@@ -1667,7 +1667,7 @@
     "translations": {
       "en": ["break in two"]
     },
-    "particle": "entzwei",
+    "particles": "entzwei",
     "wordBase": "brechen"
   },
   "entzwei|gehen": {
@@ -1675,7 +1675,7 @@
     "translations": {
       "en": ["come apart"]
     },
-    "particle": "entzwei",
+    "particles": "entzwei",
     "wordBase": "gehen"
   },
   "entzwei|reißen": {
@@ -1683,7 +1683,7 @@
     "translations": {
       "en": ["rip in two"]
     },
-    "particle": "entzwei",
+    "particles": "entzwei",
     "wordBase": "reißen"
   },
   "entzwei|schlagen": {
@@ -1691,7 +1691,7 @@
     "translations": {
       "en": ["smash into two pieces"]
     },
-    "particle": "entzwei",
+    "particles": "entzwei",
     "wordBase": "schlagen"
   },
   "fehl|besetzen": {
@@ -1699,7 +1699,7 @@
     "translations": {
       "en": ["miscast [in film or theater]"]
     },
-    "particle": "fehl",
+    "particles": "fehl",
     "wordBase": "besetzen"
   },
   "fehl|gehen": {
@@ -1707,7 +1707,7 @@
     "translations": {
       "en": ["go wrong"]
     },
-    "particle": "fehl",
+    "particles": "fehl",
     "wordBase": "gehen"
   },
   "fehl|starten": {
@@ -1715,7 +1715,7 @@
     "translations": {
       "en": ["make a false start"]
     },
-    "particle": "fehl",
+    "particles": "fehl",
     "wordBase": "starten"
   },
   "fern|bedienen": {
@@ -1723,7 +1723,7 @@
     "translations": {
       "en": ["operate by remote control"]
     },
-    "particle": "fern",
+    "particles": "fern",
     "wordBase": "bedienen"
   },
   "fern|lenken": {
@@ -1731,7 +1731,7 @@
     "translations": {
       "en": ["steer by remote control"]
     },
-    "particle": "fern",
+    "particles": "fern",
     "wordBase": "lenken"
   },
   "das würde mir fern|liegen": {
@@ -1739,7 +1739,7 @@
     "translations": {
       "en": ["that would be the last thing I would do"]
     },
-    "particle": "fern",
+    "particles": "fern",
     "prefix": "das würde mir fern",
     "wordBase": "liegen"
   },
@@ -1748,7 +1748,7 @@
     "translations": {
       "en": ["watch television"]
     },
-    "particle": "fern",
+    "particles": "fern",
     "wordBase": "sehen"
   },
   "fest|beißen": {
@@ -1756,7 +1756,7 @@
     "translations": {
       "en": ["bite into firmly"]
     },
-    "particle": "fest",
+    "particles": "fest",
     "wordBase": "beißen"
   },
   "fest|frieren": {
@@ -1764,7 +1764,7 @@
     "translations": {
       "en": ["ice over"]
     },
-    "particle": "fest",
+    "particles": "fest",
     "wordBase": "frieren"
   },
   "fest|halten": {
@@ -1772,7 +1772,7 @@
     "translations": {
       "en": ["hold on firmly"]
     },
-    "particle": "fest",
+    "particles": "fest",
     "wordBase": "halten"
   },
   "fest|kleben": {
@@ -1780,7 +1780,7 @@
     "translations": {
       "en": ["glue on", "be glued on"]
     },
-    "particle": "fest",
+    "particles": "fest",
     "wordBase": "kleben"
   },
   "fest|laufen": {
@@ -1788,7 +1788,7 @@
     "translations": {
       "en": ["run aground"]
     },
-    "particle": "fest",
+    "particles": "fest",
     "wordBase": "laufen"
   },
   "fest|legen": {
@@ -1796,7 +1796,7 @@
     "translations": {
       "en": ["establish"]
     },
-    "particle": "fest",
+    "particles": "fest",
     "wordBase": "legen"
   },
   "fest|machen": {
@@ -1804,7 +1804,7 @@
     "translations": {
       "en": ["fasten firmly"]
     },
-    "particle": "fest",
+    "particles": "fest",
     "wordBase": "machen"
   },
   "fest|nageln": {
@@ -1812,7 +1812,7 @@
     "translations": {
       "en": ["nail down"]
     },
-    "particle": "fest",
+    "particles": "fest",
     "wordBase": "nageln"
   },
   "fest|nehmen": {
@@ -1820,7 +1820,7 @@
     "translations": {
       "en": ["arrest"]
     },
-    "particle": "fest",
+    "particles": "fest",
     "wordBase": "nehmen"
   },
   "fest|sitzen": {
@@ -1828,7 +1828,7 @@
     "translations": {
       "en": ["be stuck"]
     },
-    "particle": "fest",
+    "particles": "fest",
     "wordBase": "sitzen"
   },
   "sich fort|bewegen": {
@@ -1837,7 +1837,7 @@
       "en": ["move along", "move on"]
     },
     "prefix": "sich fort",
-    "particle": "fort",
+    "particles": "fort",
     "wordBase": "sich fortbewegen"
   },
   "fort|bilden": {
@@ -1845,7 +1845,7 @@
     "translations": {
       "en": ["continue (one's) education"]
     },
-    "particle": "fort",
+    "particles": "fort",
     "wordBase": "bilden"
   },
   "fort|bringen": {
@@ -1853,7 +1853,7 @@
     "translations": {
       "en": ["take away (for repair)"]
     },
-    "particle": "fort",
+    "particles": "fort",
     "wordBase": "bringen"
   },
   "sich fort|entwickeln": {
@@ -1862,7 +1862,7 @@
       "en": ["continue to develop"]
     },
     "prefix": "sich fort",
-    "particle": "fort",
+    "particles": "fort",
     "wordBase": "wickeln"
   },
   "fort|fahren": {
@@ -1870,7 +1870,7 @@
     "translations": {
       "en": ["continue"]
     },
-    "particle": "fort",
+    "particles": "fort",
     "wordBase": "fahren"
   },
   "fort|laufen": {
@@ -1878,7 +1878,7 @@
     "translations": {
       "en": ["run away"]
     },
-    "particle": "fort",
+    "particles": "fort",
     "wordBase": "laufen"
   },
   "fort|pflanzen": {
@@ -1886,7 +1886,7 @@
     "translations": {
       "en": ["propagate"]
     },
-    "particle": "fort",
+    "particles": "fort",
     "wordBase": "pflanzen"
   },
   "fort|reden": {
@@ -1894,7 +1894,7 @@
     "translations": {
       "en": ["continue talking"]
     },
-    "particle": "fort",
+    "particles": "fort",
     "wordBase": "reden"
   },
   "fort|setzen": {
@@ -1902,7 +1902,7 @@
     "translations": {
       "en": ["continue", "carry on with", "resume"]
     },
-    "particle": "fort",
+    "particles": "fort",
     "wordBase": "setzen"
   },
   "fort|treiben": {
@@ -1910,7 +1910,7 @@
     "translations": {
       "en": ["drive away", "drift away", "continue on with"]
     },
-    "particle": "fort",
+    "particles": "fort",
     "wordBase": "treiben"
   },
   "frei|bekommen": {
@@ -1918,7 +1918,7 @@
     "translations": {
       "en": ["get time off"]
     },
-    "particle": "frei",
+    "particles": "frei",
     "wordBase": "bekommen"
   },
   "frei|geben": {
@@ -1926,7 +1926,7 @@
     "translations": {
       "en": ["release (a prisoner)", "allow (a currency) to float"]
     },
-    "particle": "frei",
+    "particles": "frei",
     "wordBase": "geben"
   },
   "frei|halten": {
@@ -1934,7 +1934,7 @@
     "translations": {
       "en": ["keep clear (not block)"]
     },
-    "particle": "frei",
+    "particles": "frei",
     "wordBase": "halten"
   },
   "frei|kämpfen": {
@@ -1942,7 +1942,7 @@
     "translations": {
       "en": ["liberate"]
     },
-    "particle": "frei",
+    "particles": "frei",
     "wordBase": "kämpfen"
   },
   "frei|kaufen": {
@@ -1950,7 +1950,7 @@
     "translations": {
       "en": ["ransom", "buy (a slave's) freedom"]
     },
-    "particle": "frei",
+    "particles": "frei",
     "wordBase": "kaufen"
   },
   "frei|kommen": {
@@ -1958,7 +1958,7 @@
     "translations": {
       "en": ["escape", "get away"]
     },
-    "particle": "frei",
+    "particles": "frei",
     "wordBase": "kommen"
   },
   "frei|legen": {
@@ -1966,7 +1966,7 @@
     "translations": {
       "en": ["uncover"]
     },
-    "particle": "frei",
+    "particles": "frei",
     "wordBase": "legen"
   },
   "frei|setzen": {
@@ -1974,7 +1974,7 @@
     "translations": {
       "en": ["release"]
     },
-    "particle": "frei",
+    "particles": "frei",
     "wordBase": "setzen"
   },
   "gegenüber|liegen": {
@@ -1982,7 +1982,7 @@
     "translations": {
       "en": ["face", "be across from"]
     },
-    "particle": "gegenüber",
+    "particles": "gegenüber",
     "wordBase": "liegen"
   },
   "gegenüber|sitzen": {
@@ -1990,7 +1990,7 @@
     "translations": {
       "en": ["sit facing", "sit across from"]
     },
-    "particle": "gegenüber",
+    "particles": "gegenüber",
     "wordBase": "sitzen"
   },
   "gegenüber|stehen": {
@@ -1998,7 +1998,7 @@
     "translations": {
       "en": ["stand facing", "be confronted with"]
     },
-    "particle": "gegenüber",
+    "particles": "gegenüber",
     "wordBase": "stehen"
   },
   "gegenüber|stellen": {
@@ -2006,7 +2006,7 @@
     "translations": {
       "en": ["confront", "compare"]
     },
-    "particle": "gegenüber",
+    "particles": "gegenüber",
     "wordBase": "stellen"
   },
   "gleich|bleiben": {
@@ -2014,7 +2014,7 @@
     "translations": {
       "en": ["stay the same"]
     },
-    "particle": "gleich",
+    "particles": "gleich",
     "wordBase": "bleiben"
   },
   "gleich|kommen": {
@@ -2022,7 +2022,7 @@
     "translations": {
       "en": ["equal", "be tantamount to"]
     },
-    "particle": "gleich",
+    "particles": "gleich",
     "wordBase": "kommen"
   },
   "gleich|machen": {
@@ -2030,7 +2030,7 @@
     "translations": {
       "en": ["make equal"]
     },
-    "particle": "gleich",
+    "particles": "gleich",
     "wordBase": "machen"
   },
   "gleich|setzen": {
@@ -2038,7 +2038,7 @@
     "translations": {
       "en": ["equate"]
     },
-    "particle": "gleich",
+    "particles": "gleich",
     "wordBase": "setzen"
   },
   "heim|begleiten": {
@@ -2046,7 +2046,7 @@
     "translations": {
       "en": ["accompany home"]
     },
-    "particle": "heim",
+    "particles": "heim",
     "wordBase": "begleiten"
   },
   "heim|fahren": {
@@ -2054,7 +2054,7 @@
     "translations": {
       "en": ["drive home"]
     },
-    "particle": "heim",
+    "particles": "heim",
     "wordBase": "fahren"
   },
   "heim|finden": {
@@ -2062,7 +2062,7 @@
     "translations": {
       "en": ["find one's way home"]
     },
-    "particle": "heim",
+    "particles": "heim",
     "wordBase": "finden"
   },
   "heim|gehen": {
@@ -2070,7 +2070,7 @@
     "translations": {
       "en": ["go/walk home"]
     },
-    "particle": "heim",
+    "particles": "heim",
     "wordBase": "gehen"
   },
   "heim|kehren": {
@@ -2078,7 +2078,7 @@
     "translations": {
       "en": ["return home"]
     },
-    "particle": "heim",
+    "particles": "heim",
     "wordBase": "kehren"
   },
   "heim|kommen": {
@@ -2086,7 +2086,7 @@
     "translations": {
       "en": ["come home"]
     },
-    "particle": "heim",
+    "particles": "heim",
     "wordBase": "kommen"
   },
   "heim|suchen": {
@@ -2094,7 +2094,7 @@
     "translations": {
       "en": ["afflict"]
     },
-    "particle": "heim",
+    "particles": "heim",
     "wordBase": "suchen"
   },
   "heim|zahlen": {
@@ -2102,7 +2102,7 @@
     "translations": {
       "en": ["pay back", "get even with"]
     },
-    "particle": "heim",
+    "particles": "heim",
     "wordBase": "zahlen"
   },
   "her|bestellen": {
@@ -2110,7 +2110,7 @@
     "translations": {
       "en": ["summon"]
     },
-    "particle": "her",
+    "particles": "her",
     "wordBase": "bestellen"
   },
   "her|fahren": {
@@ -2118,7 +2118,7 @@
     "translations": {
       "en": ["travel here", "drive here"]
     },
-    "particle": "her",
+    "particles": "her",
     "wordBase": "fahren"
   },
   "her|führen": {
@@ -2126,7 +2126,7 @@
     "translations": {
       "en": ["bring here", "lead here"]
     },
-    "particle": "her",
+    "particles": "her",
     "wordBase": "führen"
   },
   "her|kommen": {
@@ -2134,7 +2134,7 @@
     "translations": {
       "en": ["come here", "come from"]
     },
-    "particle": "her",
+    "particles": "her",
     "wordBase": "kommen"
   },
   "her|tragen": {
@@ -2142,7 +2142,7 @@
     "translations": {
       "en": ["carry (to) here (in this direction)"]
     },
-    "particle": "her",
+    "particles": "her",
     "wordBase": "tragen"
   },
   "herab|fallen": {
@@ -2150,7 +2150,7 @@
     "translations": {
       "en": ["fall from"]
     },
-    "particle": "herab",
+    "particles": "herab",
     "wordBase": "fallen"
   },
   "herab|fließen": {
@@ -2158,7 +2158,7 @@
     "translations": {
       "en": ["flow down"]
     },
-    "particle": "herab",
+    "particles": "herab",
     "wordBase": "fließen"
   },
   "herab|hängen": {
@@ -2166,7 +2166,7 @@
     "translations": {
       "en": ["hang down"]
     },
-    "particle": "herab",
+    "particles": "herab",
     "wordBase": "hängen"
   },
   "herab|setzen": {
@@ -2174,7 +2174,7 @@
     "translations": {
       "en": ["reduce, disparage"]
     },
-    "particle": "herab",
+    "particles": "herab",
     "wordBase": "setzen"
   },
   "herab|mindern": {
@@ -2182,7 +2182,7 @@
     "translations": {
       "en": ["reduce, disparage"]
     },
-    "particle": "herab",
+    "particles": "herab",
     "wordBase": "mindern"
   },
   "herab|sehen [auf]": {
@@ -2190,7 +2190,7 @@
     "translations": {
       "en": ["look down (on)"]
     },
-    "particle": "herab",
+    "particles": "herab",
     "wordBase": "sehen [auf]"
   },
   "herab|sinken": {
@@ -2198,7 +2198,7 @@
     "translations": {
       "en": ["sink down, descend"]
     },
-    "particle": "herab",
+    "particles": "herab",
     "wordBase": "sinken"
   },
   "herab|steigen": {
@@ -2206,7 +2206,7 @@
     "translations": {
       "en": ["climb down, descend"]
     },
-    "particle": "herab",
+    "particles": "herab",
     "wordBase": "steigen"
   },
   "herab|stürzen": {
@@ -2214,7 +2214,7 @@
     "translations": {
       "en": ["plummet down"]
     },
-    "particle": "herab",
+    "particles": "herab",
     "wordBase": "stürzen"
   },
   "heran|bringen": {
@@ -2222,7 +2222,7 @@
     "translations": {
       "en": ["bring toward", "bring up to (a certain point)"]
     },
-    "particle": "heran",
+    "particles": "heran",
     "wordBase": "bringen"
   },
   "heran|führen": {
@@ -2230,7 +2230,7 @@
     "translations": {
       "en": ["bring up (to a place)", "lead here"]
     },
-    "particle": "heran",
+    "particles": "heran",
     "wordBase": "führen"
   },
   "heran|gehen": {
@@ -2238,7 +2238,7 @@
     "translations": {
       "en": ["go up closer"]
     },
-    "particle": "heran",
+    "particles": "heran",
     "wordBase": "gehen"
   },
   "heran|kommen": {
@@ -2246,7 +2246,7 @@
     "translations": {
       "en": ["draw near"]
     },
-    "particle": "heran",
+    "particles": "heran",
     "wordBase": "kommen"
   },
   "heran|reifen": {
@@ -2254,7 +2254,7 @@
     "translations": {
       "en": ["mature"]
     },
-    "particle": "heran",
+    "particles": "heran",
     "wordBase": "reifen"
   },
   "herauf|arbeiten": {
@@ -2262,7 +2262,7 @@
     "translations": {
       "en": ["work one's way up"]
     },
-    "particle": "herauf",
+    "particles": "herauf",
     "wordBase": "arbeiten"
   },
   "herauf|beschwören": {
@@ -2270,7 +2270,7 @@
     "translations": {
       "en": ["cause", "bring about", "evoke"]
     },
-    "particle": "herauf",
+    "particles": "herauf",
     "wordBase": "beschwören"
   },
   "herauf|führen": {
@@ -2278,7 +2278,7 @@
     "translations": {
       "en": ["bring up here", "lead up here"]
     },
-    "particle": "herauf",
+    "particles": "herauf",
     "wordBase": "führen"
   },
   "herauf|tragen": {
@@ -2286,7 +2286,7 @@
     "translations": {
       "en": ["carry up here"]
     },
-    "particle": "herauf",
+    "particles": "herauf",
     "wordBase": "tragen"
   },
   "herauf|ziehen": {
@@ -2294,7 +2294,7 @@
     "translations": {
       "en": ["pull up", "approach"]
     },
-    "particle": "herauf",
+    "particles": "herauf",
     "wordBase": "ziehen"
   },
   "heraus|bitten": {
@@ -2302,7 +2302,7 @@
     "translations": {
       "en": ["ask (someone) to come outside"]
     },
-    "particle": "heraus",
+    "particles": "heraus",
     "wordBase": "bitten"
   },
   "heraus|bringen": {
@@ -2310,7 +2310,7 @@
     "translations": {
       "en": ["bring out", "publish", "launch", "make known"]
     },
-    "particle": "heraus",
+    "particles": "heraus",
     "wordBase": "bringen"
   },
   "heraus|fahren": {
@@ -2318,7 +2318,7 @@
     "translations": {
       "en": ["drive out of"]
     },
-    "particle": "heraus",
+    "particles": "heraus",
     "wordBase": "fahren"
   },
   "heraus|geben": {
@@ -2326,7 +2326,7 @@
     "translations": {
       "en": ["hand over", "hand out"]
     },
-    "particle": "heraus",
+    "particles": "heraus",
     "wordBase": "geben"
   },
   "heraus|hängen": {
@@ -2334,7 +2334,7 @@
     "translations": {
       "en": ["hang out"]
     },
-    "particle": "heraus",
+    "particles": "heraus",
     "wordBase": "hängen"
   },
   "heraus|kriegen": {
@@ -2342,7 +2342,7 @@
     "translations": {
       "en": ["get out of", "find out"]
     },
-    "particle": "heraus",
+    "particles": "heraus",
     "wordBase": "kriegen"
   },
   "heraus|fordern": {
@@ -2350,7 +2350,7 @@
     "translations": {
       "en": ["challenge", "provoke"]
     },
-    "particle": "heraus",
+    "particles": "heraus",
     "wordBase": "fordern"
   },
   "sich heraus|stellen": {
@@ -2359,7 +2359,7 @@
       "en": ["turn out (to be)"]
     },
     "prefix": "sich heraus",
-    "particle": "heraus",
+    "particles": "heraus",
     "wordBase": "stellen"
   },
   "heraus|ziehen": {
@@ -2367,7 +2367,7 @@
     "translations": {
       "en": ["pull out"]
     },
-    "particle": "heraus",
+    "particles": "heraus",
     "wordBase": "ziehen"
   },
   "herbei|bringen": {
@@ -2375,7 +2375,7 @@
     "translations": {
       "en": ["bring over"]
     },
-    "particle": "herbei",
+    "particles": "herbei",
     "wordBase": "bringen"
   },
   "herbei|holen": {
@@ -2383,7 +2383,7 @@
     "translations": {
       "en": ["fetch"]
     },
-    "particle": "herbei",
+    "particles": "herbei",
     "wordBase": "holen"
   },
   "herbei|laufen": {
@@ -2391,7 +2391,7 @@
     "translations": {
       "en": ["to come running up"]
     },
-    "particle": "herbei",
+    "particles": "herbei",
     "wordBase": "laufen"
   },
   "herbei|rufen": {
@@ -2399,7 +2399,7 @@
     "translations": {
       "en": ["call over"]
     },
-    "particle": "herbei",
+    "particles": "herbei",
     "wordBase": "rufen"
   },
   "herbei|schaffen": {
@@ -2407,7 +2407,7 @@
     "translations": {
       "en": ["get"]
     },
-    "particle": "herbei",
+    "particles": "herbei",
     "wordBase": "schaffen"
   },
   "herbei|sehnen": {
@@ -2415,7 +2415,7 @@
     "translations": {
       "en": ["long for"]
     },
-    "particle": "herbei",
+    "particles": "herbei",
     "wordBase": "sehnen"
   },
   "herein|bitten": {
@@ -2423,7 +2423,7 @@
     "translations": {
       "en": ["invite in"]
     },
-    "particle": "herein",
+    "particles": "herein",
     "wordBase": "bitten"
   },
   "herein|bringen": {
@@ -2431,7 +2431,7 @@
     "translations": {
       "en": ["bring in"]
     },
-    "particle": "herein",
+    "particles": "herein",
     "wordBase": "bringen"
   },
   "herein|fallen": {
@@ -2439,7 +2439,7 @@
     "translations": {
       "en": ["fall into, be duped"]
     },
-    "particle": "herein",
+    "particles": "herein",
     "wordBase": "fallen"
   },
   "herein|holen": {
@@ -2447,7 +2447,7 @@
     "translations": {
       "en": ["bring in"]
     },
-    "particle": "herein",
+    "particles": "herein",
     "wordBase": "holen"
   },
   "herein|kommen": {
@@ -2455,7 +2455,7 @@
     "translations": {
       "en": ["come in"]
     },
-    "particle": "herein",
+    "particles": "herein",
     "wordBase": "kommen"
   },
   "herein|schneien": {
@@ -2463,7 +2463,7 @@
     "translations": {
       "en": ["snow in, appear out of the blue"]
     },
-    "particle": "herein",
+    "particles": "herein",
     "wordBase": "schneien"
   },
   "herein|spazieren": {
@@ -2471,7 +2471,7 @@
     "translations": {
       "en": ["stroll in"]
     },
-    "particle": "herein",
+    "particles": "herein",
     "wordBase": "spazieren"
   },
   "herüber|fahren": {
@@ -2479,7 +2479,7 @@
     "translations": {
       "en": ["drive over here"]
     },
-    "particle": "herüber",
+    "particles": "herüber",
     "wordBase": "fahren"
   },
   "herüber|kommen": {
@@ -2487,7 +2487,7 @@
     "translations": {
       "en": ["come over here"]
     },
-    "particle": "herüber",
+    "particles": "herüber",
     "wordBase": "kommen"
   },
   "herüber|schauen": {
@@ -2495,7 +2495,7 @@
     "translations": {
       "en": ["look over here"]
     },
-    "particle": "herüber",
+    "particles": "herüber",
     "wordBase": "schauen"
   },
   "herüber|schicken": {
@@ -2503,7 +2503,7 @@
     "translations": {
       "en": ["send over here"]
     },
-    "particle": "herüber",
+    "particles": "herüber",
     "wordBase": "schicken"
   },
   "herunter|bekommen": {
@@ -2511,7 +2511,7 @@
     "translations": {
       "en": ["be able to eat", "manage to get down"]
     },
-    "particle": "herunter",
+    "particles": "herunter",
     "wordBase": "bekommen"
   },
   "herunter|fallen": {
@@ -2519,7 +2519,7 @@
     "translations": {
       "en": ["fall down"]
     },
-    "particle": "herunter",
+    "particles": "herunter",
     "wordBase": "fallen"
   },
   "herunter|handeln": {
@@ -2527,7 +2527,7 @@
     "translations": {
       "en": ["bargain down"]
     },
-    "particle": "herunter",
+    "particles": "herunter",
     "wordBase": "handeln"
   },
   "herunter|holen": {
@@ -2535,7 +2535,7 @@
     "translations": {
       "en": ["fetch down"]
     },
-    "particle": "herunter",
+    "particles": "herunter",
     "wordBase": "holen"
   },
   "herunter|kommen": {
@@ -2543,7 +2543,7 @@
     "translations": {
       "en": ["come down (go to the dogs)"]
     },
-    "particle": "herunter",
+    "particles": "herunter",
     "wordBase": "kommen"
   },
   "herunter|schlucken": {
@@ -2551,7 +2551,7 @@
     "translations": {
       "en": ["swallow"]
     },
-    "particle": "herunter",
+    "particles": "herunter",
     "wordBase": "schlucken"
   },
   "herunter|schrauben": {
@@ -2559,7 +2559,7 @@
     "translations": {
       "en": ["ratchet down", "dumb down"]
     },
-    "particle": "herunter",
+    "particles": "herunter",
     "wordBase": "schrauben"
   },
   "herunter|steigen": {
@@ -2567,7 +2567,7 @@
     "translations": {
       "en": ["climb down"]
     },
-    "particle": "herunter",
+    "particles": "herunter",
     "wordBase": "steigen"
   },
   "hervor|gehen": {
@@ -2575,7 +2575,7 @@
     "translations": {
       "en": ["emerge, lure out"]
     },
-    "particle": "hervor",
+    "particles": "hervor",
     "wordBase": "gehen"
   },
   "hervor|heben": {
@@ -2583,7 +2583,7 @@
     "translations": {
       "en": ["emphasize"]
     },
-    "particle": "hervor",
+    "particles": "hervor",
     "wordBase": "heben"
   },
   "hervor|ragen": {
@@ -2591,7 +2591,7 @@
     "translations": {
       "en": ["project, jut out, stand out"]
     },
-    "particle": "hervor",
+    "particles": "hervor",
     "wordBase": "ragen"
   },
   "hervor|rufen": {
@@ -2599,7 +2599,7 @@
     "translations": {
       "en": ["call to come out"]
     },
-    "particle": "hervor",
+    "particles": "hervor",
     "wordBase": "rufen"
   },
   "hervor|stecken": {
@@ -2607,7 +2607,7 @@
     "translations": {
       "en": ["stick out"]
     },
-    "particle": "hervor",
+    "particles": "hervor",
     "wordBase": "stecken"
   },
   "hervor|treten": {
@@ -2615,7 +2615,7 @@
     "translations": {
       "en": ["emerge, step forth"]
     },
-    "particle": "hervor",
+    "particles": "hervor",
     "wordBase": "treten"
   },
   "sich hervor|tun": {
@@ -2624,7 +2624,7 @@
       "en": ["excel"]
     },
     "prefix": "sich hervor",
-    "particle": "hervor",
+    "particles": "hervor",
     "wordBase": "tun"
   },
   "sich hervor|wagen": {
@@ -2633,7 +2633,7 @@
       "en": ["dare to come out"]
     },
     "prefix": "sich hervor",
-    "particle": "hervor",
+    "particles": "hervor",
     "wordBase": "wagen"
   },
   "hin|arbeiten": {
@@ -2641,7 +2641,7 @@
     "translations": {
       "en": ["work towards"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "arbeiten"
   },
   "hin|bekommen": {
@@ -2649,7 +2649,7 @@
     "translations": {
       "en": ["wangle, manage to do"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "bekommen"
   },
   "hin|begleiten": {
@@ -2657,7 +2657,7 @@
     "translations": {
       "en": ["accompany thither"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "begleiten"
   },
   "hin|bewegen": {
@@ -2665,7 +2665,7 @@
     "translations": {
       "en": ["move toward"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "bewegen"
   },
   "hin|biegen": {
@@ -2673,7 +2673,7 @@
     "translations": {
       "en": ["arrange"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "biegen"
   },
   "hin|blättern": {
@@ -2681,7 +2681,7 @@
     "translations": {
       "en": ["shell out"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "blättern"
   },
   "hin|bringen": {
@@ -2689,7 +2689,7 @@
     "translations": {
       "en": ["take there"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "bringen"
   },
   "hin|deuten": {
@@ -2697,7 +2697,7 @@
     "translations": {
       "en": ["point to"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "deuten"
   },
   "hin|fahren": {
@@ -2705,7 +2705,7 @@
     "translations": {
       "en": ["go/drive there"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "fahren"
   },
   "hin|fallen": {
@@ -2713,7 +2713,7 @@
     "translations": {
       "en": ["fall down"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "fallen"
   },
   "hin|finden": {
@@ -2721,7 +2721,7 @@
     "translations": {
       "en": ["find one's way to"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "finden"
   },
   "hin|führen": {
@@ -2729,7 +2729,7 @@
     "translations": {
       "en": ["lead to"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "führen"
   },
   "hin|geben": {
@@ -2737,7 +2737,7 @@
     "translations": {
       "en": ["devote, sacrifice"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "geben"
   },
   "hin|geraten": {
@@ -2745,7 +2745,7 @@
     "translations": {
       "en": ["get there"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "geraten"
   },
   "hin|halten": {
@@ -2753,7 +2753,7 @@
     "translations": {
       "en": ["hold out", "delay"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "halten"
   },
   "hin|horchen": {
@@ -2761,7 +2761,7 @@
     "translations": {
       "en": ["listen closely"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "horchen"
   },
   "hin|knien": {
@@ -2769,7 +2769,7 @@
     "translations": {
       "en": ["kneel down"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "knien"
   },
   "hin|kommen": {
@@ -2777,7 +2777,7 @@
     "translations": {
       "en": ["get there"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "kommen"
   },
   "hin|kriegen": {
@@ -2785,7 +2785,7 @@
     "translations": {
       "en": ["manage to take care of, make (something) function"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "kriegen"
   },
   "vor sich hin|leben": {
@@ -2794,7 +2794,7 @@
       "en": ["live passively, without purpose"]
     },
     "prefix": "vor sich hin",
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "leben"
   },
   "hin|legen": {
@@ -2802,7 +2802,7 @@
     "translations": {
       "en": ["lay down"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "legen"
   },
   "hin|lenken": {
@@ -2810,7 +2810,7 @@
     "translations": {
       "en": ["steer toward"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "lenken"
   },
   "hin|nehmen": {
@@ -2818,7 +2818,7 @@
     "translations": {
       "en": ["accept, put up with"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "nehmen"
   },
   "hin|reichen": {
@@ -2826,7 +2826,7 @@
     "translations": {
       "en": ["suffice"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "reichen"
   },
   "hin|reißen": {
@@ -2834,7 +2834,7 @@
     "translations": {
       "en": ["delight", "fascinate"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "reißen"
   },
   "hin|richten": {
@@ -2842,7 +2842,7 @@
     "translations": {
       "en": ["execute", "put to death"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "richten"
   },
   "hin|schicken": {
@@ -2850,7 +2850,7 @@
     "translations": {
       "en": ["send there"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "schicken"
   },
   "hin|schleppen": {
@@ -2858,7 +2858,7 @@
     "translations": {
       "en": ["drag there"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "schleppen"
   },
   "sich hin|setzen": {
@@ -2867,7 +2867,7 @@
       "en": ["sit down"]
     },
     "prefix": "sich hin",
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "setzen"
   },
   "hin|tragen": {
@@ -2875,7 +2875,7 @@
     "translations": {
       "en": ["carry there"]
     },
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "tragen"
   },
   "sich hin|bewegen": {
@@ -2884,7 +2884,7 @@
       "en": ["move upwards"]
     },
     "prefix": "sich hin",
-    "particle": "hin",
+    "particles": "hin",
     "wordBase": "bewegen"
   },
   "hinunter|blicken": {
@@ -2892,7 +2892,7 @@
     "translations": {
       "en": ["look down"]
     },
-    "particle": "hinunter",
+    "particles": "hinunter",
     "wordBase": "blicken"
   },
   "hinab|blicken": {
@@ -2900,7 +2900,7 @@
     "translations": {
       "en": ["look down"]
     },
-    "particle": "hinab",
+    "particles": "hinab",
     "wordBase": "blicken"
   },
   "hinab|fallen": {
@@ -2908,7 +2908,7 @@
     "translations": {
       "en": ["fall down"]
     },
-    "particle": "hinab",
+    "particles": "hinab",
     "wordBase": "fallen"
   },
   "hinunter|fallen": {
@@ -2916,7 +2916,7 @@
     "translations": {
       "en": ["fall down"]
     },
-    "particle": "hinunter",
+    "particles": "hinunter",
     "wordBase": "fallen"
   },
   "hinab|lassen": {
@@ -2924,7 +2924,7 @@
     "translations": {
       "en": ["lower down (e.g. with a rope)"]
     },
-    "particle": "hinab",
+    "particles": "hinab",
     "wordBase": "lassen"
   },
   "hinunter|lassen": {
@@ -2932,7 +2932,7 @@
     "translations": {
       "en": ["lower down (e.g. with a rope)"]
     },
-    "particle": "hinunter",
+    "particles": "hinunter",
     "wordBase": "lassen"
   },
   "hinunter|spülen": {
@@ -2940,7 +2940,7 @@
     "translations": {
       "en": ["wash down"]
     },
-    "particle": "hinunter",
+    "particles": "hinunter",
     "wordBase": "spülen"
   },
   "hinauf|gehen": {
@@ -2948,7 +2948,7 @@
     "translations": {
       "en": ["walk up, walk upstairs, go upwards"]
     },
-    "particle": "hinauf",
+    "particles": "hinauf",
     "wordBase": "gehen"
   },
   "hinauf|schauen": {
@@ -2956,7 +2956,7 @@
     "translations": {
       "en": ["look up etc."]
     },
-    "particle": "hinauf",
+    "particles": "hinauf",
     "wordBase": "schauen"
   },
   "hinaus|bringen": {
@@ -2964,7 +2964,7 @@
     "translations": {
       "en": ["take out"]
     },
-    "particle": "hinaus",
+    "particles": "hinaus",
     "wordBase": "bringen"
   },
   "hinaus|ekeln": {
@@ -2972,7 +2972,7 @@
     "translations": {
       "en": ["drive out in disgust"]
     },
-    "particle": "hinaus",
+    "particles": "hinaus",
     "wordBase": "ekeln"
   },
   "hinaus|gehen": {
@@ -2980,7 +2980,7 @@
     "translations": {
       "en": ["go out"]
     },
-    "particle": "hinaus",
+    "particles": "hinaus",
     "wordBase": "gehen"
   },
   "auf etwas hinaus|laufen": {
@@ -2989,7 +2989,7 @@
       "en": ["lead to something"]
     },
     "prefix": "auf etwas hinaus",
-    "particle": "hinaus",
+    "particles": "hinaus",
     "wordBase": "laufen"
   },
   "hinaus|ragen": {
@@ -2997,7 +2997,7 @@
     "translations": {
       "en": ["project beyond"]
     },
-    "particle": "hinaus",
+    "particles": "hinaus",
     "wordBase": "ragen"
   },
   "hinaus|schieben": {
@@ -3005,7 +3005,7 @@
     "translations": {
       "en": ["postpone"]
     },
-    "particle": "hinaus",
+    "particles": "hinaus",
     "wordBase": "schieben"
   },
   "über etwas hinaus|wachsen": {
@@ -3014,7 +3014,7 @@
       "en": ["grow beyond/outgrow something"]
     },
     "prefix": "über etwas hinaus",
-    "particle": "hinaus",
+    "particles": "hinaus",
     "wordBase": "wachsen"
   },
   "hinaus|werfen": {
@@ -3022,7 +3022,7 @@
     "translations": {
       "en": ["throw out"]
     },
-    "particle": "hinaus",
+    "particles": "hinaus",
     "wordBase": "werfen"
   },
   "hinaus|wollen": {
@@ -3030,7 +3030,7 @@
     "translations": {
       "en": ["want to go out"]
     },
-    "particle": "hinaus",
+    "particles": "hinaus",
     "wordBase": "wollen"
   },
   "hinaus|zögern": {
@@ -3038,7 +3038,7 @@
     "translations": {
       "en": ["draw out, delay"]
     },
-    "particle": "hinaus",
+    "particles": "hinaus",
     "wordBase": "zögern"
   },
   "hinein|drängen": {
@@ -3046,7 +3046,7 @@
     "translations": {
       "en": ["fall into"]
     },
-    "particle": "hinein",
+    "particles": "hinein",
     "wordBase": "drängen"
   },
   "hinein|dürfen": {
@@ -3054,7 +3054,7 @@
     "translations": {
       "en": ["be allowed in"]
     },
-    "particle": "hinein",
+    "particles": "hinein",
     "wordBase": "dürfen"
   },
   "hinein|fallen": {
@@ -3062,7 +3062,7 @@
     "translations": {
       "en": ["fall into"]
     },
-    "particle": "hinein",
+    "particles": "hinein",
     "wordBase": "fallen"
   },
   "hinein|fließen": {
@@ -3070,7 +3070,7 @@
     "translations": {
       "en": ["flow into"]
     },
-    "particle": "hinein",
+    "particles": "hinein",
     "wordBase": "fließen"
   },
   "hinein|gehen": {
@@ -3078,7 +3078,7 @@
     "translations": {
       "en": ["enter"]
     },
-    "particle": "hinein",
+    "particles": "hinein",
     "wordBase": "gehen"
   },
   "hinein|reichen": {
@@ -3086,7 +3086,7 @@
     "translations": {
       "en": ["reach into"]
     },
-    "particle": "hinein",
+    "particles": "hinein",
     "wordBase": "reichen"
   },
   "hinein|reiten": {
@@ -3094,7 +3094,7 @@
     "translations": {
       "en": ["ride in (on horseback)"]
     },
-    "particle": "hinein",
+    "particles": "hinein",
     "wordBase": "reiten"
   },
   "hinein|schneiden": {
@@ -3102,7 +3102,7 @@
     "translations": {
       "en": ["cut into"]
     },
-    "particle": "hinein",
+    "particles": "hinein",
     "wordBase": "schneiden"
   },
   "sich hinein|eversetzen": {
@@ -3111,7 +3111,7 @@
       "en": ["put oneself into (someone's situation)"]
     },
     "prefix": "sich hinein",
-    "particle": "hinein",
+    "particles": "hinein",
     "wordBase": "eversetzen"
   },
   "hinein|wollen": {
@@ -3119,7 +3119,7 @@
     "translations": {
       "en": ["want to go in"]
     },
-    "particle": "hinein",
+    "particles": "hinein",
     "wordBase": "wollen"
   },
   "jemandem über etwas hinweg|helfen": {
@@ -3128,7 +3128,7 @@
       "en": ["help someone to get over something"]
     },
     "prefix": "jemandem über etwas hinweg",
-    "particle": "hinweg",
+    "particles": "hinweg",
     "wordBase": "helfen"
   },
   "über etwas hinweg|kommen": {
@@ -3137,7 +3137,7 @@
       "en": ["get over something"]
     },
     "prefix": "über etwas hinweg",
-    "particle": "hinweg",
+    "particles": "hinweg",
     "wordBase": "kommen"
   },
   "sich über etwas hinweg|setzen": {
@@ -3146,7 +3146,7 @@
       "en": ["disregard something"]
     },
     "prefix": "sich über etwas hinweg",
-    "particle": "hinweg",
+    "particles": "hinweg",
     "wordBase": "setzen"
   },
   "hinterher|hinken": {
@@ -3154,7 +3154,7 @@
     "translations": {
       "en": ["limp along behind"]
     },
-    "particle": "hinterher",
+    "particles": "hinterher",
     "wordBase": "hinken"
   },
   "hinterher|kommen": {
@@ -3162,7 +3162,7 @@
     "translations": {
       "en": ["follow after"]
     },
-    "particle": "hinterher",
+    "particles": "hinterher",
     "wordBase": "kommen"
   },
   "hinterher|laufen": {
@@ -3170,7 +3170,7 @@
     "translations": {
       "en": ["run after"]
     },
-    "particle": "hinterher",
+    "particles": "hinterher",
     "wordBase": "laufen"
   },
   "hinterher|schicken": {
@@ -3178,7 +3178,7 @@
     "translations": {
       "en": ["send after", "send on"]
     },
-    "particle": "hinterher",
+    "particles": "hinterher",
     "wordBase": "schicken"
   },
   "hinzu|fügen": {
@@ -3186,7 +3186,7 @@
     "translations": {
       "en": ["add", "append"]
     },
-    "particle": "hinzu",
+    "particles": "hinzu",
     "wordBase": "fügen"
   },
   "hinzu|setzen": {
@@ -3194,7 +3194,7 @@
     "translations": {
       "en": ["add", "append"]
     },
-    "particle": "hinzu",
+    "particles": "hinzu",
     "wordBase": "setzen"
   },
   "hinzu|gesellen": {
@@ -3202,7 +3202,7 @@
     "translations": {
       "en": ["join"]
     },
-    "particle": "hinzu",
+    "particles": "hinzu",
     "wordBase": "gesellen"
   },
   "hinzu|kommen": {
@@ -3210,7 +3210,7 @@
     "translations": {
       "en": ["be added to"]
     },
-    "particle": "hinzu",
+    "particles": "hinzu",
     "wordBase": "kommen"
   },
   "hinzu|verdienen": {
@@ -3218,7 +3218,7 @@
     "translations": {
       "en": ["earn (something) extra"]
     },
-    "particle": "hinzu",
+    "particles": "hinzu",
     "wordBase": "verdienen"
   },
   "hinzu|ziehen": {
@@ -3226,7 +3226,7 @@
     "translations": {
       "en": ["consult"]
     },
-    "particle": "hinzu",
+    "particles": "hinzu",
     "wordBase": "ziehen"
   },
   "jemanden hoch|bringen": {
@@ -3235,7 +3235,7 @@
       "en": ["help someone up"]
     },
     "prefix": "jemanden hoch",
-    "particle": "hoch",
+    "particles": "hoch",
     "wordBase": "bringen"
   },
   "hoch|halten": {
@@ -3243,7 +3243,7 @@
     "translations": {
       "en": ["hold up [in a raised position]"]
     },
-    "particle": "hoch",
+    "particles": "hoch",
     "wordBase": "halten"
   },
   "hoch|krempeln": {
@@ -3251,7 +3251,7 @@
     "translations": {
       "en": ["roll up [a sleeve]"]
     },
-    "particle": "hoch",
+    "particles": "hoch",
     "wordBase": "krempeln"
   },
   "hoch|legen": {
@@ -3259,7 +3259,7 @@
     "translations": {
       "en": ["support in a raised position"]
     },
-    "particle": "hoch",
+    "particles": "hoch",
     "wordBase": "legen"
   },
   "hoch|rechnen": {
@@ -3267,7 +3267,7 @@
     "translations": {
       "en": ["extrapolate to project [a forecast]"]
     },
-    "particle": "hoch",
+    "particles": "hoch",
     "wordBase": "rechnen"
   },
   "hoch|schießen": {
@@ -3275,7 +3275,7 @@
     "translations": {
       "en": ["shoot upwards"]
     },
-    "particle": "hoch",
+    "particles": "hoch",
     "wordBase": "schießen"
   },
   "los|binden": {
@@ -3283,7 +3283,7 @@
     "translations": {
       "en": ["untie"]
     },
-    "particle": "los",
+    "particles": "los",
     "wordBase": "binden"
   },
   "los|fahren": {
@@ -3291,7 +3291,7 @@
     "translations": {
       "en": ["drive off"]
     },
-    "particle": "los",
+    "particles": "los",
     "wordBase": "fahren"
   },
   "los|gehen": {
@@ -3299,7 +3299,7 @@
     "translations": {
       "en": ["commence"]
     },
-    "particle": "los",
+    "particles": "los",
     "wordBase": "gehen"
   },
   "los|kommen": {
@@ -3307,7 +3307,7 @@
     "translations": {
       "en": ["get away"]
     },
-    "particle": "los",
+    "particles": "los",
     "wordBase": "kommen"
   },
   "los|kriegen": {
@@ -3315,7 +3315,7 @@
     "translations": {
       "en": ["get rid of"]
     },
-    "particle": "los",
+    "particles": "los",
     "wordBase": "kriegen"
   },
   "los|lassen": {
@@ -3323,7 +3323,7 @@
     "translations": {
       "en": ["let go of"]
     },
-    "particle": "los",
+    "particles": "los",
     "wordBase": "lassen"
   },
   "los|legen": {
@@ -3331,7 +3331,7 @@
     "translations": {
       "en": ["get started  let it rip"]
     },
-    "particle": "los",
+    "particles": "los",
     "wordBase": "legen"
   },
   "sich los|reißen": {
@@ -3340,7 +3340,7 @@
       "en": ["break free of"]
     },
     "prefix": "sich los",
-    "particle": "los",
+    "particles": "los",
     "wordBase": "reißen"
   },
   "etwas los|werden": {
@@ -3349,7 +3349,7 @@
       "en": ["get rid of something"]
     },
     "prefix": "etwas los",
-    "particle": "los",
+    "particles": "los",
     "wordBase": "werden"
   },
   "los|wollen": {
@@ -3357,7 +3357,7 @@
     "translations": {
       "en": ["want to be off"]
     },
-    "particle": "los",
+    "particles": "los",
     "wordBase": "wollen"
   },
   "mit|arbeiten": {
@@ -3365,7 +3365,7 @@
     "translations": {
       "en": ["collaborate, work along with"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "arbeiten"
   },
   "mit|dürfen": {
@@ -3373,7 +3373,7 @@
     "translations": {
       "en": ["be allowed to go along"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "dürfen"
   },
   "mit|fahren": {
@@ -3381,7 +3381,7 @@
     "translations": {
       "en": ["ride with"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "fahren"
   },
   "etwas mit|geben": {
@@ -3390,7 +3390,7 @@
       "en": ["give something [for the purpose of taking it along]"]
     },
     "prefix": "etwas mit",
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "geben"
   },
   "mit|halten": {
@@ -3398,7 +3398,7 @@
     "translations": {
       "en": ["keep up with"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "halten"
   },
   "mit|helfen": {
@@ -3406,7 +3406,7 @@
     "translations": {
       "en": ["help out"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "helfen"
   },
   "mit|hören": {
@@ -3414,7 +3414,7 @@
     "translations": {
       "en": ["listen in, eavesdrop"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "hören"
   },
   "mit|kommen": {
@@ -3422,7 +3422,7 @@
     "translations": {
       "en": ["come along"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "kommen"
   },
   "mit|machen": {
@@ -3430,7 +3430,7 @@
     "translations": {
       "en": ["participate"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "machen"
   },
   "mit|nehmen": {
@@ -3438,7 +3438,7 @@
     "translations": {
       "en": ["take along"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "nehmen"
   },
   "mit|reden": {
@@ -3446,7 +3446,7 @@
     "translations": {
       "en": ["participate in the conversation", "have a say"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "reden"
   },
   "mit|schreiben": {
@@ -3454,7 +3454,7 @@
     "translations": {
       "en": ["take notes"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "schreiben"
   },
   "mit|singen": {
@@ -3462,7 +3462,7 @@
     "translations": {
       "en": ["sing along"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "singen"
   },
   "mit|spielen": {
@@ -3470,7 +3470,7 @@
     "translations": {
       "en": ["take part in the game"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "spielen"
   },
   "mit|wirken": {
@@ -3478,7 +3478,7 @@
     "translations": {
       "en": ["be involved"]
     },
-    "particle": "mit",
+    "particles": "mit",
     "wordBase": "wirken"
   },
   "nach|affen": {
@@ -3486,7 +3486,7 @@
     "translations": {
       "en": ["mimic", "ape"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "affen"
   },
   "nach|ahmen": {
@@ -3494,7 +3494,7 @@
     "translations": {
       "en": ["imitate"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "ahmen"
   },
   "nach|arbeiten": {
@@ -3502,7 +3502,7 @@
     "translations": {
       "en": ["do make-up work"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "arbeiten"
   },
   "nach|bessern": {
@@ -3510,7 +3510,7 @@
     "translations": {
       "en": ["touch up", "improve by making adjustments"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "bessern"
   },
   "nach|bestellen": {
@@ -3518,7 +3518,7 @@
     "translations": {
       "en": ["order more (of something)"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "bestellen"
   },
   "nach|drucken": {
@@ -3526,7 +3526,7 @@
     "translations": {
       "en": ["reprint"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "drucken"
   },
   "nach|empfinden": {
@@ -3534,7 +3534,7 @@
     "translations": {
       "en": ["empathize"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "empfinden"
   },
   "nach|fühlen": {
@@ -3542,7 +3542,7 @@
     "translations": {
       "en": ["empathize"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "fühlen"
   },
   "nach|erzählen": {
@@ -3550,7 +3550,7 @@
     "translations": {
       "en": ["retell"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "erzählen"
   },
   "nach|feiern": {
@@ -3558,7 +3558,7 @@
     "translations": {
       "en": ["celebrate at a later date"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "feiern"
   },
   "nach|folgen": {
@@ -3566,7 +3566,7 @@
     "translations": {
       "en": ["succeed, follow"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "folgen"
   },
   "nach|forschen": {
@@ -3574,7 +3574,7 @@
     "translations": {
       "en": ["investigate"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "forschen"
   },
   "nach|füllen": {
@@ -3582,7 +3582,7 @@
     "translations": {
       "en": ["refill", "top off"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "füllen"
   },
   "nach|geben": {
@@ -3590,7 +3590,7 @@
     "translations": {
       "en": ["give way", "give in"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "geben"
   },
   "nach|gehen": {
@@ -3598,7 +3598,7 @@
     "translations": {
       "en": ["follow after", "look into (an issue)", "run slow (clock)"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "gehen"
   },
   "nach|haken": {
@@ -3606,7 +3606,7 @@
     "translations": {
       "en": ["dig deeper", "ask further about"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "haken"
   },
   "nach|holen": {
@@ -3614,7 +3614,7 @@
     "translations": {
       "en": ["catch up on", "make up for", "fetch later"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "holen"
   },
   "nach|kommen": {
@@ -3622,7 +3622,7 @@
     "translations": {
       "en": ["come later"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "kommen"
   },
   "nach|lassen": {
@@ -3630,7 +3630,7 @@
     "translations": {
       "en": ["diminish, loosen"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "lassen"
   },
   "nach|machen": {
@@ -3638,7 +3638,7 @@
     "translations": {
       "en": ["imitate, counterfeit"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "machen"
   },
   "nach|reichen": {
@@ -3646,7 +3646,7 @@
     "translations": {
       "en": ["hand in later"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "reichen"
   },
   "nach|rücken": {
@@ -3654,7 +3654,7 @@
     "translations": {
       "en": ["move up (to the next position after it has become vacant)"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "rücken"
   },
   "nach|schauen": {
@@ -3662,7 +3662,7 @@
     "translations": {
       "en": ["look up", "check up"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "schauen"
   },
   "nach|nachsehen": {
@@ -3670,7 +3670,7 @@
     "translations": {
       "en": ["look up", "check up"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "nachsehen"
   },
   "nach|spielen": {
@@ -3678,7 +3678,7 @@
     "translations": {
       "en": ["play during time that has been added on (injury time in soccer)"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "spielen"
   },
   "nach|sprechen": {
@@ -3686,7 +3686,7 @@
     "translations": {
       "en": ["repeat after"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "sprechen"
   },
   "nach|stellen": {
@@ -3694,7 +3694,7 @@
     "translations": {
       "en": ["readjust"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "stellen"
   },
   "nach|trauern": {
@@ -3702,7 +3702,7 @@
     "translations": {
       "en": ["mourn or bemoan the passing of"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "trauern"
   },
   "nach|weinen": {
@@ -3710,7 +3710,7 @@
     "translations": {
       "en": ["mourn or bemoan the passing of"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "weinen"
   },
   "nach|vollziehen": {
@@ -3718,7 +3718,7 @@
     "translations": {
       "en": ["comprehend"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "vollziehen"
   },
   "nach|weisen": {
@@ -3726,7 +3726,7 @@
     "translations": {
       "en": ["provide proof of something that has been committed"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "weisen"
   },
   "nach|wirken": {
@@ -3734,7 +3734,7 @@
     "translations": {
       "en": ["have a lasting effect"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "wirken"
   },
   "nach|zählen": {
@@ -3742,7 +3742,7 @@
     "translations": {
       "en": ["recount (count again)"]
     },
-    "particle": "nach",
+    "particles": "nach",
     "wordBase": "zählen"
   },
   "nebenher|fahren": {
@@ -3750,7 +3750,7 @@
     "translations": {
       "en": ["drive alongside"]
     },
-    "particle": "nebenher",
+    "particles": "nebenher",
     "wordBase": "fahren"
   },
   "nebenher|gehen": {
@@ -3758,7 +3758,7 @@
     "translations": {
       "en": ["walk alongside"]
     },
-    "particle": "nebenher",
+    "particles": "nebenher",
     "wordBase": "gehen"
   },
   "nebenher|laufen": {
@@ -3766,7 +3766,7 @@
     "translations": {
       "en": ["run alongside, proceed at the same time"]
     },
-    "particle": "nebenher",
+    "particles": "nebenher",
     "wordBase": "laufen"
   },
   "nieder|brennen": {
@@ -3774,7 +3774,7 @@
     "translations": {
       "en": ["burn down"]
     },
-    "particle": "nieder",
+    "particles": "nieder",
     "wordBase": "brennen"
   },
   "nieder|brüllen": {
@@ -3782,7 +3782,7 @@
     "translations": {
       "en": ["shout down"]
     },
-    "particle": "nieder",
+    "particles": "nieder",
     "wordBase": "brüllen"
   },
   "nieder|gehen": {
@@ -3790,7 +3790,7 @@
     "translations": {
       "en": ["drop down", "go down", "land"]
     },
-    "particle": "nieder",
+    "particles": "nieder",
     "wordBase": "gehen"
   },
   "nieder|halten": {
@@ -3798,7 +3798,7 @@
     "translations": {
       "en": ["oppress"]
     },
-    "particle": "nieder",
+    "particles": "nieder",
     "wordBase": "halten"
   },
   "nieder|knien": {
@@ -3806,7 +3806,7 @@
     "translations": {
       "en": ["kneel down"]
     },
-    "particle": "nieder",
+    "particles": "nieder",
     "wordBase": "knien"
   },
   "nieder|lassen": {
@@ -3814,7 +3814,7 @@
     "translations": {
       "en": ["lower"]
     },
-    "particle": "nieder",
+    "particles": "nieder",
     "wordBase": "lassen"
   },
   "sich nieder|lassen": {
@@ -3823,7 +3823,7 @@
       "en": ["ensconce oneself"]
     },
     "prefix": "sich nieder",
-    "particle": "nieder",
+    "particles": "nieder",
     "wordBase": "lassen"
   },
   "nieder|reißen": {
@@ -3831,7 +3831,7 @@
     "translations": {
       "en": ["tear down"]
     },
-    "particle": "nieder",
+    "particles": "nieder",
     "wordBase": "reißen"
   },
   "nieder|schießen": {
@@ -3839,7 +3839,7 @@
     "translations": {
       "en": ["gun down"]
     },
-    "particle": "nieder",
+    "particles": "nieder",
     "wordBase": "schießen"
   },
   "nieder|schlagen": {
@@ -3847,7 +3847,7 @@
     "translations": {
       "en": ["knock down", "suppress", "make despondent"]
     },
-    "particle": "nieder",
+    "particles": "nieder",
     "wordBase": "schlagen"
   },
   "nieder|werfen": {
@@ -3855,7 +3855,7 @@
     "translations": {
       "en": ["overcome", "defeat"]
     },
-    "particle": "nieder",
+    "particles": "nieder",
     "wordBase": "werfen"
   },
   "sich nieder|werfen": {
@@ -3864,7 +3864,7 @@
       "en": ["prostrate oneself"]
     },
     "prefix": "sich nieder",
-    "particle": "nieder",
+    "particles": "nieder",
     "wordBase": "werfen"
   },
   "statt|finden": {
@@ -3872,7 +3872,7 @@
     "translations": {
       "en": ["take place"]
     },
-    "particle": "statt",
+    "particles": "statt",
     "wordBase": "finden"
   },
   "statt|geben": {
@@ -3880,7 +3880,7 @@
     "translations": {
       "en": ["accede to", "grant", "allow"]
     },
-    "particle": "statt",
+    "particles": "statt",
     "wordBase": "geben"
   },
   "um|ändern": {
@@ -3888,7 +3888,7 @@
     "translations": {
       "en": ["change, change around"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "ändern"
   },
   "um|arbeiten": {
@@ -3896,7 +3896,7 @@
     "translations": {
       "en": ["rework"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "arbeiten"
   },
   "um|benennen": {
@@ -3904,7 +3904,7 @@
     "translations": {
       "en": ["rename"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "benennen"
   },
   "um|blicken": {
@@ -3912,7 +3912,7 @@
     "translations": {
       "en": ["look around"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "blicken"
   },
   "um|bringen": {
@@ -3920,7 +3920,7 @@
     "translations": {
       "en": ["kill"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "bringen"
   },
   "um|buchen": {
@@ -3928,7 +3928,7 @@
     "translations": {
       "en": ["re-book (travel plans)"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "buchen"
   },
   "um|denken": {
@@ -3936,7 +3936,7 @@
     "translations": {
       "en": ["rethink", "revise one's opinion"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "denken"
   },
   "um|drehen": {
@@ -3944,7 +3944,7 @@
     "translations": {
       "en": ["turn around"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "drehen"
   },
   "um|fallen": {
@@ -3952,7 +3952,7 @@
     "translations": {
       "en": ["fall over", "fall down"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "fallen"
   },
   "um|fassen": {
@@ -3960,7 +3960,7 @@
     "translations": {
       "en": ["grasp", "include", "embrace"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "fassen"
   },
   "um|formen": {
@@ -3968,7 +3968,7 @@
     "translations": {
       "en": ["recast"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "formen"
   },
   "um|füllen": {
@@ -3976,7 +3976,7 @@
     "translations": {
       "en": ["transfer (something) into (another container)"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "füllen"
   },
   "um|funktionieren": {
@@ -3984,7 +3984,7 @@
     "translations": {
       "en": ["change the function of"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "funktionieren"
   },
   "um|graben": {
@@ -3992,7 +3992,7 @@
     "translations": {
       "en": ["dig over to turn over (dirt)"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "graben"
   },
   "um|hängen": {
@@ -4000,7 +4000,7 @@
     "translations": {
       "en": ["re-hang (curtains), drape around"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "hängen"
   },
   "um|hauen": {
@@ -4008,7 +4008,7 @@
     "translations": {
       "en": ["knock down, knock over"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "hauen"
   },
   "um|kehren": {
@@ -4016,7 +4016,7 @@
     "translations": {
       "en": ["turn around"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "kehren"
   },
   "um|kippen": {
@@ -4024,7 +4024,7 @@
     "translations": {
       "en": ["tip over"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "kippen"
   },
   "um|klammern": {
@@ -4032,7 +4032,7 @@
     "translations": {
       "en": ["clutch"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "klammern"
   },
   "um|kommen": {
@@ -4040,7 +4040,7 @@
     "translations": {
       "en": ["get killed"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "kommen"
   },
   "um|kreisen": {
@@ -4048,7 +4048,7 @@
     "translations": {
       "en": ["orbit"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "kreisen"
   },
   "um|laden": {
@@ -4056,7 +4056,7 @@
     "translations": {
       "en": ["transfer (a load)"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "laden"
   },
   "um|lernen": {
@@ -4064,7 +4064,7 @@
     "translations": {
       "en": ["learn to think differently"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "lernen"
   },
   "um|rahmen": {
@@ -4072,7 +4072,7 @@
     "translations": {
       "en": ["frame"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "rahmen"
   },
   "um|rechnen": {
@@ -4080,7 +4080,7 @@
     "translations": {
       "en": ["convert (e.g. into different units)"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "rechnen"
   },
   "um|rühren": {
@@ -4088,7 +4088,7 @@
     "translations": {
       "en": ["stir"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "rühren"
   },
   "um|schalten": {
@@ -4096,7 +4096,7 @@
     "translations": {
       "en": ["change, switch (gears, channels)"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "schalten"
   },
   "um|setzen": {
@@ -4104,7 +4104,7 @@
     "translations": {
       "en": ["transfer, transpose, implement, transact, transform"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "setzen"
   },
   "um|steigen": {
@@ -4112,7 +4112,7 @@
     "translations": {
       "en": ["transfer [change buses, trains, planes]"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "steigen"
   },
   "um|stimmen": {
@@ -4120,7 +4120,7 @@
     "translations": {
       "en": ["persuade [to change one's mind]"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "stimmen"
   },
   "um|schulen": {
@@ -4128,7 +4128,7 @@
     "translations": {
       "en": ["retrain, switch to another school"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "schulen"
   },
   "um|spulen": {
@@ -4136,7 +4136,7 @@
     "translations": {
       "en": ["rewind"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "spulen"
   },
   "um|stellen": {
@@ -4144,7 +4144,7 @@
     "translations": {
       "en": ["rearrange"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "stellen"
   },
   "um|tauschen": {
@@ -4152,7 +4152,7 @@
     "translations": {
       "en": ["exchange"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "tauschen"
   },
   "um|werfen": {
@@ -4160,7 +4160,7 @@
     "translations": {
       "en": ["knock over"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "werfen"
   },
   "um|ziehen": {
@@ -4168,7 +4168,7 @@
     "translations": {
       "en": ["move (to change address)"]
     },
-    "particle": "um",
+    "particles": "um",
     "wordBase": "ziehen"
   },
   "sich um|ziehen": {
@@ -4177,7 +4177,7 @@
       "en": ["change clothes"]
     },
     "prefix": "sich um",
-    "particle": "um",
+    "particles": "um",
     "wordBase": "ziehen"
   },
   "sich um|hören": {
@@ -4186,7 +4186,7 @@
       "en": ["keep one's ears open"]
     },
     "prefix": "sich um",
-    "particle": "um",
+    "particles": "um",
     "wordBase": "hören"
   },
   "sich um|fragen": {
@@ -4195,7 +4195,7 @@
       "en": ["ask around"]
     },
     "prefix": "sich um",
-    "particle": "um",
+    "particles": "um",
     "wordBase": "fragen"
   },
   "sich um|sehen": {
@@ -4204,7 +4204,7 @@
       "en": ["look around"]
     },
     "prefix": "sich um",
-    "particle": "um",
+    "particles": "um",
     "wordBase": "sehen"
   },
   "sich um|schauen": {
@@ -4213,7 +4213,7 @@
       "en": ["look around"]
     },
     "prefix": "sich um",
-    "particle": "um",
+    "particles": "um",
     "wordBase": "schauen"
   },
   "sich vor|arbeiten": {
@@ -4222,7 +4222,7 @@
       "en": ["work one's way forward"]
     },
     "prefix": "sich vor",
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "arbeiten"
   },
   "vor|bauen": {
@@ -4230,7 +4230,7 @@
     "translations": {
       "en": ["make provision"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "bauen"
   },
   "vor|behalten": {
@@ -4238,7 +4238,7 @@
     "translations": {
       "en": ["reserve"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "behalten"
   },
   "vor|bereiten": {
@@ -4246,7 +4246,7 @@
     "translations": {
       "en": ["prepare"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "bereiten"
   },
   "vor|beugen": {
@@ -4254,7 +4254,7 @@
     "translations": {
       "en": ["prevent", "bend forward"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "beugen"
   },
   "vor|bringen": {
@@ -4262,7 +4262,7 @@
     "translations": {
       "en": ["propose, bring forward, produce"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "bringen"
   },
   "vor|drängen": {
@@ -4270,7 +4270,7 @@
     "translations": {
       "en": ["push forward"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "drängen"
   },
   "vor|fahren": {
@@ -4278,7 +4278,7 @@
     "translations": {
       "en": ["drive on ahead, drive up in front (of a building)"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "fahren"
   },
   "vor|fallen": {
@@ -4286,7 +4286,7 @@
     "translations": {
       "en": ["happen"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "fallen"
   },
   "vor|führen": {
@@ -4294,7 +4294,7 @@
     "translations": {
       "en": ["bring forward, perform"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "führen"
   },
   "vor|geben": {
@@ -4302,7 +4302,7 @@
     "translations": {
       "en": ["pretend"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "geben"
   },
   "vor|gehen": {
@@ -4310,7 +4310,7 @@
     "translations": {
       "en": ["proceed, go first"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "gehen"
   },
   "vor|legen": {
@@ -4318,7 +4318,7 @@
     "translations": {
       "en": ["present"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "legen"
   },
   "jemandem vor|greifen": {
@@ -4327,7 +4327,7 @@
       "en": ["jump in ahead of someone"]
     },
     "prefix": "jemandem vor",
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "greifen"
   },
   "vor|haben": {
@@ -4335,7 +4335,7 @@
     "translations": {
       "en": ["intend"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "haben"
   },
   "vor|herrschen": {
@@ -4343,7 +4343,7 @@
     "translations": {
       "en": ["predominate"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "herrschen"
   },
   "vor|kommen": {
@@ -4351,7 +4351,7 @@
     "translations": {
       "en": ["happen, seem"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "kommen"
   },
   "vor|laden": {
@@ -4359,7 +4359,7 @@
     "translations": {
       "en": ["summon"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "laden"
   },
   "vor|neigen": {
@@ -4367,7 +4367,7 @@
     "translations": {
       "en": ["lean forward"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "neigen"
   },
   "vor|programmieren": {
@@ -4375,7 +4375,7 @@
     "translations": {
       "en": ["pre-program"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "programmieren"
   },
   "vor|rücken": {
@@ -4383,7 +4383,7 @@
     "translations": {
       "en": ["move forward"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "rücken"
   },
   "vor|schlagen": {
@@ -4391,7 +4391,7 @@
     "translations": {
       "en": ["propose, suggest"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "schlagen"
   },
   "vor|setzen": {
@@ -4399,7 +4399,7 @@
     "translations": {
       "en": ["put before"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "setzen"
   },
   "vor|singen": {
@@ -4407,7 +4407,7 @@
     "translations": {
       "en": ["sing (in front of people)"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "singen"
   },
   "vor|sorge": {
@@ -4415,7 +4415,7 @@
     "translations": {
       "en": ["make provisions"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "sorge"
   },
   "vor|spielen": {
@@ -4423,7 +4423,7 @@
     "translations": {
       "en": ["play (music in front of people)"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "spielen"
   },
   "vor|tragen": {
@@ -4431,7 +4431,7 @@
     "translations": {
       "en": ["perform, present (a speech, song, etc.)"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "tragen"
   },
   "vor|ziehen": {
@@ -4439,7 +4439,7 @@
     "translations": {
       "en": ["prefer, pull forward,  draw [a curtain]"]
     },
-    "particle": "vor",
+    "particles": "vor",
     "wordBase": "ziehen"
   },
   "voraus|berechnen": {
@@ -4447,7 +4447,7 @@
     "translations": {
       "en": ["calculate in advance"]
     },
-    "particle": "voraus",
+    "particles": "voraus",
     "wordBase": "berechnen"
   },
   "voraus|gehen": {
@@ -4455,7 +4455,7 @@
     "translations": {
       "en": ["go on ahead"]
     },
-    "particle": "voraus",
+    "particles": "voraus",
     "wordBase": "gehen"
   },
   "voraus|sagen": {
@@ -4463,7 +4463,7 @@
     "translations": {
       "en": ["predict"]
     },
-    "particle": "voraus",
+    "particles": "voraus",
     "wordBase": "sagen"
   },
   "voraus|sehen": {
@@ -4471,7 +4471,7 @@
     "translations": {
       "en": ["foresee"]
     },
-    "particle": "voraus",
+    "particles": "voraus",
     "wordBase": "sehen"
   },
   "voraus|sein": {
@@ -4479,7 +4479,7 @@
     "translations": {
       "en": ["be in advance, be ahead"]
     },
-    "particle": "voraus",
+    "particles": "voraus",
     "wordBase": "sein"
   },
   "voraus|setzen": {
@@ -4487,7 +4487,7 @@
     "translations": {
       "en": ["assume"]
     },
-    "particle": "voraus",
+    "particles": "voraus",
     "wordBase": "setzen"
   },
   "vorbei|fahren": {
@@ -4495,7 +4495,7 @@
     "translations": {
       "en": ["drive past"]
     },
-    "particle": "vorbei",
+    "particles": "vorbei",
     "wordBase": "fahren"
   },
   "vorbei|gehen": {
@@ -4503,7 +4503,7 @@
     "translations": {
       "en": ["walk past"]
     },
-    "particle": "vorbei",
+    "particles": "vorbei",
     "wordBase": "gehen"
   },
   "vorbei|kommen": {
@@ -4511,7 +4511,7 @@
     "translations": {
       "en": ["drop in"]
     },
-    "particle": "vorbei",
+    "particles": "vorbei",
     "wordBase": "kommen"
   },
   "vorbei|lassen": {
@@ -4519,7 +4519,7 @@
     "translations": {
       "en": ["let by"]
     },
-    "particle": "vorbei",
+    "particles": "vorbei",
     "wordBase": "lassen"
   },
   "vorbei|reden": {
@@ -4527,7 +4527,7 @@
     "translations": {
       "en": ["talk past"]
     },
-    "particle": "vorbei",
+    "particles": "vorbei",
     "wordBase": "reden"
   },
   "vorbei|schießen": {
@@ -4535,7 +4535,7 @@
     "translations": {
       "en": ["miss (the target)"]
     },
-    "particle": "vorbei",
+    "particles": "vorbei",
     "wordBase": "schießen"
   },
   "vorüber|eilen": {
@@ -4543,7 +4543,7 @@
     "translations": {
       "en": ["hurry past"]
     },
-    "particle": "vorüber",
+    "particles": "vorüber",
     "wordBase": "eilen"
   },
   "vorüber|fahren": {
@@ -4551,7 +4551,7 @@
     "translations": {
       "en": ["drive by"]
     },
-    "particle": "vorüber",
+    "particles": "vorüber",
     "wordBase": "fahren"
   },
   "vorüber|fliegen": {
@@ -4559,7 +4559,7 @@
     "translations": {
       "en": ["fly by"]
     },
-    "particle": "vorüber",
+    "particles": "vorüber",
     "wordBase": "fliegen"
   },
   "vorüber|gehen": {
@@ -4567,7 +4567,7 @@
     "translations": {
       "en": ["go by"]
     },
-    "particle": "vorüber",
+    "particles": "vorüber",
     "wordBase": "gehen"
   },
   "vorüber|ziehen": {
@@ -4575,7 +4575,7 @@
     "translations": {
       "en": ["pass by"]
     },
-    "particle": "vorüber",
+    "particles": "vorüber",
     "wordBase": "ziehen"
   },
   "vorweg|nehmen": {
@@ -4583,7 +4583,7 @@
     "translations": {
       "en": ["anticipate, pre-empt, forestall"]
     },
-    "particle": "vorweg",
+    "particles": "vorweg",
     "wordBase": "nehmen"
   },
   "vorweg|sagen": {
@@ -4591,7 +4591,7 @@
     "translations": {
       "en": ["say in anticipation"]
     },
-    "particle": "vorweg",
+    "particles": "vorweg",
     "wordBase": "sagen"
   },
   "vorweg|schicken": {
@@ -4599,7 +4599,7 @@
     "translations": {
       "en": ["send off in anticipation"]
     },
-    "particle": "vorweg",
+    "particles": "vorweg",
     "wordBase": "schicken"
   },
   "weg|blasen": {
@@ -4607,7 +4607,7 @@
     "translations": {
       "en": ["blow away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "blasen"
   },
   "weg|bleiben": {
@@ -4615,7 +4615,7 @@
     "translations": {
       "en": ["stay away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "bleiben"
   },
   "weg|bringen": {
@@ -4623,7 +4623,7 @@
     "translations": {
       "en": ["take away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "bringen"
   },
   "etwas weg|denken": {
@@ -4632,7 +4632,7 @@
       "en": ["imagine that something is not there"]
     },
     "prefix": "etwas weg",
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "denken"
   },
   "weg|fahren": {
@@ -4640,7 +4640,7 @@
     "translations": {
       "en": ["drive off"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "fahren"
   },
   "weg|fegen": {
@@ -4648,7 +4648,7 @@
     "translations": {
       "en": ["sweep away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "fegen"
   },
   "weg|führen": {
@@ -4656,7 +4656,7 @@
     "translations": {
       "en": ["lead off"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "führen"
   },
   "weg|geben": {
@@ -4664,7 +4664,7 @@
     "translations": {
       "en": ["give away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "geben"
   },
   "weg|gehen": {
@@ -4672,7 +4672,7 @@
     "translations": {
       "en": ["go away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "gehen"
   },
   "weg|jagen": {
@@ -4680,7 +4680,7 @@
     "translations": {
       "en": ["chase away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "jagen"
   },
   "weg|kommen": {
@@ -4688,7 +4688,7 @@
     "translations": {
       "en": ["get away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "kommen"
   },
   "weg|können": {
@@ -4696,7 +4696,7 @@
     "translations": {
       "en": ["be able to get away", "be able to leave"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "können"
   },
   "weg|laufen": {
@@ -4704,7 +4704,7 @@
     "translations": {
       "en": ["run away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "laufen"
   },
   "weg|müssen": {
@@ -4712,7 +4712,7 @@
     "translations": {
       "en": ["have to leave"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "müssen"
   },
   "weg|räumen": {
@@ -4720,7 +4720,7 @@
     "translations": {
       "en": ["clear away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "räumen"
   },
   "weg|sehen": {
@@ -4728,7 +4728,7 @@
     "translations": {
       "en": ["look away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "sehen"
   },
   "weg|stecken": {
@@ -4736,7 +4736,7 @@
     "translations": {
       "en": ["put away", "withstand (a blow)"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "stecken"
   },
   "weg|werfen": {
@@ -4744,7 +4744,7 @@
     "translations": {
       "en": ["throw away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "werfen"
   },
   "weg|wischen": {
@@ -4752,7 +4752,7 @@
     "translations": {
       "en": ["erase, wipe away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "wischen"
   },
   "weg|ziehen": {
@@ -4760,7 +4760,7 @@
     "translations": {
       "en": ["move away, pull away"]
     },
-    "particle": "weg",
+    "particles": "weg",
     "wordBase": "ziehen"
   },
   "weiter|bestehen": {
@@ -4768,7 +4768,7 @@
     "translations": {
       "en": ["continue to exist"]
     },
-    "particle": "weiter",
+    "particles": "weiter",
     "wordBase": "bestehen"
   },
   "weiter|entwickeln": {
@@ -4776,7 +4776,7 @@
     "translations": {
       "en": ["develop further"]
     },
-    "particle": "weiter",
+    "particles": "weiter",
     "wordBase": "entwickeln"
   },
   "weiter|erzählen": {
@@ -4784,7 +4784,7 @@
     "translations": {
       "en": ["tell further, continue a narration"]
     },
-    "particle": "weiter",
+    "particles": "weiter",
     "wordBase": "erzählen"
   },
   "weiter|führen": {
@@ -4792,7 +4792,7 @@
     "translations": {
       "en": ["continue"]
     },
-    "particle": "weiter",
+    "particles": "weiter",
     "wordBase": "führen"
   },
   "weiter|gehen": {
@@ -4800,7 +4800,7 @@
     "translations": {
       "en": ["move along"]
     },
-    "particle": "weiter",
+    "particles": "weiter",
     "wordBase": "gehen"
   },
   "weiter|kommen": {
@@ -4808,7 +4808,7 @@
     "translations": {
       "en": ["get further", "make progress"]
     },
-    "particle": "weiter",
+    "particles": "weiter",
     "wordBase": "kommen"
   },
   "weiter|leben": {
@@ -4816,7 +4816,7 @@
     "translations": {
       "en": ["continue living"]
     },
-    "particle": "weiter",
+    "particles": "weiter",
     "wordBase": "leben"
   },
   "weiter|machen": {
@@ -4824,7 +4824,7 @@
     "translations": {
       "en": ["carry on"]
     },
-    "particle": "weiter",
+    "particles": "weiter",
     "wordBase": "machen"
   },
   "weiter|reden": {
@@ -4832,7 +4832,7 @@
     "translations": {
       "en": ["continue talking"]
     },
-    "particle": "weiter",
+    "particles": "weiter",
     "wordBase": "reden"
   },
   "weiter|sprechen": {
@@ -4840,7 +4840,7 @@
     "translations": {
       "en": ["continue talking"]
     },
-    "particle": "weiter",
+    "particles": "weiter",
     "wordBase": "sprechen"
   },
   "weiter|sagen": {
@@ -4848,7 +4848,7 @@
     "translations": {
       "en": ["pass (the word) on"]
     },
-    "particle": "weiter",
+    "particles": "weiter",
     "wordBase": "sagen"
   },
   "weiter|ziehen": {
@@ -4856,7 +4856,7 @@
     "translations": {
       "en": ["move along"]
     },
-    "particle": "weiter",
+    "particles": "weiter",
     "wordBase": "ziehen"
   },
   "wieder|bekommen": {
@@ -4864,7 +4864,7 @@
     "translations": {
       "en": ["get back"]
     },
-    "particle": "wieder",
+    "particles": "wieder",
     "wordBase": "bekommen"
   },
   "wieder|beleben": {
@@ -4872,7 +4872,7 @@
     "translations": {
       "en": ["resuscitate"]
     },
-    "particle": "wieder",
+    "particles": "wieder",
     "wordBase": "beleben"
   },
   "wieder|bringen": {
@@ -4880,7 +4880,7 @@
     "translations": {
       "en": ["bring back"]
     },
-    "particle": "wieder",
+    "particles": "wieder",
     "wordBase": "bringen"
   },
   "wieder|entdecken": {
@@ -4888,7 +4888,7 @@
     "translations": {
       "en": ["rediscover"]
     },
-    "particle": "wieder",
+    "particles": "wieder",
     "wordBase": "entdecken"
   },
   "wieder|geben": {
@@ -4896,7 +4896,7 @@
     "translations": {
       "en": ["give back, repeat"]
     },
-    "particle": "wieder",
+    "particles": "wieder",
     "wordBase": "geben"
   },
   "wieder|herstellen": {
@@ -4904,7 +4904,7 @@
     "translations": {
       "en": ["restore, reestablish"]
     },
-    "particle": "wieder",
+    "particles": "wieder",
     "wordBase": "herstellen"
   },
   "wieder|holen": {
@@ -4912,7 +4912,7 @@
     "translations": {
       "en": ["repeat"]
     },
-    "particle": "wieder",
+    "particles": "wieder",
     "wordBase": "holen"
   },
   "wieder|käuen": {
@@ -4920,7 +4920,7 @@
     "translations": {
       "en": ["ruminate"]
     },
-    "particle": "wieder",
+    "particles": "wieder",
     "wordBase": "käuen"
   },
   "wieder|kehren": {
@@ -4928,7 +4928,7 @@
     "translations": {
       "en": ["return"]
     },
-    "particle": "wieder",
+    "particles": "wieder",
     "wordBase": "kehren"
   },
   "wieder|sehen": {
@@ -4936,7 +4936,7 @@
     "translations": {
       "en": ["see again"]
     },
-    "particle": "wieder",
+    "particles": "wieder",
     "wordBase": "sehen"
   },
   "wieder|vereinigen": {
@@ -4944,7 +4944,7 @@
     "translations": {
       "en": ["reunite"]
     },
-    "particle": "wieder",
+    "particles": "wieder",
     "wordBase": "vereinigen"
   },
   "zu|bauen": {
@@ -4952,7 +4952,7 @@
     "translations": {
       "en": ["block off"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "bauen"
   },
   "zu|billigen": {
@@ -4960,7 +4960,7 @@
     "translations": {
       "en": ["grant, allow"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "billigen"
   },
   "zu|binden": {
@@ -4968,7 +4968,7 @@
     "translations": {
       "en": ["tie, tie up"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "binden"
   },
   "zu|bringen": {
@@ -4976,7 +4976,7 @@
     "translations": {
       "en": ["bring"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "bringen"
   },
   "zu|decken": {
@@ -4984,7 +4984,7 @@
     "translations": {
       "en": ["cover up, tuck in"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "decken"
   },
   "zu|drücken": {
@@ -4992,7 +4992,7 @@
     "translations": {
       "en": ["press shut"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "drücken"
   },
   "zu|erkennen": {
@@ -5000,7 +5000,7 @@
     "translations": {
       "en": ["bestow", "confer (on)"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "erkennen"
   },
   "zu|fahren": {
@@ -5008,7 +5008,7 @@
     "translations": {
       "en": ["drive towards", "ride towards"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "fahren"
   },
   "zu|fassen": {
@@ -5016,7 +5016,7 @@
     "translations": {
       "en": ["grab at"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "fassen"
   },
   "zu|fließen": {
@@ -5024,7 +5024,7 @@
     "translations": {
       "en": ["flow toward"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "fließen"
   },
   "zu|gehören": {
@@ -5032,7 +5032,7 @@
     "translations": {
       "en": ["belong to"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "gehören"
   },
   "zu|geben": {
@@ -5040,7 +5040,7 @@
     "translations": {
       "en": ["admit to, confess"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "geben"
   },
   "zu|greifen": {
@@ -5048,7 +5048,7 @@
     "translations": {
       "en": ["take hold", "help oneself (to something)"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "greifen"
   },
   "zu|kommen": {
@@ -5056,7 +5056,7 @@
     "translations": {
       "en": ["approach"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "kommen"
   },
   "zu|lassen": {
@@ -5064,7 +5064,7 @@
     "translations": {
       "en": ["authorize"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "lassen"
   },
   "zu|machen": {
@@ -5072,7 +5072,7 @@
     "translations": {
       "en": ["close"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "machen"
   },
   "zu|nehmen": {
@@ -5080,7 +5080,7 @@
     "translations": {
       "en": ["increase, gain weight"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "nehmen"
   },
   "zu|ziehen": {
@@ -5088,7 +5088,7 @@
     "translations": {
       "en": ["pull shut"]
     },
-    "particle": "zu",
+    "particles": "zu",
     "wordBase": "ziehen"
   },
   "sich zurecht|finden": {
@@ -5097,7 +5097,7 @@
       "en": ["find one's way", "get one's bearings"]
     },
     "prefix": "sich zurecht",
-    "particle": "zurecht",
+    "particles": "zurecht",
     "wordBase": "finden"
   },
   "zurecht|kommen mit": {
@@ -5105,7 +5105,7 @@
     "translations": {
       "en": ["cope with"]
     },
-    "particle": "zurecht",
+    "particles": "zurecht",
     "wordBase": "kommen mit"
   },
   "zurecht|legen": {
@@ -5113,7 +5113,7 @@
     "translations": {
       "en": ["lay out in readiness"]
     },
-    "particle": "zurecht",
+    "particles": "zurecht",
     "wordBase": "legen"
   },
   "zurecht|machen": {
@@ -5121,7 +5121,7 @@
     "translations": {
       "en": ["get (something) ready"]
     },
-    "particle": "zurecht",
+    "particles": "zurecht",
     "wordBase": "machen"
   },
   "zurecht|weisen": {
@@ -5129,7 +5129,7 @@
     "translations": {
       "en": ["rebuke, reprimand"]
     },
-    "particle": "zurecht",
+    "particles": "zurecht",
     "wordBase": "weisen"
   },
   "zurück|bleiben": {
@@ -5137,7 +5137,7 @@
     "translations": {
       "en": ["stay behind"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "bleiben"
   },
   "zurück|blenden": {
@@ -5145,7 +5145,7 @@
     "translations": {
       "en": ["flash back (film)"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "blenden"
   },
   "zurück|drehen": {
@@ -5153,7 +5153,7 @@
     "translations": {
       "en": ["turn back"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "drehen"
   },
   "zurück|erhalten": {
@@ -5161,7 +5161,7 @@
     "translations": {
       "en": ["get back, be given back"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "erhalten"
   },
   "zurück|erobern": {
@@ -5169,7 +5169,7 @@
     "translations": {
       "en": ["recapture"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "erobern"
   },
   "zurück|führen": {
@@ -5177,7 +5177,7 @@
     "translations": {
       "en": ["trace back"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "führen"
   },
   "zurück|geben": {
@@ -5185,7 +5185,7 @@
     "translations": {
       "en": ["give back, return"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "geben"
   },
   "zurück|müssen": {
@@ -5193,7 +5193,7 @@
     "translations": {
       "en": ["go back, return"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "müssen"
   },
   "zurück|gehen": {
@@ -5201,7 +5201,7 @@
     "translations": {
       "en": ["have to go back"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "gehen"
   },
   "zurück|lehnen": {
@@ -5209,7 +5209,7 @@
     "translations": {
       "en": ["lean back"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "lehnen"
   },
   "zurück|schlagen": {
@@ -5217,7 +5217,7 @@
     "translations": {
       "en": ["hit back, strike back"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "schlagen"
   },
   "zurück|schrecken": {
@@ -5225,7 +5225,7 @@
     "translations": {
       "en": ["shrink back, shrink from, recoil"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "schrecken"
   },
   "zurück|setzen": {
@@ -5233,7 +5233,7 @@
     "translations": {
       "en": ["reverse, put back"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "setzen"
   },
   "zurück|weisen": {
@@ -5241,7 +5241,7 @@
     "translations": {
       "en": ["refuse, send back"]
     },
-    "particle": "zurück",
+    "particles": "zurück",
     "wordBase": "weisen"
   },
   "zusammen|arbeiten": {
@@ -5249,7 +5249,7 @@
     "translations": {
       "en": ["work together"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "arbeiten"
   },
   "zusammen|beißen": {
@@ -5257,7 +5257,7 @@
     "translations": {
       "en": ["bite together"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "beißen"
   },
   "zusammen|bauen": {
@@ -5265,7 +5265,7 @@
     "translations": {
       "en": ["assemble"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "bauen"
   },
   "zusammen|fassen": {
@@ -5273,7 +5273,7 @@
     "translations": {
       "en": ["summarize"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "fassen"
   },
   "zusammen|führen": {
@@ -5281,7 +5281,7 @@
     "translations": {
       "en": ["bring together"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "führen"
   },
   "zusammen|gehören": {
@@ -5289,7 +5289,7 @@
     "translations": {
       "en": ["belong together"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "gehören"
   },
   "zusammen|klappen": {
@@ -5297,7 +5297,7 @@
     "translations": {
       "en": ["fold up, shut"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "klappen"
   },
   "zusammen|kommen": {
@@ -5305,7 +5305,7 @@
     "translations": {
       "en": ["meet, come together"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "kommen"
   },
   "zusammen|passen": {
@@ -5313,7 +5313,7 @@
     "translations": {
       "en": ["be suited for each other"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "passen"
   },
   "zusammen|setzen": {
@@ -5321,7 +5321,7 @@
     "translations": {
       "en": ["seat/put together"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "setzen"
   },
   "zusammen|stoßen": {
@@ -5329,7 +5329,7 @@
     "translations": {
       "en": ["collide, clash"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "stoßen"
   },
   "zusammen|zählen": {
@@ -5337,7 +5337,7 @@
     "translations": {
       "en": ["add up"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "zählen"
   },
   "zusammen|ziehen": {
@@ -5345,7 +5345,7 @@
     "translations": {
       "en": ["pull together"]
     },
-    "particle": "zusammen",
+    "particles": "zusammen",
     "wordBase": "ziehen"
   },
   "ab|warten": {
@@ -5353,7 +5353,7 @@
     "translations": {
       "en": ["bide"]
     },
-    "particle": "ab",
+    "particles": "ab",
     "wordBase": "warten"
   }
 }

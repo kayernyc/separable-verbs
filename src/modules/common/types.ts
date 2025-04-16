@@ -1,3 +1,25 @@
+export type SupportedLanguage = "de" | "en";
+
+export type VariationWord = {
+  [key: string]: {
+    language?: string;
+    translations?: { [key in SupportedLanguage]: string[] };
+    complements?: {};
+    particles?: {};
+    wordBase?: string;
+  };
+};
+
+export type Word = Exclude<VariationWord, "complements" | "particle"> & {
+  language: SupportedLanguage;
+  complements?: VariationWord[];
+  particles?: VariationWord[];
+};
+
+export interface KeyDictionary {
+  [key: string]: VariationWord | Word;
+}
+
 export enum Person {
   First = "first",
   Second = "second",
